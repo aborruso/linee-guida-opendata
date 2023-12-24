@@ -1,0 +1,29 @@
+project:
+  type: book
+
+book:
+  title: "Linee guida Open Data"
+  chapters:
+    - index.qmd
+    - gruppo-di-lavoro.qmd
+    - prefazione.qmd
+    - introduzione.qmd
+    - capitolo-1.qmd
+    - capitolo-2.qmd
+    - capitolo-3.qmd
+    - capitolo-4.qmd
+
+  page-footer:
+    left: |
+      A cura dell'[associazione onData](https://ondata.it).
+    right: |
+      Costruito con <a href="https://quarto.org/">Quarto</a>.
+    center: |
+      [Licenza CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it)
+
+format:
+  html:
+    lang: "it-IT"
+    theme:
+      - cosmo
+      - styles.scss

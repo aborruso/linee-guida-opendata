@@ -1,1 +1,7 @@
 tmp*
+.Rproj.user
+note.md
+~$*.docx
+
+/.quarto/
+/_book/

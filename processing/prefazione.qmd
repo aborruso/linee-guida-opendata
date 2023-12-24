@@ -1,0 +1,13 @@
+# Prefazione {.unnumbered}
+
+Le presenti Linee Guida rappresentano l'attuazione dell'art. 12 del D. Lgs. 36/2006, come modificato dal D. Lgs. 200/2021, recepimento della Direttiva (UE) 2019/1024 (c.d. Direttiva Open Data).
+
+Esse vengono emesse ai sensi dell'articolo 71 del D. Lgs. 82/2005 e s.m.i. recante “Codice dell'Amministrazione Digitale” (di seguito [**CAD**](#_bookmark17)) e della Determinazione AgID n. 160/2018 recante “*Regolamento per l'adozione di linee guida per l'attuazione del Codice dell'Amministrazione Digitale*”[<sup>1</sup>](#_bookmark2). Ai sensi del citato art. 71, divengono efficaci il giorno successivo alla loro pubblicazione sul sito istituzionale di AgID e di esse è data notizia sulla Gazzetta Ufficiale della Repubblica italiana.
+
+Le presenti Linee guida sostituiscono, altresì, le *Linee Guida per la valorizzazione del patrimonio informativo pubblico*, adottate con Determinazione Commissariale di AgID n. 95/2014[<sup>2</sup>](#_bookmark3).
+
+<span id="_bookmark2" class="anchor"></span>1 [<u>https://trasparenza.agid.gov.it/archivio19_regolamenti_0_5376.htm</u>l](https://trasparenza.agid.gov.it/archivio19_regolamenti_0_5376.html)
+
+<span id="_bookmark3" class="anchor"></span>2[<u>https://www.agid.gov.it/sites/default/files/repository_files/leggi_decreti_direttive/dt_cs_95_2014dig_linee_guida</u>](https://www.agid.gov.it/sites/default/files/repository_files/leggi_decreti_direttive/dt_cs_95_2014dig_linee_guida_open_data_art_52.pdf)
+
+[<u>\_open_data_art_52.pdf</u>](https://www.agid.gov.it/sites/default/files/repository_files/leggi_decreti_direttive/dt_cs_95_2014dig_linee_guida_open_data_art_52.pdf)
