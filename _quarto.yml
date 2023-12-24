@@ -33,6 +33,9 @@ format:
       - styles.scss
     footnotes-hover: false
 
+website:
+  back-to-top-navigation: true
+
 execute:
   daemon: false
   freeze: auto
