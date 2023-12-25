@@ -43,4 +43,4 @@ bibliography: references.bib
 
 execute:
   daemon: false
-  freeze: auto
+  freeze: false
