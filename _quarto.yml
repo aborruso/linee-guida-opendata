@@ -33,6 +33,7 @@ format:
       - cosmo
       - styles.scss
     footnotes-hover: false
+    citations-hover: false
 
 website:
   back-to-top-navigation: true
