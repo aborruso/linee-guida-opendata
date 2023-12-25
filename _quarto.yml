@@ -12,6 +12,7 @@ book:
     - capitolo-2.qmd
     - capitolo-3.qmd
     - capitolo-4.qmd
+    - references.qmd
 
   repo-url: https://github.com/aborruso/linee-guida-opendata
   repo-branch: main
@@ -35,6 +36,8 @@ format:
 
 website:
   back-to-top-navigation: true
+
+bibliography: references.bib
 
 execute:
   daemon: false
