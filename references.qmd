@@ -1,10 +1,10 @@
 ---
 bibliography: references.bib
-nocite: |
-  @*
+nocite: '@*'
+csl: lg.csl
 ---
 
-# References {.unnumbered}
+# Sitografia {.unnumbered}
 
 ::: {#refs}
 :::

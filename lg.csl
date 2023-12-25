@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0">
+
+  <citation>
+    <layout>
+      <text variable="id" />
+    </layout>
+  </citation>
+
+  <bibliography>
+    <layout prefix="- " delimiter=", ">
+      <text variable="id"/>
+      <text variable="title" prefix=" | "/>
+      <group delimiter=", ">
+        <text variable="URL" prefix=", " />
+      </group>
+    </layout>
+  </bibliography>
+
+</style>
+
+
+<!-- <text value="&lt;a href=&apos;" prefix="" suffix=""/>
+<text variable="URL" prefix="" suffix="&apos;&gt;"/>
+<text variable="title" prefix="" suffix="&lt;/a&gt;"/> -->

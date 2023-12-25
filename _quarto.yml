@@ -12,6 +12,7 @@ book:
     - capitolo-2.qmd
     - capitolo-3.qmd
     - capitolo-4.qmd
+    - test_cit.qmd
     - references.qmd
 
   repo-url: https://github.com/aborruso/linee-guida-opendata
