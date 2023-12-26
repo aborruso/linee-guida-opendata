@@ -139,6 +139,8 @@ Il Decreto individua particolari tipi di dati quali i dati dinamici, le serie di
 
 Per l'implementazione delle regole tecniche contenute nelle presenti Linee Guida, AgID può adottare, ai sensi dell'art. 3, comma 2 del *Regolamento per l'adozione di linee guida per l'attuazione del Codice dell'Amministrazione Digitale* di cui alla Determinazione AgID n. 160/2018[^#_bookmark48], opportune **guide operative** per fornire ai soggetti interessati indicazioni e istruzioni più dettagliate, anche in relazione a specifici casi d'uso.
 
+{{< include ./include/risorse-utili/_risorse-cap4.1.qmd >}}
+
 [^#_bookmark48]: v. <https://trasparenza.agid.gov.it/archivio19_regolamenti_0_5376.html>
 
 ## Dati dinamici {#sec-dati-dinamici}
