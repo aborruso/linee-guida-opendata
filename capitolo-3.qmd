@@ -1,3 +1,168 @@
-# Termini e definizioni
+# Terminologia
+
+## Note di lettura del documento
+
+Conformemente alle norme *ISO/IEC Directives, Part 3* per la stesura dei documenti tecnici le presenti Linee Guida utilizzeranno le parole chiave «DEVE», «DEVONO», «NON DEVE», «NON DEVONO», «È RICHIESTO», «DOVREBBE», «NON DOVREBBE», «È RACCOMANDATO», «NON È RACCOMANDATO» «PUÒ» e «È OPZIONALE», la cui interpretazione è descritta di seguito.
+
+- **DEVE** o **DEVONO** o **È RICHIESTO**, indicano un requisito obbligatorio per rispettare le Linee Guida;
+
+- **NON DEVE** o **NON DEVONO**, indicano un assoluto divieto delle specifiche;
+
+- **DOVREBBE** o **È RACCOMANDATO/SI RACCOMANDA** o **NON DOVREBBE** o **NON È RACCOMANDATO**, indicano che le implicazioni devono essere comprese e attentamente pesate prima di scegliere approcci alternativi;
+
+- **PUÒ** o **POSSONO** o **È OPZIONALE**, indica che si può scegliere di applicare o meno senza alcun tipo di implicazione la specifica.
+
+Ove ricorrano le condizioni, nei prossimi capitoli sono definiti specifici requisiti e raccomandazioni in modo da rendere in maniera più chiara e sintetica **cosa è necessario implementare obbligatoriamente** per rispettare le norme giuridiche richiamate dalle presenti Linee Guida (requisiti) e **cosa invece è solo un forte suggerimento** (raccomandazioni). Nel caso dei requisiti si utilizzeranno le parole chiave indicate innanzi ai primi due punti, mentre nel caso delle raccomandazioni si utilizzeranno quelle indicate agli ultimi due punti.
+
+I requisiti, inoltre, saranno rappresentati nel modo seguente:
+
+::: {.callout-important appearance="simple" icon=false}
+[**REQUISITO x**]{.testo-rosso}: **dlgs36-2006/opendata/req/\<conformance-class-id\>/<req-id>**<br>
+Testo del requisito […].
+:::
+
+mentre le raccomandazioni nel modo seguente:
+
+::: {.callout-note appearance="simple" icon=false}
+[**REQUISITO x**]{.testo-blu}: **dlgs36-2006/opendata/req/\<conformance-class-id\>/<req-id>**<br>
+Testo della raccomandazione […].
+:::
+
+Quando, su alcuni aspetti specifici, esistono già documenti (norme, regole tecniche, linee guida, manuali, materiali vari) che approfondiscono tali aspetti e che forniscono indicazioni puntuali, anche eventualmente vincolanti, è presente anche la **sezione "Risorse utili"** che riporta i riferimenti, attraverso collegamenti ipertestuali, a tali documenti o risorse in generale a cui si rimanda. In particolare, i documenti e le risorse possono essere relativi ad una di queste tipologie:
+
+- linee guida, regolamenti o altre tipologie di documenti che disciplinano aspetti specifici trattati nel presente documento e che non si ritiene di dover duplicare (per evitare, per esempio, disallineamenti in caso di aggiornamento degli stessi), anche perché in alcuni casi di competenza di specifiche amministrazioni;
+
+- guide, specifiche, documenti tecnici, manuali e altri materiali formativi che forniscono indicazioni tecniche puntuali, specie se definiti nell'ambito del framework europeo che non si ritiene di scalare o ridefinire a livello nazionale per garantire la coerenza e l'interoperabilità in un contesto superiore.
+
+Tale sezione è rappresentata come segue:
+
+::: {.callout-note icon=false}
+## 📚 Risorse utili {.icon .icon-note} – par. x.x
+- link a risorsa 1 …
+- link a risorsa 2 …
+- ...
+:::
+
+## Termini e definizioni
+
+Ai fini del presente documento, oltre alle definizioni pertinenti di cui all'art. 2 del Decreto e all'art. 1 del [**CAD**,](#_bookmark17) si applicano le seguenti definizioni:
+
+###
+
+**catalogo dati**
+
+strumento di gestione dei metadati utilizzato per repertoriare e organizzare i dati all'interno dei sistemi di un'organizzazione
+
+###
+
+**collective database**
+
+database in forma non modificata come parte di una raccolta di database indipendenti che insieme sono assemblati in una unica collezione. Un'opera che costituisce un "collective database" (Banca Dati Collettiva) non sarà considerata una Banca Dati Derivata \[ODbL license\]
+
+###
+
+**dataset**
+
+collezione identificabile di dati \[ISO\]
+
+collezione di dati, pubblicati o curati da un'unica fonte, e disponibili per l'accesso o il download in uno o più formati \[DCAT-AP\]
+
+###
+
+**download in blocco**
+
+operazione che consente, in modo semplice ed efficiente, di scaricare, con un'unica richiesta, l'intero set di dati nel sistema dell'utente
+
+###
+
+**DRM clause (clausola DRM)**
+
+"*eventuali termini o misure tecnologiche presenti nel Database, in un Database Derivato, o in tutto o in parte sostanziale dei contenuti che alterano o limitano i termini della Licenza*" \[licenza ODbL\], intesa, quindi, come divieto di imposizione salvo possibilità di lasciare copia aperta<br>
+"*misure che, in assenza di apposita autorità, possono non essere eluse ai sensi di leggi che adempiono agli obblighi di cui all'articolo 11 del Trattato WIPO sul diritto d'autore adottato il 20 dicembre 1996, e/o accordi internazionali simili*" \[licenza CC-BY\], intesa quindi come divieto di imposizione senza alternative
+
+###
+
+**portale dati**
+
+un sistema basato sul Web che contiene un catalogo dati con le descrizioni dei dataset e fornisce servizi che consentono la ricerca e il riutilizzo dei dataset stessi \[DCAT-AP\]
+
+###
+
+**processo di apertura dei dati**
+
+processo volto alla produzione e alla disponibilità di dati basato sul principio dell'"*apertura fin dalla progettazione e per impostazione predefinita*" dell'informazione del settore pubblico, in formati aperti che possono essere utilizzati, riutilizzati e condivisi liberamente da chiunque e per qualsiasi finalità, nei limiti previsti dalla disciplina vigente. L'apertura dei dati, dunque, riguarda la "messa a disposizione" dei dati del settore pubblico per il riutilizzo, operazione che non coincide
+
+necessariamente con la "pubblicazione" dei dati, ma anche con la relativa fruizione conseguente alla "comunicazione" degli stessi a seguito di specifica richiesta di riutilizzo
+
+###
+
+**produced work**
+
+un'opera (come un'immagine, materiale audiovisivo, testo o suoni) risultante dall'utilizzo della totalità o di una parte sostanziale dei contenuti (tramite una ricerca o altra query) da un Database, inteso come un Database Derivato, o da un Database inteso come parte di una banca dati collettiva (collective database) \[ODbL license\]
+
+###
+
+**raccomandazione**
+
+possibile scelta suggerita senza necessariamente escluderne altre
+
+###
+
+**requisito**
+
+criterio da soddisfare per garantire la conformità al documento e da cui non è consentita alcuna deviazione
+
+###
+
+**result from computational use**
+
+risultati o output che l'utente ottiene dall'analisi (attraverso l'uso di dispositivi di calcolo o altro) o da altre interpretazioni dei dati
+
+###
+
+**riutilizzatore**
+
+una persona o un'organizzazione che utilizza i dati (aperti) disponibili per i propri scopi
 
 
+## Acronimi
+
+Di seguito si riportano gli ACRONIMI che sono utilizzati nelle presenti Linee Guida.
+
+::: {.no-head}
+
+| acronimo | significato |
+| --- | --- |
+| **API** | Application Programming Interface |
+| **CC** | Creative Commons |
+| **CMS** | Content Management System |
+| **CSV** | Comma Separated Value |
+| **DCAT** | Data Catalog Vocabulary |
+| **DCAT-AP** | Data Catalog Vocabulary - Application Profile |
+| **DCAT-AP_IT** | Data Catalog Vocabulary - Application Profile ITaliano |
+| **DRM** | Digital Rights Management |
+| **FAIR** | Findable Accessible Interoperable Reusable |
+| **http** | HyperText Transfer Protocol |
+| **INSPIRE** | INfrastructure for SPatial InfoRmation in Europe |
+| **ICT** | Information and Communication Technology |
+| **IGM** | Istituto Geografico Militare |
+| **IPA** | Indice dei domicili digitali della Pubblica Amministrazione e dei Gestori di Pubblici Servizi |
+| **ISA** | Interoperability Solutions for public Administration |
+| **LOD** | Linked Open Data |
+| **JSON** | JavaScript Object Notation |
+| **OD** | Open Data |
+| **OWL** | Ontology Web Language |
+| **PA** | Pubblica Amministrazione |
+| **PDND** | Piattaforma Digitale Nazionale Dati |
+| **PMI** | Piccole e Medie Imprese |
+| **PSI** | Public Sector Information |
+| **RDF** | Resource Description Framework |
+| **RDFS** | RDF Schema |
+| **RNDT** | Repertorio Nazionale Dati Territoriali |
+| **RTD** | Responsabile per la Transizione Digitale |
+| **SDMX** | Statistical Data and Metadata eXchange |
+| **SPARQL** | Sparql Protocol And Rdf Query Language |
+| **URI** | Uniform Resource Identifier |
+| **XML** | eXtensible Markup Language |
+
+:::
