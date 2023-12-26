@@ -22,7 +22,7 @@ Sono riportati di seguito gli atti normativi di riferimento del presente documen
 | **REG-868-22** | [Regolamento (UE) 2022/868 del Parlamento europeo e del Consiglio del 30 maggio 2022 relativo alla governance europea dei dati e che modifica il regolamento (UE) 2018/1724 (Regolamento sulla governance dei dati)](https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX%3A32022R0868&from=IT) |
 | **REG-HVD** | [Regolamento di esecuzione (UE) 2023/138 della Commissione del 21 dicembre 2022 che stabilisce un elenco di specifiche serie di dati di elevato valore e le relative modalità di pubblicazione e riutilizzo](https://eur-lex.europa.eu/legal-content/IT/TXT/?qid=1676740512286&uri=CELEX%3A32023R0138) |
 
-: {tbl-colwidths="[20,80]" .table-sm}
+: {tbl-colwidths="[20,80]" .table-sm .table-striped}
 
 :::
 
@@ -38,7 +38,7 @@ Sono riportati di seguito gli atti normativi di riferimento del presente documen
 | **LG-SIC** | [Linee Guida Tecnologie e standard per la sicurezza dell'interoperabilità tramite API dei sistemi informatici](https://trasparenza.agid.gov.it/archivio28_provvedimenti-amministrati vi_0_123008_725_1.html), adottate con la Determinazione AgID n. 547/2021 del 1° ottobre 2021 |
 | **LG-GPDP** | [Linee guida in materia di trattamento di dati personali, contenuti anche in atti e documenti amministrativi, effettuato per finalità di pubblicità e trasparenza sul web da soggetti pubblici e da altri enti obbligati](https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/3134436), adottate con provvedimento del Garante per la protezione dei dati personali n. 243 del 15 maggio 2014 |
 
-: {tbl-colwidths="[20,80]" .table-sm}
+: {tbl-colwidths="[20,80]" .table-sm .table-striped}
 
 :::
 
@@ -57,6 +57,6 @@ Si richiamano altresì:
 | **PAR-05-2014** | [Parere 05/2014 del Gruppo di lavoro Articolo 29 sulle tecniche di anonimizzazione](https://ec.europa.eu/justice/article-29/documentation/opinion-recommendation/files/2014/wp216_it.pdf) |
 | **PAR-03-2021** | [Parere congiunto del Comitato europeo per la protezione dei dati e del Garante europeo della protezione dei dati 03/2021 sulla proposta di regolamento del Parlamento europeo e del Consiglio relativo alla governance europea dei dati (Atto sulla governance dei dati)](https://edpb.europa.eu/our-work-tools/our-documents/edpbedps-joint-opinion/edpb-edps-joint-opinion-032021-proposal_it) |
 
-: {tbl-colwidths="[20,80]" .table-sm}
+: {tbl-colwidths="[20,80]" .table-sm .table-striped}
 
 :::
