@@ -24,7 +24,7 @@ Testo del requisito […].
 mentre le raccomandazioni nel modo seguente:
 
 ::: {.callout-note appearance="simple" icon=false}
-[**REQUISITO x**]{.testo-blu}: **dlgs36-2006/opendata/req/\<conformance-class-id\>/<req-id>**<br>
+[**Raccomandazione x**]{.testo-blu}: **dlgs36-2006/opendata/req/\<conformance-class-id\>/<req-id>**<br>
 Testo della raccomandazione […].
 :::
 
