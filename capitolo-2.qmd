@@ -49,8 +49,6 @@ Si specifica che tali ultime Linee guida sono attualmente in corso di aggiorname
 
 Si richiamano altresì:
 
-<br>
-
 ::: {.no-head}
 
 | label | testo |
