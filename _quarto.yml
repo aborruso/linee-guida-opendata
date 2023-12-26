@@ -5,6 +5,9 @@ project:
 
 book:
   title: "Linee guida Open Data"
+  sidebar:
+    logo: immagini/logo.png
+    search: true
   chapters:
     - index.qmd
     - part: "Linee guida"
