@@ -2,6 +2,7 @@ tmp*
 .Rproj.user
 note.md
 ~$*.docx
+~$*.ods
 debug.docx
 
 /.quarto/
