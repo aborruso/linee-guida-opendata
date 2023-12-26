@@ -165,6 +165,6 @@ Di seguito si riportano gli ACRONIMI che sono utilizzati nelle presenti Linee Gu
 | **URI** | Uniform Resource Identifier |
 | **XML** | eXtensible Markup Language |
 
-: {tbl-colwidths="[20,80]"}
+: {tbl-colwidths="[20,80]" .table-sm}
 
 :::
