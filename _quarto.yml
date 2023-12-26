@@ -16,6 +16,14 @@ book:
         - capitolo-2.qmd
         - capitolo-3.qmd
         - capitolo-4.qmd
+        - capitolo-5.qmd
+        - capitolo-6.qmd
+        - capitolo-7.qmd
+        - allegato-A.qmd
+        - allegato-B.qmd
+        - allegato-C.qmd
+        - allegato-D.qmd
+        # - raccomandazioni.qmd
         - test_cit.qmd
         - references.qmd
 
@@ -39,12 +47,23 @@ format:
       - styles.scss
     footnotes-hover: false
     citations-hover: false
+    include-in-header: include/hide-req-caption.html
+    crossrefs-hover: false
 
 website:
   back-to-top-navigation: true
 
 bibliography: references.bib
 csl: lg.csl
+
+crossref:
+  custom:
+    - kind: float
+      reference-prefix: Requisito
+      key: req
+    - kind: float
+      reference-prefix: Raccomandazione
+      key: racc
 
 execute:
   daemon: false

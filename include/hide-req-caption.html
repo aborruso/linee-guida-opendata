@@ -1,0 +1,21 @@
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('div.callout-title-container').forEach(function (div) {
+            if (div.querySelector('a[id*="req-"]')) {
+                div.style.fontSize = '0';
+                div.style.visibility = 'hidden';
+            }
+        });
+    });
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('div.callout-title-container').forEach(function (div) {
+            if (div.querySelector('a[id*="racc-"]')) {
+                div.style.fontSize = '0';
+                div.style.visibility = 'hidden';
+            }
+        });
+    });
+</script>
