@@ -25,3 +25,7 @@ section#footnotes a.uri {
 #refs a {
   word-wrap: break-word;
 }
+
+.no-head table thead {
+  display: none;
+}
