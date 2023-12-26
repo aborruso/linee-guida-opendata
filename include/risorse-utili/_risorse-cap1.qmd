@@ -1,0 +1,8 @@
+----
+
+::: {.callout-note icon=false}
+## 📚 Risorse utili - cap. 1
+- [Linee guida in materia di trattamento di dati personali contenuti anche in atti e documenti amministrativi effettuato da soggetti pubblici per finalità di pubblicazione e diffusione sul web](https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/3134436), adottate con Deliberazione n. 243 del 15 maggio 2014 del Garante per la Protezione dei Dati Personali
+- [Linee Guida recanti indicazioni operative ai fini della definizione delle esclusioni e dei limiti all'accesso civico di cui all'art. 5 co. 2 del D. Lgs. 33/2013](https://www.anticorruzione.it/-/determinazione-n.-1309-del-28/12/2016-rif.-1?inheritRedirect=true&redirect=%2Fconsulta-i-documenti%3Fq%3D%2522Determinazione%2520n.%25201309%2522%26sort%3Dddm__Dataclu0_String_sortable-) adottate con Determinazione n. 1309 del 28 dicembre 2016 dell'Autorità Nazionale Anticorruzione
+- [Piano nazionale di digitalizzazione del patrimonio culturale – Linee Guida per l'acquisizione, la circolazione e il riuso delle riproduzioni dei beni culturali in ambiente digitale](https://docs.italia.it/italia/icdp/icdp-pnd-circolazione-riuso-docs/it/v1.0-giugno-2022/index.html), Ministero della Cultura
+:::
