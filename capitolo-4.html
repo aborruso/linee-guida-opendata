@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -30,7 +49,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./test_cit.html" rel="next">
+<link href="./capitolo-5.html" rel="next">
 <link href="./capitolo-3.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -68,6 +87,27 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Ricerca"
   }
 }</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('div.callout-title-container').forEach(function (div) {
+            if (div.querySelector('a[id*="req-"]')) {
+                div.style.fontSize = '0';
+                div.style.visibility = 'hidden';
+            }
+        });
+    });
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('div.callout-title-container').forEach(function (div) {
+            if (div.querySelector('a[id*="racc-"]')) {
+                div.style.fontSize = '0';
+                div.style.visibility = 'hidden';
+            }
+        });
+    });
+</script>
 
 
 </head>
@@ -168,6 +208,48 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./capitolo-5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Analisi</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./capitolo-6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Aspetti legali e di costo</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./capitolo-7.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Pubblicazione e strumenti di ricerca</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./allegato-A.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Modello per i dati aperti</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./allegato-B.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Standard di riferimento e formati aperti</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./allegato-C.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Riepilogo di requisiti e raccomandazioni</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./allegato-D.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Elenco analitico delle risorse utili</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./test_cit.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Test</span></a>
   </div>
@@ -190,8 +272,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Indice</h2>
    
   <ul>
-  <li><a href="#sec-dati-della-ricerca" id="toc-sec-dati-della-ricerca" class="nav-link active" data-scroll-target="#sec-dati-della-ricerca"><span class="header-section-number">4.1</span> Dati della ricerca</a></li>
-  <li><a href="#sec-dati-territoriali" id="toc-sec-dati-territoriali" class="nav-link" data-scroll-target="#sec-dati-territoriali"><span class="header-section-number">4.2</span> Dati territoriali</a></li>
+  <li><a href="#requisiti-comuni" id="toc-requisiti-comuni" class="nav-link active" data-scroll-target="#requisiti-comuni"><span class="header-section-number">4.1</span> Requisiti comuni</a></li>
+  <li><a href="#sec-dati-dinamici" id="toc-sec-dati-dinamici" class="nav-link" data-scroll-target="#sec-dati-dinamici"><span class="header-section-number">4.2</span> Dati dinamici</a></li>
+  <li><a href="#sec-serie-di-dati-di-elevato-valore" id="toc-sec-serie-di-dati-di-elevato-valore" class="nav-link" data-scroll-target="#sec-serie-di-dati-di-elevato-valore"><span class="header-section-number">4.3</span> Serie di dati di elevato valore</a></li>
+  <li><a href="#sec-dati-della-ricerca" id="toc-sec-dati-della-ricerca" class="nav-link" data-scroll-target="#sec-dati-della-ricerca"><span class="header-section-number">4.4</span> Dati della ricerca</a></li>
+  <li><a href="#sec-dati-territoriali" id="toc-sec-dati-territoriali" class="nav-link" data-scroll-target="#sec-dati-territoriali"><span class="header-section-number">4.5</span> Dati territoriali</a></li>
+  <li><a href="#sec-metadati" id="toc-sec-metadati" class="nav-link" data-scroll-target="#sec-metadati"><span class="header-section-number">4.6</span> Metadati</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/aborruso/linee-guida-opendata/edit/main/capitolo-4.qmd" class="toc-action"><i class="bi bi-github"></i>Modifica questa pagina</a></li><li><a href="https://github.com/aborruso/linee-guida-opendata/issues/new" class="toc-action"><i class="bi empty"></i>Segnala un problema</a></li></ul></div></nav>
     </div>
@@ -217,13 +303,315 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="sec-dati-della-ricerca" class="level2" data-number="4.1">
-<h2 data-number="4.1" class="anchored" data-anchor-id="sec-dati-della-ricerca"><span class="header-section-number">4.1</span> Dati della ricerca</h2>
+<p>L’art. 6 del Decreto stabilisce che pubbliche amministrazioni, organismi di diritto pubblico, imprese pubbliche e private, che rientrano tra i soggetti destinatari di cui al par. <a href="./capitolo-1.html#sec-soggetti-destinatari"><strong>1.3</strong>,</a> rendano disponibili per il riutilizzo i propri dati, e relativi metadati, nel rispetto delle regole tecniche definite con le presenti Linee Guida.</p>
+<p>Questo capitolo definisce le modalità e i formati per i dati da rendere disponibili come dati di tipo aperto e, in particolare, per le specifiche categorie di dati individuate da Direttiva e Decreto, ovvero dati dinamici, dati della ricerca e serie di dati di elevato valore (di cui, rispettivamente, agli artt. 6, commi 5, 6, 9-bis e 12-bis del Decreto).</p>
+<section id="requisiti-comuni" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="requisiti-comuni"><span class="header-section-number">4.1</span> Requisiti comuni</h2>
+<p>Sulla base dell’art. 1 del Decreto, le presenti Linee Guida si applicano ai “<em>documenti contenenti <strong>dati pubblici</strong> nella <strong>disponibilità</strong> delle <strong>pubbliche amministrazioni</strong>, degli <strong>organismi di diritto pubblico</strong> e delle <strong>imprese pubbliche e private</strong></em>”, con esclusione dei casi riportati al par. <a href="./capitolo-1.html#sec-documenti-esclusi-dallapplicazione"><strong>1.2</strong></a>.</p>
+<p>Il Decreto utilizza il termine “documento” nell’accezione di cui all’art. 2, comma 1, lettera c), cioè “la <em>rappresentazione di atti, fatti e dati a prescindere dal supporto, cartaceo o elettronico, registrazione sonora, visiva o audiovisiva o qualsiasi parte di tale contenuto nella disponibilità della pubblica amministrazione o dell’organismo di diritto pubblico. […]</em>”. La definizione di documento non comprende i programmi informatici ma include qualsiasi parte del documento stesso.</p>
+<p>Il Decreto - a differenza della Direttiva - include anche la definizione di “dato pubblico” nel medesimo articolo 2, comma 1, lettera d), quale “<em>dato conoscibile da chiunque</em>”.</p>
+<p>Non è, quindi, definita chiaramente la distinzione tra “documento” e “dato”; anzi, se si considerano altre fonti normative, come il Regolamento (UE) 2022/868 (Data Governance Act)<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> o la proposta di Data Act<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>, la definizione di “dato” presente in quelle fonti è coincidente con quella di “documento” innanzi riportata. L’unica differenza è che nel caso di “dato” è considerata solo la rappresentazione digitale, mentre nel caso di “documento” è compresa anche la rappresentazione attraverso supporto cartaceo.</p>
+<p>Nella Direttiva, inoltre, i dati dinamici, i dati della ricerca e le serie di dati di elevato valore sono definiti anch’essi come “documenti”.</p>
+<p>Ai fini delle presenti Linee Guida si rende necessario fornire una distinzione in modo da rendere più agevole l’applicazione delle stesse.</p>
+<p>Nella legislazione italiana si riscontra la presenza della definizione dei diversi tipi di documenti<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>. Il <strong><span class="citation" data-cites="CAD"><a href="references.html#ref-CAD" role="doc-biblioref">CAD</a></span></strong> presenta la definizione di “documento informatico” come “<em>il documento elettronico che <strong>contiene</strong> la rappresentazione informatica di atti, fatti o dati giuridicamente rilevanti</em>”; la legge n. 241/90 include, all’art. 22, comma 1, lettera d), la definizione di “documento amministrativo” come “<em>rappresentazione grafica, fotocinematografica, elettromagnetica o di qualunque altra specie del <strong>contenuto</strong> di atti, anche interni o non relativi ad uno specifico procedimento, detenuti da una pubblica amministrazione</em> […]”.</p>
+<p>Al di là dell’aggettivazione utilizzata per caratterizzare la tipologia di documento, nelle definizioni riportate dati e informazioni risultano rappresentare il contenuto di un documento e, di conseguenza, il documento risulta essere il “contenitore” di dati e informazioni. Tale interpretazione sembra essere confermata anche dall’art. 1, comma 1 del Decreto nel quale, a proposito dell’oggetto e dell’ambito di applicazione del Decreto stesso, si parla di “documenti <strong>contenenti</strong> dati pubblici”. Nel prosieguo delle presenti Linee Guida, quindi, l’utilizzo dei termini “documento” e “dato” farà riferimento all’accezione indicata innanzi.</p>
+<p>Considerata, quindi, la distinzione tra documenti e dati introdotta prima, l’applicazione delle indicazioni delle presenti Linee Guida non è da limitare solo ai documenti, ma DEVE riguardare anche i dati contenuti nei documenti. Ad esempio, nel processo di apertura dei dati si suggerisce, nel caso di pubblicazione di un report contenente tabelle di dati, di pubblicare separatamente sia il documento che le singole tabelle di dati ivi contenute, seguendo le regole definite nel presente documento.</p>
+<p>A tale proposito, si precisa che quanto sopra non comporta obblighi aggiuntivi a quanto richiesto nelle “Linee Guida sulla formazione, gestione e conservazione dei documenti informatici” [<strong><span class="citation" data-cites="LG-CONS"><a href="references.html#ref-LG-CONS" role="doc-biblioref">LG-CONS</a></span></strong>] in relazione alla formazione del documento informatico. Ciò significa che le indicazioni presenti nelle citate Linee Guida continuano ad essere riferibili ai soli documenti che rientrano nell’ambito di applicazione ivi definito.</p>
+<p>In relazione, inoltre, alle modalità di formazione del documento di cui al par. 2.1.1 delle Linee Guida di cui sopra, con particolare riferimento alla lettera a)<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>, nel caso in cui estrarre e pubblicare separatamente i dati contenuti nei documenti comporti difficoltà sproporzionate, è applicabile quanto indicato con il <a href="#req-4">REQUISITO 4</a> SI RACCOMANDA, in questi casi, di valutare se le difficoltà sproporzionate di cui sopra possano essere superate pubblicando i documenti in modo che sia consentita l’estrazione dei dati in essi contenuti direttamente da parte dei riutilizzatori.</p>
+<p>I dati pubblici che rientrano nell’ambito di applicazione delle presenti Linee Guida DEVONO essere messi a disposizione <strong>per il riutilizzo a fini commerciali e non commerciali</strong>:</p>
+<ul>
+<li><p>in <strong>formato leggibile meccanicamente</strong>, cioè, come da definizione presente nel Decreto, in “<em>un formato di file strutturato in modo tale da consentire alle applicazioni software di individuare, riconoscere ed estrarre facilmente dati specifici, comprese dichiarazioni individuali di fatto e la loro struttura interna</em>”;</p></li>
+<li><p>in <strong>formato aperto</strong>, cioè, come da definizione dell’art. 1, comma 1, lettera l-bis) del <strong><span class="citation" data-cites="CAD"><a href="references.html#ref-CAD" role="doc-biblioref">CAD</a></span></strong> in “<em>un formato di dati reso pubblico, documentato esaustivamente e neutro rispetto agli strumenti tecnologici necessari per la fruizione dei dati stessi</em>”;</p></li>
+<li><p><strong>in modalità accessibile</strong> attraverso le tecnologie dell’informazione e della comunicazione;</p></li>
+<li><p><strong>gratuitamente o con i costi marginali</strong> sostenuti per la riproduzione, messa a disposizione e divulgazione dei documenti, nonché per l’anonimizzazione di dati personali o per le misure adottate per proteggere le informazioni commerciali a carattere riservato (v. par. <a href="./capitolo-6.html#tariffazione"><strong>6.2</strong></a>);</p></li>
+<li><p>secondo i termini di <strong>licenze standard</strong>, disponibili in formato digitale (v. par. <a href="./capitolo-6.html#licenze-e-condizioni-di-riutilizzo"><strong>6.1</strong></a>);</p></li>
+<li><p>provvisti dei relativi <strong>metadati</strong> (v. <a href="#sec-metadati" class="quarto-xref"><span>Sezione 4.6</span></a>).</p></li>
+</ul>
+<p>Tali indicazioni rappresentano le caratteristiche dei <strong>dati di tipo aperto</strong> come da definizione fornita all’art. 1, comma 1. lettera l-ter) del <strong><span class="citation" data-cites="CAD"><a href="references.html#ref-CAD" role="doc-biblioref">CAD</a></span></strong> Resta fermo che il riutilizzo dei dati pubblici DEVE essere effettuato nel rispetto della normativa unionale europea e nazionale in materia di protezione dei dati personali, con particolare attenzione all’analisi della finalità e degli eventuali limiti del riutilizzo, anche ai sensi delle presenti Linee guida.</p>
+<p>Al riguardo, nel rispetto della normativa in materia di protezione dei dati personali, si ricorda, che i dati personali pubblicati online dalle pubbliche amministrazioni sulla base di specifici</p>
+<p>presupposti normativi di cui all’art. 2-ter, commi 1 e 3, del D. Lgs. 196/2003 [<strong><span class="citation" data-cites="D-LGS-196-2003"><a href="references.html#ref-D-LGS-196-2003" role="doc-biblioref">D-LGS-196-2003</a></span></strong>] non sono da considerarsi automaticamente “dati di tipo aperto” liberamente riutilizzabili per qualsiasi finalità, considerando che anche la Direttiva prevede espressamente che le proprie disposizioni “<em>non pregiudicano il diritto dell’Unione e nazionale in materia di protezione dei dati personali, in particolare il regolamento (UE) 2016/679 e la direttiva 2002/58/CE, nonché le corrispondenti disposizioni di diritto nazionale</em>” (cfr. art. 1, par. 4).</p>
+<p>Si precisa che le presenti Linee guida non introducono alcun ulteriore obbligo di pubblicazione rispetto agli obblighi già altrimenti previsti dalla normativa vigente né impongono che l’obbligo di pubblicazione online di dati personali si traduca in obbligo di pubblicazione dei medesimi dati come “dati di tipo aperto” ai sensi della definizione di cui all’art. 1, comma 1, lett. l- ter del <strong><span class="citation" data-cites="CAD"><a href="references.html#ref-CAD" role="doc-biblioref">CAD</a></span></strong>, anche alla luce di quanto disposto all’art. 52, comma 2 del medesimo <strong><span class="citation" data-cites="CAD"><a href="references.html#ref-CAD" role="doc-biblioref">CAD</a></span></strong> In tale contesto, si evidenzia che il Decreto - facendo seguito all’art. 3, comma 1, lett. h-quater), della Direttiva - prevede che la normativa sul riutilizzo non si applichi ai documenti “<em>il cui accesso, ai sensi delle previsioni del regolamento UE 2016/679 e del decreto legislativo 30 giugno 2003, n.&nbsp;196 nonché del decreto legislativo 18 maggio 2018, n.&nbsp;51, è escluso o limitato, ovvero risulti pregiudizievole per la tutela della vita privata e dell’integrità degli individui, nonché alle parti di documenti accessibili che contengono dati personali il cui riutilizzo è stato definito per legge incompatibile con le previsioni delle suddette disposizioni normative</em>”. Come precisato anche dal Garante per la protezione dei dati personali, la disposizione deve essere in ogni caso interpretata nel senso che il riutilizzo dei dati personali non è permesso nei casi in cui “<em>in particolare, non è conforme al disposto di cui agli articoli 5, paragrafo 1, lettera b) e 6, paragrafo 4, del citato Regolamento, nonché 3, comma 1, lettera b) e 6, comma 1, del decreto legislativo 18 maggio 2018, n.&nbsp;51</em>”<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>.</p>
+<p>Il principio di limitazione della finalità (conforme al considerando n.&nbsp;52 della Direttiva) DEVE supportare l’attività valutativa dell’interprete, anche rispetto all’individuazione delle più opportune azioni utili a rendere riutilizzabili i dataset, come indicato anche dal Garante per la protezione dei dati personali secondo cui “<em>il principio generale del libero riutilizzo di documenti contenenti dati pubblici, stabilito dalla disciplina nazionale ed europea, riguarda essenzialmente documenti che non contengono dati personali oppure riguarda dati personali opportunamente aggregati e resi anonimi</em>” (cfr. parte prima, par. 6, delle Linee guida [<strong><span class="citation" data-cites="LG-GPDP"><a href="references.html#ref-LG-GPDP" role="doc-biblioref">LG-GPDP</a></span></strong>]). Pertanto, come si legge nelle citate Linee guida del Garante, “<em>il semplice fatto che informazioni personali siano rese pubblicamente conoscibili online per finalità di trasparenza non comporta che le stesse siano liberamente riutilizzabili da chiunque e per qualsiasi scopo</em>” ma “<em>impone al soggetto chiamato a dare attuazione agli obblighi di pubblicazione sul proprio sito web istituzionale di determinare – qualora</em> <em>intenda rendere i dati riutilizzabili – se, per quali finalità e secondo quali limiti e condizioni eventuali utilizzi ulteriori dei dati personali resi pubblici possano ritenersi leciti alla luce del ‘principio di finalità’ e degli altri principi di matrice europea in materia di protezione dei dati personali”</em> (sul processo di selezione dei dati e sulle cautele da utilizzare nelle valutazioni riguardanti il riutilizzo di dati personali, si rinvia alle indicazioni contenute nel successivo par. <strong><a href="./capitolo-5.html#individuazione-e-selezione">5.1.2</a>)</strong>.</p>
+<p>Appare anche utile richiamare quanto condiviso dal Garante per la protezione dei dati personali nelle già citate Linee guida [<strong><span class="citation" data-cites="LG-GPDP"><a href="references.html#ref-LG-GPDP" role="doc-biblioref">LG-GPDP</a></span></strong>]: “<em>Pertanto, al fine di evitare di perdere il controllo sui dati personali pubblicati online in attuazione degli obblighi di trasparenza e di ridurre i rischi di loro usi indebiti, è quindi in primo luogo opportuno che le pubbliche amministrazioni e gli altri soggetti chiamati a dare attuazione agli obblighi di pubblicazione di cui al d.&nbsp;lgs. n.&nbsp;33/2013 inseriscano nella sezione denominata ”Amministrazione trasparente” dei propri siti web istituzionali un Alert generale con cui si informi il pubblico che i dati personali pubblicati sono &lt;&lt;riutilizzabili solo alle condizioni previste dalla normativa vigente sul riuso dei dati pubblici (direttiva comunitaria 2003/98/CE e d.&nbsp;lgs. 36/2006 di recepimento della stessa), in termini compatibili con gli scopi per i quali sono stati raccolti e registrati, e nel rispetto della normativa in materia di protezione dei dati personali&gt;&gt;</em>”.</p>
+<div class="callout callout-style-simple callout-important no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<a href="" id="req-1"></a>Requisito&nbsp;4.1
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="testo-rosso"><strong>REQUISITO 1</strong></span>: <strong>dlgs36-2006/opendata/req/common/guidelines</strong><br> I soggetti di cui al par. <a href="./capitolo-1.html#sec-soggetti-destinatari">1.3</a> DEVONO rendere disponibili i documenti e i dati di cui al par. <a href="./capitolo-1.html#sec-documenti-oggetto-di-applicazione">1.1</a> per il loro riutilizzo a fini commerciali e non commerciali secondo quanto indicato nelle presenti Linee Guida.</p>
+</div>
+</div>
+<p>Nella definizione di dato di tipo aperto di cui all’art. 1, comma 1, lettera l-ter del <strong><span class="citation" data-cites="CAD"><a href="references.html#ref-CAD" role="doc-biblioref">CAD</a></span></strong>, è indicato esplicitamente che i dati debbano essere resi disponibili “<em>in formato disaggregato</em>”. SI RACCOMANDA, quindi, di fornire dati che rispettino l’indicazione del <strong><span class="citation" data-cites="CAD"><a href="references.html#ref-CAD" role="doc-biblioref">CAD</a></span></strong> in tutti quei casi in cui è possibile ed è consentito dalle norme. Nel caso in cui fornire dati disaggregati implicherebbe la violazione della normativa in materia di protezione dei dati personali, è necessario adottare procedure di anonimizzazione in modo da rendere i dati non più riconducibili a una persona fisica identificata o identificabile<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>. In ogni caso, l’art. 50-ter, comma 4 del <strong><span class="citation" data-cites="CAD"><a href="references.html#ref-CAD" role="doc-biblioref">CAD</a></span></strong> prevede che con la definizione della Strategia nazionale dati vengano identificati le tipologie, i limiti, le finalità e le modalità di messa a disposizione, su richiesta della Presidenza del Consiglio dei ministri, dei dati aggregati e anonimizzati di cui sono titolari le Pubbliche Amministrazioni. Nel caso in cui la</p>
+<p>Strategia di cui sopra dovesse indicare che i dati identificati debbano essere resi disponibili come dati aperti, si applicheranno, anche in quei casi, le indicazioni fornite con le presenti Linee Guida.</p>
+<p>Nella figura che segue (<a href="#fig-dato-pubblico" class="quarto-xref">Figura&nbsp;<span>4.1</span></a>) è mostrata una rappresentazione delle tipologie di dati pubblici.</p>
+<p>Il concetto di “disponibilità” può essere derivato dal <strong><span class="citation" data-cites="CAD"><a href="references.html#ref-CAD" role="doc-biblioref">CAD</a></span></strong> nella definizione presente prima delle modifiche apportate dal decreto legislativo 26 agosto 2016, n.&nbsp;179. Sulla base della formulazione originaria del <strong><span class="citation" data-cites="CAD"><a href="references.html#ref-CAD" role="doc-biblioref">CAD</a></span></strong>, per disponibilità si intende “<em>la possibilità di accedere ai dati senza restrizioni non riconducibili a esplicite norme di legge</em>”.</p>
+<p>Come detto, il Decreto si applica ai <strong>dati pubblici</strong> nella <strong>disponibilità</strong> degli enti indicati al par. <a href="./capitolo-1.html#soggetti-destinatari"><strong>1.3</strong></a> e che presentino le caratteristiche dei <strong>dati di tipo aperto</strong> indicate innanzi (rappresentati, nella figura, dall’intersezione indicata, appunto, con “Dati di tipo aperto”).</p>
+<div id="fig-dato-pubblico" class="quarto-figure quarto-figure-center quarto-float anchored" width="80%" alt="Tipi di dato pubblico.">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-dato-pubblico-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="immagini/image10.png" class="img-fluid figure-img" style="width:80.0%" alt="Tipi di dato pubblico.">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-dato-pubblico-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;4.1: Tipi di dato pubblico
+</figcaption>
+</figure>
+</div>
+<p>Per la scelta del formato da utilizzare per il rispetto delle caratteristiche di cui sopra, si può fare riferimento all’<a href="./allegato-A.html">allegato A</a>, che riporta il modello a 5 stelle per i dati aperti, e all’<a href="./allegato-B.html">allegato B</a>, che descrive i formati più comuni.</p>
+<div class="callout callout-style-simple callout-important no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<a href="" id="req-2"></a>Requisito&nbsp;4.2
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="testo-rosso"><strong>REQUISITO 2</strong></span>: <strong>dlgs36-2006/opendata/req/common/3stars</strong><br> I dati DEVONO essere resi disponibili in formato aperto e leggibile meccanicamente ad un livello di almeno 3 stelle nella classificazione del modello di cui all’<a href="./allegato-A.html">allegato A</a>.</p>
+</div>
+</div>
+<p>Ulteriori elementi per la scelta del formato da utilizzare si possono rinvenire nella Tabella seguente tratta dal documento “<strong>Data.europa.eu - Data Quality Guidelines</strong>” (v. box “Risorse</p>
+<p><img src="immagini/image13.png" style="width:0.19652in;height:0.19653in" alt="Badge nuovo con riempimento a tinta unita ">utili” alla fine del paragrafo) che riporta l’elenco dei formati utilizzati comunemente specificando quali siano leggibili meccanicamente e non proprietari. L’ultima colonna indica il numero di stelle ottenibili utilizzando il corrispondente formato per la pubblicazione dei dati. I formati evidenziati in verde sono quelli che dovrebbero essere utilizzati; se questo non è possibile allora si possono utilizzare quelli evidenziati in giallo, mentre sono da escludere quelli evidenziati in rosso.</p>
+<div class="formati">
+<table class="table-sm small table">
+<caption>Formati più comuni per i dati aperti e relativi livelli di apertura</caption>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Formato</th>
+<th>Non-proprietario</th>
+<th>Leggibile meccanicamente</th>
+<th>Stelle raggiungibili</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>RDF</strong></td>
+<td>Sì</td>
+<td>Sì</td>
+<td>⭐⭐⭐⭐</td>
+</tr>
+<tr class="even">
+<td><strong>XML</strong></td>
+<td>Sì</td>
+<td>Sì</td>
+<td>⭐⭐⭐</td>
+</tr>
+<tr class="odd">
+<td><strong>JSON</strong></td>
+<td>Sì</td>
+<td>Sì</td>
+<td>⭐⭐⭐</td>
+</tr>
+<tr class="even">
+<td><strong>CSV</strong></td>
+<td>Sì</td>
+<td>Sì</td>
+<td>⭐⭐⭐</td>
+</tr>
+<tr class="odd">
+<td><strong>ODS</strong></td>
+<td>Sì</td>
+<td>Prevalentemente</td>
+<td>⭐⭐⭐</td>
+</tr>
+<tr class="even">
+<td><strong>XLSX</strong></td>
+<td>Sì</td>
+<td>Prevalentemente</td>
+<td>⭐⭐⭐</td>
+</tr>
+<tr class="odd">
+<td><strong>XLS</strong></td>
+<td>No</td>
+<td>Prevalentemente</td>
+<td>⭐⭐</td>
+</tr>
+<tr class="even">
+<td><strong>TXT</strong></td>
+<td>Sì</td>
+<td>Prevalentemente</td>
+<td>⭐*</td>
+</tr>
+<tr class="odd">
+<td><strong>HTML</strong></td>
+<td>Sì</td>
+<td>Prevalentemente</td>
+<td>⭐*</td>
+</tr>
+<tr class="even">
+<td><strong>PDF</strong></td>
+<td>Sì</td>
+<td>No</td>
+<td>⭐</td>
+</tr>
+<tr class="odd">
+<td><strong>DOCX</strong></td>
+<td>Sì</td>
+<td>No</td>
+<td>⭐</td>
+</tr>
+<tr class="even">
+<td><strong>ODT</strong></td>
+<td>Sì</td>
+<td>No</td>
+<td>⭐</td>
+</tr>
+<tr class="odd">
+<td><strong>PNG</strong></td>
+<td>Sì</td>
+<td>No</td>
+<td>⭐</td>
+</tr>
+<tr class="even">
+<td><strong>GIF</strong></td>
+<td>No</td>
+<td>No</td>
+<td>⭐</td>
+</tr>
+<tr class="odd">
+<td><strong>JPG/JPEG</strong></td>
+<td>No</td>
+<td>No</td>
+<td>⭐</td>
+</tr>
+<tr class="even">
+<td><strong>TIFF</strong></td>
+<td>No</td>
+<td>No</td>
+<td>⭐</td>
+</tr>
+<tr class="odd">
+<td><strong>DOC</strong></td>
+<td>No</td>
+<td>No</td>
+<td>⭐</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>*</strong> Il documento evidenzia che i formati <em>txt</em> e <em>html</em> dovrebbero essere valutati con tre stelle, poiché i dati potrebbero essere progettati per essere leggibili dalla macchina. Tuttavia, viene assegnata solo una stella perché questi formati non erano originariamente concepiti per rappresentare contenuti leggibili dalla macchina ma solo dall’uomo. La rappresentazione di contenuti leggibili automaticamente in questi formati non soddisfa, quindi, le migliori pratiche e pertanto non sono consigliati dagli autori del documento.</p>
+</div>
+</div>
+<p>Nella tabella i formati per le immagini (PNG, GIF, JPG/JPEG, TIFF) sono presenti nella zona evidenziata in rosso e, quindi, ne è sconsigliato il loro uso. Tale raccomandazione, però, è da intendere nell’utilizzo di tali formati per rappresentare dati che, invece, andrebbero rappresentati attraverso formati più appropriati (per es. una tabella rappresentata come immagine). Questo implica che per le immagini vere e proprie si possono utilizzare i relativi formati come indicato nell’Allegato B.</p>
+<div class="callout callout-style-simple callout-important no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<a href="" id="req-3"></a>Requisito&nbsp;4.3
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="testo-rosso"><strong>REQUISITO 3</strong></span>: <strong>dlgs36-2006/opendata/req/common/more-formats</strong><br> Nel caso in cui un dato sia disponibile in più formati, almeno uno di essi DEVE essere coerente con il <a href="#req-2"><strong>REQUISITO 2</strong></a>.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<a href="" id="racc-1"></a>Raccomandazione&nbsp;4.1
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="testo-blu"><strong>Raccomandazione 1</strong></span>: <strong>dlgs36-2006/opendata/rec/common/lod</strong><br> SI RACCOMANDA un percorso graduale verso la produzione nativa di Linked Open Data – LOD (livello cinque stelle nella classificazione del modello di cui all’<a href="./allegato-A.html">allegato A</a>).</p>
+</div>
+</div>
+<p>Nel caso in cui mettere a disposizione i propri dati secondo le indicazioni di cui sopra, per soddisfare richieste di apertura, comporti attività che vanno al di là della semplice manipolazione, e che, quindi, implicherebbero difficoltà sproporzionate, gli enti pubblici (cioè pubbliche amministrazioni e organismi di diritto pubblico) non hanno l’obbligo di adeguare i documenti o crearne nuovi o fornire estratti di documenti, fermi restando i limiti imposti dalla normativa in tema di protezione dei dati personali. In tal caso, attraverso un apposito provvedimento, l’ente titolare DEVE motivare le difficoltà sproporzionate indicando le attività sui dati che eccedono la semplice manipolazione.</p>
+<div class="callout callout-style-simple callout-important no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<a href="" id="req-4"></a>Requisito&nbsp;4.4
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="testo-rosso"><strong>REQUISITO 4</strong></span>: <strong>dlgs36-2006/opendata/req/common/no-od</strong><br> Nel caso in cui, per soddisfare richieste di apertura, rendere disponibili i dati per il riutilizzo comporti attività che vanno al di là della semplice manipolazione che implicherebbero difficoltà sproporzionate, il titolare dei dati non ha l’obbligo di adeguare i documenti o crearne nuovi o fornire estratti di documenti, motivando, attraverso un apposito provvedimento, le difficoltà sproporzionate anche indicando le attività sui dati che eccedono la semplice manipolazione.</p>
+</div>
+</div>
+<p>Secondo quanto indicato nella Direttiva al Considerando (32), la valutazione della proporzionalità dello sforzo deve prendere in considerazione la dimensione e il bilancio di funzionamento dell’ente. Questo implica che potrebbero essere considerate giustificazioni ammissibili la mancanza di personale tecnico (per es. in un piccolo Comune, a meno di un’azione di sussidiarietà da parte di un ente sovraordinato) o di fondi da dedicare alle attività necessarie per assecondare le richieste. Tale indicazione si evince anche dalle disposizioni relative ai dati dinamici di cui all’art. 6, commi 5 e 6 del Decreto, in cui lo sforzo sproporzionato è messo in relazione alle capacità economiche e tecniche dell’ente.</p>
+<p>Ciò stante, anche il concetto di “semplice manipolazione” può cambiare in funzione dei due parametri innanzi indicati, se si fa riferimento alla disponibilità nell’ente di risorse umane, finanziarie e strumentali. In altre parole, le operazioni che sono riconducibili alla semplice manipolazione per un ente, per via delle capacità tecniche ed economiche disponibili, possono essere considerate uno sforzo sproporzionato in altri enti che di quelle capacità non dispongono. Per tale motivo, è necessario che vengano indicate puntualmente, con tutte le evidenze del caso, le attività necessarie per rispondere alla richiesta di apertura e che potrebbero rappresentare difficoltà sproporzionate per l’ente.</p>
+<p>È bene, infine, rimarcare che il <a href="#req-4"><strong>REQUISITO 4</strong></a> è applicabile sia ai dati già esistenti che a quelli che saranno prodotti dopo l’entrata in vigore delle presenti Linee Guida, ferma restando la disposizione di cui all’art. 6, comma 2 del Decreto che non prevede un obbligo di creazione di nuovi dati, oltre all’adeguamento di dati già esistenti, nel caso di difficoltà sproporzionate.</p>
+<p>Quanto indicato in questo paragrafo è valido per tutte le tipologie di dati.</p>
+<p>Il Decreto individua particolari tipi di dati quali i dati dinamici, le serie di dati di elevato valore e i dati della ricerca per i quali, nei paragrafi successivi, saranno fornite specifiche indicazioni supplementari in attuazione di quanto disposto dal Decreto.</p>
+<p>Per l’implementazione delle regole tecniche contenute nelle presenti Linee Guida, AgID può adottare, ai sensi dell’art. 3, comma 2 del <em>Regolamento per l’adozione di linee guida per l’attuazione del Codice dell’Amministrazione Digitale</em> di cui alla Determinazione AgID n.&nbsp;160/2018<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a>, opportune <strong>guide operative</strong> per fornire ai soggetti interessati indicazioni e istruzioni più dettagliate, anche in relazione a specifici casi d’uso.</p>
 </section>
-<section id="sec-dati-territoriali" class="level2" data-number="4.2">
-<h2 data-number="4.2" class="anchored" data-anchor-id="sec-dati-territoriali"><span class="header-section-number">4.2</span> Dati territoriali</h2>
+<section id="sec-dati-dinamici" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="sec-dati-dinamici"><span class="header-section-number">4.2</span> Dati dinamici</h2>
+</section>
+<section id="sec-serie-di-dati-di-elevato-valore" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="sec-serie-di-dati-di-elevato-valore"><span class="header-section-number">4.3</span> Serie di dati di elevato valore</h2>
+</section>
+<section id="sec-dati-della-ricerca" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="sec-dati-della-ricerca"><span class="header-section-number">4.4</span> Dati della ricerca</h2>
+</section>
+<section id="sec-dati-territoriali" class="level2" data-number="4.5">
+<h2 data-number="4.5" class="anchored" data-anchor-id="sec-dati-territoriali"><span class="header-section-number">4.5</span> Dati territoriali</h2>
+</section>
+<section id="sec-metadati" class="level2" data-number="4.6">
+<h2 data-number="4.6" class="anchored" data-anchor-id="sec-metadati"><span class="header-section-number">4.6</span> Metadati</h2>
 
 
+<div id="refs" class="references csl-bib-body" role="list" style="display: none">
+<div id="ref-CAD" class="csl-entry" role="listitem">
+- CAD | Decreto legislativo 7 marzo 2005, n. 82 recante "Codice dell’amministrazione digitale", <a href="https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2005-05-16&amp;atto.codiceRedazionale=005G0104&amp;atto.articolo.numero=0&amp;atto.articolo.sottoArticolo=1&amp;atto.articolo.sottoArticolo1=10&amp;qId=b8226c0a-4e5d-4b0f-814e-ed010e5ef111&amp;tabID=0.755394932407083&amp;title=lbl.dettaglioAtto">https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2005-05-16&amp;atto.codiceRedazionale=005G0104&amp;atto.articolo.numero=0&amp;atto.articolo.sottoArticolo=1&amp;atto.articolo.sottoArticolo1=10&amp;qId=b8226c0a-4e5d-4b0f-814e-ed010e5ef111&amp;tabID=0.755394932407083&amp;title=lbl.dettaglioAtto</a>
+</div>
+<div id="ref-LG-CONS" class="csl-entry" role="listitem">
+- LG-CONS | Linee Guida sulla formazione, gestione e conservazione dei documenti informatici, <a href="https://www.agid.gov.it/sites/default/files/repository_files/linee_guida_sul_documento_informatico.pdf">https://www.agid.gov.it/sites/default/files/repository_files/linee_guida_sul_documento_informatico.pdf</a>
+</div>
+<div id="ref-D-LGS-196-2003" class="csl-entry" role="listitem">
+- D-LGS-196-2003 | Decreto legislativo 30 giugno 2003, n. 196 e s.m.i. recante "Codice in materia di protezione dei dati personali, recante disposizioni per l’adeguamento dell’ordinamento nazionale al regolamento (UE) n. 2016/679 del Parlamento europeo e del Consiglio, del 27 aprile 2016, relativo alla protezione delle persone fisiche con riguardo al trattamento dei dati personali, nonché alla libera circolazione di tali dati e che abroga la direttiva 95/46/CE", <a href="https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2003-06-30%3B196">https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2003-06-30%3B196</a>
+</div>
+<div id="ref-LG-GPDP" class="csl-entry" role="listitem">
+- LG-GPDP | Linee guida in materia di trattamento di dati personali, contenuti anche in atti e documenti amministrativi, effettuato per finalità di pubblicità e trasparenza sul web da soggetti pubblici e da altri enti obbligati, <a href="https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/3134436">https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/3134436</a>
+</div>
+<div id="ref-PAR-05-2014" class="csl-entry" role="listitem">
+- PAR-05-2014 | Parere 05/2014 del Gruppo di lavoro Articolo 29 sulle tecniche di anonimizzazione, <a href="https://ec.europa.eu/justice/article-29/documentation/opinion-recommendation/files/2014/wp216_it.pdf">https://ec.europa.eu/justice/article-29/documentation/opinion-recommendation/files/2014/wp216_it.pdf</a>
+</div>
+<div id="ref-REG-HVD" class="csl-entry" role="listitem">
+- REG-HVD | Regolamento di esecuzione (UE) 2023/138 della Commissione del 21 dicembre 2022 che stabilisce un elenco di specifiche serie di dati di elevato valore e le relative modalità di pubblicazione e riutilizzo, <a href="https://eur-lex.europa.eu/legal-content/IT/TXT/?qid=1676740512286&amp;uri=CELEX%3A32023R0138">https://eur-lex.europa.eu/legal-content/IT/TXT/?qid=1676740512286&amp;uri=CELEX%3A32023R0138</a>
+</div>
+</div>
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p><a href="https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX%3A32022R0868&amp;from=EN" class="uri">https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX%3A32022R0868&amp;from=EN</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p><a href="https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX%3A52022PC0068&amp;from=EN" class="uri">https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX%3A52022PC0068&amp;from=EN</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p><a href="https://www.disfipeq.unich.it/sites/st10/files/8._il_documento_informatico.pdf" class="uri">https://www.disfipeq.unich.it/sites/st10/files/8._il_documento_informatico.pdf</a><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>La modalità indicata è relativa alla “<em>creazione tramite l’utilizzo di strumenti software o servizi cloud qualificati che assicurino la produzione di documenti nei formati e nel rispetto delle regole di interoperabilità di cui all’allegato 2</em>”<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Provvedimento del Garante per la protezione dei dati personali n.&nbsp;308 del 26/8/2021 (v. <a href="https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/9717493" class="uri">https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/9717493</a><a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>Si vedano sul punto il Parere 05/2014 del Gruppo di lavoro Articolo 29 sulle tecniche di anonimizzazione <strong><span class="citation" data-cites="PAR-05-2014"><a href="references.html#ref-PAR-05-2014" role="doc-biblioref">PAR-05-2014</a></span></strong> e il Considerando 8 del Regolamento di esecuzione (UE) 2023/138 <strong><span class="citation" data-cites="REG-HVD"><a href="references.html#ref-REG-HVD" role="doc-biblioref">REG-HVD</a></span></strong>.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><ol start="22" type="a">
+<li><a href="https://trasparenza.agid.gov.it/archivio19_regolamenti_0_5376.html" class="uri">https://trasparenza.agid.gov.it/archivio19_regolamenti_0_5376.html</a></li>
+</ol>
+<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></li>
+</ol>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Torna in cima</a></main> <!-- /main -->
@@ -330,120 +718,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       config.onUntrigger = onUntriggerFn;
     }
     window.tippy(el, config); 
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
-          }
-        }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
-        }
-        return container.innerHTML
-      } else {
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
-        }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      return note.innerHTML;
-    }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
-          }
-        } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
-          .then(res => res.text())
-          .then(html => {
-            const parser = new DOMParser();
-            const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
-            if (note !== null) {
-              const html = processXRef(id, note);
-              instance.setContent(html);
-            } 
-          }).finally(() => {
-            instance.enable();
-            instance.show();
-          });
-        }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
-    });
   }
       let selectedAnnoteEl;
       const selectorForAnnotation = ( cell, annotation) => {
@@ -567,8 +841,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./test_cit.html" class="pagination-link" aria-label="Test">
-        <span class="nav-page-text">Test</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./capitolo-5.html" class="pagination-link" aria-label="<span class='chapter-number'>5</span>&nbsp; <span class='chapter-title'>Analisi</span>">
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Analisi</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

@@ -86,6 +86,27 @@ div.csl-indent {
     "search-label": "Ricerca"
   }
 }</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('div.callout-title-container').forEach(function (div) {
+            if (div.querySelector('a[id*="req-"]')) {
+                div.style.fontSize = '0';
+                div.style.visibility = 'hidden';
+            }
+        });
+    });
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('div.callout-title-container').forEach(function (div) {
+            if (div.querySelector('a[id*="racc-"]')) {
+                div.style.fontSize = '0';
+                div.style.visibility = 'hidden';
+            }
+        });
+    });
+</script>
 
 
 </head>
@@ -186,6 +207,48 @@ div.csl-indent {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./capitolo-5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Analisi</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./capitolo-6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Aspetti legali e di costo</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./capitolo-7.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Pubblicazione e strumenti di ricerca</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./allegato-A.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Modello per i dati aperti</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./allegato-B.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Standard di riferimento e formati aperti</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./allegato-C.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Riepilogo di requisiti e raccomandazioni</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./allegato-D.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Elenco analitico delle risorse utili</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./test_cit.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Test</span></a>
   </div>
@@ -232,6 +295,35 @@ div.csl-indent {
 <div id="ref-CAD" class="csl-entry" role="listitem">
 - CAD | Decreto legislativo 7 marzo 2005, n. 82 recante "codice
 dell’amministrazione digitale", <a href="https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2005-05-16&amp;atto.codiceRedazionale=005G0104&amp;atto.articolo.numero=0&amp;atto.articolo.sottoArticolo=1&amp;atto.articolo.sottoArticolo1=10&amp;qId=b8226c0a-4e5d-4b0f-814e-ed010e5ef111&amp;tabID=0.755394932407083&amp;title=lbl.dettaglioAtto">https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2005-05-16&amp;atto.codiceRedazionale=005G0104&amp;atto.articolo.numero=0&amp;atto.articolo.sottoArticolo=1&amp;atto.articolo.sottoArticolo1=10&amp;qId=b8226c0a-4e5d-4b0f-814e-ed010e5ef111&amp;tabID=0.755394932407083&amp;title=lbl.dettaglioAtto</a>
+</div>
+<div id="ref-D-LGS-196-2003" class="csl-entry" role="listitem">
+- D-LGS-196-2003 | Decreto legislativo 30 giugno 2003, n. 196 e s.m.i.
+Recante "codice in materia di protezione dei dati personali, recante
+disposizioni per l’adeguamento dell’ordinamento nazionale al regolamento
+(UE) n. 2016/679 del parlamento europeo e del consiglio, del 27 aprile
+2016, relativo alla protezione delle persone fisiche con riguardo al
+trattamento dei dati personali, nonché alla libera circolazione di tali
+dati e che abroga la direttiva 95/46/CE", <a href="https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2003-06-30%3B196">https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2003-06-30%3B196</a>
+</div>
+<div id="ref-REG-HVD" class="csl-entry" role="listitem">
+- REG-HVD | Regolamento di esecuzione (UE) 2023/138 della commissione
+del 21 dicembre 2022 che stabilisce un elenco di specifiche serie di
+dati di elevato valore e le relative modalità di pubblicazione e
+riutilizzo, <a href="https://eur-lex.europa.eu/legal-content/IT/TXT/?qid=1676740512286&amp;uri=CELEX%3A32023R0138">https://eur-lex.europa.eu/legal-content/IT/TXT/?qid=1676740512286&amp;uri=CELEX%3A32023R0138</a>
+</div>
+<div id="ref-LG-CONS" class="csl-entry" role="listitem">
+- LG-CONS | Linee guida sulla formazione, gestione e conservazione dei
+documenti informatici, <a href="https://www.agid.gov.it/sites/default/files/repository_files/linee_guida_sul_documento_informatico.pdf">https://www.agid.gov.it/sites/default/files/repository_files/linee_guida_sul_documento_informatico.pdf</a>
+</div>
+<div id="ref-LG-GPDP" class="csl-entry" role="listitem">
+- LG-GPDP | Linee guida in materia di trattamento di dati personali,
+contenuti anche in atti e documenti amministrativi, effettuato per
+finalità di pubblicità e trasparenza sul web da soggetti pubblici e da
+altri enti obbligati, <a href="https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/3134436">https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/3134436</a>
+</div>
+<div id="ref-PAR-05-2014" class="csl-entry" role="listitem">
+- PAR-05-2014 | Parere 05/2014 del gruppo di lavoro articolo 29 sulle
+tecniche di anonimizzazione, <a href="https://ec.europa.eu/justice/article-29/documentation/opinion-recommendation/files/2014/wp216_it.pdf">https://ec.europa.eu/justice/article-29/documentation/opinion-recommendation/files/2014/wp216_it.pdf</a>
 </div>
 </div>
 
@@ -341,120 +433,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       config.onUntrigger = onUntriggerFn;
     }
     window.tippy(el, config); 
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
-          }
-        }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
-        }
-        return container.innerHTML
-      } else {
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
-        }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      return note.innerHTML;
-    }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
-          }
-        } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
-          .then(res => res.text())
-          .then(html => {
-            const parser = new DOMParser();
-            const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
-            if (note !== null) {
-              const html = processXRef(id, note);
-              instance.setContent(html);
-            } 
-          }).finally(() => {
-            instance.enable();
-            instance.show();
-          });
-        }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
-    });
   }
       let selectedAnnoteEl;
       const selectorForAnnotation = ( cell, annotation) => {
