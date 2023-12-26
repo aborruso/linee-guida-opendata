@@ -2,8 +2,6 @@
 bibliography: references.bib
 nocite: '@*'
 csl: lg.csl
-execute:
-  enabled: true
 ---
 
 # Sitografia {.unnumbered}
