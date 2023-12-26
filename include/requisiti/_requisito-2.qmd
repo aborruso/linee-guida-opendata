@@ -1,0 +1,4 @@
+::: {#req-2 .callout-important appearance="simple" icon=false}
+[**REQUISITO 2**]{.testo-rosso}: **dlgs36-2006/opendata/req/common/3stars**<br>
+I dati DEVONO essere resi disponibili in formato aperto e leggibile meccanicamente ad un livello di almeno 3 stelle nella classificazione del modello di cui all'[allegato A](allegato-A.qmd).
+:::
