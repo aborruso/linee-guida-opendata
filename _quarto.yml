@@ -1,5 +1,7 @@
 project:
   type: book
+  resources:
+    - "lg.csl"
 
 book:
   title: "Linee guida Open Data"
