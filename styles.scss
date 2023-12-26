@@ -37,3 +37,27 @@ section#footnotes a.uri {
 .testo-blu {
   color: #003399;
 }
+
+a[id*="req-"] {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+a[id*="racc-"] {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+.formati table tbody tr:nth-child(-n+4) {
+  background-color: #cef67c;
+}
+
+.formati table tbody tr:nth-child(n+5):nth-child(-n+9) {
+  background-color: #ffffe3;
+}
+
+.formati table tbody tr:nth-child(n+10):nth-child(-n+17) {
+  background-color: #ff9f8d;
+}
+
+
