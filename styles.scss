@@ -26,28 +26,34 @@ section#footnotes a.uri {
   word-wrap: break-word;
 }
 
+// una classe per nascondere l'head delle tabelle
 .no-head table thead {
   display: none;
 }
 
+// testo rosso per blocco requisiti
 .testo-rosso {
   color: #ff0000;
 }
 
+// testo blu per blocco raccomandazioni
 .testo-blu {
   color: #003399;
 }
 
+// per avere l'ancora dei requisiti poco sotto l'inizio della finestra
 a[id*="req-"] {
   padding-top: 50px;
   margin-top: -50px;
 }
 
+// per avere l'ancora delle raccomandazioni poco sotto l'inizio della finestra
 a[id*="racc-"] {
   padding-top: 50px;
   margin-top: -50px;
 }
 
+// per formattare la tabella dei formati del capitolo 4
 .formati table tbody tr:nth-child(-n+4) {
   background-color: #cef67c;
 }
