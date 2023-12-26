@@ -4,9 +4,9 @@ format:
     toc: false
 ---
 
-# Benvenuta/o {.unnumbered}
+## Benvenuta/o {.unnumbered}
 
-Questa sito è la conversione in HTML delle versione `1.0` delle "**Linee Guida recanti regole tecniche per l’apertura dei dati e il riutilizzo dell’informazione del settore pubblico**", redatta a cura dell'[**Agenzia per l’Italia Digitale**](https://www.agid.gov.it/) (AgID) e del [gruppo di lavoro](gruppo-di-lavoro.qmd) di progetto.
+Questo sito è la conversione in HTML delle versione `1.0` delle "**Linee Guida recanti regole tecniche per l’apertura dei dati e il riutilizzo dell’informazione del settore pubblico**", redatta a cura dell'[**Agenzia per l’Italia Digitale**](https://www.agid.gov.it/) (AgID) e del [gruppo di lavoro](gruppo-di-lavoro.qmd) di progetto.
 
 Il documento originale è pubblicato in [questa pagina](https://www.agid.gov.it/linee-guida) ed è accessibile in formato `PDF` qui:<br>
 <https://www.agid.gov.it/sites/default/files/repository_files/lg-open-data_v.1.0_1.pdf>.
