@@ -1,3 +1,9 @@
+---
+format:
+  html:
+    toc: false
+---
+
 # Introduzione {.unnumbered}
 
 La costruzione di un mercato unico dei dati e di un'economia basata sugli stessi è l'obiettivo strategico che l'Unione Europea intende perseguire per agevolare la circolazione dei dati a beneficio di tutti, imprese, ricercatori, amministrazioni pubbliche e cittadini. Molteplici sono le iniziative che l'UE sta portando avanti in tale direzione, fra cui la Strategia Europea per i dati[^bookmark5] e la costruzione di spazi di dati comuni e interoperabili, il Regolamento relativo alla governance dei dati (Data Governance Act)[^#_bookmark6], avente ad oggetto la facilitazione della condivisione tra settori e Stati Membri, e la proposta relativa al Data Act[^#_bookmark7], finalizzato a introdurre norme armonizzate per l'accesso equo ai dati e il loro utilizzo.

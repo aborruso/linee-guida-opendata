@@ -1,3 +1,9 @@
+---
+format:
+  html:
+    toc: false
+---
+
 # Prefazione {.unnumbered}
 
 Le presenti Linee Guida rappresentano l'attuazione dell'art. 12 del D. Lgs. 36/2006, come modificato dal D. Lgs. 200/2021, recepimento della Direttiva (UE) 2019/1024 (c.d. Direttiva Open Data).
