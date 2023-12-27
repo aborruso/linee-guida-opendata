@@ -32,7 +32,7 @@ A tale proposito, si precisa che quanto sopra non comporta obblighi aggiuntivi a
 
 [^#_bookmark41]: <https://www.disfipeq.unich.it/sites/st10/files/8._il_documento_informatico.pdf>
 
-In relazione, inoltre, alle modalità di formazione del documento di cui al par. 2.1.1 delle Linee Guida di cui sopra, con particolare riferimento alla lettera a)[^#_bookmark42], nel caso in cui estrarre e pubblicare separatamente i dati contenuti nei documenti comporti difficoltà sproporzionate, è applicabile quanto indicato con il [REQUISITO 4](#req-4) SI RACCOMANDA, in questi casi, di valutare se le difficoltà sproporzionate di cui sopra possano essere superate pubblicando i documenti in modo che sia consentita l'estrazione dei dati in essi contenuti direttamente da parte dei riutilizzatori.
+In relazione, inoltre, alle modalità di formazione del documento di cui al par. 2.1.1 delle Linee Guida di cui sopra, con particolare riferimento alla lettera a)[^#_bookmark42], nel caso in cui estrarre e pubblicare separatamente i dati contenuti nei documenti comporti difficoltà sproporzionate, è applicabile quanto indicato con il [**REQUISITO 4**](#req-4){.testo-rosso}. SI RACCOMANDA, in questi casi, di valutare se le difficoltà sproporzionate di cui sopra possano essere superate pubblicando i documenti in modo che sia consentita l'estrazione dei dati in essi contenuti direttamente da parte dei riutilizzatori.
 
 I dati pubblici che rientrano nell'ambito di applicazione delle presenti Linee Guida DEVONO essere messi a disposizione **per il riutilizzo a fini commerciali e non commerciali**:
 
