@@ -11,6 +11,7 @@ book:
   sidebar:
     logo: immagini/logo.png
     search: true
+    collapse-level: 1
   chapters:
     - index.qmd
     - part: "Linee guida"
