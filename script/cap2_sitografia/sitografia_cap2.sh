@@ -18,4 +18,4 @@ awk -F '\t' 'BEGIN { OFS = "\n" }
 }'  "${folder}"/cap2_ref.tsv >"${folder}"/../../references.bib
 
 # estrai tabella markdown
-qsv excel cap2_ref.ods | mlrgo --c2m put '$label="**".$label."**";$testo="[".$title."](".$url.")".$suffisso' then cut -f label,testo >"${folder}"/cap2_ref.md
+qsv excel -Q cap2_ref.ods | mlrgo --c2m put '$label="[**".$label."**]{#".$label."}";$testo="[".$title."](".$url.")".$suffisso' then cut -f label,testo >"${folder}"/cap2_ref.md
