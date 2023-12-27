@@ -4,6 +4,8 @@
 
 ### API {#sec-api}
 
+{{< include ./include/requisiti/_requisito-27.qmd >}}
+
 #### Sicurezza e disponibilità dei dati {#sec-sicurezza-e-disponibilita-dei-dati}
 
 ### Elementi architetturali {#sec-elementi-architetturali}
