@@ -1,1 +1,15 @@
 # Pubblicazione e strumenti di ricerca
+
+## Pubblicazione dei dati {#sec-pubblicazione-dei-dati}
+
+### API {#sec-api}
+
+#### Sicurezza e disponibilità dei dati {#sec-sicurezza-e-disponibilita-dei-dati}
+
+### Elementi architetturali {#sec-elementi-architetturali}
+
+### Identificatori univoci e persistenti {#sec-identificatori-univoci-e-persistenti}
+
+## Strumenti per la ricerca {#sec-strumenti-per-la-ricerca}
+
+### Elenchi delle categorie e modalità di ricerca {#sec-elenchi-delle-categorie-e-modalita-di-ricerca}

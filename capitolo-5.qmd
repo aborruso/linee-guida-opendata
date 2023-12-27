@@ -1,23 +1,23 @@
 # Analisi
 
-## Aspetti organizzativi
+## Aspetti organizzativi {#sec-aspetti-organizzativi}
 
-### Ruoli e responsabilità
+### Ruoli e responsabilità {#sec-ruoli-e-responsabilita}
 
-#### Coordinamento tra livello nazionale, regionale e locale
+#### Coordinamento tra livello nazionale, regionale e locale {#sec-coordinamento-tra-livello-nazionale-regionale-e-locale}
 
-### Individuazione e selezione
+### Individuazione e selezione {#sec-individuazione-e-selezione}
 
-### Analisi
+### Analisi {#sec-analisi}
 
-### Arricchimento
+### Arricchimento {#sec-arricchimento}
 
-### Modellazione e documentazione
+### Modellazione e documentazione {#sec-modellazione-e-documentazione}
 
-### Validazione
+### Validazione {#sec-validazione}
 
-### Pubblicazione
+### Pubblicazione {#sec-pubblicazione}
 
-## Richieste di riutilizzo
+## Richieste di riutilizzo {#sec-richieste-di-riutilizzo}
 
-## Qualità dei dati
+## Qualità dei dati {#sec-qualita-dei-dati}

@@ -2,7 +2,7 @@
 
 Sono riportati di seguito gli atti normativi di riferimento del presente documento.
 
-## Legislazione nazionale ed europea
+## Legislazione nazionale ed europea {#sec-legislazione-nazionale-ed-europea}
 
 ::: {.no-head}
 
@@ -26,7 +26,7 @@ Sono riportati di seguito gli atti normativi di riferimento del presente documen
 
 :::
 
-## Linee Guida
+## Linee Guida {#sec-linee-guida}
 
 ::: {.no-head}
 | label | testo |

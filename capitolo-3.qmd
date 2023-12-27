@@ -1,6 +1,6 @@
 # Terminologia
 
-## Note di lettura del documento
+## Note di lettura del documento {#sec-note-di-lettura-del-documento}
 
 Conformemente alle norme *ISO/IEC Directives, Part 3* per la stesura dei documenti tecnici le presenti Linee Guida utilizzeranno le parole chiave «DEVE», «DEVONO», «NON DEVE», «NON DEVONO», «È RICHIESTO», «DOVREBBE», «NON DOVREBBE», «È RACCOMANDATO», «NON È RACCOMANDATO» «PUÒ» e «È OPZIONALE», la cui interpretazione è descritta di seguito.
 
@@ -125,7 +125,7 @@ risultati o output che l'utente ottiene dall'analisi (attraverso l'uso di dispos
 una persona o un'organizzazione che utilizza i dati (aperti) disponibili per i propri scopi
 
 
-## Acronimi
+## Acronimi {#sec-acronimi}
 
 Di seguito si riportano gli ACRONIMI che sono utilizzati nelle presenti Linee Guida.
 
