@@ -78,7 +78,7 @@ Il concetto di "disponibilità" può essere derivato dal **[CAD](capitolo-2.qmd#
 
 Come detto, il Decreto si applica ai **dati pubblici** nella **disponibilità** degli enti indicati al par. [**1.3**](capitolo-1.qmd#soggetti-destinatari) e che presentino le caratteristiche dei **dati di tipo aperto** indicate innanzi (rappresentati, nella figura, dall'intersezione indicata, appunto, con "Dati di tipo aperto").
 
-![Tipi di dato pubblico](immagini/image10.png){#fig-dato-pubblico width=80% fig-alt="Tipi di dato pubblico."}
+![Tipi di dato pubblico](immagini/image10.png){#fig-dato-pubblico width="80%" fig-alt="Tipi di dato pubblico." align="center"}
 
 Per la scelta del formato da utilizzare per il rispetto delle caratteristiche di cui sopra, si può fare riferimento all'[allegato A](allegato-A.qmd), che riporta il modello a 5 stelle per i dati aperti, e all'[allegato B](allegato-B.qmd), che descrive i formati più comuni.
 
@@ -108,7 +108,7 @@ Ulteriori elementi per la scelta del formato da utilizzare si possono rinvenire 
 | **TIFF** | No | No | ⭐ |
 | **DOC** | No | No | ⭐ |
 
-: Formati più comuni per i dati aperti e relativi livelli di apertura {#tbl-formati .table-sm}
+: Formati più comuni per i dati aperti e relativi livelli di apertura {#tbl-formati .table-sm .table-responsive}
 
 :::
 
