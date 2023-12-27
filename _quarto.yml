@@ -62,6 +62,7 @@ website:
   back-to-top-navigation: true
 
 bibliography: references.bib
+nocite: '@*'
 csl: lg.csl
 
 crossref:
