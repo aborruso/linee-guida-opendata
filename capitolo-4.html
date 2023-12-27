@@ -142,6 +142,23 @@ div.csl-indent {
       <a href="./">Linee guida Open Data</a> 
         <div class="sidebar-tools-main">
     <a href="https://github.com/aborruso/linee-guida-opendata" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="Share" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Share"><i class="bi bi-share"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+              <i class="bi bi-bi-twitter pe-1"></i>
+            Twitter
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
+              <i class="bi bi-bi-facebook pe-1"></i>
+            Facebook
+            </a>
+          </li>
+      </ul>
+    </div>
 </div>
     </div>
       </div>
@@ -275,7 +292,7 @@ div.csl-indent {
     <h2 id="toc-title">Indice</h2>
    
   <ul>
-  <li><a href="#requisiti-comuni" id="toc-requisiti-comuni" class="nav-link active" data-scroll-target="#requisiti-comuni"><span class="header-section-number">4.1</span> Requisiti comuni</a></li>
+  <li><a href="#seq-requisiti-comuni" id="toc-seq-requisiti-comuni" class="nav-link active" data-scroll-target="#seq-requisiti-comuni"><span class="header-section-number">4.1</span> Requisiti comuni</a></li>
   <li><a href="#sec-dati-dinamici" id="toc-sec-dati-dinamici" class="nav-link" data-scroll-target="#sec-dati-dinamici"><span class="header-section-number">4.2</span> Dati dinamici</a></li>
   <li><a href="#sec-serie-di-dati-di-elevato-valore" id="toc-sec-serie-di-dati-di-elevato-valore" class="nav-link" data-scroll-target="#sec-serie-di-dati-di-elevato-valore"><span class="header-section-number">4.3</span> Serie di dati di elevato valore</a></li>
   <li><a href="#sec-dati-della-ricerca" id="toc-sec-dati-della-ricerca" class="nav-link" data-scroll-target="#sec-dati-della-ricerca"><span class="header-section-number">4.4</span> Dati della ricerca</a></li>
@@ -306,11 +323,11 @@ div.csl-indent {
 </header>
 
 
-<p>L’art. 6 del Decreto stabilisce che pubbliche amministrazioni, organismi di diritto pubblico, imprese pubbliche e private, che rientrano tra i soggetti destinatari di cui al par. <a href="./capitolo-1.html#sec-soggetti-destinatari"><strong>1.3</strong>,</a> rendano disponibili per il riutilizzo i propri dati, e relativi metadati, nel rispetto delle regole tecniche definite con le presenti Linee Guida.</p>
+<p>L’art. 6 del Decreto stabilisce che pubbliche amministrazioni, organismi di diritto pubblico, imprese pubbliche e private, che rientrano tra i soggetti destinatari di cui al <a href="capitolo-1.html#sec-soggetti-destinatari" class="quarto-xref">par.&nbsp;<span>1.3</span></a> rendano disponibili per il riutilizzo i propri dati, e relativi metadati, nel rispetto delle regole tecniche definite con le presenti Linee Guida.</p>
 <p>Questo capitolo definisce le modalità e i formati per i dati da rendere disponibili come dati di tipo aperto e, in particolare, per le specifiche categorie di dati individuate da Direttiva e Decreto, ovvero dati dinamici, dati della ricerca e serie di dati di elevato valore (di cui, rispettivamente, agli artt. 6, commi 5, 6, 9-bis e 12-bis del Decreto).</p>
-<section id="requisiti-comuni" class="level2" data-number="4.1">
-<h2 data-number="4.1" class="anchored" data-anchor-id="requisiti-comuni"><span class="header-section-number">4.1</span> Requisiti comuni</h2>
-<p>Sulla base dell’art. 1 del Decreto, le presenti Linee Guida si applicano ai “<em>documenti contenenti <strong>dati pubblici</strong> nella <strong>disponibilità</strong> delle <strong>pubbliche amministrazioni</strong>, degli <strong>organismi di diritto pubblico</strong> e delle <strong>imprese pubbliche e private</strong></em>”, con esclusione dei casi riportati al par. <a href="./capitolo-1.html#sec-documenti-esclusi-dallapplicazione"><strong>1.2</strong></a>.</p>
+<section id="seq-requisiti-comuni" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="seq-requisiti-comuni"><span class="header-section-number">4.1</span> Requisiti comuni</h2>
+<p>Sulla base dell’art. 1 del Decreto, le presenti Linee Guida si applicano ai “<em>documenti contenenti <strong>dati pubblici</strong> nella <strong>disponibilità</strong> delle <strong>pubbliche amministrazioni</strong>, degli <strong>organismi di diritto pubblico</strong> e delle <strong>imprese pubbliche e private</strong></em>”, con esclusione dei casi riportati al <a href="capitolo-1.html#sec-documenti-esclusi-dallapplicazione" class="quarto-xref">par.&nbsp;<span>1.2</span></a>.</p>
 <p>Il Decreto utilizza il termine “documento” nell’accezione di cui all’art. 2, comma 1, lettera c), cioè “la <em>rappresentazione di atti, fatti e dati a prescindere dal supporto, cartaceo o elettronico, registrazione sonora, visiva o audiovisiva o qualsiasi parte di tale contenuto nella disponibilità della pubblica amministrazione o dell’organismo di diritto pubblico. […]</em>”. La definizione di documento non comprende i programmi informatici ma include qualsiasi parte del documento stesso.</p>
 <p>Il Decreto - a differenza della Direttiva - include anche la definizione di “dato pubblico” nel medesimo articolo 2, comma 1, lettera d), quale “<em>dato conoscibile da chiunque</em>”.</p>
 <p>Non è, quindi, definita chiaramente la distinzione tra “documento” e “dato”; anzi, se si considerano altre fonti normative, come il Regolamento (UE) 2022/868 (Data Governance Act)<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> o la proposta di Data Act<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>, la definizione di “dato” presente in quelle fonti è coincidente con quella di “documento” innanzi riportata. L’unica differenza è che nel caso di “dato” è considerata solo la rappresentazione digitale, mentre nel caso di “documento” è compresa anche la rappresentazione attraverso supporto cartaceo.</p>
@@ -353,7 +370,7 @@ div.csl-indent {
 <p>Nella figura che segue (<a href="#fig-dato-pubblico" class="quarto-xref">Figura&nbsp;<span>4.1</span></a>) è mostrata una rappresentazione delle tipologie di dati pubblici.</p>
 <p>Il concetto di “disponibilità” può essere derivato dal <strong><span class="citation" data-cites="CAD"><a href="references.html#ref-CAD" role="doc-biblioref">CAD</a></span></strong> nella definizione presente prima delle modifiche apportate dal decreto legislativo 26 agosto 2016, n.&nbsp;179. Sulla base della formulazione originaria del <strong><span class="citation" data-cites="CAD"><a href="references.html#ref-CAD" role="doc-biblioref">CAD</a></span></strong>, per disponibilità si intende “<em>la possibilità di accedere ai dati senza restrizioni non riconducibili a esplicite norme di legge</em>”.</p>
 <p>Come detto, il Decreto si applica ai <strong>dati pubblici</strong> nella <strong>disponibilità</strong> degli enti indicati al par. <a href="./capitolo-1.html#soggetti-destinatari"><strong>1.3</strong></a> e che presentino le caratteristiche dei <strong>dati di tipo aperto</strong> indicate innanzi (rappresentati, nella figura, dall’intersezione indicata, appunto, con “Dati di tipo aperto”).</p>
-<div id="fig-dato-pubblico" class="quarto-figure quarto-figure-center quarto-float anchored" alt="Tipi di dato pubblico." width="80%">
+<div id="fig-dato-pubblico" class="quarto-figure quarto-figure-center quarto-float anchored" width="80%" alt="Tipi di dato pubblico.">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-dato-pubblico-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="immagini/image10.png" class="img-fluid figure-img" style="width:80.0%" alt="Tipi di dato pubblico.">
