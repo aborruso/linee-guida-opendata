@@ -90,6 +90,40 @@ ul.task-list li input[type="checkbox"] {
     });
 </script>
 
+<script>
+window.onload = function() {
+    // Quando la pagina viene caricata, evidenzia la sezione, se presente
+    highlightSection(window.location.hash);
+
+    // Gestisce i cambiamenti dell'URL quando l'utente naviga tra gli anchor
+    window.onhashchange = function() {
+        // Rimuove l'evidenziazione da tutte le sezioni
+        document.querySelectorAll('.highlighted').forEach(function(element) {
+            element.classList.remove('highlighted');
+        });
+
+        // Evidenzia la nuova sezione
+        highlightSection(window.location.hash);
+    };
+};
+
+function highlightSection(hash) {
+    if (hash && isUpperCase(hash)) {
+        // Trova la sezione corrispondente all'ID nell'URL
+        let section = document.querySelector(hash);
+        if (section) {
+            // Aggiunge la classe per evidenziare la sezione
+            section.classList.add('highlighted');
+        }
+    }
+}
+
+function isUpperCase(str) {
+    // Controlla se la stringa contiene solo lettere maiuscole, numeri e il carattere '-'
+    return /^[A-Z0-9-]+$/.test(str.replace('#', ''));
+}
+</script>
+
 
 </head>
 
@@ -373,7 +407,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="termini-e-definizioni" class="level2" data-number="3.2">
 <h2 data-number="3.2" class="anchored" data-anchor-id="termini-e-definizioni"><span class="header-section-number">3.2</span> Termini e definizioni</h2>
-<p>Ai fini del presente documento, oltre alle definizioni pertinenti di cui all’art. 2 del Decreto e all’art. 1 del <a href="#_bookmark17"><strong>CAD</strong>,</a> si applicano le seguenti definizioni:</p>
+<p>Ai fini del presente documento, oltre alle definizioni pertinenti di cui all’art. 2 del Decreto e all’art. 1 del <a href="./capitolo-2.html#CAD"><strong>CAD</strong>,</a> si applicano le seguenti definizioni:</p>
 <section id="section" class="level3" data-number="3.2.1">
 <h3 data-number="3.2.1" class="anchored" data-anchor-id="section"><span class="header-section-number">3.2.1</span> </h3>
 <p><strong>catalogo dati</strong></p>
