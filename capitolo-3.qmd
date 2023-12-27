@@ -45,7 +45,7 @@ Tale sezione è rappresentata come segue:
 
 ## Termini e definizioni
 
-Ai fini del presente documento, oltre alle definizioni pertinenti di cui all'art. 2 del Decreto e all'art. 1 del [**CAD**,](#_bookmark17) si applicano le seguenti definizioni:
+Ai fini del presente documento, oltre alle definizioni pertinenti di cui all'art. 2 del Decreto e all'art. 1 del [**CAD**,](capitolo-2.qmd#CAD) si applicano le seguenti definizioni:
 
 ###
 
