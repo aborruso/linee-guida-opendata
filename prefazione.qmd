@@ -8,7 +8,7 @@ format:
 
 Le presenti Linee Guida rappresentano l'attuazione dell'art. 12 del D. Lgs. 36/2006, come modificato dal D. Lgs. 200/2021, recepimento della Direttiva (UE) 2019/1024 (c.d. Direttiva Open Data).
 
-Esse vengono emesse ai sensi dell'articolo 71 del D. Lgs. 82/2005 e s.m.i. recante "Codice dell'Amministrazione Digitale" (di seguito **[@CAD]**) e della Determinazione AgID n. 160/2018 recante "*Regolamento per l'adozione di linee guida per l'attuazione del Codice dell'Amministrazione Digitale*"[^#_bookmark2]. Ai sensi del citato art. 71, divengono efficaci il giorno successivo alla loro pubblicazione sul sito istituzionale di AgID e di esse è data notizia sulla Gazzetta Ufficiale della Repubblica italiana.
+Esse vengono emesse ai sensi dell'articolo 71 del D. Lgs. 82/2005 e s.m.i. recante "Codice dell'Amministrazione Digitale" (di seguito **[CAD](capitolo-2.qmd#CAD)**) e della Determinazione AgID n. 160/2018 recante "*Regolamento per l'adozione di linee guida per l'attuazione del Codice dell'Amministrazione Digitale*"[^#_bookmark2]. Ai sensi del citato art. 71, divengono efficaci il giorno successivo alla loro pubblicazione sul sito istituzionale di AgID e di esse è data notizia sulla Gazzetta Ufficiale della Repubblica italiana.
 
 Le presenti Linee guida sostituiscono, altresì, le *Linee Guida per la valorizzazione del patrimonio informativo pubblico*, adottate con Determinazione Commissariale di AgID n. 95/2014[^#_bookmark3].
 
