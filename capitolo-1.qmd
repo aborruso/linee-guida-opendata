@@ -2,7 +2,7 @@
 
 Le presenti Linee Guida stabiliscono le regole tecniche per l'attuazione del D. Lgs. 24 gennaio 2006, n. 36 (di seguito **Decreto**), così come modificato dal D. Lgs. 8 novembre 2021, n. 200 di recepimento della Direttiva (UE) 2019/1024 (di seguito **Direttiva**), in ottemperanza all'art. 12 del Decreto stesso.
 
-Il documento ha l'obiettivo di supportare le pubbliche amministrazioni e gli altri soggetti interessati (vedi [par. @sec-soggetti-destinatari]) nel processo di apertura dei dati e di riutilizzo dell'informazione del settore pubblico attraverso indicazioni volte ad implementare le disposizioni e le modalità disciplinate dal Decreto.
+Il documento ha l'obiettivo di supportare le pubbliche amministrazioni e gli altri soggetti interessati (vedi **[par. @sec-soggetti-destinatari]**) nel processo di apertura dei dati e di riutilizzo dell'informazione del settore pubblico attraverso indicazioni volte ad implementare le disposizioni e le modalità disciplinate dal Decreto.
 
 In particolare, tali indicazioni riguardano formati, modalità di pubblicazione, profili di metadati, licenze e tariffazione, richieste di riutilizzo e strumenti di ricerca, tutti aspetti regolamentati da Direttiva e Decreto. Il presente documento include, inoltre, raccomandazioni su aspetti organizzativi e qualità dei dati.
 
@@ -10,10 +10,10 @@ In particolare, tali indicazioni riguardano formati, modalità di pubblicazione,
 
 Coerentemente con quanto disposto dall'art. 1 del Decreto, **le presenti Linee Guida si applicano**:
 
-- a tutti i dati pubblici e tutti i documenti contenenti dati pubblici detenuti da pubbliche amministrazioni, organismi di diritto pubblico, imprese pubbliche e private, ad eccezione di quelli indicati nel [par. @sec-documenti-esclusi-dallapplicazione]
+- a tutti i dati pubblici e tutti i documenti contenenti dati pubblici detenuti da pubbliche amministrazioni, organismi di diritto pubblico, imprese pubbliche e private, ad eccezione di quelli indicati nel **[par. @sec-documenti-esclusi-dallapplicazione]**
 - a dati e documenti i cui diritti di proprietà intellettuale sono detenuti da biblioteche, comprese le biblioteche universitarie, i musei e gli archivi, solo se il riutilizzo è autorizzato in conformità a quanto previsto nella Parte II, Titolo II, Capo I e Capo III, del decreto legislativo 22 gennaio 2004, n. 42 e nella Parte II, Titolo VII, Capo II, del decreto legislativo 30 giugno 2003 n. 196;
-- ai dati della ricerca (v. [par. @sec-dati-della-ricerca]);
-- ai dati territoriali ai quali si applica il D Lgs. 27 gennaio 2010, n. 32, di recepimento della Direttiva 2007/2/CE, cosiddetta Direttiva INSPIRE (v. [par @sec-dati-territoriali]);
+- ai dati della ricerca (v. **[par. @sec-dati-della-ricerca]**);
+- ai dati territoriali ai quali si applica il D Lgs. 27 gennaio 2010, n. 32, di recepimento della Direttiva 2007/2/CE, cosiddetta Direttiva INSPIRE (v. **[par @sec-dati-territoriali]**);
 - ai documenti che all'atto di entrata in vigore delle indicazioni del Decreto sono già stati diffusi per il riutilizzo.
 
 Quando, nel prosieguo del presente documento, si utilizzeranno i termini "documenti" e "dati" si intenderà fare riferimento a quei documenti e dati che rientrano nell'ambito di applicazione delineato.
