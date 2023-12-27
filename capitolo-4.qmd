@@ -1,12 +1,12 @@
 # Prinicipi generali
 
-L'art. 6 del Decreto stabilisce che pubbliche amministrazioni, organismi di diritto pubblico, imprese pubbliche e private, che rientrano tra i soggetti destinatari di cui al par. [**1.3**,](capitolo-1.qmd#sec-soggetti-destinatari) rendano disponibili per il riutilizzo i propri dati, e relativi metadati, nel rispetto delle regole tecniche definite con le presenti Linee Guida.
+L'art. 6 del Decreto stabilisce che pubbliche amministrazioni, organismi di diritto pubblico, imprese pubbliche e private, che rientrano tra i soggetti destinatari di cui al [par. -@sec-soggetti-destinatari] rendano disponibili per il riutilizzo i propri dati, e relativi metadati, nel rispetto delle regole tecniche definite con le presenti Linee Guida.
 
 Questo capitolo definisce le modalità e i formati per i dati da rendere disponibili come dati di tipo aperto e, in particolare, per le specifiche categorie di dati individuate da Direttiva e Decreto, ovvero dati dinamici, dati della ricerca e serie di dati di elevato valore (di cui, rispettivamente, agli artt. 6, commi 5, 6, 9-bis e 12-bis del Decreto).
 
-## Requisiti comuni
+## Requisiti comuni {#seq-requisiti-comuni}
 
-Sulla base dell'art. 1 del Decreto, le presenti Linee Guida si applicano ai "*documenti contenenti **dati pubblici** nella **disponibilità** delle **pubbliche amministrazioni**, degli **organismi di diritto pubblico** e delle **imprese pubbliche e private***", con esclusione dei casi riportati al par. [**1.2**](capitolo-1.qmd#sec-documenti-esclusi-dallapplicazione).
+Sulla base dell'art. 1 del Decreto, le presenti Linee Guida si applicano ai "*documenti contenenti **dati pubblici** nella **disponibilità** delle **pubbliche amministrazioni**, degli **organismi di diritto pubblico** e delle **imprese pubbliche e private***", con esclusione dei casi riportati al [par. @sec-documenti-esclusi-dallapplicazione].
 
 Il Decreto utilizza il termine "documento" nell'accezione di cui all'art. 2, comma 1, lettera c), cioè "la *rappresentazione di atti, fatti e dati a prescindere dal supporto, cartaceo o elettronico, registrazione sonora, visiva o audiovisiva o qualsiasi parte di tale contenuto nella disponibilità della pubblica amministrazione o dell'organismo di diritto pubblico. \[…\]*". La definizione di documento non comprende i programmi informatici ma include qualsiasi parte del documento stesso.
 
