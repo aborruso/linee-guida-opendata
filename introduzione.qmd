@@ -21,11 +21,8 @@ L'art. 12 del D. Lgs. 36/2006 dispone che l'Agenzia per l'Italia Digitale adotti
 In quanto documento attuativo e considerato il carattere vincolante delle disposizioni in esso contenute anche alla luce del secondo periodo del citato art. 12 (a norma del quale "*In caso di violazione delle disposizioni introdotte dalle Linee guida, il soggetto interessato può rivolgersi al difensore civico per il digitale di cui all'articolo 17, comma 1-quater, del Codice dell'amministrazione digitale e si applicano le sanzioni previste dall'articolo 18-bis, comma 5, dello stesso Codice*"), l'approccio seguito per la redazione è stato quello di definire opportuni requisiti, quindi indicazioni da implementare obbligatoriamente, solo relativamente agli aspetti coperti dal decreto. In particolare, quindi:
 
 - formati e modalità di pubblicazione dei dati di tipo aperto, in generale, e delle specifiche categorie di dati individuate, in particolare;
-
 - richieste di riutilizzo;
-
 - licenze, tariffazione e accordi di esclusiva;
-
 - strumenti di ricerca.
 
 Altri aspetti comunque ritenuti importanti per il processo di apertura dei dati sono stati trattati come raccomandazioni.
