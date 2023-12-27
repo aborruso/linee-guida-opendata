@@ -53,6 +53,10 @@ format:
     citations-hover: false
     include-in-header: include/hide-req-caption.html
     crossrefs-hover: false
+    code-copy: true
+    code-overflow: wrap
+    link-external-newwindow: true
+    link-external-filter: '^.*\.github\.io\/'
 
 website:
   back-to-top-navigation: true
