@@ -32,9 +32,9 @@ Coerentemente con quanto disposto dall'art. 3 del Decreto, **le presenti Linee G
 - nella disponibilità degli organismi coinvolti nel sistema di informazione per la sicurezza della Repubblica;
 - esclusi, ai sensi dell'articolo 24 della legge 7 agosto 1990, n. 241, anche solo per un limitato periodo di tempo fissato dalle amministrazioni, ovvero:
   - documenti coperti da segreto di Stato ai sensi della legge 24 ottobre 1977, n. 801 e nei casi di segreto o di divieto di divulgazione espressamente previsti dalla legge, dal regolamento governativo adottato ai sensi dell'articolo 17, comma 2, della legge 23 agosto 1988, n. 400 e dalle pubbliche amministrazioni;
-- documenti dei procedimenti tributari;
-- documenti delle attività di formazione ed emanazione di atti normativi, amministrativi generali, di pianificazione e di programmazione;
-- documenti dei procedimenti selettivi, nei confronti dei documenti amministrativi contenenti informazioni di carattere psicoattitudinale relativi a terzi;
+  - documenti dei procedimenti tributari;
+  - documenti delle attività di formazione ed emanazione di atti normativi, amministrativi generali, di pianificazione e di programmazione;
+  - documenti dei procedimenti selettivi, nei confronti dei documenti amministrativi contenenti informazioni di carattere psicoattitudinale relativi a terzi;
 - esclusi ai sensi dell'articolo 5-bis del decreto legislativo 14 marzo 2013, n. 33, ovvero:
   - documenti o parti di documenti inerenti ai seguenti interessi pubblici:
     - sicurezza pubblica e ordine pubblico;
@@ -125,4 +125,3 @@ Per quanto riguarda le **imprese private**, sono da considerare:
 - in generale, i gestori di servizi pubblici in relazione ai servizi di pubblico interesse.
 
 {{< include ./include/risorse-utili/_risorse-cap1.qmd >}}
-
