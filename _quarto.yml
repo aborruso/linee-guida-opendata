@@ -51,7 +51,7 @@ format:
       - styles.scss
     footnotes-hover: false
     citations-hover: false
-    include-in-header: include/hide-req-caption.html
+    include-in-header: include/script.html
     crossrefs-hover: false
     code-copy: true
     code-overflow: wrap
