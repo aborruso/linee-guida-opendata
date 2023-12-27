@@ -19,3 +19,37 @@
         });
     });
 </script>
+
+<script>
+window.onload = function() {
+    // Quando la pagina viene caricata, evidenzia la sezione, se presente
+    highlightSection(window.location.hash);
+
+    // Gestisce i cambiamenti dell'URL quando l'utente naviga tra gli anchor
+    window.onhashchange = function() {
+        // Rimuove l'evidenziazione da tutte le sezioni
+        document.querySelectorAll('.highlighted').forEach(function(element) {
+            element.classList.remove('highlighted');
+        });
+
+        // Evidenzia la nuova sezione
+        highlightSection(window.location.hash);
+    };
+};
+
+function highlightSection(hash) {
+    if (hash && isUpperCase(hash)) {
+        // Trova la sezione corrispondente all'ID nell'URL
+        let section = document.querySelector(hash);
+        if (section) {
+            // Aggiunge la classe per evidenziare la sezione
+            section.classList.add('highlighted');
+        }
+    }
+}
+
+function isUpperCase(str) {
+    // Controlla se la stringa contiene solo lettere maiuscole, numeri e il carattere '-'
+    return /^[A-Z0-9-]+$/.test(str.replace('#', ''));
+}
+</script>
