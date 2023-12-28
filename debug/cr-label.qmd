@@ -1,0 +1,7 @@
+# CR Label
+
+See at @req-5
+
+See at [a -@req-5]{.quarto-xref aria-expanded="false"}
+
+This is [my custom label](#req-5){.quarto-xref aria-expanded="false"}.

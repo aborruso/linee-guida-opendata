@@ -32,6 +32,7 @@ book:
         - references.qmd
         - small_table.qmd
         - debug/column-page-inset.qmd
+        - debug/cr-label.qmd
   appendices:
     - allegato-A.qmd
     - allegato-B.qmd
