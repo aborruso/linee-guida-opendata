@@ -75,6 +75,15 @@ section#footnotes {
   background-color: yellow;
 }
 
+.highlighted::before {
+  content: '';
+  display: block;
+  height: 50px;        /* Altezza dello spazio extra */
+  margin-top: -50px;   /* Sposta lo spazio extra verso l'alto, fuori dalla visualizzazione normale */
+  visibility: hidden;  /* Nasconde lo spazio extra, in modo che non influenzi visivamente */
+}
+
+
 .dati-elevato-valore {
   font-size: 80%;
 }
