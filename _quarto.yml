@@ -31,6 +31,7 @@ book:
         - test_cit.qmd
         - references.qmd
         - small_table.qmd
+        - debug/column-page-inset.qmd
   appendices:
     - allegato-A.qmd
     - allegato-B.qmd
