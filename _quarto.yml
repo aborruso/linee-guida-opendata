@@ -30,6 +30,7 @@ book:
       chapters:
         - test_cit.qmd
         - references.qmd
+        - small_table.qmd
   appendices:
     - allegato-A.qmd
     - allegato-B.qmd
