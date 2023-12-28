@@ -9,6 +9,8 @@ See at [@CAD]
 ## Table with columns width
 
 :::{.column-page-inset}
+
+```{=html}
 <table border="0" cellspacing="0" class="table table-sm table-responsive">
   <colgroup span="3">
     <col style="width: 20%;">
@@ -170,14 +172,22 @@ See at [@CAD]
     </tr>
   </tbody>
 </table>
+```
 :::
 
 
-## Table without columns width
+
+## Second Table with columns width
 
 :::{.column-page-inset}
+
+```{=html}
 <table border="0" cellspacing="0" class="table table-sm table-responsive">
-  <colgroup span="3"></colgroup>
+    <colgroup span="3">
+    <col style="width: 20%;">
+    <col style="width: 60%;">
+    <col style="width: 20%;">
+  </colgroup>
   <tbody>
     <tr>
       <td><strong>Categoria tematica</strong></td>
@@ -191,7 +201,7 @@ See at [@CAD]
         aperto leggibile meccanicamente, pubblicamente <br />documentato e riconosciuto dall&rsquo;Unione o a livello
         internazionale; <br />&bull; tramite interfacce di programmazione delle applicazioni ("API") e download in
         blocco; <br />&bull; [nella versione pi&ugrave; aggiornata].</td>
-      <td>REQUISITO 20<br />REQUISITO 21<br />REQUISITO 2<br />REQUISITO 3<br />REQUISITO 7<br />REQUISITO 27</td>
+      <td>REQUISITO 20<span data-qmd="lorem [^footsample]"></span><br />REQUISITO 21<br />REQUISITO 2<br />REQUISITO 3<br />REQUISITO 7<br />REQUISITO 27</td>
     </tr>
     <tr>
       <td>I metadati che descrivono le serie di dati rientranti nell&rsquo;ambito di applicazione delle categorie
@@ -333,5 +343,8 @@ See at [@CAD]
     </tr>
   </tbody>
 </table>
+```
 :::
 
+
+[^footsample]: lorem ipsum
