@@ -12,7 +12,7 @@
       <td rowspan="3"><strong>Dati geospaziali</strong></td>
       <td>Le serie di dati sono messe a disposizione per il riutilizzo: <br />&bull; alle condizioni della licenza
         Creative Commons BY 4.0 o di una licenza aperta equivalente o meno restrittiva; <br />&bull; in un formato
-        aperto leggibile meccanicamente, pubblicamente <br />documentato e riconosciuto dall&rsquo;Unione o a livello
+        aperto leggibile meccanicamente, pubblicamente documentato e riconosciuto dall&rsquo;Unione o a livello
         internazionale; <br />&bull; tramite interfacce di programmazione delle applicazioni ("API") e download in
         blocco; <br />&bull; [nella versione pi&ugrave; aggiornata].</td>
       <td>REQUISITO 20<br />REQUISITO 21<br />REQUISITO 2<br />REQUISITO 3<br />REQUISITO 7<br />REQUISITO 27</td>
@@ -72,7 +72,8 @@
       <td>REQUISITO 15</td>
     </tr>
     <tr>
-      <td>Le serie di dati sono descritte in una documentazione online completa e accessibile al pubblico che descrive almeno la struttura e la semantica dei dati[^#_inspire].</td>
+      <td>Le serie di dati sono descritte in una documentazione online completa e accessibile al pubblico che descrive
+      almeno la struttura e la semantica dei dati[^#_inspire].</td>
       <td>Par. 5.1.5</td>
     </tr>
     <tr>
@@ -107,8 +108,8 @@
       <td>Le serie di dati sono messe a disposizione per il riutilizzo: <br />&bull; [senza indebito ritardo dopo
         l'ultimo aggiornamento]; <br />&bull; alle condizioni della licenza Creative Commons BY 4.0 o di una licenza
         aperta equivalente o meno restrittiva, con condizioni supplementari relative al riutilizzo dei dati personali,
-        se del caso; <br />&bull; in un formato aperto leggibile meccanicamente e riconosciuto <br />dall&rsquo;Unione o
-        a livello internazionale (XHTML per i documenti che <br />rientrano nell&rsquo;ambito di applicazione del
+        se del caso; <br />&bull; in un formato aperto leggibile meccanicamente e riconosciuto dall&rsquo;Unione o
+        a livello internazionale (XHTML per i documenti che rientrano nell&rsquo;ambito di applicazione del
         Regolamento Delegato (UE) 2018/815 della Commissione; altri formati, se e ove prescritto dal diritto dell'Unione
         applicabile), con metadati completi ([per i documenti che rientrano nell&rsquo;ambito di applicazione del
         Regolamento Delegato (UE) 2016/1437 della Commissione, i metadati specificati in tale regolamento, se del caso;]
@@ -126,7 +127,8 @@
       <td>Par. 5.1.5</td>
     </tr>
     <tr>
-      <td>Le serie di dati utilizzano vocabolari e tassonomie controllati, pubblicamente documentati e riconosciuti dall&rsquo;Unione o a livello internazionale, se disponibili, come il Core Business Vocabulary[^#_bookmark58].</td>
+      <td>Le serie di dati utilizzano vocabolari e tassonomie controllati, pubblicamente documentati e riconosciuti dall&rsquo;Unione
+      o a livello internazionale, se disponibili, come il Core Business Vocabulary[^#_bookmark58].</td>
       <td>Par. 5.1.4</td>
     </tr>
     <tr>
