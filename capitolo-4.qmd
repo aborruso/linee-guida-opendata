@@ -169,6 +169,95 @@ Anche ai fini del calcolo dell'indicatore per la misurazione del risultato attes
 
 ## Serie di dati di elevato valore {#sec-serie-di-dati-di-elevato-valore}
 
+La Direttiva e, quindi, il Decreto hanno introdotto la tipologia di **serie di dati denominati "di elevato valore"** definiti come quei "*documenti il cui riutilizzo è associato a importanti benefici per la società, l'ambiente e l'economia, in considerazione della loro idoneità per la creazione di servizi, applicazioni a valore aggiunto e nuovi posti di lavoro, nonché del numero dei potenziali beneficiari dei servizi e delle applicazioni a valore aggiunto basati su tali serie di dati*".
+
+I criteri per l'identificazione di tale tipologia di dati sono indicati all'art. 14, comma 2 della Direttiva, secondo cui deve essere valutata la loro potenzialità:
+
+1.  nell'apportare importanti benefici socio-economici o ambientali e servizi innovativi;
+2.  nel beneficiare un numero elevato di utilizzatori, in particolare PMI;
+3.  nel contribuire a generare proventi;
+4.  nell'essere combinati con altre serie di dati.
+
+Al fine di garantire condizioni uniformi di esecuzione della Direttiva in tutti gli Stati membri, l'individuazione delle serie di dati di elevato valore, sulla base dei criteri innanzi citati, è stata effettuata attraverso uno specifico atto di esecuzione di competenza della Commissione Europea, il Regolamento (UE) 2023/138 [\[**REG-HVD**](capitolo-2.qmd#REG-HVD)\] (di seguito Regolamento).
+
+Le serie di dati di elevato valore individuate dalla Commissione fanno riferimento alle
+
+### categorie tematiche indicate nell'Allegato I della Direttiva, ovvero:
+
+1.  Dati geospaziali
+2.  Dati relativi all'osservazione della terra e all'ambiente
+3.  Dati meteorologici
+4.  Dati statistici
+5.  Dati relativi alle imprese e alla proprietà delle imprese[^#_bookmark51]
+6.  Dati relativi alla mobilità.
+
+La Direttiva assegna alla Commissione anche la facoltà di individuare categorie aggiuntive a quelle innanzi elencate.
+
+Di seguito vengono definiti requisiti e raccomandazioni sulla base delle prescrizioni più generali presenti nel Decreto e nel Regolamento citato. Tali requisiti e raccomandazioni dovranno essere applicati nei termini temporali indicati nel Regolamento insieme alle specifiche indicazioni riportate in quell'atto. Come previsto dal Regolamento, le disposizioni ivi previste (e di conseguenza requisiti e raccomandazioni definiti nelle presenti Linee Guida) sono applicabili anche alle serie di dati esistenti, create prima della data di applicazione del Regolamento stesso.
+
+In ogni caso, ove si ritenga opportuno o necessario, anche per definire ulteriori indicazioni più dettagliate per la loro implementazione, sarà adottata un'apposita **guida operativa**, quale documento di orientamento a cui si fa cenno nell'art. 5, paragrafo (3), lettera (d) del Regolamento.
+
+[^#_bookmark51]: Sul tema della proprietà delle imprese, si evidenzia la recente pronuncia della CGE sui "titolari effettivi", che ha dichiarato invalido l'articolo 1, punto 15, lettera c), della direttiva (UE) 2018/843 (antiriciclaggio) e la prevista accessibilità al pubblico delle informazioni sulla titolarità effettiva delle società e delle altre entità giuridiche (v. <https://curia.europa.eu/juris/document/document.jsf?text&docid=268062&pageIndex=0&doclang=IT&mode=req&dir&occ=first&part=1&cid=7030937>). In ogni caso, il Regolamento di esecuzione (UE) 2023/138 chiarisce che le Direttive applicabili sono 2013/34/UE e 2004/109/CE.
+
+Tale guida sarà pubblicata nel sito istituzionale di AgID nonché nei portali dei cataloghi di dati di cui all'art. 9, comma 2 del Decreto.
+
+Al fine di garantire un impatto massimo e agevolarne il riutilizzo, **le serie di dati di elevato valore DEVONO essere rese disponibili gratuitamente** (a meno di alcune eccezioni indicate di seguito nel Requisito 8) e **attraverso API**, oltre che **attraverso download in blocco**.
+
+{{< include ./include/requisiti/_requisito-7.qmd >}}
+
+Come già indicato per i dati dinamici, il [**REQUISITO 27**](capitolo-7.qmd#req-27){.testo-rosso} citato indica, in sintesi, che le API implementate DEVONO essere conformi ai requisiti definiti nell'ambito del modello di interoperabilità ed essere registrate nel catalogo API, reso disponibile attraverso la Piattaforma Digitale Nazionale Dati (PDND) in attuazione dell'art. 50-ter del [**CAD**.](capitolo-2.qmd#CAD)
+
+{{< include ./include/requisiti/_requisito-8.qmd >}}
+
+L'art. 3 del Regolamento definisce le disposizioni per la pubblicazione applicabili a tutte le categorie di set di dati di alto valore. Il rispetto di [**REQUISITO 2**](#req-2){.testo-rosso}, [**REQUISITO 7**](#req-7){.testo-rosso} e [**REQUISITO 27**](capitolo-7.qmd#req-27){.testo-rosso} definiti nelle presenti Linee Guida assicura l'adempimento dei paragrafi (1), (2) e (3) del citato articolo.
+
+Lo stesso articolo dispone inoltre che le amministrazioni titolari di dati di elevato valore debbano designare un punto di contatto per le domande e i problemi relativi alle API al fine di garantire la disponibilità e il mantenimento delle API stesse e, in definitiva, la pubblicazione regolare ed efficace dei set di dati di alto valore (cfr. art. 3(4)).
+
+Nei metadati che documentano i dati di cui al presente paragrafo, dovrà essere, inoltre, indicato che si tratta di dati di elevato valore (cfr. art. 3(5)). Indicazioni specifiche su come implementare tale disposizione saranno fornite nelle guide operative relative ai profili nazionali di metadati (v. **[par. -@sec-metadati]**). Ulteriori indicazioni sui metadati saranno fornite nelle guide operative di cui sopra per adempiere a quanto previsto per i differenti set di dati di elevato valore di cui all'Allegato al Regolamento.
+
+Con riferimento al [**REQUISITO 8**](#req-8){.testo-rosso} il Regolamento precisa che i dati detenuti dalle imprese pubbliche non rientrano nell'ambito di applicazione del Regolamento stesso, limitandolo, quindi, alle sole Pubbliche Amministrazioni (cfr. Considerando 7).
+
+Il concetto di possesso, indicato al terzo punto del [**REQUISITO 8**](#req-8){.testo-rosso} è da intendere nell'accezione di titolarità dei dati. A tale proposito si può fare riferimento alla definizione di titolare del dato di cui all'art. 2, comma 1, lettera d) del Decreto, come "*la pubblica amministrazione o l'organismo di diritto pubblico che ha originariamente formato per uso proprio o commissionato ad altro soggetto il documento che rappresenta il dato, o che ne ha la disponibilità*". Altra definizione è fornita all'art. 1, comma 1, lett. cc) del CAD quale "*uno dei soggetti di cui all'articolo 2, comma 2, che ha originariamente formato per uso proprio o commissionato ad altro soggetto il documento che rappresenta il dato, o che ne ha la disponibilità*". Una migliore interpretazione è data nelle Linee Guida RNDT \[[**LG-RNDT**](capitolo-2.qmd#LG-RNDT)\], secondo cui il titolare del dato è "*la pubblica amministrazione (…) che produce e detiene il dato originale, ovvero la versione di riferimento da cui derivano eventuali copie e che ne può disporre liberamente*". Dal confronto delle due definizioni, si evince anche che quando si parla di "avere la disponibilità" si intende "il disporre liberamente". Estendendo la definizione di cui sopra anche agli altri soggetti destinatari di cui al **[par. -@sec-soggetti-destinatari]** (oltre alle pubbliche amministrazioni), è da chiarire che quando, in questo documento, si parla di titolare del/i dato/i ci si riferisce sempre al livello più generale dell'organizzazione, ovvero alla persona giuridica o ente unitario. L'individuazione dei soggetti interni all'organizzazione (persone fisiche, uffici o unità organizzative) responsabili per il processo di apertura dei dati e per l'applicazione delle presenti Linee Guida viene demandata all'autonomia organizzativa dell'ente stesso (v. anche **[par. -@sec-ruoli-e-responsabilita]**).
+
+Sempre con riferimento al [**REQUISITO 8**](#req-8){.testo-rosso} se imprese pubbliche, biblioteche, musei ed archivi non sono titolari dei dati ma li gestiscono per conto di una Pubblica Amministrazione, allora il suddetto requisito non è applicabile a questi casi, dovendo essere il possesso riconducibile al titolare.
+
+L'art. 4 del Regolamento definisce le disposizioni per il riutilizzo comuni a tutte le categorie di dati di elevato valore. Il rispetto del [**REQUISITO 20**](capitolo-6.qmd#req-20){.testo-rosso} e del [**REQUISITO 21**](capitolo-6.qmd#req-21){.testo-rosso} assicura l'adempimento del paragrafo (3) del citato articolo.
+
+In aggiunta alle indicazioni comuni di cui sopra, nell'Allegato I del Regolamento sono individuate, per ciascuna categoria tematica, le serie di dati di elevato valore e sono definite le modalità di pubblicazione e riutilizzo, ivi compresi le condizioni applicabili al riutilizzo, i formati dei dati e dei metadati e le modalità tecniche di diffusione.
+
+Nella [tabella](#dati-elevato-valore-tbl) che segue sono riportate le disposizioni di pubblicazione e riutilizzo per ciascuna categoria tematica indicate nell'Allegato I al Regolamento e le corrispondenti indicazioni definite nelle presenti Linee Guida, rispettando le quali si assicurano gli adempimenti previsti nel Regolamento stesso. Le indicazioni che non trovano corrispondenza nel presente documento sono indicate in parentesi quadre \[*…*\] e in corsivo. Tali indicazioni sono comunque vincolanti essendo il Regolamento direttamente applicabile negli Stati membri. Per quanto non riportato nel presente documento si rimanda al Regolamento.
+
+{{< include include/dati-elevato-valore/_dati-elevato-valore.qmd >}}
+
+[^#_inspire]: Per esempio, le specifiche INSPIRE su Condizioni atmosferiche ed elementi geografici meteorologici (v. <https://inspire.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_AC-MF_v2.0.pdf>)
+
+[^#_bookmark55]: Se per i metadati dei dati statistici è utilizzato SDMX, tramite la specifica StatDCAT-AP (v. [<u>https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/statdcat-application-</u>](https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/statdcat-application-profile-data-portals-europe/about) [<u>profile-data-portals-europe/about</u>)](https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/statdcat-application-profile-data-portals-europe/about) tali metadati possono essere resi disponibili nel profilo DCAT-AP e quindi essere documentati nel portale nazionale dei dati aperti.
+
+[^#_bookmark56]: Con riferimento ai dati riguardanti la proprietà delle imprese, si tenga conto che la Corte di Giustizia UE è intervenuta sul regime di conoscenza dei cc.dd. "titolari effettivi", dichiarando invalido l'articolo 1, punto 15, lettera c), della direttiva (UE) 2018/843 e la prevista accessibilità al pubblico delle informazioni sulla titolarità effettiva delle società e delle altre entità giuridiche (v. Corte giustizia UE, Grande Sezione, 22/11/2022, n. 37, cause riunite C-37/20 e C-601/20). In ogni caso, il Regolamento di esecuzione (UE) 2023/138 [\[**REG-HVD**\]](capitolo-2.qmd#REG-HVD) chiarisce che le Direttive applicabili sono 2013/34/UE e 2004/109/CE.
+
+
+### Il ruolo dell'Istituto Geografico Militare (IGM)
+
+Con riferimento alle serie di dati di elevato valore, il Decreto, all'art. 12-bis, comma 2, assegna competenze specifiche all'Istituto Geografico Militare (IGM) in relazione ai propri compiti istituzionali e alla produzione dei documenti cartografici dello Stato dichiarati ufficiali dal medesimo Istituto.
+
+[^#_bookmark58]: v. <https://joinup.ec.europa.eu/collection/registered-organization-vocabulary/solution/registered-organization-vocabulary/release/100>
+
+[^#_bookmark59]: Siccome l'Italia non ha recepito la Direttiva 2005/44/CE, non sono applicabili le disposizioni relative ai set di dati sulle vie navigabili interne che quindi non sono prese in considerazione nelle presenti Linee Guida.
+
+Al fine di garantire la qualità dei dati di elevato valore appartenenti alla categoria "Dati geospaziali" di cui all'Allegato I della Direttiva, individuati attraverso gli atti di esecuzione della Commissione Europea, ai sensi del Decreto, l'IGM utilizza i suddetti elementi di informazione, resi disponibili dai titolari coerentemente ai Requisiti 2, 3, 7 e 8 (cioè secondo le caratteristiche dei dati aperti e attraverso API e/o servizi di rete INSPIRE), per aggiornare e produrre i propri dati geospaziali di interesse, ricorrendo a procedure e interventi opportuni per integrarli o convalidarli direttamente mediante il proprio personale tecnico. Nel caso di dati geospaziali prodotti con modalità tecniche diverse da quelle eventualmente indicate negli atti di esecuzione della Commissione Europea, l'IGM contribuisce alla validazione del contenuto.
+
+Ai fini della produzione dei documenti cartografici dello Stato ai sensi della [legge 2 febbraio 1960, n. 68](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1960-02-02;68)  e dichiarati ufficiali dall'Istituto, il Decreto stabilisce che l'IGM acquisisce documenti cartografici o dati geospaziali d'interesse nazionale resi disponibili dagli organismi di diritto pubblico elencati nel [paragrafo -@sec-soggetti-destinatari], titolari e responsabili della validazione dei dati originali.
+
+Il Decreto dispone, inoltre, che le società private che riusano i dati geospaziali resi disponibili dall'IGM debbano fornire copia dei documenti derivati che su richiesta, previa verifica, possono essere dichiarati conformi ai requisiti tecnici di qualità o alle specifiche adottate dall'Istituto. Le modalità per l'inoltro delle suddette richieste, nonché, in coerenza con i precipui compiti istituzionali, le specifiche di interesse sono pubblicate sul sito istituzionale dell'Istituto.
+
+Il Decreto prescrive, infine, che i rilevamenti eseguiti, per qualsiasi scopo, sul territorio nazionale da organismi di diritto pubblico o privati, debbano essere comunicati all'IGM ai fini di un eventuale aggiornamento dei documenti cartografici dello Stato.
+
+In tema di rilevamenti, sono fatti salvi gli artt. 7 e 10 della [legge 2 febbraio 1960, n. 68](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1960-02-02;68) relativamente alla comunicazione obbligatoria all'IGM nei casi specifici indicati dalla norma e del divieto di cedere a terzi i rilevamenti nei casi di cui sopra.
+
+Ai fini dell'attuazione dei compiti istituzionali relativamente alla condivisione dell'informazione geografica, l'Istituto Geografico Militare può promuovere convenzioni, accordi o protocolli d'intesa con altri enti. Nell'ambito di tali convenzioni, accordi o protocolli, l'Istituto può fornire attività di consulenza nell'individuazione dei dati geospaziali che possono essere divulgati con le caratteristiche di tipo aperto e nel monitoraggio a livello nazionale dei dati geospaziali di tipo aperto in riferimento alla divulgabilità degli stessi e alle eventuali implicazioni in termini di riservatezza e sicurezza nazionale.
+
+Sono fatte salve altresì le disposizioni in termini di deposito legale di cui alla [legge 15 aprile 2004, n. 106](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2004-04-15;106) e al [D.P.R. 3 maggio 2006, n. 252](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2006-05-03;252). A tale proposito, l'IGM pubblica nel proprio sito istituzionale le specifiche per la consegna digitale all'Archivio della Direzione Conservatorie, indicando i requisiti tecnici delle pubblicazioni cartografiche e dei dati geospaziali d'interesse, e rilascia la relativa attestazione di consegna.
+
 ## Dati della ricerca {#sec-dati-della-ricerca}
 
 ## Dati territoriali {#sec-dati-territoriali}

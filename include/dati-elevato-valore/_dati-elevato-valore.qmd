@@ -1,6 +1,7 @@
-:::{.column-page-inset}
+:::{.dati-elevato-valore #dati-elevato-valore-tbl}
 <table border="0" cellspacing="0" class="table table-sm table-responsive">
-  <colgroup span="3"></colgroup>
+  <colgroup span="3">
+  </colgroup>
   <tbody>
     <tr>
       <td><strong>Categoria tematica</strong></td>
@@ -71,8 +72,7 @@
       <td>REQUISITO 15</td>
     </tr>
     <tr>
-      <td>Le serie di dati sono descritte in una documentazione online completa e accessibile al pubblico che descrive
-        almeno la la struttura e la semantica dei dati.</td>
+      <td>Le serie di dati sono descritte in una documentazione online completa e accessibile al pubblico che descrive almeno la struttura e la semantica dei dati[^#_inspire].</td>
       <td>Par. 5.1.5</td>
     </tr>
     <tr>
@@ -90,7 +90,7 @@
       <td>I metadati che descrivono le serie di dati sono disponibili sotto forma di file strutturato ben sviluppato
         contenente almeno una descrizione di dati statistici, concetti statistici, metodologie e informazioni sulla
         qualit&agrave; dei dati.</td>
-      <td>REQUISITO 15</td>
+      <td>REQUISITO 15[^#_bookmark55]</td>
     </tr>
     <tr>
       <td>Le serie di dati sono descritte in una documentazione online completa e accessibile al pubblico che descrive
@@ -103,7 +103,7 @@
       <td>Par. 5.1.4</td>
     </tr>
     <tr>
-      <td rowspan="3"><strong>Dati relativi alle imprese e alla propriet&agrave; delle imprese</strong></td>
+      <td rowspan="3"><strong>Dati relativi alle imprese e alla propriet&agrave; delle imprese[^#_bookmark56]</strong></td>
       <td>Le serie di dati sono messe a disposizione per il riutilizzo: <br />&bull; [senza indebito ritardo dopo
         l'ultimo aggiornamento]; <br />&bull; alle condizioni della licenza Creative Commons BY 4.0 o di una licenza
         aperta equivalente o meno restrittiva, con condizioni supplementari relative al riutilizzo dei dati personali,
@@ -126,12 +126,11 @@
       <td>Par. 5.1.5</td>
     </tr>
     <tr>
-      <td>Le serie di dati utilizzano vocabolari e tassonomie controllati, pubblicamente documentati e riconosciuti
-        dall&rsquo;Unione o a livello internazionale, se disponibili, come il Core Business Vocabulary.</td>
+      <td>Le serie di dati utilizzano vocabolari e tassonomie controllati, pubblicamente documentati e riconosciuti dall&rsquo;Unione o a livello internazionale, se disponibili, come il Core Business Vocabulary[^#_bookmark58].</td>
       <td>Par. 5.1.4</td>
     </tr>
     <tr>
-      <td rowspan="4"><strong>Dati relativi alla mobilit&agrave;</strong></td>
+      <td rowspan="4"><strong>Dati relativi alla mobilit&agrave;</strong>[^#_bookmark59]</td>
       <td>Le serie di dati della rete di trasporto sono messe a disposizione per il riutilizzo<br />&bull;
         [immediatamente dopo l&rsquo;ultimo aggiornamento]; <br />&bull; alle condizioni della licenza Creative Commons
         BY 4.0 o di una licenza aperta equivalente o meno restrittiva; <br />&bull; in un formato aperto leggibile

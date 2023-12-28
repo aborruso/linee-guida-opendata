@@ -2,4 +2,8 @@
 
 ## Licenze e condizioni di riutilizzo {#sec-licenze-e-condizioni-di-riutilizzo}
 
+{{< include ./include/requisiti/_requisito-20.qmd >}}
+
+{{< include ./include/requisiti/_requisito-21.qmd >}}
+
 ## Tariffazione {#sec-tariffazione}

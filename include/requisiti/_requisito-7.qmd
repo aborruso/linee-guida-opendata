@@ -1,0 +1,4 @@
+::: {#req-7 .callout-important appearance="simple" icon=false}
+[**REQUISITO 7**]{.testo-rosso}: **dlgs36-2006/opendata/req/hvd/api **<br>
+Le serie di dati di elevato valore DEVONO essere messe a disposizione per il riutilizzo attraverso API coerenti con il [**REQUISITO 27**](capitolo-7.qmd#req-27){.testo-rosso} e, se del caso, attraverso download in blocco.
+:::
