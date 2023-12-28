@@ -104,7 +104,7 @@
       <td>Par. 5.1.4</td>
     </tr>
     <tr>
-      <td rowspan="3"><strong>Dati relativi alle imprese e alla propriet&agrave; delle imprese[^#_bookmark56]</strong></td>
+      <td rowspan="3"><strong>Dati relativi alle imprese e alla propriet&agrave; delle imprese</strong>[^#_bookmark56]</td>
       <td>Le serie di dati sono messe a disposizione per il riutilizzo: <br />&bull; [senza indebito ritardo dopo
         l'ultimo aggiornamento]; <br />&bull; alle condizioni della licenza Creative Commons BY 4.0 o di una licenza
         aperta equivalente o meno restrittiva, con condizioni supplementari relative al riutilizzo dei dati personali,
