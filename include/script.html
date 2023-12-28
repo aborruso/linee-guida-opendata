@@ -56,3 +56,16 @@ function isUpperCase(str) {
     return /^[A-Z0-9-]+$/.test(str.replace('#', ''));
 }
 </script>
+
+<script>
+// per fare in modo che la terza colonna della tabella dei dati di elevato valore non mandi a capo la terza colonna
+document.addEventListener('DOMContentLoaded', function() {
+    var celle = document.querySelectorAll('table td'); // Seleziona tutte le celle
+
+    celle.forEach(function(cella) {
+        if(cella.textContent.trim().startsWith('REQUISITO')) {
+            cella.style.whiteSpace = 'nowrap'; // Applica lo stile
+        }
+    });
+});
+</script>
