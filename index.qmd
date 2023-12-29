@@ -11,8 +11,8 @@ Esse amet do dolore adipisicing sit anim ea pariatur. Et dolore consequat sint e
 
 Commodo quis et ad commodo amet sit elit exercitation commodo id. Fugiat ex adipisicing anim officia ex est irure est esse mollit quis elit esse. Anim tempor dolore exercitation pariatur officia dolore cillum enim do voluptate consequat. Eiusmod dolor aliqua est ex labore nulla ut voluptate ut esse laborum laborum laboris. Ullamco elit aliqua do ea ex veniam est incididunt fugiat culpa laborum Lorem minim laboris. Magna aliqua ipsum duis cillum.
 
-Officia nostrud pariatur elit quis culpa culpa irure quis consequat. Velit veniam velit sunt enim magna magna do. Ex nisi non ex eiusmod ipsum nulla. Excepteur sit labore magna cillum Lorem. Officia nisi in ad duis elit culpa quis et pariatur cupidatat culpa aliqua elit. Ullamco labore mollit deserunt aute do ex eiusmod. Ex culpa eu irure proident sit velit dolore et veniam Lorem.
-
 ## Once again {.unnumbered}
 
 {{< fa thumbs-up >}}  Commodo quis et ad commodo amet sit elit exercitation commodo id. Fugiat ex adipisicing anim officia ex est irure est esse mollit quis elit esse. Anim tempor dolore exercitation pariatur officia dolore cillum enim do voluptate consequat. Eiusmod dolor aliqua est ex labore nulla ut voluptate ut esse laborum laborum laboris. Ullamco elit aliqua do ea ex veniam est incididunt fugiat culpa laborum Lorem minim laboris. Magna aliqua ipsum duis cillum.
+
+[👉 Leggile](prefazione.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg}
