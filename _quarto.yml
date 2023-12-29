@@ -2,6 +2,8 @@ project:
   type: book
   resources:
     - "lg.csl"
+  render:
+    - "!note.md"
 language:
   section-title-appendices: "Allegati"
 
