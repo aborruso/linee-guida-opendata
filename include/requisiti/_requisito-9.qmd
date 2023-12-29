@@ -1,0 +1,4 @@
+::: {#req-9 .callout-important appearance="simple" icon=false}
+[**REQUISITO 9**]{.testo-rosso}: **dlgs36-2006/opendata/req/research/free**<br>
+I dati della ricerca DEVONO essere resi disponibili gratuitamente per il riutilizzo per fini commerciali o non commerciali, nel rispetto della disciplina sulla protezione dei dati personali.
+:::

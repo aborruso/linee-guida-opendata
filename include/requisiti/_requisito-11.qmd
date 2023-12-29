@@ -1,0 +1,9 @@
+::: {#req-11 .callout-important appearance="simple" icon=false}
+[**REQUISITO 11**]{.testo-rosso}: **dlgs36-2006/opendata/req/research/accessible**<br>
+Per rendere i dati accessibili È RICHIESTO:
+
+- consentire l’accesso a dati e metadati a partire dall’identificatore univoco e persistente assegnato;
+- utilizzare protocolli standardizzati e aperti (per es. https);
+- rendere sempre disponibili i metadati anche quando i dati non sono accessibili (o perché sono applicati meccanismi di autenticazione e autorizzazione all’accesso o perché non più disponibili).
+
+:::

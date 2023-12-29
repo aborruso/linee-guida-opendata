@@ -1,0 +1,10 @@
+::: {#req-13 .callout-important appearance="simple" icon=false}
+[**REQUISITO 13**]{.testo-rosso}: **dlgs36-2006/opendata/req/research/reusable**<br>
+Per rendere i dati riusabili È RICHIESTO:
+
+- rendere disponibili dati accurati e ben descritti con molti attributi pertinenti;
+- assegnare ai dati una licenza d’uso chiara e accessibile secondo il [**REQUISITO 20**](capitolo-6.qmd#req-20){.testo-rosso} e il [**REQUISITO 21**](capitolo-6.qmd#req-21){.testo-rosso};
+- rendere chiaro come, perché, quando e da chi i dati sono stati creati e processati;
+- seguire i pertinenti standard di dominio per dati e metadati.
+
+:::

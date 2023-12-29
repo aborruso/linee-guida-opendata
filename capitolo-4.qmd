@@ -260,6 +260,70 @@ Sono fatte salve altresì le disposizioni in termini di deposito legale di cui a
 
 ## Dati della ricerca {#sec-dati-della-ricerca}
 
+I **dati della ricerca** sono definiti dal Decreto come "*documenti informatici, diversi dalle pubblicazioni scientifiche, raccolti o prodotti nel corso della ricerca scientifica e utilizzati come elementi di prova nel processo di ricerca, o comunemente accettati nella comunità di ricerca come necessari per convalidare le conclusioni e i risultati della ricerca*".
+
+{{< include ./include/requisiti/_requisito-9.qmd >}}
+
+Esempi di tale tipologia di dati sono forniti nella Direttiva: statistiche, risultati di esperimenti, misurazioni, osservazioni risultanti dall'indagine sul campo, risultati di indagini, immagini e registrazioni di interviste, oltre a metadati, specifiche e altri oggetti digitali. La Direttiva precisa anche che i dati della ricerca, come da definizione, sono diversi dagli articoli scientifici, in cui si riportano e si commentano le conclusioni della ricerca scientifica sottostante.
+
+**I dati da considerare, come da definizione, sono quelli raccolti o prodotti nel corso della ricerca scientifica finanziata con fondi pubblici, utilizzati come elementi di prova nel processo di ricerca o necessari per convalidare le conclusioni e i risultati della ricerca, e resi pubblici**, anche attraverso l'archiviazione in una banca dati pubblica gestita a livello istituzionale o su base tematica, da ricercatori, organizzazioni che svolgono attività di ricerca e organizzazioni che finanziano la ricerca.
+
+Nel processo di identificazione dei dati della ricerca, da rendere disponibili per il riutilizzo, è necessario tenere conto della normativa in materia di protezione dei dati personali, degli interessi commerciali, dei diritti di proprietà intellettuale[^#_bookmark61] e dei diritti di proprietà industriale[^#_bookmark62].
+
+A tale proposito, la Direttiva indica che bisogna considerare il principio "*il più aperto possibile, chiuso il tanto necessario*", ripreso anche nella [Raccomandazione (UE) 2018/790](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32018H0790), fermo restando che i "*dati personali trattati a fini statistici o di ricerca scientifica non possono essere utilizzati per prendere decisioni o provvedimenti relativamente all'interessato, né per trattamenti di dati per scopi di altra natura*", come stabilito all'art. 105, comma 1, del D. Lgs. 196/2003 \[[**D-LGS-196-2003**](capitolo-2.qmd#D-LGS-196-2003)\][^#_bookmark63].
+
+[^#_bookmark61]: v. [legge 22 aprile 1941, n. 633](https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Alegge%3A1941-04-22%3B633!vig)
+
+[^#_bookmark62]: v. [<u>decreto legislativo 10 febbraio 2005, n. 30</u>](https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2005-02-10%3B30)
+
+Se i dati della ricerca sono dati dinamici, dati di elevato valore o dati territoriali, allora si applica anche quanto indicato rispettivamente ai paragrafi **[-@sec-dati-dinamici]**, **[-@sec-serie-di-dati-di-elevato-valore]**  e **[-@sec-dati-territoriali]**.
+
+Il Decreto dispone che i dati della ricerca DEVONO **rispettare i requisiti di reperibilità, accessibilità, interoperabilità e riutilizzabilità** che rappresentano i 4 principi del framework FAIR (**F**indable - **A**ccessible - **I**nteroperable - **R**eusable)[^#_bookmark64].
+
+Di seguito le indicazioni per adempiere tale disposizione[^#_bookmark65].
+
+**<u>Findable</u>** (Reperibile) - Il primo requisito da rispettare per garantire il riutilizzo dei dati è di rendere i dati reperibili da macchine ed essere umani. Per fare questo, dovrebbero essere resi disponibili i metadati attraverso una risorsa consultabile online e dovrebbe essere assegnato un identificatore persistente a dati e metadati.
+
+Diversi sono i profili di metadati; per i dati della ricerca si fa riferimento anche al progetto OpenAIRE[^#_bookmark66] e alla relativa infrastruttura.
+
+Ai fini delle presenti Linee Guida, anche i dati della ricerca DEVONO essere documentati nel portale nazionale dati.gov.it o, nel caso siano anche dati territoriali, nel RNDT secondo il [**REQUISITO 29**](capitolo-7.qmd#req-29){.testo-rosso} e il [**REQUISITO 30**.](capitolo-7.qmd#req-30){.testo-rosso} In tali casi, DEVONO essere applicati gli standard di cui al [**REQUISITO 15**](capitolo-4.qmd#req-15){.testo-rosso} e al [**REQUISITO 16**](capitolo-4.qmd#req-16){.testo-rosso}.
+
+{{< include ./include/requisiti/_requisito-10.qmd >}}
+
+[^#_bookmark63]: Si veda anche il Considerando 162 del [\[**GDPR**\]](capitolo-2.qmd#GDPR) sul trattamento di dati personali per finalità statistiche
+
+[^#_bookmark64]: <https://force11.org/info/the-fair-data-principles/>
+
+[^#_bookmark65]: Nella definizione dei requisiti, si è fatto riferimento alla guida "How to make your data FAIR" pubblicata nell'ambito dell'iniziativa OpenAIRE (v. <https://www.openaire.eu/> e la checklist "How fair are your data?" creata da Sarah Jones e Marjan Grootveld (v. <https://zenodo.org/record/5111307#.YhEfAd_SKCQ>).
+
+[^#_bookmark66]: v. <https://www.openaire.eu/>
+
+**<u>Accessible</u>** (Accessibile) - Deve essere possibile ad essere umani e macchine accedere ai dati attraverso protocolli standard e aperti.
+
+{{< include ./include/requisiti/_requisito-11.qmd >}}
+
+**<u>Interoperable</u>** (Interoperabile) - Dati e metadati devono poter essere combinati con altri dati e/o strumenti. Per questo, devono essere conformi a formati e standard riconosciuti.
+
+{{< include ./include/requisiti/_requisito-12.qmd >}}
+
+**<u>Reusable</u>** (Riutilizzabile) - I dati devono essere ben documentati in modo che possano essere interpretati correttamente, replicati e/o combinati anche in contesti diversi. Ai dati, inoltre, bisogna assegnare una licenza chiara e accessibile in modo che si possa capire che tipo di riutilizzo è consentito. Resta fermo il dovuto rispetto dei limiti al riutilizzo derivanti dalla normativa europea e nazionale in materia di protezione dei dati personali.
+
+{{< include ./include/requisiti/_requisito-13.qmd >}}
+
+La necessità che i dati della ricerca seguano e siano conformi ai principi FAIR è ribadita anche dal Programma nazionale per la ricerca (PNR) 2021-2027 (v. box "Risorse utili"), che considera tale conformità come uno degli "strumenti" per l'attuazione della **scienza aperta**. Si legge: "*I dati come tutti i risultati della ricerca devono innanzitutto essere conformi ai criteri FAIR e cioè essere reperibili tempestivamente, accessibili su richiesta, interoperabili e comunque riusabili con le opportune regole, strumenti e risorse. I criteri FAIR sono la base per la fruizione e il riutilizzo di dati di diversa provenienza tematica e metodologica. Fare in modo che la produzione di dati FAIR diventi lo standard di riferimento per i risultati della ricerca finanziata con risorse pubbliche comporta un'innovazione sostanziale nella prassi scientifica sia a livello di produzione dei dati sia a livello della fruizione dei medesimi per elaborare nuove conoscenze. Si tratta di evoluzione delle prassi della ricerca (utilizzo di informazioni esistenti, sviluppo della multidisciplinarietà e della interdisciplinarità, collaborazione formale e informale) validazione e valutazione dei risultati. Essa apre anche nuove prospettive di innovazione tecnologica (acquisizione automatica di dati FAIR ove possibile e sviluppo di servizi digitali per la cura, l'archiviazione, l'accesso, l'analisi e la fruizione di risorse di calcolo)*".
+
+In tema di politiche di accesso aperto, il PNR include il "Piano nazionale per la scienza aperta" (v. box "Risorse utili") che ha tra i suoi obiettivi, tra l'altro, l'accesso aperto, appunto, agli strumenti di produzione della ricerca, ai dati generati e alle pubblicazioni scientifiche nonché il sostegno all'accesso ai dati FAIR.
+
+Un ruolo essenziale nell'attuazione della strategia sulla scienza aperta e delle politiche di accesso aperto è svolto dalle infrastrutture di ricerca, oggetto del "Piano nazionale per le Infrastrutture di Ricerca" (v. box "Risorse utili") - parte integrante, anch'esso, del PNR - a cui si rimanda per tutti gli aspetti che possono avere un impatto sull'applicazione del Decreto con riferimento alle banche dati pubbliche, gestite a livello istituzionale o su base tematica, necessarie per l'archiviazione dei dati della ricerca da rendere disponibili per il riutilizzo.
+
+{{< include ./include/raccomandazioni/_raccomandazione-3.qmd >}}
+
+{{< include ./include/risorse-utili/_risorse-cap4.4.qmd >}}
+
 ## Dati territoriali {#sec-dati-territoriali}
 
 ## Metadati {#sec-metadati}
+
+{{< include ./include/requisiti/_requisito-15.qmd >}}
+
+{{< include ./include/requisiti/_requisito-16.qmd >}}

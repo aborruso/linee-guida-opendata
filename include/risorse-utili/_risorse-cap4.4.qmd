@@ -1,0 +1,13 @@
+----
+
+::: {.callout-tip icon=false}
+## 📚 Risorse utili - cap. 4.4
+- [FAIR principles](https://www.go-fair.org/fair-principles/)
+- [The FAIR data principles](https://force11.org/info/the-fair-data-principles/)
+- [How to make your data FAIR](https://www.openaire.eu/how-to-make-your-data-fair) – Guides for Researchers
+- [How FAIR are your data?](https://zenodo.org/record/5111307#.YlQ_JNNByUl) Checklist
+- [Programma nazionale per la ricerca (PNR) 2021-2027](https://www.mur.gov.it/sites/default/files/2021-05/PNR2021-2027.pdf)
+- [Piano nazionale per la scienza aperta (PNSA) 2021-2017, adottato con DM n. 268 del 28/02/2022](https://www.mur.gov.it/sites/default/files/2022-06/Piano_Nazionale_per_la_Scienza_Aperta.pdf)
+- [Piano Nazionale Infrastrutture di Ricerca (PNIR) 2021 – 2027, adottato con DM n.
+1082 del 10/09/2021](https://www.mur.gov.it/it/atti-e-normativa/decreto-ministeriale-n1082-del-10-09-2021)
+:::

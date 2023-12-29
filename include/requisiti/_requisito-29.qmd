@@ -1,0 +1,5 @@
+::: {#req-29 .callout-important appearance="simple" icon=false}
+[**REQUISITO 29**]{.testo-rosso}: **dlgs36-2006/opendata/req/publication/od-portal**<br>
+Le amministrazioni sono tenute a inserire e a mantenere aggiornati nel portale dati.gov.it, attraverso le modalità di alimentazione previste dal catalogo, i metadati dei dati, ad esclusione
+di quelli territoriali.
+:::

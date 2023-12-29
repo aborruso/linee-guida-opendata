@@ -1,0 +1,4 @@
+::: {#racc-3 .callout-note appearance="simple" icon=false}
+[**Raccomandazione 3**]{.testo-blu}: **dlgs36-2006/opendata/req/research/fair**<br>
+Ove possibile, SI RACCOMANDA di seguire e applicare i principi FAIR per tutte le tipologie di dati, non solo per quelli della ricerca.
+:::

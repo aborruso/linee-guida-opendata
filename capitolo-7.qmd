@@ -14,4 +14,8 @@
 
 ## Strumenti per la ricerca {#sec-strumenti-per-la-ricerca}
 
+{{< include ./include/requisiti/_requisito-29.qmd >}}
+
+{{< include ./include/requisiti/_requisito-30.qmd >}}
+
 ### Elenchi delle categorie e modalità di ricerca {#sec-elenchi-delle-categorie-e-modalita-di-ricerca}

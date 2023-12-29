@@ -1,0 +1,4 @@
+::: {#req-15 .callout-important appearance="simple" icon=false}
+[**REQUISITO 15**]{.testo-rosso}: **dlgs36-2006/opendata/req/md/dcat-ap-it**<br>
+I dati, con esclusione di quelli territoriali, resi disponibili per il riutilizzo DEVONO essere documentati attraverso metadati conformi al profilo DCAT-AP_IT definito con la guida operativa per i cataloghi dati.
+:::

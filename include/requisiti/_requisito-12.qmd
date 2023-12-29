@@ -1,0 +1,9 @@
+::: {#req-12 .callout-important appearance="simple" icon=false}
+[**REQUISITO 12**]{.testo-rosso}: **dlgs36-2006/opendata/req/research/interoperable**<br>
+Per rendere i dati interoperabili È RICHIESTO:
+
+- fornire i dati in formato aperto secondo i requisiti definiti nelle presenti Linee Guida;
+- utilizzare gli standard pertinenti per i metadati;
+- utilizzare, ove possibile, vocabolari controllati, parole chiave, thesauri e ontologie;
+- inserire riferimenti qualificati ad altri dati o metadati.
+:::
