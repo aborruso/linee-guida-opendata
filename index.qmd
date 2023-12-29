@@ -7,11 +7,12 @@ page-navigation: false
 
 ## Benvenuta/o {.unnumbered}
 
-Questo sito è la conversione in HTML delle versione `1.0` delle "**Linee Guida recanti regole tecniche per l’apertura dei dati e il riutilizzo dell’informazione del settore pubblico**", redatta a cura dell'[**Agenzia per l’Italia Digitale**](https://www.agid.gov.it/) (AgID) e del [gruppo di lavoro](gruppo-di-lavoro.qmd) di progetto.
+Esse amet do dolore adipisicing sit anim ea pariatur. Et dolore consequat sint et ea nisi. Laborum adipisicing deserunt dolore id. Ut voluptate cupidatat consectetur fugiat. Elit eiusmod adipisicing culpa officia.
 
-Il documento originale è pubblicato in [questa pagina](https://www.agid.gov.it/linee-guida) ed è accessibile in formato `PDF` qui:<br>
-<https://www.agid.gov.it/sites/default/files/repository_files/lg-open-data_v.1.0_1.pdf>.
+Commodo quis et ad commodo amet sit elit exercitation commodo id. Fugiat ex adipisicing anim officia ex est irure est esse mollit quis elit esse. Anim tempor dolore exercitation pariatur officia dolore cillum enim do voluptate consequat. Eiusmod dolor aliqua est ex labore nulla ut voluptate ut esse laborum laborum laboris. Ullamco elit aliqua do ea ex veniam est incididunt fugiat culpa laborum Lorem minim laboris. Magna aliqua ipsum duis cillum.
 
-AgID **non ha pubblicato questa guida anche su** [**Docs Italia**](https://docs.italia.it/), la comoda ed efficace piattaforma di pubblicazione di documenti tecnici - ideata dal Team per la trasformazione digitale della Pubblica Amministrazione in collaborazione con AgID stessa - e per questa ragione abbiamo deciso di convertire il documento in formato `HTML` e di pubblicarlo.
+Officia nostrud pariatur elit quis culpa culpa irure quis consequat. Velit veniam velit sunt enim magna magna do. Ex nisi non ex eiusmod ipsum nulla. Excepteur sit labore magna cillum Lorem. Officia nisi in ad duis elit culpa quis et pariatur cupidatat culpa aliqua elit. Ullamco labore mollit deserunt aute do ex eiusmod. Ex culpa eu irure proident sit velit dolore et veniam Lorem.
 
-[Leggile](prefazione.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg}
+## Once again {.unnumbered}
+
+{{< fa thumbs-up >}}  Commodo quis et ad commodo amet sit elit exercitation commodo id. Fugiat ex adipisicing anim officia ex est irure est esse mollit quis elit esse. Anim tempor dolore exercitation pariatur officia dolore cillum enim do voluptate consequat. Eiusmod dolor aliqua est ex labore nulla ut voluptate ut esse laborum laborum laboris. Ullamco elit aliqua do ea ex veniam est incididunt fugiat culpa laborum Lorem minim laboris. Magna aliqua ipsum duis cillum.
