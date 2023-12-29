@@ -2,6 +2,7 @@
 format:
   html:
     toc: false
+page-navigation: false
 ---
 
 ## Benvenuta/o {.unnumbered}
