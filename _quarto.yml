@@ -83,6 +83,7 @@ crossref:
     - kind: float
       reference-prefix: Raccomandazione
       key: racc
+  appendix-title: "Allegato"
 
 execute:
   daemon: false
