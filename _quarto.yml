@@ -41,7 +41,7 @@ book:
     - allegato-C.qmd
     - allegato-D.qmd
 
-  repo-url: https://github.com/aborruso/linee-guida-opendata
+  repo-url: https://github.com/ondata/linee-guida-opendata
   repo-branch: main
   repo-actions: [edit, issue]
 
