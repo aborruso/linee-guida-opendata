@@ -1,4 +1,4 @@
 ::: {#req-20 .callout-important appearance="simple" icon=false}
 [**REQUISITO 20**]{.testo-rosso}: **dlgs36-2006/opendata/req/conditions/ccby4**<br>
-Per i nuovi dati aperti nativi, salvo quanto precisato nel [**REQUISITO 21**](#req-21){.testo-rosso}, DEVE essere applicata la licenza CC-BY nell’ultima versione disponibile (al momento della stesura delle presenti Linee Guida, la 4.0), presupponendo altresì l’attribuzione automatica di tale licenza nel caso di applicazione del principio “open data by default”, di cui all’articolo 52 del [**CAD**](capitolo-2.qmd#CAD).
+Per i nuovi dati aperti nativi, salvo quanto precisato nel [**REQUISITO 21**](#req-21){.testo-rosso}, DEVE essere applicata la licenza CC-BY nell’ultima versione disponibile (al momento della stesura delle presenti Linee Guida, la 4.0), presupponendo altresì l’attribuzione automatica di tale licenza nel caso di applicazione del principio "open data by default", di cui all’articolo 52 del [**CAD**](capitolo-2.qmd#CAD).
 :::

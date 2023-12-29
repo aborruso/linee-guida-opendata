@@ -231,7 +231,7 @@ Nella [tabella](#dati-elevato-valore-tbl) che segue sono riportate le disposizio
 
 [^#_inspire]: Per esempio, le specifiche INSPIRE su Condizioni atmosferiche ed elementi geografici meteorologici (v. <https://inspire.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_AC-MF_v2.0.pdf>)
 
-[^#_bookmark55]: Se per i metadati dei dati statistici è utilizzato SDMX, tramite la specifica StatDCAT-AP (v. [<u>https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/statdcat-application-</u>](https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/statdcat-application-profile-data-portals-europe/about) [<u>profile-data-portals-europe/about</u>)](https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/statdcat-application-profile-data-portals-europe/about) tali metadati possono essere resi disponibili nel profilo DCAT-AP e quindi essere documentati nel portale nazionale dei dati aperti.
+[^#_bookmark55]: Se per i metadati dei dati statistici è utilizzato SDMX, tramite la specifica StatDCAT-AP (v. <https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/statdcat-application-profile-data-portals-europe/about> tali metadati possono essere resi disponibili nel profilo DCAT-AP e quindi essere documentati nel portale nazionale dei dati aperti.
 
 [^#_bookmark56]: Con riferimento ai dati riguardanti la proprietà delle imprese, si tenga conto che la Corte di Giustizia UE è intervenuta sul regime di conoscenza dei cc.dd. "titolari effettivi", dichiarando invalido l'articolo 1, punto 15, lettera c), della direttiva (UE) 2018/843 e la prevista accessibilità al pubblico delle informazioni sulla titolarità effettiva delle società e delle altre entità giuridiche (v. Corte giustizia UE, Grande Sezione, 22/11/2022, n. 37, cause riunite C-37/20 e C-601/20). In ogni caso, il Regolamento di esecuzione (UE) 2023/138 [\[**REG-HVD**\]](capitolo-2.qmd#REG-HVD) chiarisce che le Direttive applicabili sono 2013/34/UE e 2004/109/CE.
 
@@ -274,7 +274,7 @@ A tale proposito, la Direttiva indica che bisogna considerare il principio "*il 
 
 [^#_bookmark61]: v. [legge 22 aprile 1941, n. 633](https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Alegge%3A1941-04-22%3B633!vig)
 
-[^#_bookmark62]: v. [<u>decreto legislativo 10 febbraio 2005, n. 30</u>](https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2005-02-10%3B30)
+[^#_bookmark62]: v. <https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2005-02-10%3B30>
 
 Se i dati della ricerca sono dati dinamici, dati di elevato valore o dati territoriali, allora si applica anche quanto indicato rispettivamente ai paragrafi **[-@sec-dati-dinamici]**, **[-@sec-serie-di-dati-di-elevato-valore]**  e **[-@sec-dati-territoriali]**.
 
@@ -282,7 +282,7 @@ Il Decreto dispone che i dati della ricerca DEVONO **rispettare i requisiti di r
 
 Di seguito le indicazioni per adempiere tale disposizione[^#_bookmark65].
 
-**<u>Findable</u>** (Reperibile) - Il primo requisito da rispettare per garantire il riutilizzo dei dati è di rendere i dati reperibili da macchine ed essere umani. Per fare questo, dovrebbero essere resi disponibili i metadati attraverso una risorsa consultabile online e dovrebbe essere assegnato un identificatore persistente a dati e metadati.
+**Findable** (Reperibile) - Il primo requisito da rispettare per garantire il riutilizzo dei dati è di rendere i dati reperibili da macchine ed essere umani. Per fare questo, dovrebbero essere resi disponibili i metadati attraverso una risorsa consultabile online e dovrebbe essere assegnato un identificatore persistente a dati e metadati.
 
 Diversi sono i profili di metadati; per i dati della ricerca si fa riferimento anche al progetto OpenAIRE[^#_bookmark66] e alla relativa infrastruttura.
 
@@ -294,19 +294,19 @@ Ai fini delle presenti Linee Guida, anche i dati della ricerca DEVONO essere doc
 
 [^#_bookmark64]: <https://force11.org/info/the-fair-data-principles/>
 
-[^#_bookmark65]: Nella definizione dei requisiti, si è fatto riferimento alla guida "How to make your data FAIR" pubblicata nell'ambito dell'iniziativa OpenAIRE (v. <https://www.openaire.eu/> e la checklist "How fair are your data?" creata da Sarah Jones e Marjan Grootveld (v. <https://zenodo.org/record/5111307#.YhEfAd_SKCQ>).
+[^#_bookmark65]: Nella definizione dei requisiti, si è fatto riferimento alla guida "How to make your data FAIR" pubblicata nell’ambito dell’iniziativa OpenAIRE (v. <https://www.openaire.eu/how-to-make-your-data-fair>) e la checklist "How fair are your data?" creata da Sarah Jones e Marjan Grootveld (v. <https://zenodo.org/record/5111307#.YhEfAd_SKCQ>).
 
 [^#_bookmark66]: v. <https://www.openaire.eu/>
 
-**<u>Accessible</u>** (Accessibile) - Deve essere possibile ad essere umani e macchine accedere ai dati attraverso protocolli standard e aperti.
+**Accessible** (Accessibile) - Deve essere possibile ad essere umani e macchine accedere ai dati attraverso protocolli standard e aperti.
 
 {{< include ./include/requisiti/_requisito-11.qmd >}}
 
-**<u>Interoperable</u>** (Interoperabile) - Dati e metadati devono poter essere combinati con altri dati e/o strumenti. Per questo, devono essere conformi a formati e standard riconosciuti.
+**Interoperable** (Interoperabile) - Dati e metadati devono poter essere combinati con altri dati e/o strumenti. Per questo, devono essere conformi a formati e standard riconosciuti.
 
 {{< include ./include/requisiti/_requisito-12.qmd >}}
 
-**<u>Reusable</u>** (Riutilizzabile) - I dati devono essere ben documentati in modo che possano essere interpretati correttamente, replicati e/o combinati anche in contesti diversi. Ai dati, inoltre, bisogna assegnare una licenza chiara e accessibile in modo che si possa capire che tipo di riutilizzo è consentito. Resta fermo il dovuto rispetto dei limiti al riutilizzo derivanti dalla normativa europea e nazionale in materia di protezione dei dati personali.
+**Reusable** (Riutilizzabile) - I dati devono essere ben documentati in modo che possano essere interpretati correttamente, replicati e/o combinati anche in contesti diversi. Ai dati, inoltre, bisogna assegnare una licenza chiara e accessibile in modo che si possa capire che tipo di riutilizzo è consentito. Resta fermo il dovuto rispetto dei limiti al riutilizzo derivanti dalla normativa europea e nazionale in materia di protezione dei dati personali.
 
 {{< include ./include/requisiti/_requisito-13.qmd >}}
 
