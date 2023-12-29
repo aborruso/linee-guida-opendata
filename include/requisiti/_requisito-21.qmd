@@ -1,5 +1,5 @@
 ::: {#req-21 .callout-important appearance="simple" icon=false}
-[**REQUISITO 21**]{.testo-rosso}: **dlgs36-2006/opendata/req/conditions/no-ccby4**<br>
+[**REQUISITO 21**]{.testo-rosso}: **dlgs36-2006/opendata/req/conditions/no-ccby4** [🔗](#req-21){.link-req}<br>
 L'adozione, qualora possibile e/o previsto, di una licenza diversa dalla CC-BY 4.0 o CC0 DEVE essere formalmente motivata, anche alla luce dei principi espressi dalla Direttiva, salvo che sia stata adottata una licenza altrettanto compatibile come la CDLA 2.0 permissive ovvero qualsiasi altra licenza aperta equivalente o meno restrittiva, che consenta il riutilizzo salvo obbligo di attribuzione, dando credito al concedente.<br>
 Per le serie di dati di elevato valore vale quanto indicato nel Regolamento (UE) di esecuzione n. 2023/138.
 :::

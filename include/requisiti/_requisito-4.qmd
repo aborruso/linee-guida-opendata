@@ -1,4 +1,4 @@
 ::: {#req-4 .callout-important appearance="simple" icon=false}
-[**REQUISITO 4**]{.testo-rosso}: **dlgs36-2006/opendata/req/common/no-od**<br>
+[**REQUISITO 4**]{.testo-rosso}: **dlgs36-2006/opendata/req/common/no-od** [🔗](#req-4){.link-req}<br>
 Nel caso in cui, per soddisfare richieste di apertura, rendere disponibili i dati per il riutilizzo comporti attività che vanno al di là della semplice manipolazione che implicherebbero difficoltà sproporzionate, il titolare dei dati non ha l'obbligo di adeguare i documenti o crearne nuovi o fornire estratti di documenti, motivando, attraverso un apposito provvedimento, le difficoltà sproporzionate anche indicando le attività sui dati che eccedono la semplice manipolazione.
 :::

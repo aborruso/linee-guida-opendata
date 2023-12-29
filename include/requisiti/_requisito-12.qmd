@@ -1,5 +1,5 @@
 ::: {#req-12 .callout-important appearance="simple" icon=false}
-[**REQUISITO 12**]{.testo-rosso}: **dlgs36-2006/opendata/req/research/interoperable**<br>
+[**REQUISITO 12**]{.testo-rosso}: **dlgs36-2006/opendata/req/research/interoperable** [🔗](#req-12){.link-req}<br>
 Per rendere i dati interoperabili È RICHIESTO:
 
 - fornire i dati in formato aperto secondo i requisiti definiti nelle presenti Linee Guida;

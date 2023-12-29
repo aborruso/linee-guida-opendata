@@ -1,5 +1,5 @@
 ::: {#req-13 .callout-important appearance="simple" icon=false}
-[**REQUISITO 13**]{.testo-rosso}: **dlgs36-2006/opendata/req/research/reusable**<br>
+[**REQUISITO 13**]{.testo-rosso}: **dlgs36-2006/opendata/req/research/reusable** [🔗](#req-13){.link-req}<br>
 Per rendere i dati riusabili È RICHIESTO:
 
 - rendere disponibili dati accurati e ben descritti con molti attributi pertinenti;

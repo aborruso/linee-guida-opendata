@@ -1,4 +1,4 @@
 ::: {#req-30 .callout-important appearance="simple" icon=false}
-[**REQUISITO 30**]{.testo-rosso}: **dlgs36-2006/opendata/req/publication/rndt**<br>
+[**REQUISITO 30**]{.testo-rosso}: **dlgs36-2006/opendata/req/publication/rndt** [🔗](#req-30){.link-req}<br>
 I dati territoriali DEVONO essere documentati esclusivamente presso il Repertorio Nazionale dei Dati Territoriali (RNDT) che, in maniera automatizzata, si occupa dell’allineamento con il portale nazionale dei dati aperti dati.gov.it.
 :::

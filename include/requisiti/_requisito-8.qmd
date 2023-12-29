@@ -1,5 +1,5 @@
 ::: {#req-8 .callout-important appearance="simple" icon=false}
-[**REQUISITO 8**]{.testo-rosso}: **dlgs36-2006/opendata/req/hvd/free**<br>
+[**REQUISITO 8**]{.testo-rosso}: **dlgs36-2006/opendata/req/hvd/free** [🔗](#req-8){.link-req}<br>
 Le serie di dati di elevato valore, individuate dal Regolamento (UE) di esecuzione n. 2023/138, DEVONO essere messe a disposizione gratuitamente ad eccezione di quelle:
 
 - in possesso delle imprese pubbliche qualora ciò determini una distorsione della concorrenza nei pertinenti mercati, se così previsto dagli atti di esecuzione di cui sopra;
