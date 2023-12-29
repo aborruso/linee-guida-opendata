@@ -9,7 +9,7 @@ language:
 
 book:
   title: "Linee guida Open Data"
-  sharing: [twitter, facebook]
+  sharing: [twitter, facebook,linkedin]
   sidebar:
     logo: immagini/logo.png
     search: true
