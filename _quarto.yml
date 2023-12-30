@@ -14,6 +14,8 @@ book:
     logo: immagini/logo.png
     search: true
     collapse-level: 1
+    border: true
+    style: floating
   chapters:
     - index.qmd
     - part: "Linee guida"
@@ -46,6 +48,8 @@ book:
   repo-actions: [edit, issue]
 
   page-footer:
+    border: false
+    background: light
     left: |
       A cura dell'[associazione onData](https://ondata.it).
     right: |
