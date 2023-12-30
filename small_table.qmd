@@ -1,3 +1,9 @@
+---
+execute:
+  daemon: false
+  freeze: auto
+---
+
 # Small table {.unnumbered}
 
 ```{=html}
@@ -48,3 +54,35 @@
 |             +-------+----------+
 |             | max   | 56.7 °C  |
 +-------------+-------+----------+
+
+
+### R test
+
+```{r}
+#| warning: false
+#| message: false
+#| echo: false
+#| output: false
+
+library(ftExtra)
+library(flextable)
+library(openxlsx)
+```
+
+```{r}
+#| warning: false
+#| message: false
+#| echo: false
+#| output: asis
+
+atab <- read.xlsx("debug/row-span.xlsx", sheet=1, colNames = TRUE, fillMergedCells = TRUE)
+
+ft1 <- flextable(atab) |>
+  width(width = c(2.5, 1, 1.2)) |>
+  merge_v(j = "Property") |>
+  theme_vanilla() |>
+  mk_par(j = 2, part = "header", value = as_paragraph(" ")) |>
+  align(j = 3, align = "right", part = "all")
+
+flextable_to_rmd(colformat_md(ft1, part="body"))
+```
