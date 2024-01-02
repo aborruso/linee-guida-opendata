@@ -1,7 +1,5 @@
 # explicitly CR references {.unumbered}
 
-[See Chapter @sec-soggetti-destinatari]
+Please [see par. @sec-soggetti-destinatari]
 
-[See Chapter -@sec-soggetti-destinatari]
-
-
+Please [see par. -@sec-soggetti-destinatari]
