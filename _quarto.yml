@@ -32,6 +32,7 @@ book:
         - capitolo-7.qmd
     - part: "Test"
       chapters:
+        - debug/raw-html-cr.qmd
         - test_cit.qmd
         - references.qmd
         - small_table.qmd
