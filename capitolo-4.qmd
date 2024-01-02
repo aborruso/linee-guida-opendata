@@ -6,7 +6,7 @@ Questo capitolo definisce le modalità e i formati per i dati da rendere disponi
 
 ## Requisiti comuni {#seq-requisiti-comuni}
 
-Sulla base dell'art. 1 del Decreto, le presenti Linee Guida si applicano ai "*documenti contenenti **dati pubblici** nella **disponibilità** delle **pubbliche amministrazioni**, degli **organismi di diritto pubblico** e delle **imprese pubbliche e private***", con esclusione dei casi riportati al **[par. @sec-documenti-esclusi-dallapplicazione]**.
+Sulla base dell'art. 1 del Decreto, le presenti Linee Guida si applicano ai "*documenti contenenti **dati pubblici** nella **disponibilità** delle **pubbliche amministrazioni**, degli **organismi di diritto pubblico** e delle **imprese pubbliche e private***", con esclusione dei casi riportati al **[par. -@sec-documenti-esclusi-dallapplicazione]**.
 
 Il Decreto utilizza il termine "documento" nell'accezione di cui all'art. 2, comma 1, lettera c), cioè "la *rappresentazione di atti, fatti e dati a prescindere dal supporto, cartaceo o elettronico, registrazione sonora, visiva o audiovisiva o qualsiasi parte di tale contenuto nella disponibilità della pubblica amministrazione o dell'organismo di diritto pubblico. \[…\]*". La definizione di documento non comprende i programmi informatici ma include qualsiasi parte del documento stesso.
 
@@ -42,9 +42,9 @@ I dati pubblici che rientrano nell'ambito di applicazione delle presenti Linee G
 
 - **in modalità accessibile** attraverso le tecnologie dell'informazione e della comunicazione;
 
-- **gratuitamente o con i costi marginali** sostenuti per la riproduzione, messa a disposizione e divulgazione dei documenti, nonché per l'anonimizzazione di dati personali o per le misure adottate per proteggere le informazioni commerciali a carattere riservato (v. **[par. @sec-tariffazione]**);
+- **gratuitamente o con i costi marginali** sostenuti per la riproduzione, messa a disposizione e divulgazione dei documenti, nonché per l'anonimizzazione di dati personali o per le misure adottate per proteggere le informazioni commerciali a carattere riservato (v. **[par. -@sec-tariffazione]**);
 
-- secondo i termini di **licenze standard**, disponibili in formato digitale (v. **[par. @sec-licenze-e-condizioni-di-riutilizzo]**);
+- secondo i termini di **licenze standard**, disponibili in formato digitale (v. **[par. -@sec-licenze-e-condizioni-di-riutilizzo]**);
 
 - provvisti dei relativi **metadati** (v. **[par. -@sec-metadati]**).
 
@@ -147,7 +147,7 @@ Per l'implementazione delle regole tecniche contenute nelle presenti Linee Guida
 
 Il Decreto definisce, all'art. 2, comma 1, lettera c-sexies), **i "dati dinamici"** come "*documenti informatici, soggetti ad aggiornamenti frequenti o in tempo reale, in particolare a causa della loro volatilità o rapida obsolescenza*". La Direttiva ribadisce, inoltre, che "*i dati generati da sensori sono solitamente considerati dati dinamici*" (art. 2, punto 8). Esempi di dati dinamici sono, quindi, i dati ambientali, relativi al traffico, satellitari o meteorologici.
 
-I dati dinamici costituiscono una delle tipologie più preziose dal punto di vista commerciale, in quanto possono essere utilizzati per prodotti e servizi che forniscono informazioni in tempo reale, come app di viaggio o di trasporto. Considerato che **il valore economico di tale tipologia di dati dipende dall'immediata disponibilità dell'informazione e dagli aggiornamenti regolari**, come indicato nel Decreto, i dati dinamici, oltre ad essere coerenti con le indicazioni generali di cui alle presenti Linee Guida, DEVONO essere resi **disponibili per il riutilizzo immediatamente dopo la raccolta tramite API adeguate e, ove possibile, attraverso download in blocco**. Per ulteriori dettagli e indicazioni su tali modalità di pubblicazione dei dati si rimanda al **[par. @sec-api]**.
+I dati dinamici costituiscono una delle tipologie più preziose dal punto di vista commerciale, in quanto possono essere utilizzati per prodotti e servizi che forniscono informazioni in tempo reale, come app di viaggio o di trasporto. Considerato che **il valore economico di tale tipologia di dati dipende dall'immediata disponibilità dell'informazione e dagli aggiornamenti regolari**, come indicato nel Decreto, i dati dinamici, oltre ad essere coerenti con le indicazioni generali di cui alle presenti Linee Guida, DEVONO essere resi **disponibili per il riutilizzo immediatamente dopo la raccolta tramite API adeguate e, ove possibile, attraverso download in blocco**. Per ulteriori dettagli e indicazioni su tali modalità di pubblicazione dei dati si rimanda al **[par. -@sec-api]**.
 
 {{< include ./include/requisiti/_requisito-5.qmd >}}
 

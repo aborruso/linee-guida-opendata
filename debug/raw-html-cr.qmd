@@ -2,4 +2,11 @@
 
 Please [see par. @sec-soggetti-destinatari]
 
-Please [see par. -@sec-soggetti-destinatari]
+Please [see paar. -@sec-soggetti-destinatari]
+
+Please see paar. @sec-soggetti-destinatari
+
+
+See [lorem -@sec-soggetti-destinatari]
+
+See [lorem @sec-soggetti-destinatari]
