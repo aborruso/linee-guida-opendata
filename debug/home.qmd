@@ -1,0 +1,42 @@
+---
+format:
+  html:
+    toc: false
+    page-layout: custom
+page-navigation: false
+execute:
+  freeze: false
+---
+
+::: {.content-block}
+
+# Casa
+
+::: {.grid}
+
+
+::: {.g-col-6}
+Tahis column takes 1/3 of the page
+:::
+
+::: {.g-col-6}
+This column takes 2/3 of the page
+:::
+
+:::
+
+## Benvenuta/o {.unnumbered}
+
+Esse amet do dolore adipisicing sit anim ea pariatur. Et dolore consequat sint et ea nisi. Laborum adipisicing deserunt dolore id. Ut voluptate cupidatat consectetur fugiat. Elit eiusmod adipisicing culpa officia.
+
+Commodo quis et ad commodo amet sit elit exercitation commodo id. Fugiat ex adipisicing anim officia ex est irure est esse mollit quis elit esse. Anim tempor dolore exercitation pariatur officia dolore cillum enim do voluptate consequat. Eiusmod dolor aliqua est ex labore nulla ut voluptate ut esse laborum laborum laboris. Ullamco elit aliqua do ea ex veniam est incididunt fugiat culpa laborum Lorem minim laboris. Magna aliqua ipsum duis cillum.
+
+## Once again {.unnumbered}
+
+{{< fa thumbs-up >}}  Commodo quis et ad commodo amet sit elit exercitation commodo id. Fugiat ex adipisicing anim officia ex est irure est esse mollit quis elit esse. Anim tempor dolore exercitation pariatur officia dolore cillum enim do voluptate consequat. Eiusmod dolor aliqua est ex labore nulla ut voluptate ut esse laborum laborum laboris. Ullamco elit aliqua do ea ex veniam est incididunt fugiat culpa laborum Lorem minim laboris. Magna aliqua ipsum duis cillum.
+
+[👉 Leggile](../prefazione.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg}
+
+:::
+
+

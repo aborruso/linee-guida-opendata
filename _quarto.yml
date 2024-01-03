@@ -17,7 +17,8 @@ book:
     border: true
     style: floating
   chapters:
-    - index.qmd
+    - text: "Home"
+      file: index.qmd
     - part: "Linee guida"
       chapters:
         - gruppo-di-lavoro.qmd
@@ -38,6 +39,7 @@ book:
         - small_table.qmd
         - debug/column-page-inset.qmd
         - debug/cr-label.qmd
+        - debug/home.qmd
   appendices:
     - allegato-A.qmd
     - allegato-B.qmd

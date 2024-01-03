@@ -1,5 +1,4 @@
 ---
-csl: lg.csl
 format:
   html:
     toc: false
