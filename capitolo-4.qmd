@@ -80,7 +80,7 @@ Come detto, il Decreto si applica ai **dati pubblici** nella **disponibilità** 
 
 ![Tipi di dato pubblico](immagini/image10.png){#fig-dato-pubblico width="80%" fig-alt="Tipi di dato pubblico." align="center"}
 
-Per la scelta del formato da utilizzare per il rispetto delle caratteristiche di cui sopra, si può fare riferimento all'[allegato A](allegato-A.qmd), che riporta il modello a 5 stelle per i dati aperti, e all'[allegato B](allegato-B.qmd), che descrive i formati più comuni.
+Per la scelta del formato da utilizzare per il rispetto delle caratteristiche di cui sopra, si può fare riferimento all'[allegato @sec-allegato-a], che riporta il modello a 5 stelle per i dati aperti, e all'[allegato @sec-allegato-b], che descrive i formati più comuni.
 
 {{< include ./include/requisiti/_requisito-2.qmd >}}
 
@@ -116,7 +116,7 @@ Ulteriori elementi per la scelta del formato da utilizzare si possono rinvenire 
 **\*** Il documento evidenzia che i formati *txt* e *html* dovrebbero essere valutati con tre stelle, poiché i dati potrebbero essere progettati per essere leggibili dalla macchina. Tuttavia, viene assegnata solo una stella perché questi formati non erano originariamente concepiti per rappresentare contenuti leggibili dalla macchina ma solo dall'uomo. La rappresentazione di contenuti leggibili automaticamente in questi formati non soddisfa, quindi, le migliori pratiche e pertanto non sono consigliati dagli autori del documento.
 :::
 
-Nella tabella i formati per le immagini (PNG, GIF, JPG/JPEG, TIFF) sono presenti nella zona evidenziata in rosso e, quindi, ne è sconsigliato il loro uso. Tale raccomandazione, però, è da intendere nell'utilizzo di tali formati per rappresentare dati che, invece, andrebbero rappresentati attraverso formati più appropriati (per es. una tabella rappresentata come immagine). Questo implica che per le immagini vere e proprie si possono utilizzare i relativi formati come indicato nell'[Allegato B](allegato-B.qmd).
+Nella tabella i formati per le immagini (PNG, GIF, JPG/JPEG, TIFF) sono presenti nella zona evidenziata in rosso e, quindi, ne è sconsigliato il loro uso. Tale raccomandazione, però, è da intendere nell'utilizzo di tali formati per rappresentare dati che, invece, andrebbero rappresentati attraverso formati più appropriati (per es. una tabella rappresentata come immagine). Questo implica che per le immagini vere e proprie si possono utilizzare i relativi formati come indicato nell'[Allegato @sec-allegato-b].
 
 {{< include ./include/requisiti/_requisito-3.qmd >}}
 
