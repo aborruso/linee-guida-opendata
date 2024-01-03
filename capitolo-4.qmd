@@ -227,7 +227,11 @@ In aggiunta alle indicazioni comuni di cui sopra, nell'Allegato I del Regolament
 
 Nella [tabella](#dati-elevato-valore-tbl) che segue sono riportate le disposizioni di pubblicazione e riutilizzo per ciascuna categoria tematica indicate nell'Allegato I al Regolamento e le corrispondenti indicazioni definite nelle presenti Linee Guida, rispettando le quali si assicurano gli adempimenti previsti nel Regolamento stesso. Le indicazioni che non trovano corrispondenza nel presente documento sono indicate in parentesi quadre \[*…*\] e in corsivo. Tali indicazioni sono comunque vincolanti essendo il Regolamento direttamente applicabile negli Stati membri. Per quanto non riportato nel presente documento si rimanda al Regolamento.
 
+:::{.column-page}
+
 {{< include include/dati-elevato-valore/_dati-elevato-valore.qmd >}}
+
+:::
 
 [^#_inspire]: Per esempio, le specifiche INSPIRE su Condizioni atmosferiche ed elementi geografici meteorologici (v. <https://inspire.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_AC-MF_v2.0.pdf>)
 
