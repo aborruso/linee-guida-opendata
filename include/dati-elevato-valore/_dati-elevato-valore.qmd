@@ -1,5 +1,5 @@
-:::{.dati-elevato-valore #dati-elevato-valore-tbl}
-<table border="0" cellspacing="0" class="table table-sm table-responsive">
+:::{.dati-elevato-valore #dati-elevato-valore-tbl .table-responsive-md}
+<table class="table table-sm">
   <colgroup span="3">
   </colgroup>
   <tbody>
