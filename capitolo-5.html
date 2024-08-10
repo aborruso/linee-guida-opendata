@@ -412,22 +412,261 @@ document.addEventListener('DOMContentLoaded', function() {
 </header>
 
 
+<p>Il Decreto non contiene specifiche disposizioni sugli aspetti organizzativi e di qualità dei dati. Si ritiene però, utile, riportare nel seguito alcune indicazioni mirate, alcune delle quali, peraltro, già presenti nelle <em>Linee Guida per la valorizzazione del patrimonio informativo pubblico<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></em>, sebbene organizzate diversamente e ove necessario integrate e/o riviste, come raccomandazioni su tali aspetti che si ritengono cruciali per un processo di apertura e di riutilizzo efficace e sostenibile.</p>
+<p>I requisiti presenti in questo capitolo sono relativi esclusivamente alle richieste di riutilizzo esplicitamente previste dal Decreto (cfr. art. 5), nella nuova formulazione introdotta con il decreto legislativo n.&nbsp;200/2021 [<a href="./capitolo-2.html#D-LGS-200-2021"><strong>D-LGS-200-2021</strong></a>].</p>
 <section id="sec-aspetti-organizzativi" class="level2" data-number="5.1">
 <h2 data-number="5.1" class="anchored" data-anchor-id="sec-aspetti-organizzativi"><span class="header-section-number">5.1</span> Aspetti organizzativi</h2>
+<p>Il processo di apertura di un dato è frutto di una catena di processi e di una serie di attività di analisi ed elaborazione finalizzate al miglioramento della qualità e dell’accesso al dato stesso.</p>
+<p>Nella <a href="#fig-preparazione-dati" class="quarto-xref">Figura&nbsp;<span>5.1</span></a> che segue è rappresentato un possibile percorso di preparazione dei dati per garantirne la produzione e la pubblicazione e/o messa a disposizione di qualità, necessariamente elastico per garantirne, parimenti, l’applicabilità alle diverse realtà amministrative del territorio nazionale.</p>
+<p>La rappresentazione di tale percorso è un adattamento dell’analogo processo definito nel documento “<em>Data quality guidelines</em>” dell’Ufficio delle Pubblicazioni della Commissione Europea<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. Uno schema analogo, sebbene riferito ai <em>linked open data</em>, è definito anche nelle <em>Linee Guida per l’interoperabilità semantica attraverso i Linked Open Data</em><a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>. A tale proposito, <strong>SI RACCOMANDA di seguire le suddette Linee Guida per il processo di produzione di Linked Open Data</strong>.</p>
+<p>In considerazione del possibile diverso punto di partenza del processo di apertura dei dati, alcune fasi indicate nel percorso suddetto possono non essere prese in considerazione. Se, per esempio, l’obiettivo è quello di produrre un nuovo dato - quindi non ancora esistente - le attività di ricognizione e di analisi possono essere by-passate e le prime fasi da considerare potranno essere quella della modellazione e della definizione di priorità e del percorso di apertura (inserita nella fase di identificazione), che rimane comunque valida. Il percorso, inoltre, potrebbe essere modulato anche in forma ciclica, organizzando eventualmente le attività previste in più interazioni.</p>
+<p>L’implementazione del processo deve avvenire in maniera costante: <strong>le attività non si esauriscono con la mera pubblicazione dei dati, ma devono prevedere momenti continui di aggiornamento, monitoraggio e coinvolgimento degli utenti finali</strong>, fasi non rappresentate nel percorso in oggetto ma ugualmente importanti per graduare il processo di apertura e pubblicazione dei dati sulle effettive esigenze degli utenti.</p>
+<div id="fig-preparazione-dati" class="quarto-figure quarto-figure-center quarto-float anchored" alt="Processo di preparazione dei dati." width="90%" data-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-preparazione-dati-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="immagini/image48.png" class="img-fluid figure-img" style="width:90.0%" data-align="center" alt="Processo di preparazione dei dati.">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-preparazione-dati-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;5.1: Processo di preparazione dei dati
+</figcaption>
+</figure>
+</div>
+<p>Un altro modello metodologico per la gestione dei dati aperti è rappresentato da <strong>Open Data Management Cycle (ODMC)</strong><a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>, già utilizzato in alcune Pubbliche Amministrazioni, che include un modello dei processi, un modello informativo e un modello organizzativo. Per tutti gli aspetti che sono allineati alle presenti Linee Guida, il modello indicato può rappresentare un utile riferimento per un approccio comune alla gestione del patrimonio informativo. Nel modello indicato, inoltre, sono presenti indicazioni anche per le fasi non considerate nel processo rappresentato nella <a href="#fig-preparazione-dati" class="quarto-xref">Figura&nbsp;<span>5.1</span></a>.</p>
+<p>Ai fini di valutare l’efficacia del processo di apertura, è anche utile misurare l’impatto dell’utilizzo dei dati aperti. Non esiste una definizione di “<strong>impatto dei dati aperti</strong>” nella legislazione o nella documentazione tecnica nazionale. Esso può essere inteso come l’insieme degli effetti e dei benefici ottenuti direttamente o indirettamente dall’utilizzo e/o il riutilizzo dei dati aperti in specifiche politiche, aree o domini. In linea con il rapporto sulla maturità dei dati aperti in Europa pubblicato annualmente<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>, i domini rispetto ai quali misurare l’impatto possono essere: società, governo, economia e ambiente.</p>
+<p>Di seguito alcune indicazioni per ciascun tipo di impatto come presenti nel rapporto di cui</p>
+<p>sopra:</p>
+<ul>
+<li><p><strong>Impatto sociale</strong> - Valuta la misura in cui i dati aperti hanno un impatto sulle sfide sociali, come l’inclusione dei gruppi emarginati nella società, l’aumento di sensibilizzazione riguardo all’edilizia abitativa nelle aree urbane, e le questioni legate alla salute e al benessere;</p></li>
+<li><p><strong>Impatto politico</strong> - Si concentra sui benefici che i dati aperti hanno in tre ambiti: miglioramento dell’efficienza del governo, miglioramento dell’efficacia del governo e aumento della trasparenza e della responsabilità;</p></li>
+<li><p><strong>Impatto economico</strong> - Considera aspetti quali l’impatto macro e micro- economico e i benefici economici per le amministrazioni pubbliche;</p></li>
+<li><p><strong>Impatto ambientale</strong> - Considera aspetti quali la sensibilizzazione sulla qualità dell’acqua e dell’aria, i livelli di rumore nelle città, i sistemi di gestione dei rifiuti, i sistemi di trasporto rispettosi dell’ambiente.</p></li>
+</ul>
 <section id="sec-ruoli-e-responsabilita" class="level3" data-number="5.1.1">
 <h3 data-number="5.1.1" class="anchored" data-anchor-id="sec-ruoli-e-responsabilita"><span class="header-section-number">5.1.1</span> Ruoli e responsabilità</h3>
+<p>Per attuare il processo indicato innanzi è necessario definire innanzitutto una chiara <em>data governance</em> interna con l’individuazione di ruoli e relative responsabilità e integrare le sue fasi sia verticalmente, rispetto ai processi interni già consolidati, che orizzontalmente rispetto alle necessità delle diverse amministrazioni.</p>
+<p>L’autonomia organizzativa delle attività di ciascuna Amministrazione non consente di definire un modello unico per la gestione del processo di apertura dei dati e di implementazione delle indicazioni definite nelle presenti Linee Guida, vista anche la clausola di invarianza finanziaria di cui all’art. 13 del Decreto.</p>
+<p>Ogni Amministrazione e, all’interno di essa, ogni unità organizzativa POSSONO individuare e definire <strong>un proprio modello procedurale che individui ruoli e responsabilità dei soggetti coinvolti</strong> sulla base delle disponibilità finanziarie, umane e strumentali e nel rispetto della normativa nazionale e unionale in materia di protezione dei dati personali, laddove questi siano coinvolti nelle attività di trattamento.</p>
+<p>Per le autonomie locali occorre tenere conto, in particolare, di quanto disposto dall’art. 12 del <a href="https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2000-08-18;267">decreto legislativo 18 agosto 2000, n.&nbsp;267</a> e dall’art. 1, comma 85, lettera d) della <a href="https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2014-04-07;56!vig=2024-08-10">legge 7 aprile 2014, n.&nbsp;56</a>, relativamente alla gestione dei sistemi informativi e statistici locali e alla funzione fondamentale di Province e Città Metropolitane in materia di raccolta ed elaborazione dati.</p>
+<p>Un ruolo essenziale per l’organizzazione di uffici e risorse per il processo di apertura e di riutilizzo dei dati può essere svolto dall’<strong>ufficio del Responsabile per la transizione digitale</strong> (RTD) istituito con l’art. 17 del <a href="./capitolo-2.html#CAD"><strong>CAD</strong>,</a> che ha la responsabilità della transizione alla modalità operativa digitale e che risponde direttamente all’organo di vertice politico o, in assenza di questo, a quello amministrativo dell’ente.</p>
+<p>La Circolare n.&nbsp;3 del 1° ottobre 2018 del Ministro per la pubblica amministrazione (v. box “Risorse utili”), al fine di garantire la piena operatività dell’Ufficio del RTD, raccomanda di prevedere, nell’atto di conferimento dell’incarico o di nomina, oltre che i compiti espressamente previsti dalle norme vigenti in materia, anche il <strong>potere di costituire gruppi tematici per singole attività e/o adempimenti</strong> come può essere il processo di apertura e pubblicazione dei dati.</p>
+<p>Nel caso in cui tale potere non sia assegnato al RTD, la costituzione del gruppo “tematico” può essere direttamente decisa dal vertice politico o quello amministrativo.</p>
+<p>In ogni caso, <strong>il RTD DEVE essere comunque coinvolto</strong>, stante il suo ruolo di riferimento del vertice politico e/o amministrativo e di figura trasversale a tutta l’organizzazione con potere di agire su tutte le articolazioni amministrative dell’ente, da una parte, e di punto di contatto con l’Agenzia per l’Italia Digitale e la Presidenza del Consiglio dei Ministri, dall’altra, per le questioni connesse alla trasformazione digitale delle pubbliche amministrazioni, come ribadito anche nella citata Circolare n.&nbsp;3/2018.</p>
+<div class="raccomandazione callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<a href="" id="racc-4"></a>Raccomandazione&nbsp;5.1
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="testo-blu"><strong>Raccomandazione 4</strong></span>: <strong>dlgs36-2006/opendata/req/organization/rtd</strong><br> SI RACCOMANDA di demandare al Responsabile per la transizione digitale (RTD) il compito di costituire un gruppo di lavoro dedicato al processo di apertura dei dati e all’implementazione delle presenti Linee Guida all’interno dell’organizzazione dell’Ente.</p>
+</div>
+</div>
+<p>Considerata, inoltre, la disciplina relativa ai dati territoriali, definita da uno specifico framework di interoperabilità a livello europeo (v. par. <strong><a href="capitolo-4.html#sec-dati-territoriali" class="quarto-xref"><span>4.5</span></a></strong>), è importante garantire un opportuno raccordo anche con le figure coinvolte nella politica e nella gestione di tali dati, a partire dai rappresentanti dell’amministrazione nella Consulta Nazionale per l’Informazione Territoriale ed Ambientale (CNITA), di cui all’art. 11 del decreto legislativo n.&nbsp;32/2010 [<a href="./capitolo-2.html#D-LGS-32-2010"><strong>D-LGS-32-2010</strong></a>], se presenti o, in generale, dai referenti delle infrastrutture di dati territoriali.</p>
+<p>Nel processo di apertura e riutilizzo dei dati, ove siano coinvolti dati personali, il Responsabile per la protezione dei dati DEVE essere necessariamente coinvolto, ai sensi dell’art. 38, par. 1 del [<a href="./capitolo-2.html#GDPR"><strong>GDPR</strong></a>].</p>
+<p>Visto quanto premesso, nelle presenti Linee Guida si considera il <strong>gruppo di lavoro per i dati aperti come possibile struttura per il governo del processo di apertura dei dati</strong>, rimandando all’autonomia organizzativa di ciascun ente la previsione di eventuali altre strutture e figure, oltre all’individuazione dei compiti da assegnare ad essi.</p>
+<div class="raccomandazione callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<a href="" id="racc-5"></a>Raccomandazione&nbsp;5.2
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="testo-blu"><strong>Raccomandazione 5</strong></span>: <strong>dlgs36-2006/opendata/req/organization/wg</strong><br> SI RACCOMANDA di costituire, all’interno dell’organizzazione dell’Ente, un apposito gruppo di lavoro dedicato al processo di apertura dei dati, anche per l’applicazione delle presenti Linee Guida, prevedendo, ove possibile, le strutture e le figure adatte e necessarie a tale scopo, tenendo in considerazione i referenti dei singoli domini (come le infrastrutture di dati territoriali) e prevedendo altresì il necessario coinvolgimento del Responsabile per la protezione dei dati laddove siano coinvolti dati personali.</p>
+</div>
+</div>
+<p>All’interno del gruppo di lavoro, o comunque nell’ambito dell’organizzazione dell’ente, è bene prevedere un <strong>responsabile per l’apertura dei dati</strong> e il coinvolgimento dei <strong>responsabili e/o dei referenti tematici</strong> che gestiscono e trattano dati nell’ambito delle singole unità organizzative, oltre alle figure che possano fornire il necessario supporto per l’analisi della qualità dei dati, per la protezione dei dati personali eventualmente presenti, per la definizione delle interfacce di accesso ai dati, per la promozione di applicazioni sviluppate a partire dai dati pubblicati, fornendo anche, laddove necessario, esempi di servizi dimostrativi attraverso cui incentivare il riutilizzo. Alcuni membri del team (per es., esperti di tecnologie web, esperti GIS, esperti di tecnologie e strumenti per i Linked Data) possono occuparsi della gestione del processo di apertura del dato dal punto di vista IT.</p>
+<p>È importante garantire il <strong>raccordo e la consultazione con le altre figure coinvolte nel processo di digitalizzazione della pubblica amministrazione</strong>, ovvero responsabile per la conservazione documentale, responsabile per la prevenzione della corruzione e la trasparenza,</p>
+<p>responsabile della protezione dei dati, responsabile dei sistemi informativi (se non coincide con il RTD), responsabile per la sicurezza.</p>
+<p>L’azione di raccordo e consultazione di cui sopra può essere espletata dal RTD a cui, sulla base della Circolare n.&nbsp;3/2018 citata innanzi, può essere deputata, nell’atto di nomina, l’adozione dei più opportuni strumenti per garantire tale azione.</p>
+<hr>
+<div class="risorsa callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<a href="" id="res-5.1.1"></a>Risorsa&nbsp;5.1
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>📚 <strong>Risorse utili - cap. 5.1.1</strong> <a href="#res-5.1.1" class="link-req">🔗</a></p>
+<p><a href="https://www.funzionepubblica.gov.it/sites/funzionepubblica.gov.it/files/Circolare_n_3_10_2018.pdf">Circolare del Ministro per la pubblica amministrazione n.&nbsp;3 del 1° ottobre 2018</a> - Responsabile per la transizione digitale - art. 17 decreto legislativo 7 marzo 2005, n.&nbsp;82 “Codice dell’amministrazione digitale”</p>
+</div>
+</div>
 <section id="sec-coordinamento-tra-livello-nazionale-regionale-e-locale" class="level4" data-number="5.1.1.1">
 <h4 data-number="5.1.1.1" class="anchored" data-anchor-id="sec-coordinamento-tra-livello-nazionale-regionale-e-locale"><span class="header-section-number">5.1.1.1</span> Coordinamento tra livello nazionale, regionale e locale</h4>
+<p>Diverse pubbliche amministrazioni centrali, al fine di adempiere a specifici obblighi normativi a loro assegnati o per dar seguito a impegni presi in iniziative internazionali, hanno necessità di raccogliere dati provenienti dal livello di governo regionale e locale. Viceversa, le amministrazioni centrali e regionali possono detenere dati che sono anche di interesse locale.</p>
+<p>In queste situazioni, SI RACCOMANDA alle amministrazioni di coordinarsi tra loro prima di intraprendere iniziative singole isolate. In particolare, le amministrazioni centrali possono assumere un ruolo di coordinamento e di promozione dell’apertura dei dati, definendo anche schemi comuni secondo quanto indicato al par. <a href="#sec-modellazione-e-documentazione" class="quarto-xref"><span>5.1.5</span></a>. Tale ruolo può essere assunto, in alcuni casi, anche dagli altri Enti sovraordinati (Regioni o Province/Città Metropolitane).</p>
+<p>SI RACCOMANDA, quindi, di mantenere il colloquio, mediante scambio di dati, tra il livello centrale, regionale e locale attraverso l’uso dei dati aperti stessi, ove presenti, automatizzando quanto più possibile il processo di acquisizione.</p>
+<div class="raccomandazione callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<a href="" id="racc-6"></a>Raccomandazione&nbsp;5.3
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="testo-blu"><strong>Raccomandazione 6</strong></span>: <strong>dlgs36-2006/opendata/rec/organization/coordination</strong><br> SI RACCOMANDA che le pubbliche amministrazioni statali e regionali che detengono archivi contenenti dati di interesse territoriale – fermo restando il rispetto della disciplina in materia di protezione dei dati personali – prevedano una diffusione dei dati pubblici in forma disaggregata per favorire l’ottimale gestione delle funzioni di raccolta ed elaborazione dati delle Province e Città Metropolitane a supporto di tutti gli enti locali del loro territorio.</p>
+</div>
+</div>
 </section>
 </section>
 <section id="sec-individuazione-e-selezione" class="level3" data-number="5.1.2">
 <h3 data-number="5.1.2" class="anchored" data-anchor-id="sec-individuazione-e-selezione"><span class="header-section-number">5.1.2</span> Individuazione e selezione</h3>
+<p>Il processo di apertura dei dati non può che partire da una ricognizione dei dati detenuti e trattati dall’ente e dalla successiva identificazione e selezione di quelli che possono essere resi disponibili per il riutilizzo.</p>
+<p>L’apertura può riguardare:</p>
+<ul>
+<li><p>dati nativi, cioè dati generati dalle amministrazioni nell’adempimento delle proprie funzioni istituzionali;</p></li>
+<li><p>dati mashup, cioè dati provenienti da diverse fonti e soggetti a operazioni di integrazione.</p></li>
+</ul>
+<p>In entrambi i casi, l’apertura può essere sollecitata da soggetti esterni interessati attraverso specifiche richieste (v. par. <strong><a href="#sec-richieste-di-riutilizzo" class="quarto-xref"><span>5.2</span></a></strong>.</p>
+<p>In questa fase si può fare riferimento ad alcune disposizioni che, in taluni casi, prevedono di rendere disponibili i dati a fini di riutilizzo. In particolare, tra gli altri:</p>
+<ul>
+<li><p>sulla base della disposizione di cui all’art. 7 del [<a href="./capitolo-2.html#D-LGS-33-2013"><strong>D-LGS-33-2013</strong></a>], “<em>i documenti, le informazioni e i dati oggetto di pubblicazione obbligatoria ai sensi della normativa vigente, resi disponibili anche a seguito dell’accesso civico di cui all’articolo 5</em>” del medesimo decreto, fermi restando i limiti e le cautele previsti per i dati personali (v. par. <strong><a href="capitolo-4.html#sec-requisiti-comuni" class="quarto-xref"><span>4.1</span></a></strong>);</p></li>
+<li><p>ai sensi dell’art. 50-quater del [<a href="./capitolo-2.html#CAD"><strong>CAD</strong></a>], relativo ai dati generati nella fornitura di servizi in concessione, tutti i dati acquisiti e generati nella fornitura del servizio agli utenti e relativi anche all’utilizzo del servizio medesimo da parte degli utenti, esclusivamente per fini statistici e di ricerca e per lo svolgimento dei compiti istituzionali delle pubbliche amministrazioni.</p></li>
+</ul>
+<p>Per i nuovi dati, che rientrino nell’ambito di applicazione del Decreto, il processo di produzione e apertura DEVE essere guidato dal principio dell’<strong>apertura fin dalla progettazione e per impostazione predefinita</strong>, come, tra l’altro, disposto dall’art. 6, comma 4 del Decreto. A tale proposito, nel par. <strong><a href="capitolo-6.html#sec-buone-pratiche-approccio-open-by-design" class="quarto-xref"><span>6.1.2</span></a></strong> sono definite una serie di raccomandazioni per applicare il principio dell’“<em>open data by design</em>”.</p>
+<p>Al riguardo, occorre in ogni caso ricordare con particolare riferimento ai dati personali, che il legislatore europeo nella Direttiva ha evidenziato che “<em>il riutilizzo dei dati personali è ammissibile soltanto se è rispettato il principio della limitazione della finalità di cui all’articolo 5, paragrafo 1, lettera b) e l’articolo 6 del regolamento (UE) 2016/679</em>” (Considerando n.&nbsp;52), come anche esplicitato al par. <strong><a href="capitolo-4.html#sec-requisiti-comuni" class="quarto-xref"><span>4.1</span></a></strong>. Pertanto, come evidenziato anche dal Garante per la protezione dei dati personali, la pubblicazione di informazioni personali online per finalità di trasparenza o di pubblicità dell’azione amministrativa non significa che le stesse costituiscano “dati aperti” né che gli stessi siano, di conseguenza, liberamente riutilizzabili da chiunque e per qualsiasi scopo, bensì impone al soggetto chiamato a dare attuazione agli obblighi di pubblicazione sul proprio sito web istituzionale di determinare – qualora intenda rendere i dati riutilizzabili – se, per quali finalità e secondo quali limiti e condizioni eventuali utilizzi ulteriori dei dati personali resi pubblici possano ritenersi leciti alla luce del “principio di finalità” e degli altri principi di matrice europea in materia di protezione dei dati personali di cui all’art. 5 del [<a href="./capitolo-2.html#GDPR"><strong>GDPR</strong></a>] (cfr. Linee guida del Garante in materia di trasparenza [<a href="./capitolo-2.html#LG-GPDP"><strong>LG-GPDP</strong></a>]).</p>
+<p>Quanto al principio di finalità, si ricorda che la normativa europea sulla protezione dei dati personali prevede che tali dati debbano essere raccolti per finalità determinate, esplicite e legittime e che possano successivamente essere trattati solo “<em>in modo che non sia incompatibile con tali finalità”</em> (art. 5, par. 1, lett. b del [<a href="./capitolo-2.html#GDPR"><strong>GDPR</strong></a>]). Tale requisito è confermato anche dall’ art. 6 del [<a href="./capitolo-2.html#GDPR"><strong>GDPR</strong></a>] laddove è prescritto che il trattamento di dati personali per una finalità diversa da quella per la quale i dati personali sono stati raccolti deve essere”<em>compatibile”</em> con la finalità per la quale i dati personali sono stati inizialmente raccolti.</p>
+<p>Al fine di verificare la compatibilità della finalità del riutilizzo dei dati personali con quella per la quale i dati personali sono stati inizialmente raccolti è possibile far riferimento ai criteri contenuti nel Regolamento europeo (art. 6, par. 4 del [<a href="./capitolo-2.html#GDPR"><strong>GDPR</strong></a>]), che prevede come il titolare del trattamento debba tenere conto, fra l’altro:</p>
+<ol type="a">
+<li><em>di ogni nesso tra le finalità per cui i dati personali sono stati raccolti e le finalità dell’ulteriore trattamento previsto;</em><br></li>
+<li><em>del contesto in cui i dati personali sono stati raccolti, in particolare relativamente alla relazione tra l’interessato e il titolare del trattamento;</em><br></li>
+<li><em>della natura dei dati personali, specialmente se siano trattate categorie particolari di dati personali ai sensi dell’articolo 9, oppure se siano trattati dati relativi a condanne penali e a reati ai sensi dell’articolo 10;</em><br></li>
+<li><em>delle possibili conseguenze dell’ulteriore trattamento previsto per gli interessati;</em><br></li>
+<li><em>dell’esistenza di garanzie adeguate, che possono comprendere la cifratura o la pseudonimizzazione</em>”.</li>
+</ol>
+<p>Per meglio individuare per quali scopi ulteriori, compatibili con quelli originari, i dati personali pubblicamente disponibili <em>online</em> possono essere utilizzati (o debbano altrimenti essere anonimizzati), si vedano gli elementi condivisi in ambito europeo ed elaborati dal Gruppo Art. 29 nel Parere n.&nbsp;03/2013 sul principio di limitazione della finalità (v. box “Risorse utili”).</p>
+<p><strong>Ricognizione -</strong> Per i dati nativi, vanno, quindi, individuati, nell’ambito delle strutture organizzative dell’amministrazione, quali dati, tra tutti quelli prodotti, si vogliano rendere aperti, in quanto riutilizzabili da cittadini, imprese e stakeholder in genere, anche per abilitare nuove forme di riutilizzo dell’informazione. Per i dati mashup, le amministrazioni possono raccogliere e integrare informazioni da diverse fonti interne ed esterne che concorrano alla formazione del dato. Per tale tipologia di dati, la parte più importante è la definizione delle modalità di accesso a partire dalle politiche dei singoli produttori dei dati e le relative modalità di rilascio e aggiornamento dei dati stessi.</p>
+<p><strong>Analisi dei vincoli giuridici -</strong> Alla fase di ricognizione fa seguito l’analisi giuridica delle fonti del dato, fondamentale per garantire la sostenibilità nel tempo del processo di produzione e pubblicazione dei dati considerando i possibili vincoli che possono impedirne o limitarne (anche temporalmente) l’apertura, evidenziando limitazioni d’uso, finalità di competenza, determinazione dei diritti e dei termini di licenza, nonché base giuridica, finalità del trattamento e, in ogni caso, protezione dei dati personali eventualmente presenti.</p>
+<p>Per supportare tale analisi, si riporta di seguito una breve “check list” utile alla verifica di alcuni aspetti giuridici da sottoporre a valutazione.</p>
+<ul>
+<li><strong>Protezione dei dati personali</strong>
+<ul>
+<li>Nel processo di apertura di atti, documenti e/o dati è stata attentamente verificata l’assenza di informazioni riguardanti persone fisiche identificate o identificabili anche indirettamente, ai sensi dell’art. 4, n.&nbsp;1) del <a href="./capitolo-2.html#GDPR">GDPR</a>, valutati anche gli ulteriori aspetti di cui ai punti riportati di seguito?<br>Più nello specifico:
+<ul>
+<li>I dati sono liberi da ogni informazione personale che possa identificare in modo diretto l’individuo (nome, cognome, indirizzo, codice fiscale, patente, telefono, email, foto, descrizione fisica, ecc.)?</li>
+<li>I dati sono liberi da ogni informazione indiretta che possa identificare l’individuo (caratteristiche personali che possono identificare facilmente il soggetto)?</li>
+<li>I dati sono liberi da ogni informazione sensibile riconducibile all’individuo?</li>
+<li>I dati sono liberi da ogni informazione relativa al soggetto che, incrociata con dati comunemente reperibili nel web (ad es. google maps, linked data, ecc.), possa facilmente identificare l’individuo?</li>
+<li>I dati sono liberi da ogni riferimento a profughi, protetti di giustizia, vittime di violenze o in ogni caso categorie protette?</li>
+<li>I servizi di ricerca sui dati sono tali da poter filtrare i dati in modo da ottenere un solo record geolocalizzato, che sia facilmente e direttamente riconducibile ad una persona fisica?</li>
+<li>Nel caso in cui è stata verificata la presenza di dati e informazioni personali, riconducibili in maniera diretta o indiretta a persone fisiche identificate o identificabili, si è provveduto a individuare idonee tecniche di anonimizzazione come indicato nel Parere 05/2014 del Gruppo di lavoro Articolo 29 sulle tecniche di anonimizzazione <a href="./capitolo-2.html#PAR-05-2014">PAR-05-2014</a>?</li>
+<li>In un’eventuale decisione di rendere riutilizzabili dati personali oggetto di un obbligo di pubblicazione online previsto da un idoneo presupposto normativo ai sensi dell’art. 2-ter, commi 1 e 3, del D. Lgs. 196/2003 (ad es. ai sensi del D. Lgs. 33/2013) o di accogliere eventuali richieste di riutilizzo degli stessi da parte di terzi, è stato valutato se, per quali finalità ed entro quali limiti e condizioni siano eventualmente leciti e non incompatibili utilizzi ulteriori dei dati personali resi pubblici (con esclusione dei dati di cui agli artt. 9-10 del <a href="./capitolo-2.html#GDPR">GDPR</a>), sulla base del principio di limitazione della finalità?</li>
+<li>È stata effettuata la valutazione d’impatto in materia di protezione dei dati, ai sensi dell’art. 35 del <a href="./capitolo-2.html#GDPR">GDPR</a>, al fine di ridurre il rischio di perdere il controllo sulle medesime informazioni o di dover far fronte a richieste di risarcimento del danno da parte degli interessati?</li>
+<li>Nella predetta analisi di impatto sono state effettuate tutte le valutazioni (anche inerenti alla tipologia di licenza) indicate dal Garante per la protezione dei dati personali nei propri provvedimenti<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>?</li>
+<li>Si è provveduto a coinvolgere il Responsabile per la protezione dei dati personali, la cui nomina è obbligatoria in ogni PA e nei soggetti indicati dall’art. 37 del <a href="./capitolo-2.html#GDPR">GDPR</a>?</li>
+</ul></li>
+</ul></li>
+<li><strong>Proprietà intellettuale della sorgente</strong>
+<ul>
+<li>L’ente è proprietario dei dati, anche se non sono stati creati direttamente da suoi dipendenti?</li>
+<li>Sei sicuro di non usare dati per i quali vi è una licenza o un brevetto di terzi?</li>
+<li>Se i dati non sono del tuo ente, hai un accordo o una licenza che ti autorizzi a pubblicarli?</li>
+</ul></li>
+<li><strong>Licenza di rilascio</strong>
+<ul>
+<li>Stai rilasciando i dati di cui possiedi la proprietà accompagnati da una licenza?</li>
+</ul></li>
+<li><strong>Limiti alla pubblicazione</strong>
+<ul>
+<li>Hai verificato che non vi siano impedimenti di legge o contrattuali per la pubblicazione dei dati?</li>
+<li>Hai verificato che i dati e i documenti non siano tra quelli esclusi dall’applicazione del decreto legislativo n.&nbsp;36/2006?</li>
+</ul></li>
+<li><strong>Segretezza</strong></li>
+<li>Hai verificato se non vi siano motivi di ordine pubblico o di sicurezza nazionale, motivi legati al segreto d’ufficio o al segreto di stato o al segreto statistico che ti impediscono la pubblicazione dei dati?</li>
+<li><strong>Temporalizzazione</strong>
+<ul>
+<li>I dati sono soggetti per legge a restrizioni temporali di pubblicazione?</li>
+</ul></li>
+<li><strong>Trasparenza</strong>
+<ul>
+<li>I dati hanno dei divieti di legge o giurisprudenziali che impediscono la loro indicizzazione da parte di motori di ricerca?</li>
+<li>Fermi restando i limiti e le garanzie per il trattamento dei dati personali, i dati rientrano nella lista dell’allegato A del d.lgs. 33/2013 <a href="./capitolo-2.html#D-LGS-33-2013">D-LGS-33-2013</a>?</li>
+</ul></li>
+</ul>
+<p>L’analisi dei vincoli e, quindi, la verifica sulla possibilità di rendere disponibili i dati per il riutilizzo possono essere ulteriormente supportate prendendo in considerazione l’elenco dei documenti esclusi dall’applicazione del Decreto riportato nel par. <strong><a href="capitolo-1.html#sec-documenti-esclusi-dallapplicazione" class="quarto-xref"><span>1.2</span></a></strong>. Se il dato o documento rientra tra uno di quelli dell’elenco di cui sopra, è da escludere dai dati da rendere disponibili come dati aperti. In caso contrario, qualora il dato sia ammesso al riutilizzo, il titolare dei dati deve effettuare una valutazione d’impatto sulla protezione dei dati personali, avendo cura di garantire una protezione dei dati <em>by design</em> e <em>by default</em>.</p>
+<p><strong>Definizione della priorità e percorso di apertura</strong> - La ricognizione dei dati consente di avere contezza del patrimonio informativo, mentre l’analisi dei vincoli consente di fare una prima selezione dei dati che possono essere resi disponibili per il riutilizzo. Per i dati non soggetti a vincoli, è necessario individuare criteri e modalità di apertura anche in base ad una eventuale <strong>scala di priorità</strong> basata, per esempio, su un approccio di tipo “<em>demand-driven</em>” che tenga conto dell’impatto economico e sociale nonché del livello di interesse e delle necessità degli utilizzatori.</p>
+<p>Tra i criteri da considerare per definire la priorità nell’apertura dei dati possono essere considerati:</p>
+<ul>
+<li><p>la tipologia di dato cui sia attribuito dal Decreto un enorme potenziale economico (dati dinamici, serie di dati di elevato valore e dati della ricerca) per come definita dal Decreto medesimo;</p></li>
+<li><p>l’esistenza di richieste pervenute dai riutilizzatori sulla base dell’art. 5 del Decreto e della procedura di cui al par. <strong><a href="#sec-richieste-di-riutilizzo" class="quarto-xref"><span>5.2</span></a></strong>;</p></li>
+<li><p>l’esistenza di specifiche disposizioni normative che prevedano di rendere disponibili obbligatoriamente, come dati di tipo aperto, talune tipologie di dati (v. i casi presentati all’inizio di questo paragrafo).</p></li>
+</ul>
+<p>Tale attività potrebbe essere sistematizzata attraverso la definizione di un <strong>percorso di apertura dei dati</strong> da inserire nel Piano Triennale ICT che ciascuna amministrazione, secondo la roadmap definita dalle Linee d’Azione nel Piano triennale nazionale e le modalità operative fornite da AgID, è chiamata a definire anche utilizzando il format PT reso disponibile da AgID stessa (v. box “Risorse utili”). La predisposizione di tale Piano rientra tra i compiti che la Circolare n.&nbsp;3/2018 del Ministro per la pubblica amministrazione raccomanda di assegnare al RTD.</p>
+<div class="raccomandazione callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<a href="" id="racc-7"></a>Raccomandazione&nbsp;5.4
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="testo-blu"><strong>Raccomandazione 7</strong></span>: <strong>dlgs36-2006/opendata/rec/organization/dmp</strong><br> SI RACCOMANDA di definire un percorso di apertura dei dati da inserire nel Piano Triennale ICT della singola Amministrazione, la cui definizione può rientrare nei compiti da assegnare al RTD. Tale percorso potrà essere basato su una scala di priorità nell’apertura tenendo in considerazione gli obblighi derivanti dall’applicazione del Decreto per alcune specifiche tipologie di dati, fermo restando il rispetto della normativa unionale e nazionale in materia di protezione dei dati personali. Potranno essere considerate anche specifiche regole di politiche dei dati aperti (Data policy), purché non in contrasto con le strategie e le politiche nazionali.</p>
+</div>
+</div>
+<p>A tale proposito, si fa presente che le linee d’azione del Piano Triennale nazionale relative al capitolo sui dati includono, tra l’altro:</p>
+<ul>
+<li><p>l’individuazione dei dataset di tipo dinamico da rendere disponibili in open data in coerenza con quanto previsto dalla Direttiva e la loro documentazione nel catalogo nazionale dei dati aperti;</p></li>
+<li><p>la messa a disposizione dei dati territoriali attraverso i servizi di rete di cui a [<a href="./capitolo-2.html#INSPIRE-DIR"><strong>INSPIRE-DIR</strong></a>];</p></li>
+<li><p>la documentazione dei dati di tipo aperto attraverso il catalogo nazionale dei dati aperti (in corrispondenza del risultato atteso relativo all’aumento del numero di dataset di tipo aperto).</p></li>
+</ul>
+<p>I criteri di prioritizzazione indicati innanzi, quindi, troverebbero fondamento anche nelle azioni che gli enti devono implementare per raggiungere gli obiettivi e i risultati attesi prefissati dal Piano Triennale nazionale.</p>
+<hr>
+<div class="risorsa callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<a href="" id="res-5.1.2"></a>Risorsa&nbsp;5.2
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>📚 <strong>Risorse utili - cap. 5.1.2</strong> <a href="#res-5.1.2" class="link-req">🔗</a></p>
+<ul>
+<li><a href="https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/3134436">Linee guida in materia di trattamento di dati personali contenuti anche in atti e documenti amministrativi effettuato da soggetti pubblici per finalità di pubblicazione e diffusione sul web</a>, adottate con Deliberazione n.&nbsp;243 del 15 maggio 2014 del Garante per la Protezione dei Dati Personali</li>
+<li><a href="https://www.anticorruzione.it/-/determinazione-n.-1309-del-28/12/2016-rif.-1?inheritRedirect=true&amp;redirect=%2Fconsulta-i-documenti%3Fq%3D%2522Determinazione%2520n.%25201309%2522%26sort%3Dddm__Dataclu0_String_sortable-">Linee Guida recanti indicazioni operative ai fini della definizione delle esclusioni e dei limiti all’accesso civico di cui all’art. 5 co. 2 del D. Lgs. 33/2013</a> adottate con Determinazione n.&nbsp;1309 del 28 dicembre 2016 dell’Autorità Nazionale Anticorruzione</li>
+<li><a href="https://www.agid.gov.it/sites/default/files/repository_files/format_pt_-_indicazioni_operative_e_note_per_la_redazione.pdf">Guida per la redazione format del Piano Triennale per le pubbliche amministrazioni, Agenzia per l’Italia Digitale</a></li>
+<li><a href="https://www.garanteprivacy.it/documents/10160/2133805/WP203">Parere n.&nbsp;03/2013 sul principio di limitazione della finalità, Gruppo di Lavoro Articolo 29</a></li>
+</ul>
+</div>
+</div>
 </section>
 <section id="sec-analisi" class="level3" data-number="5.1.3">
 <h3 data-number="5.1.3" class="anchored" data-anchor-id="sec-analisi"><span class="header-section-number">5.1.3</span> Analisi</h3>
 </section>
 <section id="sec-arricchimento" class="level3" data-number="5.1.4">
 <h3 data-number="5.1.4" class="anchored" data-anchor-id="sec-arricchimento"><span class="header-section-number">5.1.4</span> Arricchimento</h3>
+<hr>
+<div class="risorsa callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<a href="" id="res-5.1.4"></a>Risorsa&nbsp;5.3
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>📚 <strong>Risorse utili - cap. 5.1.4</strong> <a href="#res-5.1.4" class="link-req">🔗</a></p>
+<ul>
+<li><a href="https://www.agid.gov.it/sites/default/files/repository_files/documentazione_trasparenza/cdc-spc-gdl6-interoperabilitasemopendata_v2.0_0.pdf">Linee Guida per l’interoperabilità semantica attraverso i Linked Open Data</a></li>
+<li><a href="https://www.schema.gov.it/">Catalogo nazionale della semantica dei dati</a></li>
+<li><a href="https://registry.geodati.gov.it/">Sistema di Registri INSPIRE Italia</a></li>
+</ul>
+</div>
+</div>
 </section>
 <section id="sec-modellazione-e-documentazione" class="level3" data-number="5.1.5">
 <h3 data-number="5.1.5" class="anchored" data-anchor-id="sec-modellazione-e-documentazione"><span class="header-section-number">5.1.5</span> Modellazione e documentazione</h3>
@@ -446,6 +685,26 @@ document.addEventListener('DOMContentLoaded', function() {
 <h2 data-number="5.3" class="anchored" data-anchor-id="sec-qualita-dei-dati"><span class="header-section-number">5.3</span> Qualità dei dati</h2>
 
 
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p><a href="https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/stabile/index.html" class="uri">https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/stabile/index.html</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><ol start="22" type="a">
+<li>box “Risorse utili” al par. <a href="./capitolo-4.html#res-4.1">4.1</a></li>
+</ol>
+<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn3"><ol start="22" type="a">
+<li>box “Risorse utili” al par. <a href="#res-5.1.4">5.1.4</a></li>
+</ol>
+<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn4"><ol start="22" type="a">
+<li><a href="https://www.odmc.org/" class="uri">https://www.odmc.org/</a></li>
+</ol>
+<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn5"><p>Open Data Maturity Report (v. <a href="https://data.europa.eu/en/publications/open-data-maturity/2022" class="uri">https://data.europa.eu/en/publications/open-data-maturity/2022</a>)<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>Si veda in particolare: “<em>Linee guida in materia di trattamento di dati personali, contenuti anche in atti e documenti amministrativi, effettuato per finalità di pubblicità e trasparenza sul web da soggetti pubblici e da altri enti obbligati</em>” (provv. n.&nbsp;243 del 15/5/2014, <a href="https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/3134436">doc. web n.&nbsp;3134436</a>) e successivi provvedimenti di aggiornamento.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Torna in cima</a></main> <!-- /main -->
