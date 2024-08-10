@@ -85,6 +85,9 @@ crossref:
     - kind: float
       reference-prefix: Raccomandazione
       key: racc
+    - kind: float
+      reference-prefix: Risorsa
+      key: res
   appendix-title: "Allegato"
 
 execute:

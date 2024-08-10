@@ -53,10 +53,32 @@ a[id*="req-"] {
   margin-top: -50px;
 }
 
+// per avere l'ancora dei requisiti poco sotto l'inizio della finestra
+a[id*="res-"] {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+
 // per avere l'ancora delle raccomandazioni poco sotto l'inizio della finestra
 a[id*="racc-"] {
   padding-top: 50px;
   margin-top: -50px;
+}
+
+// per nascondere l'header del call-out requisito
+div.requisito div.callout-header {
+  display: none !important;
+}
+
+// per nascondere l'header del call-out risorse
+div.risorsa div.callout-header {
+  display: none !important;
+}
+
+// per nascondere l'header del call-out raccomandazione
+div.raccomandazione div.callout-header {
+  display: none !important;
 }
 
 // per formattare la tabella dei formati del capitolo 4
