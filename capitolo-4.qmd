@@ -4,7 +4,7 @@ L'art. 6 del Decreto stabilisce che pubbliche amministrazioni, organismi di diri
 
 Questo capitolo definisce le modalità e i formati per i dati da rendere disponibili come dati di tipo aperto e, in particolare, per le specifiche categorie di dati individuate da Direttiva e Decreto, ovvero dati dinamici, dati della ricerca e serie di dati di elevato valore (di cui, rispettivamente, agli artt. 6, commi 5, 6, 9-bis e 12-bis del Decreto).
 
-## Requisiti comuni {#seq-requisiti-comuni}
+## Requisiti comuni {#sec-requisiti-comuni}
 
 Sulla base dell'art. 1 del Decreto, le presenti Linee Guida si applicano ai "*documenti contenenti **dati pubblici** nella **disponibilità** delle **pubbliche amministrazioni**, degli **organismi di diritto pubblico** e delle **imprese pubbliche e private***", con esclusione dei casi riportati al **[par. -@sec-documenti-esclusi-dallapplicazione]**.
 
@@ -120,7 +120,6 @@ Nella tabella i formati per le immagini (PNG, GIF, JPG/JPEG, TIFF) sono presenti
 
 {{< include ./include/requisiti/_requisito-3.qmd >}}
 
-
 {{< include ./include/raccomandazioni/_raccomandazione-1.qmd >}}
 
 Nel caso in cui mettere a disposizione i propri dati secondo le indicazioni di cui sopra, per soddisfare richieste di apertura, comporti attività che vanno al di là della semplice manipolazione, e che, quindi, implicherebbero difficoltà sproporzionate, gli enti pubblici (cioè pubbliche amministrazioni e organismi di diritto pubblico) non hanno l'obbligo di adeguare i documenti o crearne nuovi o fornire estratti di documenti, fermi restando i limiti imposti dalla normativa in tema di protezione dei dati personali. In tal caso, attraverso un apposito provvedimento, l'ente titolare DEVE motivare le difficoltà sproporzionate indicando le attività sui dati che eccedono la semplice manipolazione.
@@ -138,6 +137,14 @@ Quanto indicato in questo paragrafo è valido per tutte le tipologie di dati.
 Il Decreto individua particolari tipi di dati quali i dati dinamici, le serie di dati di elevato valore e i dati della ricerca per i quali, nei paragrafi successivi, saranno fornite specifiche indicazioni supplementari in attuazione di quanto disposto dal Decreto.
 
 Per l'implementazione delle regole tecniche contenute nelle presenti Linee Guida, AgID può adottare, ai sensi dell'art. 3, comma 2 del *Regolamento per l'adozione di linee guida per l'attuazione del Codice dell'Amministrazione Digitale* di cui alla Determinazione AgID n. 160/2018[^#_bookmark48], opportune **guide operative** per fornire ai soggetti interessati indicazioni e istruzioni più dettagliate, anche in relazione a specifici casi d'uso.
+
+::: {#res-cern}
+
+aaa
+
+"CERN: The Journey of Discovery"
+
+:::
 
 {{< include ./include/risorse-utili/_risorse-cap4.1.qmd >}}
 
