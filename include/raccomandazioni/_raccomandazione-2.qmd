@@ -1,4 +1,4 @@
-::: {#racc-2 .callout-note appearance="simple" icon=false}
+::: {#racc-2 .callout-note appearance="simple" icon=false .raccomandazione}
 [**Raccomandazione 2**]{.testo-blu}: **dlgs36-2006/opendata/rec/dynamic/bulk**<br>
 Ove possibile, opportuno o necessario, SI RACCOMANDA di rendere disponibili i dati dinamici anche attraverso download in blocco.
 :::

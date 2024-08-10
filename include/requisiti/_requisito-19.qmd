@@ -1,0 +1,6 @@
+::: {#req-19 .callout-important appearance="simple" icon=false .requisito}
+[**REQUISITO 19**]{.testo-rosso}: **dlgs36-2006/opendata/req/conditions/nd-nc-licenses** [🔗](#req-19){.link-req}<br>
+I titolari dei dati disponibili per il riutilizzo NON DEVONO:
+-	utilizzare licenze che non consentano opere derivate o uso commerciale;
+-	utilizzare licenze di tipo proprietario.
+:::

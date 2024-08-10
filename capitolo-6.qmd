@@ -2,8 +2,18 @@
 
 ## Licenze e condizioni di riutilizzo {#sec-licenze-e-condizioni-di-riutilizzo}
 
+### Compatibilità tra licenze {#sec-compatibilita-tra-licenze}
+
+### Buone pratiche: approccio "open by design" {#sec-buone-pratiche-approccio-open-by-design}
+
+{{< include ./include/requisiti/_requisito-19.qmd >}}
+
 {{< include ./include/requisiti/_requisito-20.qmd >}}
 
 {{< include ./include/requisiti/_requisito-21.qmd >}}
 
 ## Tariffazione {#sec-tariffazione}
+
+## Non discriminazione {#sec-non-discriminazione}
+
+## Accordi di esclusiva {#sec-accordi-di-esclusiva}
