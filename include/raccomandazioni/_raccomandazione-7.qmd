@@ -1,0 +1,4 @@
+::: {#racc-7 .callout-note appearance="simple" icon=false .raccomandazione}
+[**Raccomandazione 7**]{.testo-blu}: **dlgs36-2006/opendata/rec/organization/dmp**<br>
+SI RACCOMANDA di definire un percorso di apertura dei dati da inserire nel Piano Triennale ICT della singola Amministrazione, la cui definizione può rientrare nei compiti da assegnare al RTD. Tale percorso potrà essere basato su una scala di priorità nell’apertura tenendo in considerazione gli obblighi derivanti dall’applicazione del Decreto per alcune specifiche tipologie di dati, fermo restando il rispetto della normativa unionale e nazionale in materia di protezione dei dati personali. Potranno essere considerate anche specifiche regole di politiche dei dati aperti (Data policy), purché non in contrasto con le strategie e le politiche nazionali.
+:::

@@ -1,0 +1,4 @@
+::: {#racc-4 .callout-note appearance="simple" icon=false .raccomandazione}
+[**Raccomandazione 4**]{.testo-blu}: **dlgs36-2006/opendata/req/organization/rtd**<br>
+SI RACCOMANDA di demandare al Responsabile per la transizione digitale (RTD) il compito di costituire un gruppo di lavoro dedicato al processo di apertura dei dati e all'implementazione delle presenti Linee Guida all'interno dell'organizzazione dell'Ente.
+:::

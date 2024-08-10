@@ -1,0 +1,11 @@
+----
+
+::: {.callout-tip icon=false #res-5.1.4 .risorsa}
+
+📚 **Risorse utili - cap. 5.1.4** [🔗](#res-5.1.4){.link-req}
+
+- [Linee Guida per l'interoperabilità semantica attraverso i Linked Open Data](https://www.agid.gov.it/sites/default/files/repository_files/documentazione_trasparenza/cdc-spc-gdl6-interoperabilitasemopendata_v2.0_0.pdf)
+- [Catalogo nazionale della semantica dei dati](https://www.schema.gov.it/)
+- [Sistema di Registri INSPIRE Italia](https://registry.geodati.gov.it/)
+
+:::

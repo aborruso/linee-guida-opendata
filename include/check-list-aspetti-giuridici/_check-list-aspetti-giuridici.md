@@ -1,0 +1,32 @@
+- **Protezione dei dati personali**
+  - Nel processo di apertura di atti, documenti e/o dati è stata attentamente verificata l'assenza di informazioni riguardanti persone fisiche identificate o identificabili anche indirettamente, ai sensi dell'art. 4, n. 1) del [GDPR](capitolo-2.qmd#GDPR), valutati anche gli ulteriori aspetti di cui ai punti riportati di seguito?<br>Più nello specifico:
+    - I dati sono liberi da ogni informazione personale che possa identificare in modo diretto l'individuo (nome, cognome, indirizzo, codice fiscale, patente, telefono, email, foto, descrizione fisica, ecc.)?
+    - I dati sono liberi da ogni informazione indiretta che possa identificare l'individuo (caratteristiche personali che possono identificare facilmente il soggetto)?
+    - I dati sono liberi da ogni informazione sensibile riconducibile all'individuo?
+    - I dati sono liberi da ogni informazione relativa al soggetto che, incrociata con dati comunemente reperibili nel web (ad es. google maps, linked data, ecc.), possa facilmente identificare l'individuo?
+    - I dati sono liberi da ogni riferimento a profughi, protetti di giustizia, vittime di violenze o in ogni caso categorie protette?
+    - I servizi di ricerca sui dati sono tali da poter filtrare i dati in modo da ottenere un solo record geolocalizzato, che sia facilmente e direttamente riconducibile ad una persona fisica?
+    - Nel caso in cui è stata verificata la presenza di dati e informazioni personali, riconducibili in maniera diretta o indiretta a persone fisiche identificate o identificabili, si è provveduto a individuare idonee tecniche di anonimizzazione come indicato nel Parere 05/2014 del Gruppo di lavoro Articolo 29 sulle tecniche di anonimizzazione [PAR-05-2014](capitolo-2.qmd#PAR-05-2014)?
+    - In un'eventuale decisione di rendere riutilizzabili dati personali oggetto di un obbligo di pubblicazione online previsto da un idoneo presupposto normativo ai sensi dell'art. 2-ter, commi 1 e 3, del D. Lgs. 196/2003 (ad es. ai sensi del D. Lgs. 33/2013) o di accogliere eventuali richieste di riutilizzo degli stessi da parte di terzi, è stato valutato se, per quali finalità ed entro quali limiti e condizioni siano eventualmente leciti e non incompatibili utilizzi ulteriori dei dati personali resi pubblici (con esclusione dei dati di cui agli artt. 9-10 del [GDPR](capitolo-2.qmd#GDPR)), sulla base del principio di limitazione della finalità?
+    - È stata effettuata la valutazione d'impatto in materia di protezione dei dati, ai sensi dell'art. 35 del [GDPR](capitolo-2.qmd#GDPR), al fine di ridurre il rischio di perdere il controllo sulle medesime informazioni o di dover far fronte a richieste di risarcimento del danno da parte degli interessati?
+    - Nella predetta analisi di impatto sono state effettuate tutte le valutazioni (anche inerenti alla tipologia di licenza) indicate dal Garante per la protezione dei dati personali nei propri provvedimenti[^#_bookmark84]?
+    - Si è provveduto a coinvolgere il Responsabile per la protezione dei dati personali, la cui nomina è obbligatoria in ogni PA e nei soggetti indicati dall'art. 37 del [GDPR](capitolo-2.qmd#GDPR)?
+- **Proprietà intellettuale della sorgente**
+  - L'ente è proprietario dei dati, anche se non sono stati creati direttamente da suoi dipendenti?
+  - Sei sicuro di non usare dati per i quali vi è una licenza o un brevetto di terzi?
+  - Se i dati non sono del tuo ente, hai un accordo o una licenza che ti autorizzi a pubblicarli?
+- **Licenza di rilascio**
+  - Stai rilasciando i dati di cui possiedi la proprietà accompagnati da una licenza?
+- **Limiti alla pubblicazione**
+  - Hai verificato che non vi siano impedimenti di legge o contrattuali per la pubblicazione dei dati?
+  - Hai verificato che i dati e i documenti non siano tra quelli esclusi dall’applicazione del decreto legislativo n. 36/2006?
+- **Segretezza**
+ - Hai verificato se non vi siano motivi di ordine pubblico o di sicurezza nazionale, motivi legati al segreto d'ufficio o al segreto di stato o al segreto statistico che ti impediscono la pubblicazione dei dati?
+- **Temporalizzazione**
+  - I dati sono soggetti per legge a restrizioni temporali di pubblicazione?
+- **Trasparenza**
+  - I dati hanno dei divieti di legge o giurisprudenziali che impediscono la loro indicizzazione da parte di motori di ricerca?
+  - Fermi restando i limiti e le garanzie per il trattamento dei dati personali, i dati rientrano nella lista dell’allegato A del d.lgs. 33/2013 [D-LGS-33-2013](capitolo-2.qmd#D-LGS-33-2013)?
+
+
+[^#_bookmark84]: Si veda in particolare: "*Linee guida in materia di trattamento di dati personali, contenuti anche in atti e documenti amministrativi, effettuato per finalità di pubblicità e trasparenza sul web da soggetti pubblici e da altri enti obbligati*" (provv. n. 243 del 15/5/2014, [doc. web n. 3134436](https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/3134436)) e successivi provvedimenti di aggiornamento.

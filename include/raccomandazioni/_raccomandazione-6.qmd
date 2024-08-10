@@ -1,0 +1,4 @@
+::: {#racc-6 .callout-note appearance="simple" icon=false .raccomandazione}
+[**Raccomandazione 6**]{.testo-blu}: **dlgs36-2006/opendata/rec/organization/coordination**<br>
+SI RACCOMANDA che le pubbliche amministrazioni statali e regionali che detengono archivi contenenti dati di interesse territoriale – fermo restando il rispetto della disciplina in materia di protezione dei dati personali – prevedano una diffusione dei dati pubblici in forma disaggregata per favorire l'ottimale gestione delle funzioni di raccolta ed elaborazione dati delle Province e Città Metropolitane a supporto di tutti gli enti locali del loro territorio.
+:::
