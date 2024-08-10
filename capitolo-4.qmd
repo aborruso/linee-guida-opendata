@@ -326,8 +326,50 @@ Un ruolo essenziale nell'attuazione della strategia sulla scienza aperta e delle
 
 ## Dati territoriali {#sec-dati-territoriali}
 
+I dati territoriali sono definiti dal [**CAD**](capitolo-2.qmd#CAD) come "*i dati che attengono, direttamente o indirettamente, a una località o a un'area geografica specifica*" (cfr. art. 1, comma 1, lettera i-sexies), in linea con l'analoga definizione presente all'art. 3, punto 2) della Direttiva INSPIRE \[[**INSPIRE-DIR**](capitolo-2.qmd#INSPIRE-DIR)\]. Nel presente documento il termine "dati geospaziali" è utilizzato come sinonimo di "dati territoriali".
+
+Il Decreto non include particolari disposizioni su tali dati, se non il rimando alla disciplina specifica definita in applicazione della Direttiva 2007/2/CE conosciuta come Direttiva INSPIRE \[[**INSPIRE-DIR**](capitolo-2.qmd#INSPIRE-DIR)\] e recepita in Italia con il decreto legislativo 27 gennaio 2010, n. 32 \[[**D-LGS-32-2010**](capitolo-2.qmd#D-LGS-32-2010)\] o i requisiti specifici per le categorie nell'ambito delle quali sono individuati dati di elevato valore afferenti al framework di INSPIRE ("Dati geospaziali", "Dati relativi all'osservazione della terra e all'ambiente", "Dati meteorologici", "Dati relativi alla mobilità") previsti nell'ambito dei dati di elevato valore (v. par. **[-@sec-serie-di-dati-di-elevato-valore]**).
+
+{{< include ./include/requisiti/_requisito-14.qmd >}}
+
+Nel caso di dati territoriali, quindi, si DEVE fare riferimento ai Regolamenti europei e alle norme nazionali (e relativi documenti tecnici) per le diverse componenti (metadati, dati e servizi di dati, servizi di rete, condivisione e monitoraggio) dell'infrastruttura istituita e implementata nell'ambito di INSPIRE. In particolare:
+
+- per i metadati: le Linee Guida recanti regole tecniche per la definizione e l'aggiornamento del contenuto del Repertorio Nazionale dei Dati Territoriali \[[**LG-RNDT**](capitolo-2.qmd#LG-RNDT)\] (coerenti con il [<u>Regolamento (CE) n. 1205/2008</u>](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A02008R1205-20081224)) e la guida operativa per la compilazione dei metadati RNDT (v. box "Risorse utili"), coerente con la guida tecnica INSPIRE sui metadati[^#_bookmark68];
+
+[^#_bookmark68]: <https://inspire.ec.europa.eu/id/document/tg/metadata-iso19139>
+
+- per i dati: [<u>Regolamento (UE) n. 1089/2010</u>](https://eur-lex.europa.eu/eli/reg/2010/1089) e le specifiche dei dati per ciascun tema INSPIRE (v. box "Risorse utili");
+
+- per i servizi di dati e i servizi di rete: [Regolamento (UE) n. 1089/2010](https://eur-lex.europa.eu/eli/reg/2010/1089/oj), [Regolamento (CE) n. 976/2009](https://eur-lex.europa.eu/eli/reg/2009/976) e le Linee Guida tecniche INSPIRE sui servizi di rete e sui servizi di dati territoriali (v. box "Risorse utili");
+
+- per il monitoraggio: [<u>Decisione di esecuzione (UE) 2019/1372</u>.](https://eur-lex.europa.eu/eli/dec_impl/2019/1372/oj)
+
+A questi si aggiungono norme e specifiche tecniche nazionali di dominio, definite eventualmente anche come estensione delle regole INSPIRE; tra le altre (v. box "Risorse utili"):
+
+- specifiche tecniche per i Database GeoTopografici (DBGT) di cui al Decreto 10/11/2011;
+
+- specifiche tecniche per le reti di sottoservizi e il Sistema Informativo Nazionale Federato delle Infrastrutture (SINFI) di cui al Decreto del Ministro dello Sviluppo Economico dell'11 maggio 2016;
+
+- specifiche tecniche per l'illuminazione pubblica.
+
+Sono fatte salve tutte le altre norme applicabili ai dati territoriali, non esplicitamente citate in questo paragrafo (come la [<u>legge n. 132/2016</u>](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2016-06-28;132) relativamente al Sistema Informativo Nazionale Ambientale – SINA - e alla rete SINANET o le norme che disciplinano i Sistemi Informativi Territoriali Regionali).
+
+Stante quanto rappresentato innanzi, per l'apertura e il riutilizzo dei dati territoriali si applicano le indicazioni e i requisiti generali (cioè validi per tutte le tipologie di dati) definiti nelle presenti Linee Guida, facendo riferimento, per i formati, a quelli specifici per tale tipologia di dati, alcuni dei quali riportati nell'[Allegato B](allegato-B.qmd).
+
+Nel caso in cui i dati territoriali siano anche dati dinamici, allora DEVONO essere applicati anche i requisiti di cui al paragrafo **[-@sec-dati-dinamici]**. Se, invece, rientrano tra le serie di dati di elevato valore, DEVONO essere applicati anche i requisiti di cui al paragrafo **[-@sec-serie-di-dati-di-elevato-valore]** e le indicazioni presenti nel Regolamento (UE) 2023/138 \[[**REG-HVD**](capitolo-2.qmd#REG-HVD)\], per le categorie "Dati geospaziali", "Dati relativi all'osservazione della terra e all'ambiente", "Dati meteorologici", "Dati relativi alla mobilità". Se, infine, i dati territoriali sono anche dati della ricerca, sono da applicare i requisiti di cui al paragrafo **[-@sec-dati-della-ricerca]**.
+
+{{< include ./include/risorse-utili/_risorse-cap4.5.qmd >}}
+
 ## Metadati {#sec-metadati}
+
+La metadatazione ricopre un ruolo essenziale laddove i dati siano esposti a utenti terzi e a software. I metadati, infatti, consentono una maggiore comprensione e rappresentano la chiave attraverso cui abilitare più agevolmente la ricerca, la scoperta, l'accesso e quindi il riutilizzo dei dati stessi. Per i metadati descrittivi generali, ovvero non dipendenti dalle tipologie di dati, DEVE essere applicato il profilo nazionale DCAT-AP_IT, rispettando le obbligatorietà e le raccomandazioni ivi previsti e seguendo gli esempi definiti nella relativa specifica e ontologia. Il profilo è stato definito con le "**Linee guida per i cataloghi dati**" (v. box "Risorse utili") pubblicate prima delle modifiche apportate al [**CAD**](capitolo-2.qmd#CAD) dal [<u>decreto legislativo 13 dicembre 2017, n. 217</u>](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2017-12-13;217) e dal "*Regolamento per l'adozione di linee guida per l'attuazione del Codice dell'Amministrazione Digitale*"[^#_bookmark71]. A seguito di tali nuove previsioni normative e regolamentari, dette Linee Guida, potranno essere soggette a revisione con la nuova denominazione "**Guida operativa per i cataloghi dati**". A differenza del presente documento che, ai sensi dell'art. 71 del [**CAD**,](capitolo-2.qmd#CAD) è aggiornato o modificato secondo la procedura prevista dal medesimo articolo, la guida operativa di cui sopra potrà essere aggiornata o modificata ogni qualvolta sarà necessario.
 
 {{< include ./include/requisiti/_requisito-15.qmd >}}
 
+[^#_bookmark71]: <https://trasparenza.agid.gov.it/archivio19_regolamenti_0_5376.html>
+
+Per i dati territoriali, il profilo di metadati da considerare è quello definito con le Linee Guida RNDT \[[**LG-RNDT**](capitolo-2.qmd#LG-RNDT)\]. Tale profilo è coerente con la Direttiva INSPIRE \[[**INSPIRE-DIR**](capitolo-2.qmd#INSPIRE-DIR)\] e relativa norma di recepimento \[[**D-LGS-32-2010**](capitolo-2.qmd#D-LGS-32-2010)\], nonché con il [<u>Regolamento (CE) n. 1205/2008</u>](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A02008R1205-20081224) relativo ai metadati.
+
 {{< include ./include/requisiti/_requisito-16.qmd >}}
+
+{{< include ./include/risorse-utili/_risorse-cap4.6.qmd >}}
