@@ -1,1 +1,55 @@
 # Standard di riferimento e formati aperti {#sec-allegato-b}
+
+## Standard di riferimento {#standard-riferimento}
+
+## Formati aperti per dati e documenti {#formati-aperti}
+
+### Formati aperti per i dati {#formati-aperti-dati}
+
+#### CSV (Comma Separated Values) {#csv}
+
+#### JSON (JavaScript Object Notation) {#json}
+
+#### XML (eXtensible Markup Language) {#xml}
+
+#### Serializzazioni RDF {#rdf}
+
+### Formati aperti più diffusi per i dati geografici {#formati-aperti-geografici}
+
+#### Shapefile {#shapefile}
+
+#### KML {#kml}
+
+#### GeoJSON {#geojson}
+
+#### GML {#gml}
+
+#### GeoPackage {#geopackage}
+
+### Formati aperti per i documenti {#formati-aperti-documenti}
+
+#### ODF (Open Document Format) {#odf}
+
+#### PDF {#pdf}
+
+#### Akoma Ntoso {#akoma-ntoso}
+
+### Altri formati per i dati di elevato valore {#altri-formati}
+
+#### Formati per dati meteorologici {#formati-meteorologici}
+
+#### Formati per dati statistici {#formati-statistici}
+
+#### Formati per i dati relativi alle imprese e alla proprietà delle imprese {#formati-imprese}
+
+### Formati per immagini e dati raster {#formati-immagini}
+
+#### PNG (Portable Network Graphics) {#png}
+
+#### JPEG {#jpeg}
+
+#### JPEG 2000 {#jpeg2000}
+
+#### GeoTIFF (Georeferenced Tagged Image File Format) {#geotiff}
+
+#### SAFE (Standard Archive Format for Europe) {#safe}
