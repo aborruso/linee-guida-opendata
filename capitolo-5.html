@@ -421,7 +421,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <p>La rappresentazione di tale percorso è un adattamento dell’analogo processo definito nel documento “<em>Data quality guidelines</em>” dell’Ufficio delle Pubblicazioni della Commissione Europea<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. Uno schema analogo, sebbene riferito ai <em>linked open data</em>, è definito anche nelle <em>Linee Guida per l’interoperabilità semantica attraverso i Linked Open Data</em><a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>. A tale proposito, <strong>SI RACCOMANDA di seguire le suddette Linee Guida per il processo di produzione di Linked Open Data</strong>.</p>
 <p>In considerazione del possibile diverso punto di partenza del processo di apertura dei dati, alcune fasi indicate nel percorso suddetto possono non essere prese in considerazione. Se, per esempio, l’obiettivo è quello di produrre un nuovo dato - quindi non ancora esistente - le attività di ricognizione e di analisi possono essere by-passate e le prime fasi da considerare potranno essere quella della modellazione e della definizione di priorità e del percorso di apertura (inserita nella fase di identificazione), che rimane comunque valida. Il percorso, inoltre, potrebbe essere modulato anche in forma ciclica, organizzando eventualmente le attività previste in più interazioni.</p>
 <p>L’implementazione del processo deve avvenire in maniera costante: <strong>le attività non si esauriscono con la mera pubblicazione dei dati, ma devono prevedere momenti continui di aggiornamento, monitoraggio e coinvolgimento degli utenti finali</strong>, fasi non rappresentate nel percorso in oggetto ma ugualmente importanti per graduare il processo di apertura e pubblicazione dei dati sulle effettive esigenze degli utenti.</p>
-<div id="fig-preparazione-dati" class="quarto-figure quarto-figure-center quarto-float anchored" alt="Processo di preparazione dei dati." data-align="center" width="90%">
+<div id="fig-preparazione-dati" class="quarto-figure quarto-figure-center quarto-float anchored" width="90%" alt="Processo di preparazione dei dati." data-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-preparazione-dati-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="immagini/image48.png" class="img-fluid figure-img" style="width:90.0%" data-align="center" alt="Processo di preparazione dei dati.">
@@ -723,7 +723,7 @@ Figura&nbsp;5.1: Processo di preparazione dei dati
 <p>In caso di dati di elevato valore (v. par. <strong><a href="capitolo-4.html#sec-serie-di-dati-di-elevato-valore" class="quarto-xref"><span>4.3</span></a></strong>), per tutte le categorie tematiche, tranne quelle relative a dati per i quali si applicano i modelli dati INSPIRE, il Regolamento UE indica esplicitamente che i set di dati DEVONO essere descritti in una documentazione online completa e pubblicamente disponibile che contenga almeno la definizione della struttura e della semantica dei dati.</p>
 <p><strong>Conservazione e storicizzazione</strong> - I dataset rilasciati costituiscono non solo una risorsa per la collettività, ma un prezioso patrimonio anche per le pubbliche amministrazioni che possono in questo modo archiviare in modo alternativo i loro dati in modalità indipendente dagli applicativi</p>
 <p>software originali che li hanno prodotti. Per questo motivo è importante premunirsi di un sistema di archiviazione/conservazione che mantenga le diverse versioni dei dati nel lungo periodo. A tal fine si raccomanda di assicurare che le versioni stesse siano accessibili a un URL stabile, che sia anche documentato unitamente alla pubblicazione del dato.</p>
-<p>A tale proposito, il Decreto stabilisce che le pubbliche amministrazioni e gli organismi di diritto pubblico debbano utilizzare le modalità per facilitare la conservazione dei documenti disponibili per il riutilizzo secondo quanto previsto dall’articolo 44 del <a href="#_bookmark17"><strong>CAD</strong>.</a></p>
+<p>A tale proposito, il Decreto stabilisce che le pubbliche amministrazioni e gli organismi di diritto pubblico debbano utilizzare le modalità per facilitare la conservazione dei documenti disponibili per il riutilizzo secondo quanto previsto dall’articolo 44 del <a href="./capitolo-2.html#CAD"><strong>CAD</strong>.</a></p>
 <div class="requisito callout callout-style-simple callout-important no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -839,6 +839,78 @@ Figura&nbsp;5.1: Processo di preparazione dei dati
 </section>
 <section id="sec-qualita-dei-dati" class="level2" data-number="5.3">
 <h2 data-number="5.3" class="anchored" data-anchor-id="sec-qualita-dei-dati"><span class="header-section-number">5.3</span> Qualità dei dati</h2>
+<p>Il miglioramento della qualità dei dati e la maggiore diffusione delle tecniche di misurazione dipendono da vari fattori tra cui l’adesione a modelli di qualità condivisi.</p>
+<p>Per determinare la bontà dei dati è necessario definire delle misure attraverso le quali quantificare la qualità dei dati. Lo standard ISO/IEC 25012:2008, divenuto norma italiana UNI CEI ISO/IEC 25012:2014, definisce un insieme di caratteristiche specifiche per la caratterizzazione della qualità dei dati suddivise in “<strong><em>inerenti</em></strong>” (accuratezza, aggiornamento (attualità), completezza, consistenza (coerenza), credibilità), “<strong><em>inerenti e dipendenti dal sistema</em></strong>” (accessibilità, comprensibilità, conformità, efficienza, precisione, riservatezza, tracciabilità) e “<strong><em>dipendenti dal sistema</em></strong>” (disponibilità, portabilità e ripristinabilità).</p>
+<p>Sulla base dello standard citato, dal punto di vista inerente, la qualità dei dati si riferisce ai dati stessi, in particolare a: i) valori di dominio dei dati e possibili limitazioni; ii) relazioni di valori di dati; iii) metadati. Riguardo al primo punto, un esempio è rappresentato dalle cosiddette “<em>regole di business</em>” definite in relazione allo specifico contesto operativo per verificare una determinata caratteristica. Tali regole implicano che la qualità dei dati sia parte integrante del processo di produzione del dato in modo da semplificare le operazioni che costituiscono il processo stesso applicando tecniche di qualità dei dati alle informazioni già durante l’elaborazione.</p>
+<p>Con riferimento alla qualità dei dati dipendente dal sistema, detta qualità dipende dal dominio tecnologico in cui i dati sono utilizzati.</p>
+<p>La qualità dei dati, sebbene riferita a quelli riportati nei siti istituzionali nel rispetto degli obblighi di pubblicazione previsti dalla legge, è anche un obbligo derivante dall’art. 6 del decreto legislativo n.&nbsp;33/2013 [<a href="./capitolo-2.html#D-LGS-33-2013"><strong>D-LGS-33-2013</strong></a>] secondo cui si deve assicurare “<em>l’integrità, il costante aggiornamento, la completezza, la tempestività, la semplicità di consultazione, la comprensibilità, l’omogeneità, la facile accessibilità, nonché la conformità ai documenti originali in possesso dell’amministrazione, l’indicazione della loro provenienza e la riutilizzabilità […]</em>”.</p>
+<p>Lo stesso art. 6, al comma 2, precisa che “<em>l’esigenza di assicurare adeguata qualità delle informazioni diffuse non può, in ogni caso, costituire motivo per l’omessa o ritardata pubblicazione dei dati, delle informazioni e dei documenti</em>”. Questo implica che sia possibile pubblicare dati e documenti incompleti relativamente alle caratteristiche di qualità indicate per rispettare i tempi di pubblicazione previsti dalle norme. SI RACCOMANDA, però, di indicare i motivi del mancato adempimento derivante dall’art. 6, comma 1 e di procedere successivamente all’aggiornamento dei dati garantendo il rispetto delle caratteristiche di qualità richiamate.</p>
+<p>La Determinazione Commissariale n.&nbsp;68/2013 di AgID<a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a>, relativa alle regole tecniche per l’identificazione delle basi di dati critiche tra quelle di interesse nazionale specificate sulla base dell’art. 60 del <a href="./capitolo-2.html#CAD"><strong>CAD</strong>,</a> disponeva che venisse garantito il rispetto di quattro caratteristiche, delle quindici previste dallo Standard ISO/IEC 25012, ovvero:</p>
+<ul>
+<li><p><strong>accuratezza</strong> (sintattica e semantica) - il dato e i suoi attributi rappresentano correttamente il valore reale del concetto o dell’evento a cui ci si riferiscono;</p></li>
+<li><p><strong>coerenza</strong> - il dato e i suoi attributi non presentano contraddittorietà rispetto ad altri dati del contesto d’uso dell’amministrazione che detiene il dato;</p></li>
+<li><p><strong>completezza</strong> – il dato risulta esaustivo, sia per tutti i suoi valori attesi e sia rispetto alle entità relative (fonti) che concorrono alla definizione del procedimento a cui si riferisce;</p></li>
+<li><p><strong>attualità</strong> (o tempestività di aggiornamento) - il dato e i suoi attributi sono del “giusto tempo” (sono aggiornati) rispetto al procedimento a cui si riferiscono.</p></li>
+</ul>
+<div class="raccomandazione callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<a href="" id="racc-8"></a>Raccomandazione&nbsp;5.5
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="testo-blu"><strong>Raccomandazione 8</strong></span>: <strong>dlgs36-2006/opendata/req/organization/quality</strong><br> SI RACCOMANDA di garantire, per tutti i dati in generale e per quelli resi disponibili per il riutilizzo, in particolare, il rispetto almeno delle quattro caratteristiche di qualità dei dati (ovvero accuratezza, coerenza, completezza e attualità), fra le 15 previste dallo Standard ISO/IEC 25012 come da indicazioni della Determinazione Commissariale n.&nbsp;68/2013 di AgID.<br> Per la misura delle suddette caratteristiche, fare riferimento allo Standard ISO/IEC 25024.</p>
+</div>
+</div>
+<p>Altre caratteristiche di qualità sono garantite per via degli adempimenti richiesti da specifiche norme di legge o regole tecniche. Per esempio:</p>
+<ul>
+<li><p>l’<strong>accessibilità</strong> è un obbligo derivante dalla <a href="https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2004-01-09;4!vig=2014-09-02">legge n.4/2004</a> e dalle relative Linee Guida AgID;</p></li>
+<li><p>la <strong>riservatezza</strong> è correlata alle indicazioni derivanti dal [<a href="./capitolo-2.html#GDPR"><strong>GDPR</strong></a>];</p></li>
+<li><p>la <strong>disponibilità</strong> include il disaster recovery;</p></li>
+<li><p>la <strong>ripristinabilità</strong> può essere fornita attraverso meccanismi di backup.</p></li>
+</ul>
+<p>Il passo successivo è quantificare le caratteristiche di qualità in termini di misure, individuando delle soglie che consentano di discriminare la bontà o meno di un dato rispetto alla caratteristica in esame. La fase di valutazione della qualità dei dati è importante in tutti i sistemi informativi indipendentemente dalla scelta/necessità di procedere alla loro apertura. Con l’adozione di politiche di apertura dei dati, la qualità dei dati assume un ruolo ancora più rilevante in quanto elemento per la certificazione della bontà dei dati forniti e soprattutto dell’appropriatezza rispetto all’utilizzo che del dato si vuole fare.</p>
+<p>Lo Standard UNI CEI ISO/IEC 25024:2016 “Misurazione della qualità del dato” estende l’UNI CEI ISO/IEC 25012 al campo delle misurazioni, definendo 63 misure di qualità applicabili alle 15 caratteristiche di qualità dei dati, con le relative funzioni di calcolo.</p>
+<p>Secondo lo standard, la qualità va ricercata durante l’intero ciclo di vita del dato, un esempio del quale, riportato nello standard stesso, è composto dalle fasi di: progettazione, acquisizione, integrazione con altri dati, elaborazione, memorizzazione, uso, cancellazione.</p>
+<p>Nei metadati è possibile indicare qual è il livello di qualità dei dati specificando sia il risultato delle misure applicate che fornendo informazioni relative alle caratteristiche di qualità (per esempio, la frequenza di aggiornamento relativamente all’attualità, l’associazione di una impronta crittografica basata su funzioni di hash relativamente alla integrità dei dati, …).</p>
+<p>Nell’elenco che segue si riporta un insieme esemplificativo di misure, sulle 24 definite nello standard ISO per le stesse caratteristiche, a supporto delle attività di valutazione della qualità dei dati delle amministrazioni.</p>
+<ul>
+<li><strong>Completezza</strong>, il grado per cui il dato associato a un’entità presenta valori per tutti gli attributi attesi e relative istanze in un certo contesto.
+<ul>
+<li>Si individuano i seguenti livelli di completezza:
+<ul>
+<li>completezza di <strong>schema</strong>: percentuale di valori nulli per concetti e proprietà rispetto al numero totale di valori attesi;</li>
+<li>completezza dei <strong>record</strong>: numero di dati elementari associati a un valore non nullo in un record, rispetto al numero di dati elementari del record per cui può essere misurata la completezza;</li>
+<li>completezza di <strong>popolazione</strong>: percentuale di valori nulli rispetto a una popolazione di riferimento. Si noti che non sempre valori mancanti indicano incompletezza. Per esempio: si supponga di considerare dati relativi ai musei italiani e ai loro canali di contatto (telefono ed email). Può capitare che i musei abbiano tutti un indirizzo email ma non per tutti è presente un numero di telefono.</li>
+</ul></li>
+</ul></li>
+<li><strong>Accuratezza</strong>, Il grado in cui gli attributi rappresentano in maniera corretta il valore reale del dato in uno specifico contesto
+<ul>
+<li>Si individuano due tipi di accuratezza:
+<ul>
+<li><strong>sintattica</strong>: ad esempio Merio invece che Mario</li>
+<li><strong>semantica</strong>: ad esempio nel caso in cui si utilizzi Marco Rossi intendendo invece un’altra persona per es., Mario Rossi</li>
+</ul></li>
+<li>Una misura dell’accuratezza è data dal rapporto tra gli attributi dei dati che hanno valori accurati sintatticamente/semanticamente sul numero di attributi dei dati per i quali è richiesta accuratezza sintattica/semantica.</li>
+</ul></li>
+<li><strong>Coerenza</strong>, Il grado in cui gli attributi del dato non sono in contraddizione con altri dati in uno specifico contesto
+<ul>
+<li>Per poter valutare la coerenza una misura è quella che consente di identificare le violazioni di regole semantiche definite su alcuni elementi dei dati.<br><br>Per esempio, se una persona è “patentata” non può essere possibile che la sua età sia “17 anni”.<br><br>Essa può essere calcolata come il rapporto tra il numero di attributi dei dati i cui valori sono semanticamente corretti nel dataset sul numero di attributi dei dati per i quali sono state definite delle regole semantiche.<br><br>Altra misura consiste nel rapporto tra il numero di valori duplicati per ogni attributo della base dati e il numero totale degli elementi della base dati.</li>
+</ul></li>
+<li><strong>Tempestività</strong>, Il grado in cui gli attributi del dato sono al “giusto tempo” rispetto al contesto di riferimento
+<ul>
+<li>La metrica è basata sull’uso dei metadati che indicano quando il dato è stato aggiornato l’ultima volta.<br>Sulla base di questi metadati, si distinguono poi:
+<ol type="1">
+<li>dati con periodicità di aggiornamento nota: in questo caso è possibile calcolare la tempestività in maniera esatta identificando se la data di ultima modifica del dato rispetto al tempo di misurazione ricada nell’intervallo della frequenza di aggiornamento;</li>
+<li>dati con periodicità di aggiornamento media: in questo caso è possibile calcolare la tempestività media con una percentuale di errore.</li>
+</ol></li>
+</ul></li>
+</ul>
+<p>Lo Standard ISO/IEC 25012 è applicabile a tutte le tipologie di dati. Nel caso di dati territoriali, uno standard specifico di riferimento per la qualità è l’ISO 19157 “Geographic information – Data quality”. Alcuni elementi e misure di tale Standard sono utilizzati per</p>
+<p>identificare requisiti e raccomandazioni per la qualità dei dati nella sezione “7 - Data quality” delle specifiche sui dati definite per ciascun tema INSPIRE<a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a>. Per i dati territoriali di cui ai temi INSPIRE, pertanto, dovranno essere considerati gli elementi e le misure definite nelle specifiche citate innanzi, nonché i sistemi di validazione e controllo nazionali ed europei. Per i dati territoriali che fanno riferimento a specifiche diverse, dovranno essere adottati sistemi di verifiche di qualità a cura di soggetti qualificati diversi da quelli che hanno prodotto il dato.</p>
 
 
 </section>
@@ -877,6 +949,8 @@ Figura&nbsp;5.1: Processo di preparazione dei dati
 </ol>
 <a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></li>
 <li id="fn11"><p>Definizioni riportate nel documento “Methodology for data validation 2.0” (v. <a href="https://ec.europa.eu/eurostat/ramon/statmanuals/files/methodology_for_data_validation_v2_0_rev2018.pdf" class="uri">https://ec.europa.eu/eurostat/ramon/statmanuals/files/methodology_for_data_validation_v2_0_rev2018.pdf</a>)<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn12"><p><a href="https://www.agid.gov.it/sites/default/files/repository_files/circolari/dt_cs_n.68_-_2013dig_-regole_tecniche_basi_dati_critiche_art_2bis_dl_179-2012_sito.pdf">https://www.agid.gov.it/sites/default/files/repository_files/circolari/dt_cs_n.68_-<em>2013dig</em>- regole_tecniche_basi_dati_critiche_art_2bis_dl_179-2012_sito.pdf</a><a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13"><p><a href="https://inspire.ec.europa.eu/Technical-Guidelines/Data-Specifications/2892" class="uri">https://inspire.ec.europa.eu/Technical-Guidelines/Data-Specifications/2892</a><a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 
