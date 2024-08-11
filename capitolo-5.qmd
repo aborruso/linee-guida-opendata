@@ -271,7 +271,7 @@ In caso di dati di elevato valore (v. par. **[-@sec-serie-di-dati-di-elevato-val
 
 software originali che li hanno prodotti. Per questo motivo è importante premunirsi di un sistema di archiviazione/conservazione che mantenga le diverse versioni dei dati nel lungo periodo. A tal fine si raccomanda di assicurare che le versioni stesse siano accessibili a un URL stabile, che sia anche documentato unitamente alla pubblicazione del dato.
 
-A tale proposito, il Decreto stabilisce che le pubbliche amministrazioni e gli organismi di diritto pubblico debbano utilizzare le modalità per facilitare la conservazione dei documenti disponibili per il riutilizzo secondo quanto previsto dall'articolo 44 del [**CAD**.](#_bookmark17)
+A tale proposito, il Decreto stabilisce che le pubbliche amministrazioni e gli organismi di diritto pubblico debbano utilizzare le modalità per facilitare la conservazione dei documenti disponibili per il riutilizzo secondo quanto previsto dall'articolo 44 del [**CAD**.](capitolo-2.qmd#CAD)
 
 {{< include ./include/requisiti/_requisito-17.qmd >}}
 
@@ -360,3 +360,73 @@ Le modalità, i termini e i tempi per le richieste di riutilizzo sono disciplina
 8.  Nel caso in cui il riutilizzo sia negato perché si tratta di documenti su cui terzi detengono diritti di proprietà intellettuale ai sensi della [legge 22 aprile 1941, n. 633](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1941-04-22;633), l'ente DEVE indicare la persona fisica o giuridica titolare del diritto, se è nota, oppure il licenziante dal quale il titolare del dato stesso ha ottenuto il materiale. Sono esentati da questa indicazione le biblioteche, comprese quelle universitarie, i musei e gli archivi (cfr. art. 5, comma 4 del Decreto).
 
 ## Qualità dei dati {#sec-qualita-dei-dati}
+
+Il miglioramento della qualità dei dati e la maggiore diffusione delle tecniche di misurazione dipendono da vari fattori tra cui l'adesione a modelli di qualità condivisi.
+
+Per determinare la bontà dei dati è necessario definire delle misure attraverso le quali quantificare la qualità dei dati. Lo standard ISO/IEC 25012:2008, divenuto norma italiana UNI CEI ISO/IEC 25012:2014, definisce un insieme di caratteristiche specifiche per la caratterizzazione della qualità dei dati suddivise in "***inerenti***" (accuratezza, aggiornamento (attualità), completezza, consistenza (coerenza), credibilità), "***inerenti e dipendenti dal sistema***" (accessibilità, comprensibilità, conformità, efficienza, precisione, riservatezza, tracciabilità) e "***dipendenti dal sistema***" (disponibilità, portabilità e ripristinabilità).
+
+Sulla base dello standard citato, dal punto di vista inerente, la qualità dei dati si riferisce ai dati stessi, in particolare a: i) valori di dominio dei dati e possibili limitazioni; ii) relazioni di valori di dati; iii) metadati. Riguardo al primo punto, un esempio è rappresentato dalle cosiddette "*regole di business*" definite in relazione allo specifico contesto operativo per verificare una determinata caratteristica. Tali regole implicano che la qualità dei dati sia parte integrante del processo di produzione del dato in modo da semplificare le operazioni che costituiscono il processo stesso applicando tecniche di qualità dei dati alle informazioni già durante l'elaborazione.
+
+Con riferimento alla qualità dei dati dipendente dal sistema, detta qualità dipende dal dominio tecnologico in cui i dati sono utilizzati.
+
+La qualità dei dati, sebbene riferita a quelli riportati nei siti istituzionali nel rispetto degli obblighi di pubblicazione previsti dalla legge, è anche un obbligo derivante dall'art. 6 del decreto legislativo n. 33/2013 \[[**D-LGS-33-2013**](capitolo-2.qmd#D-LGS-33-2013)\] secondo cui si deve assicurare "*l'integrità, il costante aggiornamento, la completezza, la tempestività, la semplicità di consultazione, la comprensibilità, l'omogeneità, la facile accessibilità, nonché la conformità ai documenti originali in possesso dell'amministrazione, l'indicazione della loro provenienza e la riutilizzabilità \[…\]*".
+
+Lo stesso art. 6, al comma 2, precisa che "*l'esigenza di assicurare adeguata qualità delle informazioni diffuse non può, in ogni caso, costituire motivo per l'omessa o ritardata pubblicazione dei dati, delle informazioni e dei documenti*". Questo implica che sia possibile pubblicare dati e documenti incompleti relativamente alle caratteristiche di qualità indicate per rispettare i tempi di pubblicazione previsti dalle norme. SI RACCOMANDA, però, di indicare i motivi del mancato adempimento derivante dall'art. 6, comma 1 e di procedere successivamente all'aggiornamento dei dati garantendo il rispetto delle caratteristiche di qualità richiamate.
+
+La Determinazione Commissariale n. 68/2013 di AgID[^#_bookmark98], relativa alle regole tecniche per l'identificazione delle basi di dati critiche tra quelle di interesse nazionale specificate sulla base dell'art. 60 del [**CAD**,](capitolo-2.qmd#CAD) disponeva che venisse garantito il rispetto di quattro caratteristiche, delle quindici previste dallo Standard ISO/IEC 25012, ovvero:
+
+[^#_bookmark98]: [https://www.agid.gov.it/sites/default/files/repository_files/circolari/dt_cs_n.68_-_2013dig_- regole_tecniche_basi_dati_critiche_art_2bis_dl_179-2012_sito.pdf](https://www.agid.gov.it/sites/default/files/repository_files/circolari/dt_cs_n.68_-_2013dig_-regole_tecniche_basi_dati_critiche_art_2bis_dl_179-2012_sito.pdf)
+
+- **accuratezza** (sintattica e semantica) - il dato e i suoi attributi rappresentano correttamente il valore reale del concetto o dell'evento a cui ci si riferiscono;
+
+- **coerenza** - il dato e i suoi attributi non presentano contraddittorietà rispetto ad altri dati del contesto d'uso dell'amministrazione che detiene il dato;
+
+- **completezza** – il dato risulta esaustivo, sia per tutti i suoi valori attesi e sia rispetto alle entità relative (fonti) che concorrono alla definizione del procedimento a cui si riferisce;
+
+- **attualità** (o tempestività di aggiornamento) - il dato e i suoi attributi sono del "giusto tempo" (sono aggiornati) rispetto al procedimento a cui si riferiscono.
+
+{{< include ./include/raccomandazioni/_raccomandazione-8.qmd >}}
+
+Altre caratteristiche di qualità sono garantite per via degli adempimenti richiesti da specifiche norme di legge o regole tecniche. Per esempio:
+
+- l'**accessibilità** è un obbligo derivante dalla [legge n.4/2004](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2004-01-09;4!vig=2014-09-02) e dalle relative Linee Guida AgID;
+
+- la **riservatezza** è correlata alle indicazioni derivanti dal \[[**GDPR**](capitolo-2.qmd#GDPR)\];
+
+- la **disponibilità** include il disaster recovery;
+
+- la **ripristinabilità** può essere fornita attraverso meccanismi di backup.
+
+Il passo successivo è quantificare le caratteristiche di qualità in termini di misure, individuando delle soglie che consentano di discriminare la bontà o meno di un dato rispetto alla caratteristica in esame. La fase di valutazione della qualità dei dati è importante in tutti i sistemi informativi indipendentemente dalla scelta/necessità di procedere alla loro apertura. Con l'adozione di politiche di apertura dei dati, la qualità dei dati assume un ruolo ancora più rilevante in quanto elemento per la certificazione della bontà dei dati forniti e soprattutto dell'appropriatezza rispetto all'utilizzo che del dato si vuole fare.
+
+Lo Standard UNI CEI ISO/IEC 25024:2016 "Misurazione della qualità del dato" estende l'UNI CEI ISO/IEC 25012 al campo delle misurazioni, definendo 63 misure di qualità applicabili alle 15 caratteristiche di qualità dei dati, con le relative funzioni di calcolo.
+
+Secondo lo standard, la qualità va ricercata durante l'intero ciclo di vita del dato, un esempio del quale, riportato nello standard stesso, è composto dalle fasi di: progettazione, acquisizione, integrazione con altri dati, elaborazione, memorizzazione, uso, cancellazione.
+
+Nei metadati è possibile indicare qual è il livello di qualità dei dati specificando sia il risultato delle misure applicate che fornendo informazioni relative alle caratteristiche di qualità (per esempio, la frequenza di aggiornamento relativamente all'attualità, l'associazione di una impronta crittografica basata su funzioni di hash relativamente alla integrità dei dati, …).
+
+Nell'elenco che segue si riporta un insieme esemplificativo di misure, sulle 24 definite nello standard ISO per le stesse caratteristiche, a supporto delle attività di valutazione della qualità dei dati delle amministrazioni.
+
+- **Completezza**, il grado per cui il dato associato a un'entità presenta valori per tutti gli attributi attesi e relative istanze in un certo contesto.
+  - Si individuano i seguenti livelli di completezza:
+    - completezza di **schema**: percentuale di valori nulli per concetti e proprietà rispetto al numero totale di valori attesi;
+    - completezza dei **record**: numero di dati elementari associati a un valore non nullo in un record, rispetto al numero di dati elementari del record per cui può essere misurata la completezza;
+    - completezza di **popolazione**: percentuale di valori nulli rispetto a una popolazione di riferimento. Si noti che non sempre valori mancanti indicano incompletezza. Per esempio: si supponga di considerare dati relativi ai musei italiani e ai loro canali di contatto (telefono ed email). Può capitare che i musei abbiano tutti un indirizzo email ma non per tutti è presente un numero di telefono.
+- **Accuratezza**, Il grado in cui gli attributi rappresentano in maniera corretta il valore reale del dato in uno specifico contesto
+  - Si individuano due tipi di accuratezza:
+    - **sintattica**: ad esempio Merio invece che Mario
+    - **semantica**: ad esempio nel caso in cui si utilizzi Marco Rossi intendendo invece un'altra persona per es., Mario Rossi
+  - Una misura dell'accuratezza è data dal rapporto tra gli attributi dei dati che hanno valori accurati sintatticamente/semanticamente sul numero di attributi dei dati per i quali è richiesta accuratezza sintattica/semantica.
+- **Coerenza**, Il grado in cui gli attributi del dato non sono in contraddizione con altri dati in uno specifico contesto
+  - Per poter valutare la coerenza una misura è quella che consente di identificare le violazioni di regole semantiche definite su alcuni elementi dei dati.<br><br>Per esempio, se una persona è "patentata" non può essere possibile che la sua età sia "17 anni".<br><br>Essa può essere calcolata come il rapporto tra il numero di attributi dei dati i cui valori sono semanticamente corretti nel dataset sul numero di attributi dei dati per i quali sono state definite delle regole semantiche.<br><br>Altra misura consiste nel rapporto tra il numero di valori duplicati per ogni attributo della base dati e il numero totale degli elementi della base dati.
+- **Tempestività**, Il grado in cui gli attributi del dato sono al "giusto tempo" rispetto al contesto di riferimento
+  - La metrica è basata sull'uso dei metadati che indicano quando il dato è stato aggiornato l'ultima volta.<br>Sulla base di questi metadati, si distinguono poi:
+    1.	dati con periodicità di aggiornamento nota: in questo caso è possibile calcolare la tempestività in maniera esatta identificando se la data di ultima modifica del dato rispetto al tempo di misurazione ricada nell'intervallo della frequenza di aggiornamento;
+    2.	dati con periodicità di aggiornamento media: in questo caso è possibile calcolare la tempestività media con una percentuale di errore.
+
+
+Lo Standard ISO/IEC 25012 è applicabile a tutte le tipologie di dati. Nel caso di dati territoriali, uno standard specifico di riferimento per la qualità è l'ISO 19157 "Geographic information -- Data quality". Alcuni elementi e misure di tale Standard sono utilizzati per
+
+identificare requisiti e raccomandazioni per la qualità dei dati nella sezione "7 - Data quality" delle specifiche sui dati definite per ciascun tema INSPIRE[^#_bookmark99]. Per i dati territoriali di cui ai temi INSPIRE, pertanto, dovranno essere considerati gli elementi e le misure definite nelle specifiche citate innanzi, nonché i sistemi di validazione e controllo nazionali ed europei. Per i dati territoriali che fanno riferimento a specifiche diverse, dovranno essere adottati sistemi di verifiche di qualità a cura di soggetti qualificati diversi da quelli che hanno prodotto il dato.
+
+[^#_bookmark99]: <https://inspire.ec.europa.eu/Technical-Guidelines/Data-Specifications/2892>
