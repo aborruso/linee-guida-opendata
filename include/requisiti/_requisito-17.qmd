@@ -1,0 +1,4 @@
+::: {#req-17 .callout-important appearance="simple" icon=false .requisito}
+[**REQUISITO 17**]{.testo-rosso}: **dlgs36-2006/opendata/req/organization/rndt** [🔗](#req-17){.link-req}<br>
+Le pubbliche amministrazioni e gli organismi di diritto pubblico, al fine di facilitare la conservazione dei documenti disponibili per il riutilizzo, DEVONO seguire le indicazioni fornite nelle "[Linee Guida sulla formazione, gestione e conservazione dei documenti informatici](https://www.agid.gov.it/sites/agid/files/2024-06/Linee_guida_sul_documento_informatico.pdf)".
+:::

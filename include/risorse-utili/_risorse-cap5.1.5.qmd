@@ -1,0 +1,10 @@
+----
+
+::: {.callout-tip icon=false #res-5.1.5 .risorsa}
+
+📚 **Risorse utili - cap. 5.1.5** [🔗](#res-5.1.5){.link-req}
+
+- [Catalogo nazionale per la semantica dei dati](https://www.schema.gov.it/)
+- [Regolamento sui criteri per la fornitura dei servizi di conservazione dei documenti iformatici](https://trasparenza.agid.gov.it/archivio28_provvedimenti-amministrativi_0_122919_725_1.html), adottato con la Determinazione AgID n. 455/2021 del 25 giugno 2021
+
+:::

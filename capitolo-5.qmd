@@ -167,15 +167,161 @@ I criteri di prioritizzazione indicati innanzi, quindi, troverebbero fondamento 
 
 ### Analisi {#sec-analisi}
 
+**Analisi della qualità dei dati** - All'analisi giuridica delle fonti segue l'analisi della qualità dei dati. Per la definizione del concetto di qualità dei dati si può ricorrere alla norma ISO/IEC 25012, secondo cui "***la qualità dei dati è il grado in cui le caratteristiche dei dati soddisfano esigenze espresse e implicite quando utilizzati in specifiche condizioni***". Nella sezione dedicata alla "qualità dei dati" (v. par. **[-@sec-qualita-dei-dati]**) si identificano alcune misure e un metodo di valutazione, basati sugli standard ISO di riferimento.
+
+**Bonifica** - Generalmente, l'analisi della qualità del dato può richiedere una fase di bonifica che si sostanzia in attività di miglioramento di detta qualità che può essere ottenuto eliminando errori e criticità attraverso processi basati sui dati, tramite il confronto con il mondo reale o il confronto incrociato (matching) con altri dataset, oppure adottando azioni di bonifica basate su processi che hanno la caratteristica di analizzare le cause che hanno portato alla scarsa qualità del dato, in modo anche da rivedere gli stessi processi di produzione del dato per garantirne la qualità nel tempo.
+
+**Analisi di processo, (re)ingegnerizzazione dei processi organizzativi e produzione dei dati** - Ogni dato ha un proprio ciclo di vita, caratterizzato da uno specifico tasso di aggiornamento o manutenzione. Lo Standard UNI CEI ISO/IEC 25024:2016 "Misurazione della qualità del dato" riporta un esempio dell'intero ciclo di vita del dato composto dalle fasi di: progettazione, acquisizione, integrazione con altri dati, elaborazione, memorizzazione, uso, cancellazione.
+
+Risulta quindi necessario analizzare il processo organizzativo che produce e gestisce il dato per fare in modo che la produzione di quel dato sia consolidata e diventi stabile, secondo la frequenza di aggiornamento e le modalità di rilascio adottate.
+
+È preferibile che l'aggiornamento sia operato dal titolare del dato nativo, di prima produzione, possibilmente in maniera coordinata con le altre strutture organizzative dell'ente ovvero degli altri enti competenti per materia e, in generale, altre organizzazioni, anche al fine di evitare duplicazioni.
+
+A tale proposito, a livello territoriale, si deve tenere conto delle funzioni di raccolta ed elaborazione dati che la [legge 7 aprile 2014, n. 56](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2014-04-07;56!vig=2024-08-10), all'art. 1, comma 85, lettera d) riconosce come funzione fondamentale delle Province e delle Città Metropolitane.
+
 ### Arricchimento {#sec-arricchimento}
+
+Una volta che i dati siano stati bonificati, possono essere arricchiti attraverso l'integrazione con altri dati e il linking esterno. L'arricchimento è definito dal documento "Data quality guidelines" del Publications Office[^#_bookmark87] come risultante del collegamento, ai dati esistenti, dei dati da fonti esterne, ed è un processo che, secondo il documento medesimo, include sia la standardizzazione che specifiche attività di arricchimento vero e proprio.
+
+[^#_bookmark87]: v. box "Risorse utili" al par. [4.1](capitolo-4.qmd#res-4.1)
+
+Chiaramente parlando di arricchimento ci si riferisce a dati già esistenti; le azioni indicate, però, potrebbero essere applicate ai dati già al momento della loro formazione, costituendo buone pratiche da seguire in quella fase.
+
+**Vocabolari controllati** - Come indicato nel documento "Data quality guidelines", un livello più alto di standardizzazione può essere raggiunto facendo riferimento a vocabolari controllati RDF, quali elenchi di codici, tassonomie, classificazioni o terminologie, definiti nel Piano Triennale ICT 2017-2019 come "*un modo comune e condiviso per organizzare codici e nomenclature ricorrenti in maniera standardizzata e normalizzata*". I vocabolari controllati assegnano a ogni concetto un identificatore univoco e persistente (URI) in modo che quel concetto venga referenziato in maniera non ambigua e garantiscono, inoltre, la gestione in modo coerente delle diverse versioni. Possono essere associate, oltre alle etichette, definizioni e descrizioni anche in diverse lingue.
+
+I vocabolari fanno sì che invece di utilizzare nei dati le etichette, queste possano essere referenziate dagli identificatori univoci assegnati, in modo che, se le etichette dovessero cambiare, il riferimento non deve essere adeguato, riducendo l'onere di manutenzione per titolari e fruitori di dati. Considerato, inoltre, che gli URI possono essere dereferenziati (v. par. **[-@sec-identificatori-univoci-e-persistenti]**), l'etichetta può essere risolta in qualsiasi lingua.
+
+In caso di dati di elevato valore (v. par. **[-@sec-serie-di-dati-di-elevato-valore]**), per specifiche categorie tematiche (ovvero osservazione della terra e ambiente, statistica, imprese e proprietà delle imprese, mobilità) il Regolamento (UE) \[[**REG-HVD**](capitolo-2.qmd#REG-HVD)\] indica esplicitamente che i set di dati DEVONO utilizzare, ove possibile, vocabolari controllati e tassonomie documentati pubblicamente e riconosciuti nell'Unione o a livello internazionale.
+
+I vocabolari controllati sono disponibili nel Catalogo Nazionale della semantica dei dati e, per i dati territoriali, nel Sistema di Registri INSPIRE Italia (v. box "Risorse utili").
+
+**Integrazione con altri dati** - L'arricchimento dei dati può essere ottenuto, come detto, anche integrando informazioni da sorgenti esterne rendendo in questo modo i dati di origine più significativi e fruibili. Il valore aggiunto è ottenuto, per esempio, producendo i dati mashup già citati in precedenza.
+
+**Linking nei LOD** - Come detto, il collegamento (*linking*) dei dati può aumentarne il valore creando nuove relazioni e consentendo così nuovi tipi di analisi.
+
+Nel caso in cui il processo sia finalizzato alla produzione di linked open data, come evidenziato nelle già citate Linee Guida per l'interoperabilità semantica attraverso i Linked Open Data, "*il linking è una funzionalità molto importante e di fatto può essere considerata una forma particolare di arricchimento. La particolarità consiste nel fatto che l'arricchimento avviene grazie all'interlinking fra dataset di origine diversa, tipicamente fra amministrazioni o istituzioni diverse, ma anche, al limite, all'interno di una stessa amministrazione*". Tale collegamento è possibile soprattutto attraverso l'uso coerente di identificatori univoci, gli URI, di cui si è parlato prima e che vengono approfonditi ulteriormente nel par. **[-@sec-identificatori-univoci-e-persistenti]**.
+
+I linked open data, oltre agli URI, si basano su diversi standard, tra cui RDF, e spesso usano vocabolari controllati RDF per rappresentare terminologia controllata del dominio applicativo di riferimento. Nell'allegato B sono riportati, nella prima parte, anche i principali standard di riferimento necessari anche ad abilitare i livelli 4 e 5 del modello dei dati di cui all'allegato A. Utilizzando il framework RDF, si può costruire un grafo semantico, noto anche come grafo della conoscenza, che può essere percorso dalle macchine risolvendo, cioè dereferenziando, gli URI HTTP.
+
+Dai dati così disponibili è possibile estrarre automaticamente informazione e derivare, quindi, contenuto informativo aggiuntivo (inferenza) attraverso ragionatori automatici e query `SPARQL` (v. le Linee Guida indicate nel [box "Risorse utili"](#res-5.1.4)).
+
+Alcune delle fasi indicate nel percorso di cui alla **@fig-preparazione-dati** possono essere comuni al processo di produzione dei Linked Open Data. Tale processo è caratterizzato da altre specifiche fasi, non rappresentate nel percorso comune, ma dettagliate nelle Linee Guida citate innanzi a cui si rimanda, come già raccomandato in precedenza.
 
 {{< include ./include/risorse-utili/_risorse-cap5.1.4.qmd >}}
 
 ### Modellazione e documentazione {#sec-modellazione-e-documentazione}
 
+Una fase molto importante nel processo di preparazione dei dati è la definizione di sintassi (cioè struttura) e semantica (cioè contenuto). Questo, oltre a migliorare l'interoperabilità, la qualità e a facilitarne l'elaborazione, aumenta anche il valore dei dati stessi, poiché l'interpretazione errata dei dati diventa meno probabile quando viene fornito il contesto.
+
+Come detto innanzi, questa fase può corrispondere alla prima del processo nel caso in cui il dato ancora non esista e, quindi, si parte dalla definizione di un'ontologia o comunque di un modello dati del dominio, cioè dalla definizione sintattica e semantica dei dati in termini di entità rappresentate, loro attributi e associazioni (cosiddetta fase di modellazione).
+
+Rientra in questa fase anche la documentazione delle modifiche e degli aggiornamenti dei dati oltre alla gestione delle relative versioni e la storicizzazione.
+
+**Schemi dei dati** – Per facilitare la corretta interpretazione dei dati da parte del fruitore ed evitare qualsiasi ambiguità nella loro comprensione, è necessario condividere anche gli schemi dei dati, eventualmente specificati separatamente, che forniscono la descrizione di sintassi e struttura dei dati stessi.
+
+A titolo di esempio, con riferimento ad alcuni formati riportati al par. [**2**](allegato-B.qmd#formati-aperti) dell'Allegato B (CSV, JSON, XML), gli schemi che potrebbero essere utilizzati sono i seguenti:
+
+- JSON Schema[^#_bookmark89] per il formato JSON;
+
+- XSD (XML Schema Definition)[^#_bookmark90] per il formato XML;
+
+- Table Schema per il formato CSV definito nell'ambito del toolkit Frictionless Data[^#_bookmark91].
+
+[^#_bookmark89]: v. <https://json-schema.org/>
+
+[^#_bookmark90]: v. <https://www.w3.org/TR/xmlschema11-1/> e <http://www.w3.org/TR/xmlschema11-2/>
+
+[^#_bookmark91]: v. <https://frictionlessdata.io/>
+
+Il toolkit Frictionless include anche il cosiddetto Data Package, un "formato contenitore" composto dai metadati che descrivono la struttura e il contenuto del pacchetto (memorizzati in un "descrittore") e le risorse, come i file di dati, che costituiscono il contenuto del pacchetto.
+
+In generale, i metadati di contenuto potrebbero seguire le ontologie nazionali disponibili nel Catalogo nazionale della semantica dei dati, soprattutto per tutti quei dati indipendenti dal dominio specifico.
+
+**Modelli dati -** Il Piano Triennale ICT 2017-2019 definisce un'ontologia o un modello dati condiviso come "*una concettualizzazione esaustiva e rigorosa nell'ambito di un dato dominio*".
+
+Anche per garantire la coerenza tra i documenti, si richiama qui la fase denominata "Semantica" nel processo digitale individuato e descritto nelle Linee Guida per l'interoperabilità tecnica \[[**LG-INT**](capitolo-2.qmd#LG-INT)\], in cui si evidenzia che la comunicazione tra soggetti DEVE utilizzare modelli dati condivisi, in modo da razionalizzare e uniformare la rappresentazione dell'informazione quale presupposto per favorire l'interoperabilità tra soggetti differenti.
+
+Le Linee Guida di cui sopra hanno già definito una serie di requisiti in tema di modelli dati. Come indicato nel documento citato, pertanto, nell'individuazione delle entità da condividere i diversi soggetti DEVONO:
+
+1) individuare i domini di interesse e in essi determinare le entità da rappresentare in termini di proprietà che li caratterizzano;
+
+2) verificare la presenza delle entità per dominio tra quelli definiti a livello nazionale nella rete di ontologie e vocabolari pubblicati nel Catalogo Nazionale per la semantica dei dati.
+
+A integrazione di quanto sopra, considerato quanto previsto dall'art. 6, comma 9 del Decreto, i modelli dati da considerare per i dati territoriali sono quelli definiti nell'ambito delle attività di regolamentazione derivanti dalla Direttiva INSPIRE **[INSPIRE-DIR](capitolo-2.qmd#INSPIRE-DIR)** e nell'ambito del framework nazionale che fa riferimento ai decreti 10/11/2011 e alle attività di estensione delle regole INSPIRE (v. par. **[-@sec-dati-territoriali]**).
+
+Si aggiunge, pertanto, un ulteriore requisito:
+
+3)  nel caso di dati territoriali, verificare la presenza delle entità per dominio tra quelli definiti a livello europeo e nazionale nell'ambito della regolamentazione INSPIRE e la sua estensione nazionale.
+
+Come indicato nelle citate Linee Guida, successivamente all'attuazione delle regole 2) e 3) ci si può trovare in uno dei seguenti casi:
+
+a)  tutte le entità e le relative proprietà trovano copertura;
+
+b)  almeno una delle entità non è compresa nelle rappresentazioni;
+
+c)  almeno una proprietà di un'entità presente non risulta rappresentata.
+
+Nel caso a), il soggetto ha tutti gli elementi per rappresentare il proprio modello dati; viceversa, nei casi b) e c), la stessa amministrazione, in accordo con AgID, valuta l'opportunità di estendere il modello dati a livello nazionale.
+
+La regola che, in generale, deve guidare, è di esaminare modelli dati, ontologie e vocabolari controllati esistenti per verificare se i concetti siano già provvisti di entità, proprietà e, ove presenti, URI ampiamente adottati, specie se in ambito europeo. Solo in caso contrario, l'ente che pubblica i dati può definire e pubblicare, secondo le regole indicate innanzi, il proprio modello dati, ontologia o vocabolario controllato al fine di definire concetti che non siano stati specificati altrove.
+
+In caso di dati di elevato valore (v. par. **[-@sec-serie-di-dati-di-elevato-valore]**), per tutte le categorie tematiche, tranne quelle relative a dati per i quali si applicano i modelli dati INSPIRE, il Regolamento UE indica esplicitamente che i set di dati DEVONO essere descritti in una documentazione online completa e pubblicamente disponibile che contenga almeno la definizione della struttura e della semantica dei dati.
+
+**Conservazione e storicizzazione** - I dataset rilasciati costituiscono non solo una risorsa per la collettività, ma un prezioso patrimonio anche per le pubbliche amministrazioni che possono in questo modo archiviare in modo alternativo i loro dati in modalità indipendente dagli applicativi
+
+software originali che li hanno prodotti. Per questo motivo è importante premunirsi di un sistema di archiviazione/conservazione che mantenga le diverse versioni dei dati nel lungo periodo. A tal fine si raccomanda di assicurare che le versioni stesse siano accessibili a un URL stabile, che sia anche documentato unitamente alla pubblicazione del dato.
+
+A tale proposito, il Decreto stabilisce che le pubbliche amministrazioni e gli organismi di diritto pubblico debbano utilizzare le modalità per facilitare la conservazione dei documenti disponibili per il riutilizzo secondo quanto previsto dall'articolo 44 del [**CAD**.](#_bookmark17)
+
+{{< include ./include/requisiti/_requisito-17.qmd >}}
+
+Stante quanto indicato nel par. **[-@sec-requisiti-comuni]** relativamente alla distinzione tra documenti e dati, il [**REQUISITO 17**](#req-17) si applica solo ai documenti che rientrano nell'ambito di applicazione delle Linee Guida richiamate nel requisito stesso.
+
+{{< include ./include/risorse-utili/_risorse-cap5.1.5.qmd >}}
+
 ### Validazione {#sec-validazione}
 
+La validazione dei dati è una parte essenziale di qualsiasi processo di apertura, comunque propedeutica alla pubblicazione e al riutilizzo. Essa viene definita come "*un'attività volta a verificare se il valore di un dato proviene dall'insieme dato (finito o infinito) di valori accettabili*" o "*come un processo che assicura la corrispondenza dei dati finali (pubblicati) con una serie di caratteristiche qualitative*"[^#_bookmark94].
+
+[^#_bookmark94]: Definizioni riportate nel documento "Methodology for data validation 2.0" (v. <https://ec.europa.eu/eurostat/ramon/statmanuals/files/methodology_for_data_validation_v2_0_rev2018.pdf>)
+
+In sintesi, lo scopo della validazione dei dati è quello di assicurare un certo livello di qualità ai dati stessi.
+
+Di analisi di qualità dei dati si è già accennato nella fase post ricognizione dei dati e, come già innanzi, si rimanda al par. **[-@sec-qualita-dei-dati]** dedicato alle caratteristiche e alle misure della qualità.
+
+La differenza e le relazioni tra validazione e qualità sono indicate nel documento "Methodology for data validation 2.0" (v. box "Risorse utili"): la validazione dei dati si focalizza sulle dimensioni della qualità relative alla "struttura e al contenuto dei dati", ma non sugli aspetti della qualità che riguardano i processi. Si può dire, quindi, che la validazione è relativa solo alle caratteristiche di qualità definite "inerenti" nello Standard ISO/IEC 25012:2008 e riportate nel citato par. **[-@sec-qualita-dei-dati]**.
+
+La fase di validazione può essere un ulteriore passaggio per la verifica dei dati a valle delle altre operazioni effettuate prima della pubblicazione, per es. per l'arricchimento. Può essere anche intesa come la prima e unica fase del processo per la verifica della qualità nel caso di nuovi dati che, quindi, non rientrerebbero nella fase di ricognizione e nella conseguente analisi.
+
+Il documento "[Methodology for data validation 2.0](https://ec.europa.eu/eurostat/ramon/statmanuals/files/methodology_for_data_validation_v2_0_rev2018.pdf)" individua sei livelli di validazione che si riportano di seguito rimandando al documento citato per ulteriori approfondimenti.
+
+- **Livello 0**: coerenza con i requisiti strutturali IT previsti;
+
+- **Livello 1**: coerenza all'interno del set di dati;
+
+- **Livello 2**: coerenza con altri set di dati all'interno dello stesso dominio e all'interno della stessa origine dati;
+
+- **Livello 3**: coerenza all'interno dello stesso dominio tra origini dati diverse;
+
+- **Livello 4**: coerenza tra domini separati dello stesso fornitore di dati;
+
+- **Livello 5**: coerenza con i dati di altri fornitori di dati.
+
+{{< include ./include/risorse-utili/_risorse-cap5.1.6.qmd >}}
+
 ### Pubblicazione {#sec-pubblicazione}
+
+Prima di procedere alla pubblicazione è necessario creare i metadati, definire le politiche di accesso e il modello di licenza da applicare e identificare i canali per la pubblicazione, anche in base
+
+alla tipologia dei dati, tra accesso diretto (del singolo dataset e/o in blocco), portale dati, API e, in caso di linked open data, triple store.
+
+Nella scelta del canale si devono tenere in considerazione anche i requisiti definiti nelle presenti Linee Guida; ad esempio, per come disposto dal Decreto, i dati dinamici e le serie di dati di elevato valore DEVONO essere resi disponibili attraverso API e, ove possibile, attraverso download in blocco, il che non significa, naturalmente, che non possano essere resi disponibili anche attraverso altri canali ma che quella individuata in prima battuta possa essere l'opzione preferenziale. Il **[Capitolo 7](capitolo-7.qmd)** fornisce indicazioni, raccomandazioni e ulteriori elementi per la pubblicazione dei dati.
+
+**Metadatazione** - Come detto precedentemente, la metadatazione è cruciale: i metadati certificano le caratteristiche del dato. Si ricorda, a tale riguardo, di seguire i profili di metadati indicati nel paragrafo **[-@sec-metadati]** a cui si rimanda e che consentono di specificare i più importanti metadati descrittivi per i dataset (per es., soggetti e relativi ruoli, contestualizzazione geografica e temporale, licenza, frequenza di aggiornamento, aspetti di distribuzione, punto di contatto, ecc.).
+
+**Politiche di accesso e licenza** – Nell'ambito del processo di apertura sono da tenere in considerazione eventuali forme di aggregazione dei dati e restrizioni di accesso, che hanno anche un impatto sulla scelta della licenza, della quale si tratterà al [**Capitolo 6**,](capitolo-6.qmd) e sulla protezione dei dati personali. Sebbene sia sconsigliato restringere l'accesso ai dati o procedere con la pubblicazione di aggregazioni degli stessi (in generale non è opportuno che l'esposizione del dato lavorato avvenga senza che sia stato pubblicato prioritariamente il dato grezzo), esistono casi in cui i dati possono essere diffusi solo in forma anonima (ad esempio i redditi), ossia a un livello di aggregazione tale da impedire di identificare le persone cui i dati si riferiscono (cfr. indicazioni in merito presenti nei paragrafi **[-@sec-requisiti-comuni]** e **[-@sec-individuazione-e-selezione]**).
+
+A tal fine, è bene definire delle politiche di accesso ai dati in cui sia indicato un profilo di accesso specifico per ogni dato, dettato dai diritti sull'informazione di base, dalle norme o dalle policy in atto, nel rispetto dei principi fondamentali in materia di protezione dei dati personali di cui all'art. 5 del \[[**GDPR**](capitolo-2.qmd#GDPR)\].
 
 ## Richieste di riutilizzo {#sec-richieste-di-riutilizzo}
 

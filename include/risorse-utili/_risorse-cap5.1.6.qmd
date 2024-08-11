@@ -1,0 +1,9 @@
+----
+
+::: {.callout-tip icon=false #res-5.1.6 .risorsa}
+
+📚 **Risorse utili - cap. 5.1.6** [🔗](#res-5.1.6){.link-req}
+
+- [Methodology for data validation 2.0](https://ec.europa.eu/eurostat/ramon/statmanuals/files/methodology_for_data_validation_v2_0_rev2018.pdf), Essnet Validat Foundation, Revised edition 2018
+
+:::
