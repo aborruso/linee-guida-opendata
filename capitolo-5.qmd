@@ -325,4 +325,38 @@ A tal fine, è bene definire delle politiche di accesso ai dati in cui sia indic
 
 ## Richieste di riutilizzo {#sec-richieste-di-riutilizzo}
 
+L'apertura dei dati può essere un'operazione conseguente anche ad una esplicita richiesta da parte di un soggetto interessato. La Direttiva evidenzia che, in questi casi, i tempi di risposta alle
+
+richieste di riutilizzo dei documenti dovrebbero essere ragionevoli ed essere in linea con il tempo necessario per rispondere alle richieste di accesso a un dato documento conformemente ai pertinenti regimi di accesso, come effettivamente recepito con il Decreto, e nel rispetto della normativa unionale e nazionale in materia di protezione dei dati personali (cfr. indicazioni in merito presenti nei paragrafi **[-@sec-requisiti-comuni]** e **[-@sec-individuazione-e-selezione]**).
+
+La Direttiva, inoltre, invita gli Stati membri ad incoraggiare, laddove necessario, la creazione di indici accessibili online per i documenti disponibili in modo da promuovere e agevolare le richieste di riutilizzo. Tale raccomandazione può trovare applicazione nell'ordinamento italiano nelle attività di cui all'art. 53, comma 1-bis del **[CAD](capitolo-2.qmd#CAD)** volte alla pubblicazione, da parte delle pubbliche amministrazioni, del catalogo dei dati e dei metadati nonché delle relative banche dati in loro possesso, preferibilmente attraverso collegamenti ipertestuali alla sezione del sito in cui sono presenti i relativi dati, le informazioni o i documenti.
+
+Le modalità, i termini e i tempi per le richieste di riutilizzo sono disciplinati dall'art. 5 del Decreto. Sulla base di tali disposizioni e considerato che le pubbliche amministrazioni e gli organismi di diritto pubblico hanno già implementato procedimenti per ottemperare a quanto disposto dall'art. 5 del D. Lgs. n. 33/2013 \[[**D-LGS-33-2013**](capitolo-2.qmd#D-LGS-33-2013)\] relativo alle richieste di accesso civico, di seguito viene indicata la procedura da seguire per le richieste di riutilizzo di dati e documenti aperti e il trattamento delle stesse.
+
+{{< include ./include/requisiti/_requisito-18.qmd >}}
+
+1.  La richiesta di riutilizzo PUÒ essere rivolta ad uno degli uffici indicati all'art. 5, comma 3 del D. Lgs. n. 33/2013 \[[**D-LGS-33-2013**](capitolo-2.qmd#D-LGS-33-2013)\], ovvero:
+
+    1.  all'ufficio che detiene i dati, le informazioni o i documenti;
+
+    2.  all'Ufficio relazioni con il pubblico;
+
+    3.  ad altro ufficio indicato dall'amministrazione nella sezione "Amministrazione trasparente" del sito istituzionale;
+
+    4.  al responsabile della prevenzione della corruzione e della trasparenza, ove l'istanza abbia ad oggetto dati, informazioni o documenti oggetto di pubblicazione obbligatoria ai sensi del D. Lgs. 33/2013 \[[**D-LGS-33-2013**](capitolo-2.qmd#D-LGS-33-2013)\].
+
+2.  Nel caso in cui un'Amministrazione abbia individuato e definito una procedura specifica per la presa in carico e l'espletamento delle richieste di riutilizzo, allora il richiedente DEVE seguire tale procedura by-passando il punto 1. Sulla base del Decreto, sono tenuti a definire specifici termini e modalità di riutilizzo dei dati secondo i rispettivi ordinamenti le imprese pubbliche, gli istituti di istruzione, le organizzazioni che svolgono attività di ricerca, le organizzazioni che finanziano la ricerca, il Dipartimento delle informazioni per la sicurezza (DIS), l'Agenzia informazioni e sicurezza esterna (AISE) e l'Agenzia informazioni e sicurezza interna (AISI).
+
+3.  L'esame delle richieste DEVE essere concluso con la formulazione di una **decisione entro 30 giorni**. A supporto di tale attività può essere considerato quanto indicato in relazione all'analisi dei vincoli di cui al par. **[-@sec-individuazione-e-selezione]** o in relazione ai "*Documenti esclusi dall'applicazione*" di cui al par. **[-@sec-documenti-esclusi-dallapplicazione]**
+
+4.  Nel caso le richieste siano numerose o complesse, allora il termine di cui al punto 3. PUÒ essere **prorogato di ulteriori 20 giorni** previa comunicazione al richiedente entro ventuno giorni dalla richiesta.
+
+5.  Se la decisione è positiva, i documenti oggetto della richiesta DEVONO essere **resi disponibili secondo i requisiti definiti nelle presenti Linee Guida**.
+
+6.  Se la decisione è negativa, l'ente titolare del dato DEVE **motivare il diniego attraverso un apposito provvedimento** sulla base delle disposizioni del Decreto (per esempio, se i documenti richiesti rientrano tra i documenti esclusi dall'applicazione del Decreto stesso, v\. par. **[-@sec-documenti-esclusi-dallapplicazione]**). Il provvedimento di diniego DEVE includere anche la comunicazione sui mezzi di tutela che il richiedente può esperire sulla base dell'art. 25, commi 4 e 5 della [legge 7 agosto 1990, n. 241](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241), mezzi di tutela che per convenienza si riportano al successivo punto 7, fermo restando di fare riferimento in ogni caso ai riferimenti normativi indicati innanzi.
+
+7.  In caso di diniego, il richiedente PUÒ presentare ricorso al tribunale amministrativo regionale, ovvero chiedere, nei confronti degli atti delle amministrazioni comunali, provinciali e regionali, al difensore civico competente per ambito territoriale, ove costituito, o a quello competente per l'ambito territoriale immediatamente superiore, che sia riesaminata la suddetta determinazione. Nei confronti degli atti delle amministrazioni centrali e periferiche dello Stato tale richiesta è inoltrata presso la Commissione per l'accesso ai documenti amministrativi istituita presso la Presidenza del Consiglio dei Ministri nonché presso l'amministrazione resistente. Il difensore civico o la Commissione per l'accesso si pronunciano entro trenta giorni dalla presentazione dell'istanza. Scaduto infruttuosamente tale termine, il ricorso si intende respinto. Se il difensore civico o la Commissione per l'accesso ritengono illegittimo il diniego o il differimento, ne informano il richiedente e lo comunicano all'autorità disponente. Se questa non emana il provvedimento confermativo motivato entro trenta giorni dal ricevimento della comunicazione del difensore civico o della Commissione, l'accesso è consentito e quindi l'ente DEVE seguire le indicazioni di cui al punto 6. Qualora il richiedente l'accesso si sia rivolto al difensore civico o alla Commissione, il termine per ricorrere giudizialmente avverso la decisione del difensore civico o della Commissione decorre dalla data di ricevimento, da parte del richiedente, dell'esito dell'istanza presentata al difensore civico o alla Commissione stessa. Se l'accesso è negato o differito per motivi inerenti ai dati personali che si riferiscono a soggetti terzi, la Commissione provvede, sentito il Garante per la protezione dei dati personali, il quale si pronuncia entro il termine di dieci giorni dalla richiesta, decorso inutilmente il quale il parere si intende reso.
+
+8.  Nel caso in cui il riutilizzo sia negato perché si tratta di documenti su cui terzi detengono diritti di proprietà intellettuale ai sensi della [legge 22 aprile 1941, n. 633](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1941-04-22;633), l'ente DEVE indicare la persona fisica o giuridica titolare del diritto, se è nota, oppure il licenziante dal quale il titolare del dato stesso ha ottenuto il materiale. Sono esentati da questa indicazione le biblioteche, comprese quelle universitarie, i musei e gli archivi (cfr. art. 5, comma 4 del Decreto).
+
 ## Qualità dei dati {#sec-qualita-dei-dati}
