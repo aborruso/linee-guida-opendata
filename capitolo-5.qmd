@@ -105,7 +105,7 @@ L'apertura può riguardare:
 
 - dati mashup, cioè dati provenienti da diverse fonti e soggetti a operazioni di integrazione.
 
-In entrambi i casi, l'apertura può essere sollecitata da soggetti esterni interessati attraverso specifiche richieste (v. par. **[-@sec-richieste-di-riutilizzo]**.
+In entrambi i casi, l'apertura può essere sollecitata da soggetti esterni interessati attraverso specifiche richieste (v. par. **[-@sec-richieste-di-riutilizzo]**).
 
 In questa fase si può fare riferimento ad alcune disposizioni che, in taluni casi, prevedono di rendere disponibili i dati a fini di riutilizzo. In particolare, tra gli altri:
 
