@@ -293,6 +293,57 @@ Nei metadati, inoltre, è possibile indicare la licenza applicata ai dati descri
 
 ## Tariffazione {#sec-tariffazione}
 
+Ferma restando la condivisione dei dati tra pubbliche amministrazioni per finalità istituzionali, che avviene esclusivamente a titolo gratuito, salvo per la prestazione di elaborazioni aggiuntive, come previsto dall'art. 50 del [**CAD**,](capitolo-2.qmd#CAD) il Decreto stabilisce come regola preminente che **i dati siano resi disponibili gratuitamente**; tuttavia, è possibile richiedere per il riutilizzo dei dati i costi marginali sostenuti effettivamente per la riproduzione, la messa a disposizione e la divulgazione dei dati, nonché per l'anonimizzazione di dati personali o per le misure adottate per proteggere le informazioni commerciali a carattere riservato.
+
+{{< include ./include/requisiti/_requisito-22.qmd >}}
+
+Per il calcolo dei costi marginali si può fare riferimento alle indicazioni, tuttora valide, fornite nella Comunicazione della Commissione Europea 2014/C - 240/01 (v. box "Risorse utili" alla fine del paragrafo 6.4) a cui si rimanda per ulteriori approfondimenti. La Comunicazione, in particolare, indica che nell'ambiente in linea, la totalità del corrispettivo potrebbe essere limitata ai costi collegati direttamente alla manutenzione e al funzionamento dell'infrastruttura (ossia della banca dati elettronica) nella misura necessaria a riprodurre il documento e a metterlo a disposizione di un riutilizzatore in più.
+
+Stante quanto sopra, considerate l'esiguità e la tendenza al ribasso dei costi operativi medi di una banca dati, la Comunicazione stima che l'importo possa essere probabilmente **prossimo allo zero**. Da qui la conclusione che **per i documenti digitali divulgati per via elettronica si raccomanderebbe una politica di costo zero, quindi la messa a disposizione a titolo gratuito**, fermi restando i costi marginali richiesti per una eventuale rielaborazione o anonimizzazione dei dati.
+
+Quanto finora descritto non si applica ad alcuni casi specifici per i quali è possibile determinare tariffe superiori ai costi marginali, ovvero:
+
+1.  biblioteche, comprese quelle universitarie, musei e archivi;
+
+2.  amministrazioni e organismi di diritto pubblico che devono generare utili per coprire una parte sostanziale dei costi inerenti allo svolgimento dei propri compiti di servizio pubblico;
+
+3.  imprese pubbliche.
+
+Nei tre casi appena indicati, può essere applicato quanto indicato nel Requisito 23 che segue.
+
+{{< include ./include/requisiti/_requisito-23.qmd >}}
+
+Il significato di "*utile ragionevole sugli investimenti*" viene esplicitato dal Decreto stesso: esso corrisponde ad "*una percentuale della tariffa complessiva, in aggiunta a quella necessaria per recuperare i costi ammissibili (costi marginali), non superiore a cinque punti percentuali oltre il tasso di interesse fisso della BCE*" (cfr. art. 2, comma 1, lettera i-bis)).
+
+Nel caso di biblioteche, musei e archivi, la Direttiva suggerisce, inoltre, che, tenendo conto delle loro peculiarità, nel calcolare l'utile ragionevole sugli investimenti, possano essere presi in considerazione i prezzi praticati dal settore privato per il riutilizzo di documenti identici o simili.
+
+La Comunicazione della Commissione Europea citata innanzi fornisce indicazioni anche per il calcolo delle tariffe in base al metodo del recupero dei costi. Rispetto a quanto indicato nella Comunicazione bisogna tenere presente che la Direttiva ha introdotto il riferimento specifico a "un esercizio contabile" al posto del generico "periodo contabile adeguato" indicato nelle versioni precedenti e ha introdotto altresì il concetto di "utile ragionevole sugli investimenti", come sopra specificato, invece del "congruo utile sugli investimenti". Tenendo in considerazione queste differenze, il metodo proposto nella Comunicazione al par. 4.2 può essere un utile supporto per il calcolo delle tariffe.
+
+Nei casi indicati ai precedenti punti 2. e 3., vale quanto indicato nel Requisito 24 che segue.
+
+{{< include ./include/requisiti/_requisito-24.qmd >}}
+
+Con Decreto del Ministro dell'economia e delle finanze è anche definito e aggiornato periodicamente l'elenco delle pubbliche amministrazioni e degli organismi di diritto pubblico di cui al punto 2, cioè di quegli enti autorizzati a determinare tariffe superiori ai costi marginali in quanto devono generare utili per coprire una parte sostanziale dei costi inerenti allo svolgimento dei propri compiti di servizio pubblico. Tale elenco è pubblicato nei siti istituzionali degli enti interessati.
+
+Il Decreto specifica anche che, rispetto a quanto indicato innanzi, sono fatte salve specifiche disposizioni normative relative, in particolare, alla riutilizzazione commerciale di documenti, dati e informazioni catastali ed ipotecarie, di cui all'art. 1, commi 370, 371 e 372 della [legge 30 dicembre 2004, n. 311](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2004-12-30;311) e s.m.i., e alla circolazione delle informazioni concernenti gli immobili di cui all'art. 5, comma 4-bis del decreto-legge 13 maggio 2011, n. 70, convertito, con modificazioni, dalla [legge 12 luglio 2011, n. 106](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2011-07-12;106).
+
+Per quanto riguarda le attività di riutilizzazione commerciale di documenti, dati e informazioni catastali ed ipotecarie, tali attività sono consentite nel rispetto della normativa in materia di protezione dei dati personali.
+
+La norma differenzia tra acquisizione originaria di documenti, dati ed informazioni catastali e acquisizione originaria di documenti, dati ed informazioni ipotecarie.
+
+Nel primo caso, i riutilizzatori commerciali autorizzati devono corrispondere un importo fisso annuale determinato con decreto del Ministro dell'economia e delle finanze, mentre nel
+
+secondo caso devono corrispondere i tributi previsti maggiorati nella misura del 20 per cento. L'importo fisso annuale e la percentuale di aumento possono comunque essere rideterminati annualmente con decreto del Ministro dell'economia e delle finanze anche tenendo conto dei costi complessivi di raccolta, produzione e diffusione di dati e documenti sostenuti dall'Agenzia delle Entrate, maggiorati di un adeguato rendimento degli investimenti e dell'andamento delle relative riscossioni. Con decreto del Ministro dell'economia e delle finanze sono individuate le categorie di ulteriori servizi telematici che possono essere forniti dall'Agenzia delle Entrate esclusivamente ai riutilizzatori commerciali autorizzati a fronte del pagamento di un corrispettivo da determinare con lo stesso decreto.
+
+Ricordiamo che, per agevolare la circolazione delle informazioni concernenti gli immobili, è abolito il divieto di riutilizzazione commerciale dei dati ipotecari e catastali ed è consentito, quindi, il riutilizzo dei documenti, dei dati e delle informazioni catastali e ipotecari a fini commerciali o non commerciali diversi dallo scopo iniziale nell'ambito dei compiti di servizio pubblico per i quali i documenti sono stati prodotti, fermo restando il rispetto della normativa in materia di protezione dei dati personali (art. 5, comma 4-bis, decreto legge 13 maggio 2011, n. 70); inoltre, è comunque consentita la fornitura di documenti, dati e informazioni da parte dell'Agenzia delle Entrate, in formato elaborabile, su base convenzionale, secondo modalità, tempi e costi da stabilire con provvedimento del direttore dell'Agenzia delle Entrate.
+
+{{< include ./include/requisiti/_requisito-25.qmd >}}
+
+{{< include ./include/requisiti/_requisito-26.qmd >}}
+
+Il riutilizzo DEVE essere **sempre gratuito** nel caso delle **serie di dati di elevato valore** (v. par. **[-@sec-serie-di-dati-di-elevato-valore]**, con le esclusioni indicate nel [**REQUISITO 8**,](capitolo-4.qmd#req-8) e nel caso dei **dati della ricerca** (v. par. **[-@sec-dati-della-ricerca]**).
+
 ## Non discriminazione {#sec-non-discriminazione}
 
 ## Accordi di esclusiva {#sec-accordi-di-esclusiva}
+

@@ -1,0 +1,4 @@
+::: {#req-23 .callout-important appearance="simple" icon=false .requisito}
+[**REQUISITO 23**]{.testo-rosso}: **dlgs36-2006/opendata/req/conditions/reasonable-return** [🔗](#req-23){.link-req}<br>
+Nel caso in cui sia richiesto il pagamento di un corrispettivo, il totale delle entrate provenienti dalla fornitura e dall’autorizzazione al riutilizzo dei documenti in un esercizio contabile NON PUÒ superare i costi marginali del servizio reso (comprendenti i costi di raccolta, produzione, riproduzione, diffusione, archiviazione dei dati, conservazione e gestione dei diritti e, ove applicabile, di anonimizzazione dei dati personali e delle misure adottate per proteggere le informazioni commerciali a carattere riservato), maggiorati di un utile ragionevole sugli investimenti.
+:::

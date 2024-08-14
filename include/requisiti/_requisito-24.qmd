@@ -1,0 +1,4 @@
+::: {#req-24 .callout-important appearance="simple" icon=false .requisito}
+[**REQUISITO 24**]{.testo-rosso}: **dlgs36-2006/opendata/req/conditions/parameters** [🔗](#req-24){.link-req}<br>
+L'importo totale delle tariffe DEVE essere calcolato in base a parametri oggettivi, trasparenti e verificabili ed è determinato secondo il criterio del costo marginale del servizio con decreti dei Ministri competenti, di concerto con il Ministro dell'economia e delle finanze sentita l'Agenzia per l'Italia digitale.
+:::

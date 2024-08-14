@@ -1,0 +1,4 @@
+::: {#req-26 .callout-important appearance="simple" icon=false .requisito}
+[**REQUISITO 26**]{.testo-rosso}: **dlgs36-2006/opendata/req/conditions/publication** [🔗](#req-26){.link-req}<br>
+Le condizioni applicabili al riutilizzo dei dati e l'effettivo ammontare delle tariffe applicate, compresa la base di calcolo utilizzata per tali tariffe e gli elementi presi in considerazione nel calcolo di tali tariffe, DEVONO essere pubblicati sui siti istituzionali di pubbliche amministrazioni, organismi di diritto pubblico e imprese pubbliche competenti, previa comunicazione ad AgID.
+:::

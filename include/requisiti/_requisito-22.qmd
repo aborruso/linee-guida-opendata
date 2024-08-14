@@ -1,0 +1,4 @@
+::: {#req-22 .callout-important appearance="simple" icon=false .requisito}
+[**REQUISITO 22**]{.testo-rosso}: **dlgs36-2006/opendata/req/conditions/marginal-costs** [🔗](#req-22){.link-req}<br>
+I dati DEVONO essere resi disponibili per il riutilizzo gratuitamente, salvo eventuale applicazione dei costi marginali effettivamente sostenuti per la riproduzione, la messa a disposizione e la divulgazione dei dati, nonché per l'anonimizzazione di dati personali o per le misure adottate per proteggere le informazioni commerciali a carattere riservato.
+:::
