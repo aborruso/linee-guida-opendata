@@ -144,3 +144,79 @@ section#footnotes {
   margin-right: auto;
 }
 }
+
+
+/*tabelle*/
+
+#buone_pratiche th, #buone_pratiche td {
+  border: 1px solid rgb(122, 122, 122) !important;
+  padding: 10px;
+  text-align: center;
+  font-size: 80% !important;
+}
+
+#buone_pratiche .green { background-color: lightgreen; }
+#buone_pratiche .red { background-color: lightcoral; }
+#buone_pratiche .yellow { background-color: lightyellow; }
+
+#buone_pratiche .thumbs-up::before { content: '👍';
+display: block; }
+#buone_pratiche .thumbs-down::before { content: '👎';
+display: block; }
+#buone_pratiche .warning::before { content: '⚠️';
+display: block; }
+
+#matrice_compatibilita th, #matrice_compatibilita td {
+  border: 1px solid rgb(122, 122, 122) !important;
+  padding: 10px;
+  text-align: center;
+  font-size: 80% !important;
+}
+
+#matrice_compatibilita .green { background-color: lightgreen; }
+#matrice_compatibilita .red { background-color: lightcoral; }
+#matrice_compatibilita .yellow { background-color: lightyellow; }
+
+#matrice_compatibilita .thumbs-up::before { content: '👍';
+display: block; }
+#matrice_compatibilita .thumbs-down::before { content: '👎';
+display: block; }
+#matrice_compatibilita .warning::before { content: '⚠️';
+display: block; }
+
+.legenda_licenze table tbody tr td:first-child {
+  text-align: center !important; /* Centra il contenuto orizzontalmente */
+  vertical-align: middle; /* Centra il contenuto verticalmente */
+}
+
+.legenda_licenze table tbody tr:first-child td:first-child {
+  background-color: lightgreen; /* Sfondo verde chiaro */
+}
+
+.legenda_licenze table tbody tr:first-child td:first-child::before {
+  content: "👍"; /* Aggiunge il simbolo del pollice in su */
+  display: block;
+  /*font-size: 1.5em; Dimensione del simbolo */
+}
+
+.legenda_licenze table tbody tr:nth-child(2) td:first-child {
+  background-color: lightcoral; /* Sfondo rosso chiaro */
+}
+
+.legenda_licenze table tbody tr:nth-child(2) td:first-child::before {
+  content: "👎"; /* Aggiunge il simbolo del pollice in giù */
+  display: block;
+  /*font-size: 1.5em; Dimensione del simbolo */
+}
+
+.legenda_licenze table tbody tr:nth-child(3) td:first-child {
+  background-color: lightyellow; /* Sfondo giallo chiaro */
+}
+
+.legenda_licenze table tbody tr:nth-child(3) td:first-child::before {
+  content: "⚠️"; /* Aggiunge il simbolo di avviso */
+  display: block;
+  /*font-size: 1.5em;  Dimensione del simbolo */
+}
+
+

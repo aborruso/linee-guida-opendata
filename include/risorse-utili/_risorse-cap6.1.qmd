@@ -1,0 +1,16 @@
+----
+
+::: {.callout-tip icon=false #res-6.1 .risorsa}
+
+📚 **Risorse utili - cap. 6.1** [🔗](#res-6.1){.link-req}
+
+- [Joinup Licensing Assistant](https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-find-and-compare-software-licenses)
+- [Gestione licenze](https://data.europa.eu/it/training/licensing-assistant) – data.europa.eu
+- [CDLA permissive compatibility](https://wiki.osmfoundation.org/wiki/CDLA_permissive_compatibility)
+- [CDLA-Permissive-2.0 Compatibility with Other Licenses](https://cdla.dev/faq-resources/compatibility/)
+- [Compatible Licenses](https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses/), Creative Commons
+- [Wiki/cc license compatibility](https://wiki.creativecommons.org/wiki/Wiki/cc_license_compatibility)
+- [Compatibility of Creative Commons Licenses](https://learn.canvas.net/courses/4/pages/compatibility-of-creative-commons-licenses)
+- [Italian Open Data License](https://it.wikipedia.org/wiki/Italian_Open_Data_License)
+
+:::

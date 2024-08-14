@@ -1,0 +1,87 @@
+:::{.matrice_compatibilita #tbl-matrice_compatibilita}
+<table id="matrice_compatibilita" class="table-sm table-bordered text-center">
+    <tr>
+        <th></th> <!-- Cella vuota -->
+        <th>CC0</th>
+        <th>CC-BY 4.0</th>
+        <th>CDLA 2.0 perm</th>
+        <th>IODL 2.0</th>
+        <th>CC-BY-SA 4.0</th>
+        <th>ODbL</th>
+        <th>CDLA 1.0 shar</th>
+    </tr>
+    <tr>
+        <th>CC0</th>
+        <td class="green thumbs-up"></td>
+        <td class="green thumbs-up"></td>
+        <td class="green thumbs-up"></td>
+        <td class="yellow warning">IODL 2.0</td>
+        <td class="yellow warning">CC BY SA</td>
+        <td class="yellow warning">OdBL</td>
+        <td class="yellow warning">CDLA1 shar</td>
+    </tr>
+    <tr>
+        <th>CC-BY 4.0</th>
+        <td class="green thumbs-up"></td>
+        <td class="green thumbs-up"></td>
+        <td class="green thumbs-up">CC-BY 4.0 [riportando testo CDLA] o CDLA [conservando attribution C CC BY] \*</td>
+        <td class="green thumbs-up"></td>
+        <td class="yellow warning">CC BY SA</td>
+        <td class="yellow warning">\*[D] OdBL</td>
+        <td class="yellow warning">\* CDLA1 shar</td>
+    </tr>
+    <tr>
+        <th>CDLA 2.0 perm</th>
+        <td class="green thumbs-up"></td>
+        <td class="green thumbs-up">CC-BY 4.0 [riportando testo CDLA] o CDLA [conservando attribution C CC BY] \*</td>
+        <td class="green thumbs-up"></td>
+        <td class="green thumbs-up">Entrambe compatibili con CC BY 4.0 [B - E CDLA]</td>
+        <td class="yellow warning">CC BY SA [B - E CDLA]</td>
+        <td class="yellow warning">OdBL [B - E CDLA]</td>
+        <td class="yellow warning">CDLA1 shar [B - E CDLA]</td>
+    </tr>
+    <tr>
+        <th>IODL 2.0</th>
+        <td class="green thumbs-up"></td>
+        <td class="green thumbs-up"></td>
+        <td class="green thumbs-up">Entrambe compatibili con CC BY 4.0 [B - E CDLA]</td>
+        <td class="green thumbs-up"></td>
+        <td class="yellow warning">CC BY SA</td>
+        <td class="yellow warning">OdBL</td>
+        <td class="yellow warning">CDLA1 shar</td>
+    </tr>
+    <tr>
+        <th>CC-BY-SA 4.0</th>
+        <td class="yellow warning">CC BY SA</td>
+        <td class="yellow warning">CC BY SA</td>
+        <td class="yellow warning">CC BY SA [B - E CDLA]</td>
+        <td class="yellow warning">CC BY SA</td>
+        <td class="yellow warning">CC BY SA</td>
+        <td class="red thumbs-down"></td>
+        <td class="red thumbs-down"></td>
+    </tr>
+    <tr>
+        <th>ODbL</th>
+        <td class="yellow warning">OdBL</td>
+        <td class="yellow warning">\*[D] OdBL</td>
+        <td class="yellow warning">OdBL [B - E CDLA]</td>
+        <td class="yellow warning">OdBL</td>
+        <td class="red thumbs-down"></td>
+        <td class="yellow warning">OdBL</td>
+        <td class="red thumbs-down"></td>
+    </tr>
+    <tr>
+        <th>CDLA 1.0 shar</th>
+        <td class="yellow warning">CDLA1 shar</td>
+        <td class="yellow warning">\* CDLA1 shar</td>
+        <td class="yellow warning">CDLA1 shar [B - E CDLA]</td>
+        <td class="yellow warning">CDLA1 shar</td>
+        <td class="red thumbs-down"></td>
+        <td class="red thumbs-down"></td>
+        <td class="yellow warning">CDLA1 shar</td>
+    </tr>
+</table>
+
+Matrice di compatibilità tra licenze. Nella prima riga la "licenza opera 1", nella prima colonna la "licenza opera 2".
+
+:::

@@ -1,0 +1,73 @@
+:::{.licenze-applicabili #tbl-licenze-applicabili}
+<table id="buone_pratiche" class="table table-responsive-md table-bordered table-sm">
+    <tr>
+        <th></th>
+        <th>CC0</th>
+        <th>CC-BY 4.0</th>
+        <th>CDLA 2.0 perm</th>
+        <th>CC-BY-SA 4.0</th>
+        <th>ODbL</th>
+    </tr>
+    <tr>
+        <th>CC0</th>
+        <td class="green thumbs-up"></td>
+        <td class="green thumbs-up">[A-B-C]</td>
+        <td class="green thumbs-up"></td>
+        <td class="green thumbs-up"></td>
+        <td class="green thumbs-up"></td>
+    </tr>
+    <tr>
+        <th>CC-BY 4.0</th>
+        <td class="red thumbs-down"></td>
+        <td class="green thumbs-up">[A-B-C]</td>
+        <td class="yellow warning">\*[A-B-C] \*\*</td>
+        <td class="green thumbs-up">[A-B-C]</td>
+        <td class="yellow warning">\*[A-B-C]</td>
+    </tr>
+    <tr>
+        <th>CDLA 2.0 perm</th>
+        <td class="yellow warning">[A]\*\*\*</td>
+        <td class="green thumbs-up">[B-E]</td>
+        <td class="green thumbs-up">[B-E]</td>
+        <td class="green thumbs-up">\*\* [B-E]</td>
+        <td class="green thumbs-up">[B-E]</td>
+    </tr>
+    <tr>
+        <th>IODL 2.0</th>
+        <td class="red thumbs-down"></td>
+        <td class="green thumbs-up">[B-C]</td>
+        <td class="yellow warning">[B-C] \*\*</td>
+        <td class="green thumbs-up">[B-C]</td>
+        <td class="green thumbs-up">[B-C]</td>
+    </tr>
+    <tr>
+        <th>CC-BY-SA 4.0</th>
+        <td class="red thumbs-down"></td>
+        <td class="red thumbs-down"></td>
+        <td class="red thumbs-down"></td>
+        <td class="green thumbs-up">[A-B-C]</td>
+        <td class="red thumbs-down"></td>
+    </tr>
+    <tr>
+        <th>ODbL</th>
+        <td class="red thumbs-down"></td>
+        <td class="red thumbs-down"></td>
+        <td class="red thumbs-down"></td>
+        <td class="red thumbs-down"></td>
+        <td class="green thumbs-up">[(A) B-C-D-E-G]</td>
+    </tr>
+    <tr>
+        <th>CDLA 1.0 shar</th>
+        <td class="red thumbs-down"></td>
+        <td class="red thumbs-down"></td>
+        <td class="red thumbs-down"></td>
+        <td class="red thumbs-down"></td>
+        <td class="red thumbs-down"></td>
+    </tr>
+</table>
+
+licenze applicabili all'opera derivata (prima riga) in funzione della licenza originaria (prima colonna).
+
+:::
+
+

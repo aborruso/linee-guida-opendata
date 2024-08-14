@@ -1,16 +1,295 @@
 # Aspetti legali e di costo
 
+Gli articoli 7 e 8 del Decreto prevedono disposizioni specifiche su tariffazione e licenze standard da adottare per il riutilizzo dei dati. Atteso che il principio preminente stabilito da Direttiva e Decreto è che il riutilizzo dei documenti non dovrebbe essere soggetto a condizioni, nel presente capitolo vengono fornite le indicazioni utili per supportare i soggetti titolari del trattamento dei dati nella scelta della licenza da applicare ai dati aperti e nell'eventuale addebito, a carico del riutilizzatore, dei costi marginali sostenuti effettivamente per la riproduzione, la messa a disposizione e la divulgazione dei dati, nonché per l'anonimizzazione dei dati personali o per le misure adottate per proteggere le informazioni commerciali a carattere riservato. In determinati casi è possibile anche determinare tariffe superiori ai costi marginali.
+
+Altre indicazioni riguardano il principio di non discriminazione e gli accordi di esclusiva tra enti pubblici e partner privati da evitare, per quanto possibile, ma che, in alcuni casi, possono risultare necessari.
+
 ## Licenze e condizioni di riutilizzo {#sec-licenze-e-condizioni-di-riutilizzo}
 
-### Compatibilità tra licenze {#sec-compatibilita-tra-licenze}
+Una delle caratteristiche dei dati di tipo aperto - come previsto nella definizione data all'art. 1, comma 1, lettera l-ter) del \[[**CAD**](capitolo-2.qmd#CAD)\] - è quella di essere "***disponibili secondo i termini di una licenza o di una previsione normativa che ne permetta l'utilizzo da parte di chiunque, anche per finalità commerciali, in formato disaggregato***".
 
-### Buone pratiche: approccio "open by design" {#sec-buone-pratiche-approccio-open-by-design}
+Principio preminente indicato dal Decreto è che il riutilizzo dei documenti non debba essere soggetto a condizioni ("*Il riutilizzo di documenti non è soggetto a condizioni, \[...\]*", cfr. art. 8, comma 2); in coerenza con tale indicazione, anche nel caso di richieste di riutilizzo (cfr. art. 5, comma 2 del Decreto), è previsto che "*in caso di decisione positiva, i documenti sono resi disponibili, ove possibile, in forma elettronica e, se necessario, attraverso una licenza*", sottolineando in tal modo, indirettamente, la possibilità di non apporre alcuna restrizione (quindi, alcuna licenza) al riutilizzo dei dati.
+
+Tuttavia, la Direttiva precisa che in alcuni casi giustificati da un obiettivo di pubblico interesse, PUÒ essere utilizzata una licenza che impone al titolare del dato condizioni di riutilizzo riguardanti "*questioni quali la responsabilità, la protezione dei dati di carattere personale, l'uso corretto dei documenti, la garanzia di non alterazione e la citazione della fonte*" (cfr. Considerando 44).
+
+In quest'ultimo caso (applicazione di specifiche condizioni), il Decreto stabilisce che tali condizioni debbano essere oggettive, proporzionate e non discriminatorie, nonché giustificate da un pubblico interesse (cfr. art. 8, comma 2).
+
+In tale contesto, l'apposizione di una licenza, oltre a identificare e "definire" correttamente i dati aperti, costituisce uno strumento funzionale a garantire certezza circa l'effettiva riutilizzabilità dei dati; certezza che costituisce un presupposto essenziale alla valorizzazione dell'informazione, specie nel settore pubblico. Seppure, quindi, in assenza di specifica licenza operi il principio dell'"*open by default*" previsto dall'art. 52 del \[[**CAD**](capitolo-2.qmd#CAD)\], SI RACCOMANDA di apporre sempre una licenza ai dataset pubblicati, in modalità tali da renderla facilmente individuabile e comprensibile.
+
+Naturalmente, restano esclusi dall'ambito di applicazione del presente paragrafo, così come della sopra menzionata raccomandazione, i testi degli atti ufficiali dello Stato e delle Amministrazioni pubbliche, sia italiane che straniere, che ricadono direttamente in pubblico dominio ai sensi dell'art. 5 della [legge n. 633/1941](https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Alegge%3A1941-04-22%3B633!vig) sul diritto d'autore.
+
+Nel contesto sopra descritto, in particolare, il Decreto dispone l'**utilizzo di licenze standard disponibili in formato digitale** ("*Le pubbliche amministrazioni (...) adottano licenze standard, disponibili in formato digitale, per il riutilizzo dei propri documenti*", cfr. art. 8, comma 1). Tali licenze standard DEVONO comunque prevedere il minor numero possibile di restrizioni al riutilizzo (limitando, per esempio, le restrizioni alla sola indicazione della fonte), che consentano, pertanto, a chiunque di accedere liberamente a dati e contenuti, nonché di utilizzarli, modificarli e condividerli liberamente e per qualsiasi finalità, fermo restando il rispetto delle regole in materia di protezione dei dati personali (cfr. par. **[-@sec-requisiti-comuni]** e par. **[-@sec-individuazione-e-selezione]**).
+
+{{< include ./include/raccomandazioni/_raccomandazione-9.qmd >}}
+
+Ricordiamo, inoltre, che, in linea con il principio che vuole l'apposizione del minor numero possibile di restrizioni, l'art. 7 del D. Lgs. 33/2013 \[[**D-LGS-33-2013**](capitolo-2.qmd#D-LGS-33-2013)\], con riferimento a documenti, informazioni e dati oggetto di pubblicazione obbligatoria, dispone che siano "*pubblicati in formato di tipo aperto ai sensi dell'art. 68[^#_bookmark102] del Codice dell'amministrazione digitale, di cui al decreto legislativo 7 marzo 2005, n. 82, e sono riutilizzabili ai sensi del decreto legislativo 24 gennaio 2006, n. 36, del decreto legislativo 7 marzo 2005, n. 82, e del decreto legislativo 30 giugno 2003, n. 196, senza ulteriori restrizioni **diverse dall'obbligo di citare la fonte** e di rispettarne l'integrità*".
+
+[^#_bookmark102]: Si evidenzia che la definizione di formato aperto non è più contenuta all'interno del citato art. 68 del D. Lgs. 82/2005, bensì all'art. 1, comma 1, lett. l-bis del medesimo decreto.
+
+Tale previsione è coerente con l'impostazione sopra richiamata, che – fatta eccezione per le regole in materia di riutilizzo dei dati personali (cfr. par. **[-@sec-requisiti-comuni]** e par. **[-@sec-individuazione-e-selezione]**) – vede nella "attribuzione" l'unica condizione liberamente e sostanzialmente apponibile ai dati.
+
+SI RACCOMANDA, inoltre, di valutare sempre, nel processo di apertura, la conformità ad ulteriori discipline che impattino sull'apertura dei dati, in primis la normativa unionale e nazionale in materia di protezione dei dati personali come già richiamato nei paragrafi precedenti, ricordando che l'art. 4 del Decreto fa salva tale specifica disciplina nell'utilizzo e riutilizzo di dati.
+
+L'utilizzo di licenze standard favorisce, infine, l'immediata comprensibilità delle stesse e l'uniformità nel loro riutilizzo.
+
+Considerato quanto sopra esposto, si ritiene, quindi, che l'applicazione di condizioni ulteriori rispetto all'attribuzione (quale, ad esempio, la cd. SA - "share alike" - condivisione) presenti aspetti di potenziale criticità, oltre che pratica nel caso di uso di fonti diverse diversamente licenziate, anche rispetto alla compatibilità con l'attuale normativa.
+
+{{< include ./include/raccomandazioni/_raccomandazione-10.qmd >}}
+
+Rispetto alla specifica licenza da apporre, si rammenta che ad oggi, si utilizzano numerose licenze standard, che possono essere suddivise in tre gruppi:
+
+### Licenze di sola attribuzione
+
+- **CC-BY:** prodotta dall'omonimo movimento internazionale ([creativecommons.org](https://creativecommons.org/)) in diverse versioni successive; nella versione attuale (4.0), consente al licenziatario di condividere e modificare, per qualsiasi finalità, con la sola restrizione dell'attribuzione al licenziante. A differenza di precedenti versioni, le condizioni si applicano anche con riferimento ai diritti "sui generis" e l'*attribution* implica il richiamo di fonte, copyright, ecc. nella misura richiamata dal licenziante e può essere assolta in ogni forma "ragionevole". Vieta inoltre l'apposizione di restrizioni ulteriori, anche di natura tecnologica e richiede indicazione delle modifiche;
+
+- **CDLA-permissiva 1.0**: consente al licenziatario di condividere e modificare, con la sola attribuzione al licenziante e citazione della licenza. Incoraggia l'arricchimento e il miglioramento dei dati e la produzione di opere derivate/mashup, senza creare vincoli con i dati di provenienza. Non impone obblighi o restrizioni ai dati "migliorati" (derivati e/o di mashup) e contiene il concetto di "risultato" - non condizionato - proprio delle elaborazioni algoritmiche;
+
+- **IODL 2.0**: consente al licenziatario di condividere e modificare, per qualsiasi finalità, con la sola restrizione dell'attribuzione al licenziante, comprensiva del nome del soggetto che fornisce il dato, includendo, se possibile, il link alla licenza. Contiene riferimento alla normativa nazionale sul diritto d'autore e sui dati personali;
+
+- **ODC-BY**: consente al licenziatario di condividere e modificare, per qualsiasi finalità, con la sola restrizione dell'attribuzione al licenziante. Prevede il diritto sui-generis, ma precisa espressamente che non regola anche i contenuti della banca dati;
+
+### Licenze di Attribuzione e Condivisione:
+
+- **CC-BY-SA**: consente al licenziatario di condividere e modificare, per qualsiasi finalità, con la restrizione dell'attribuzione al licenziante, con la duplice restrizione dell'attribuzione al licenziante e della redistribuzione del prodotto derivato con la stessa licenza dell'originale (o versione successiva). Vieta l'apposizione di restrizioni ulteriori, anche di natura tecnologica;
+
+- **CDLA - Condivisione 1.0**: consente al licenziatario di utilizzare e pubblicare i dati per il riutilizzo, con la duplice restrizione dell'attribuzione al licenziante e della pubblicazione con la stessa licenza. Incoraggia l'arricchimento e il miglioramento dei dati e la produzione di opere derivate/mashup, senza creare vincoli con i dati di provenienza. Impone ai dati "migliorati" (derivati e/o di mashup) l'uso della stessa licenza, ma conserva la libertà d'uso incondizionata dei "risultati";
+
+- **IODL 1.0**: consente al licenziatario di condividere e modificare, per qualsiasi finalità, con la duplice restrizione dell'attribuzione al licenziante, comprensiva del nome del soggetto che fornisce il dato, includendo, se possibile, il link alla licenza, e della condivisione del prodotto derivato o di mashup con la stessa licenza;
+
+- **OdBl**: specifica per i database, consente al licenziatario di utilizzare, condividere, modificare, integrare e redistribuire il database, con la duplice restrizione dell'attribuzione al licenziante (anche per i prodotti derivati) e dell'uso della stessa licenza. Contempla il concetto di "produced work", ovvero di elaborato dal db ma diverso da quest'ultimo, che può essere diversamente licenziato (salva citazione fonte). Consente l'apposizione di restrizioni ulteriori, anche di natura tecnologica, a condizione che almeno una copia rimanga sempre libera;
+
+### Waiwer
+
+- **CC0**: come noto, non è una vera e propria licenza, ma una rinuncia preventiva all'esercizio dei diritti in qualsiasi modo previsti o connessi al diritto d'autore. Si parla, a riguardo, di attribuzione (o donazione) al pubblico dominio.
+
+Oltre a quelle citate, va ricordata la **CDLA 2.0 permissive**, che si pone al limite del waiwer, posto che richiede, di fatto, il solo richiamo del testo della licenza (oltre a richiamare la nozione già citata di "risultati").
+
+Tutte le ulteriori licenze Creative Commons sono classificabili come:
+
+- licenze che **NON consentono opere derivate**; oppure come
+
+- licenze che **NON consentono l'uso commerciale**.
 
 {{< include ./include/requisiti/_requisito-19.qmd >}}
+
+Le licenze suindicate sono raffigurate nella Figura seguente.
+
+![Licenze](immagini/image65.jpeg){#fig-licenze width="90%" fig-alt="Licenze" align="center"}
+
+Alla luce del Considerando (44) della Direttiva, le presenti Linee Guida valutano come ragionevole motivo di pubblico interesse l'adozione di una licenza standard omogenea, funzionale a preservare l'interesse parimenti fondato di conservare traccia della fonte "pubblica" del dato e, in particolare, per questioni attinenti all'affidabilità dello stesso (a tutela, peraltro, anche del riutilizzatore), valutano come, in generale, l'unica condizione ammissibile sia la "attribuzione".
+
+{{< include ./include/raccomandazioni/_raccomandazione-11.qmd >}}
+
+Particolare cautela, rispetto ai database, va utilizzata anche nella scelta della licenza standard, nonché nella gestione dell'"attribuzione", in quanto le relative condizioni sono spesso declinate in modo differente nelle differenti licenze. Inoltre, non sempre tutte le licenze standard presentano condizioni riferite ad un bene come una "base di dati" (si fa qui riferimento soprattutto alle versioni delle Creative Commons precedenti alla 4.0, a quanto consta ancora utilizzate: vedasi per i dettagli in allegato la nota espositiva delle principali licenze).
+
+Si ricorda, a riguardo, che le basi di dati godono di una duplice tutela ai sensi della normativa nazionale e comunitaria, ovvero la tutela quale opera creativa, ove ne ricorrano i presupposti, e la tutela del cosiddetto "diritto sui generis", che tutela lo sforzo di costituzione di una banca dati, anche magari non creativa, da una estrazione totale o sostanziale, separando la tutela della base dati in quanto tale dalla tutela eventuale dei singoli contenuti.
+
+{{< include ./include/raccomandazioni/_raccomandazione-12.qmd >}}
+
+{{< include ./include/raccomandazioni/_raccomandazione-13.qmd >}}
+
+In relazione a quanto sopra riportato, tenuto conto del contesto normativo di riferimento e delle indicazioni in tema di licenze contenute nella Comunicazione della Commissione 2014/C - 240/01, è necessario, almeno per i dati aperti "nativi" - riconducibili essenzialmente ai dati che vengono prodotti dalle amministrazioni pubbliche e dagli altri soggetti destinatari delle presenti Linee Guida, nell'adempimento delle proprie funzioni istituzionali - **fare riferimento ad una licenza unica aperta, che garantisca la libertà di riutilizzo, che sia internazionalmente riconosciuta e che consenta di attribuire la paternità dei dataset (attribuire la fonte).** In alternativa, potrà essere adottata la CC0. Salvo il caso di diversa espressa disposizione, peraltro, il requisito relativo alla "attribution" si intende soddisfatto mediante citazione, nella forma più appropriata al mezzo utilizzato, dell'ente titolare del dato riutilizzato.
 
 {{< include ./include/requisiti/_requisito-20.qmd >}}
 
 {{< include ./include/requisiti/_requisito-21.qmd >}}
+
+{{< include ./include/raccomandazioni/_raccomandazione-14.qmd >}}
+
+### Compatibilità tra licenze {#sec-compatibilita-tra-licenze}
+
+Anche le licenze "aperte", analogamente alle licenze open source, presentano differenti gradi di apertura (non sono, quindi, sempre "aperte allo stesso modo"), ovvero prevedono condizioni che, pur autorizzando il riutilizzo, possono non rendere percorribile un riutilizzo "mescolato" tra più fonti; tali condizioni, pertanto, possono non consentire una successiva pubblicazione/un utilizzo nel rispetto di tutte le condizioni previste da ciascuna licenza (incompatibilità).
+
+Per fare un esempio, due licenze aperte cd. "share alike" – che richiedono di rilasciare ogni evoluzione successiva con la medesima licenza nei medesimi termini – permettono il rilascio di un mashup solo se tra loro identiche, o se tra loro sia stata riconosciuta una eventuale equivalenza (v. infra). Inoltre, anche nel caso di licenze fra loro compatibili, si segnala che dovranno sempre essere rispettate le relative condizioni di ridistribuzione, tenendo, altresì, conto delle eventuali diversità sull'ambito di applicazione e/o di esenzione: per esempio, alcune licenze richiedono di segnalare le modifiche, o escludono dal perimetro di applicazione le elaborazioni algoritmiche o i prodotti derivati di natura diversa dal database di origine, etc... Anche a tale fine, quindi, si è di seguito provato a evidenziare le principali condizioni e/o peculiarità presenti nelle principali licenze standard, individuando in quali trovino applicazione (v. @tbl-condizioni-licenze).
+
+| **Cod.** | **Condizioni da osservare / specifiche di applicazione**                                                                                                       | **Licenze impattate** |                  |     |  |     |  |  |
+| -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | ------------------------ | ----------- | -------- | ----------- | -------- | -------- |
+| **A**    | segnalazione modifica cambiamenti                                                                                                                              | CDLA 1 perm           | CDLA 1 SHAR              |             | CC-BY    |             |          |          |
+| **B**    | testo licenza: con riferimento al dataset originale, riportare il testo della licenza e/o inserire link (tra [ ] per la IODL in quanto precisa "se possibile") | CDLA 1 perm           | CDLA 1 SHAR              | CDLA 2 perm | CC-BY    | [IODL 2.01] | IODL 1.0 | OdBL     |
+| **C**    | attribution: rispetto specifiche condizioni                                                                                                                    | CDLA 1 perm           | CDLA 1 SHAR              |             | CC-BY    | IODL 2.0    | IODL 1.0 | OdBL     |
+| **D**    | output ulteriore realizzato ["Produced work" - es. Mappa da db geografico]; richiede sola attribution                                                          |                       |                          |             |          |             |          | OdBL     |
+| **E**    | risultato da "computational use" senza condizioni                                                                                                              | CDLA 1 perm           | CDLA 1 SHAR / perm 1 e 2 | CDLA 2 perm |          |             |          |          |
+| **F**    | prevede la nozione di "collective database"                                                                                                                    |                       |                          |             |          |             |          | OdBL     |
+| **G**    | limiti DRM                                                                                                                                                     |                       |                          |             | CC-BY    |             | OdBL     |          |
+
+: condizioni da osservare / specifiche di applicazione {#tbl-condizioni-licenze .table-sm .table-striped .table-bordered}
+
+Sulla base di queste condizioni e al fine di fornire un supporto di riferimento si propone di seguito una valutazione di compatibilità relativa:
+
+- evoluzione di una precedente singola fonte (v. @tbl-licenze-applicabili);
+
+- creazione di un nuovo dataset costituito da più fonti diverse e diversamente licenziate (v. @tbl-condizioni-licenze)
+
+rispetto a cui si è provato a distinguere:
+
+- per la @tbl-licenze-applicabili le evoluzioni:
+
+  - rilasciabili con la licenza indicata nella riga propria dell'opera derivata (caselle verdi e simbolo <img src="immagini/image76.png" style="width:0.21833in;height:0.19653in" />);
+
+  - da valutare (caselle gialle e simbolo <img src="immagini/image77.png" style="width:0.21499in;height:0.19557in" />);
+
+  - non rilasciabili (caselle rosse e simbolo <img src="immagini/image78.png" style="width:0.22in;height:0.19652in" />);
+
+- per la @tbl-matrice_compatibilita, le combinazioni:
+
+  - rilasciabili con una delle licenze indicate nelle presenti linee guida (caselle verdi e simbolo <img src="immagini/image76.png" style="width:0.21832in;height:0.19653in" />);
+
+  - rilasciabili, ma con licenze differenti e sconsigliate e/o soggette a particolari punti di attenzione (caselle gialle e simbolo <img src="immagini/image77.png" style="width:0.21498in;height:0.19636in" />);
+
+  - non rilasciabili (caselle rosse e simbolo <img src="immagini/image78.png" style="width:0.22in;height:0.19601in" />).
+
+Le relative matrici di compatibilità costituiscono il risultato di una valutazione interpretativa del Gruppo di Lavoro nel tentativo di fornire un quadro complessivo il più articolato e completo possibile. Si evidenzia, pertanto, che gli schemi così forniti costituiscono una semplice guida per l'interprete che non può costituire "interpretazione autentica" della compatibilità delle licenze stesse, in assenza di una concorde presa di posizione da parte dei soggetti che le hanno prodotte. È quindi raccomandata sempre una verifica caso per caso, specie in relazione alle ipotesi segnalate come "dubbie" (v. legende, colore giallo).
+
+a) **evoluzione di una precedente singola fonte (opera "derivata")**
+
+In questo caso, la licenziabilità della soluzione e le relative condizioni saranno influenzate solo dalla licenza originaria: la tabella che segue è relativa alla possibilità di produrre un dataset "derivato", in linea con le indicazioni fornite con le presenti Linee Guida ovvero, in CC-BY 4.0 o, in subordine, CC0 o CDLA 2.0 permissive (v. @tbl-licenze-applicabili).
+
+{{< include ./include/tabelle/_licenze_applicabili.qmd >}}
+
+Legenda @tbl-licenze-applicabili:
+
+::: {.legenda_licenze}
+
+| Simbolo | Descrizione |
+| :--- | :--- |
+|  | pubblicabile con licenza indicata come opera "derivata" |
+|  | non ripubblicabile |
+|  | compatibilità espressamente messa in discussione[^#_bookmark108] [^#_bookmark109] e/o potenzialmente discutibile in base a DRM e/o modalità di attribuzione OPPURE compatibilità richiamata da documentazione relativa solo a una delle licenze (es. IODL 1.0 rispetto a CC BY SA)[^#_bookmark110] |
+
+: {.table-sm .table-responsive tbl-colwidths="[5,95]"}
+
+:::
+
+[^#_bookmark108]: v. COMMISSION DECISION of 22.2.2019 adopting Creative Commons as an open licence under the European Commission's reuse policy
+
+[^#_bookmark109]: v. <https://blog.openstreetmap.org/2017/03/17/use-of-cc-by-data/>
+
+[^#_bookmark110]: <https://it.wikipedia.org/wiki/Italian_Open_Data_License>
+
+::: {.callout-note appearance="minimal"}
+`*` verificare gestibilità attribution e DRM<br>
+`**` il sito della CDLA (v. box infra) ritiene compatibile la CC BY 4.0 con il rilascio in CDLA 2.0 permissive, a condizione di rispettare l'attribution originale (anche se non raccomandato, per non creare "strati" di attribuzione", come da wiki delle CC di cui al link nel box "Risorse utili", "Adapter's license chart"). Analogo ragionamento a fortiori parrebbe essere applicabile per la IODL 2.0. Sempre come esempio, se si elabora un db rilasciato originariamente in CC BY SA, o in OdBL, sì dovrà rilasciare anche il nuovo DB in CC BY SA o rispettivamente OdBL (salvo l'eccezione del "produced work" per l'OdBL)<br>
+`***` il sito della CDLA dichiara compatibile il rilascio di un'opera derivata sotto CC0 partendo da un'opera originaria sub CDLA 2.0 permissive a condizione di riportare il testo di quest'ultima (che tuttavia parrebbe condizione aggiuntiva alla CC0)
+:::
+
+b) **creazione di un nuovo dataset costituito da più fonti diverse e diversamente licenziate**
+
+In questo caso, è necessario verificare che le licenze originarie non risultino incompatibili con la pubblicazione (v. @tbl-matrice_compatibilita) relative alle peculiarità del caso.
+
+{{< include ./include/tabelle/_licenze_matrice_compatibilita.qmd >}}
+
+Legenda @tbl-matrice_compatibilita:
+
+::: {.legenda_licenze}
+
+| Simbolo | Descrizione |
+| :--- | :--- |
+|  | pubblicabile con licenza CC BY 4.0, CC0 o CDLA permissive |
+|  | non ripubblicabile |
+|  | pubblicabile, ma con licenza diversa da CC BY / CC0 / CDLA permissive e/o compatibilità espressamente messa in discussione[^#_bookmark112] [^#_bookmark113] e/o potenzialmente discutibile in base a DRM e/o modalità di attribuzione OPPURE compatibilità richiamata da documentazione relativa solo a una delle licenze (es. IODL 1.0 rispetto a CC BY SA)[^#_bookmark114] |
+
+: {.table-sm .table-responsive tbl-colwidths="[5,95]"}
+
+:::
+
+[^#_bookmark112]: v. COMMISSION DECISION of 22.2.2019 adopting Creative Commons as an open licence under the European Commission's reuse policy
+
+[^#_bookmark113]: v. <https://blog.openstreetmap.org/2017/03/17/use-of-cc-by-data>
+
+[^#_bookmark114]: <https://it.wikipedia.org/wiki/Italian_Open_Data_License>
+
+::: {.callout-note appearance="minimal"}
+`*` verificare gestibilità attribution e DRM<br>
+:::
+
+**Nota Bene**:
+
+- la combinazione tra CC0 e altra licenza produce sempre un'opera rilasciabile ai sensi della licenza più restrittiva;
+
+- la combinazione tra IODL 2.0 e CDLA 2.0 permissive viene proposta in CC BY 4.0 in quanto entrambe le licenze sono dichiarate dall'autore come compatibili con essa.
+
+Quest'ultima tabella espone, quindi, una matrice di compatibilità - necessariamente limitata alle principali licenze standard - che distingue i casi in cui la combinazione delle fonti permetta di licenziare la soluzione come da indicazioni (verde), comunque aperta (giallo) o produca un blocco (rosso).
+
+In particolare, si segnala che all'interno di ogni singola casella, si sono richiamate le condizioni (con la relativa lettera di cui alla @tbl-condizioni-licenze) – comunque da rispettare nel rilascio dell'opera derivata o combinata (ad esempio, nel rilasciare un'opera derivata con CC BY SA 4.0 partendo da un'opera sub CC BY 4.0, dovrà essere rispettata l'attribuzione dell'opera originale, etc.).
+
+In entrambe le tabelle 5 e 6 (come da legenda in calce) si è provato a dettagliare meglio alcuni aspetti che, pur non impedendo il riutilizzo, sono da considerarsi punti di attenzione.
+
+Si fa riferimento, a titolo di esempio:
+
+- al rischio di cumulo delle attribuzioni (cd. "stack of attribution"), presente anche nelle licenze solo "permissive" (mera attribuzione), ma diverse tra loro, le quali presentano, a volte, specifiche diverse, in merito alle modalità con cui assolvere all'obbligo di "attribution". Tali specifiche possono rendere complessa la gestione delle licenze (si pensi, per esempio, ai dati geografici, per i quali l'uso di fonti diverse e ricorsive può rendere difficile detto governo);
+
+- ai limiti all'apponibilità di misure tecnologiche di protezione, in quanto alcune licenze (ad esempio, la CC-BY 4.0) contengono un divieto di apporre tali soluzioni, senza eccezioni; altre licenze non contemplano detto profilo (come la IODL); altre ancora contemplano tale divieto, individuando, tuttavia, soluzioni alternative (es. l'OdBL, che prevede il divieto, ma anche la possibilità alternativa di apporre dette misure, a condizione che una copia del database rimanga accessibile senza restrizioni);
+
+- a specifiche distinzioni sulle modalità di utilizzo delle fonti, prevista in alcune licenze (come l'OdBl rispetto ai "database collettivi"), e/o alla diversa gestione, anche sotto il profilo del "copyleft", del licensing del prodotto identificabile come "derivato" (ad esempio, nell'OdBL per il cd. "produced work" - classico esempio, le mappe rispetto al DB geografico - e nella CDLA per i "results from computational use", ovvero i risultati di una analisi algoritmica di diverse fonti per la produzione di un risultato "diverso").
+
+Questi ultimi aspetti sono peculiari ed esulano dalla necessaria semplificazione funzionale alle tabelle sottese; SI RACCOMANDA, pertanto, di fare comunque riferimento, per eventuali approfondimenti, alla serie di risorse utili indicate nel box, svolgendo, ove necessario, specifiche verifiche.
+
+{{< include ./include/risorse-utili/_risorse-cap6.1.qmd >}}
+
+### Buone pratiche: approccio "open by design" {#sec-buone-pratiche-approccio-open-by-design}
+
+In linea con quanto sopra descritto, SI RACCOMANDA che le PA adottino nella costituzione, generazione ed acquisizione di dataset un **approccio "open by design"** fin dalla progettazione/commissione, come da art. 6, comma 4 del Decreto e sempre nel rispetto della normativa unionale e nazione in materia di protezione dei dati personali come già richiamato nei paragrafi precedenti (cfr. in particolare par. **[-@sec-requisiti-comuni]** e par. **[-@sec-individuazione-e-selezione]**, con particolare riferimento ai principi di cui all'art. 5 del \[[**GDPR**](capitolo-2.qmd#GDPR)\] e alla protezione dei dati sin dalla progettazione e per impostazione predefinita ex art. 25 del \[[**GDPR**](capitolo-2.qmd#GDPR)\], secondo i seguenti principi:
+
+1.  In caso di nuova costituzione di un dataset, a titolo esemplificativo, SI RACCOMANDA:
+
+    - di inserire clausole contrattuali utili a definire inequivocabilmente la proprietà del dataset in capo alla PA, accompagnate da indicazioni relative all'effettiva e relativa tutela e fruibilità tecnica nel tempo, nella misura possibile (es. indicazioni titolare nei metadati, uso di formati aperti, etc.);
+
+    - nei limiti del possibile, già in fase di analisi, di verificare se il dataset o le componenti del db presentano profili ostativi alla pubblicazione e, in caso positivo, se sussistano soluzioni tecnologiche e/o logico-architetturali utili a rendere pubblicabile almeno parte del dataset o del db, quali:
+
+      - uso di layers o altre analoghe modalità che tengano separati i db di origine;
+
+      - percorribilità di richieste di autorizzazioni ad hoc;
+
+      - …
+
+    - in detto contesto, di considerare le finalità per le quali i dati sono stati creati e che eventualmente non consentano di renderli automaticamente disponibili in open data;
+
+    - nel rispetto di quanto sopra, di dichiarare fin dall'inizio la licenza con cui si intende pubblicare il dataset e dovranno essere fornite indicazioni precise utili a escludere nei limiti del possibile il riutilizzo di fonti terze non compatibili (v. infra) con la licenza di output (di default, appunto, la CC BY 4.0);
+
+    - di richiedere, in ogni caso, la tracciatura precisa delle fonti nel caso utilizzate e la predisposizione della documentazione di supporto utile a rispettarne le eventuali condizioni (inclusa l'attribution stessa);
+
+    - di prevedere meccanismi utili a verificare l'eventuale bilanciamento di interessi tra la rinuncia ad una eventuale base dati esterna e la possibilità di modificare la licenza di pubblicazione inizialmente ipotizzata, eventuali soluzioni alternative (v. anche infra) nonché la possibilità di scegliere una diversa soluzione di licensing, che dovrà quindi essere motivata secondo i criteri sopra descritti.
+
+Tali condizioni potranno essere applicate tanto nei propri regolamenti interni, così come, appunto, negli accordi negoziali con consulenti e/o fornitori. SI RACCOMANDA, inoltre, di prendere in considerazione tali buone pratiche non solo quando l'oggetto specifico dell'attività dell'ente sia la costituzione del dataset o del DB, ma anche quando il dataset o il DB costituisca un elemento di una attività più ampia di cui è comunque parte essenziale.
+
+In generale, facendo salvo quanto sopra anche con riferimento alle fonti "terze", per i dati che fanno riferimento anche a fonti esterne (per esempio, progetti con altre Pubbliche amministrazioni), dovranno - se possibile già in fase di progettazione - essere verificate le condizioni di riutilizzo di tali fonti; al riguardo, si RACCOMANDA la predisposizione di un report utile a identificare:
+
+- la corretta "titolarità" dei dati (e titolo del relativo riutilizzo);
+
+- le eventuali situazioni di incompatibilità bloccanti una redistribuzione;
+
+- la licenza aperta nel caso adottabile, o le alternative adottabili.
+
+- le alternative tecniche di riutilizzo eventualmente meno "condizionate": a titolo di esempio, si pensi nel contesto dei dati territoriali al ricorso a layers contenenti db del tutto separati rispetto ad un mashup), procedendo nella costituzione ed evoluzione dei dati secondo step consapevoli, che prendano in considerazione licenze delle fonti esterne e modalità di uso al momento della loro adozione (e non in fase di pubblicazione dei nuovi dati).
+
+Quanto alla fase di pubblicazione, SI RACCOMANDA (eventualmente predisponendo anche in questo caso una apposita check list) di:
+
+- curare la verifica delle condizioni caso per caso richieste dalle licenze "terze" coinvolte;
+
+- rendere la licenza apposta chiaramente individuabile;
+
+- cercare di rendere il rispetto delle condizioni di attribution semplici e di semplice gestione, anche progressiva.
+
+Rispetto a detto ultimo profilo, si rammenta infatti che la clausola di attribution di cui alla CC BY 4.0 prevede:
+
+- "*retain the following if it is **supplied by the Licensor** with the Licensed Material:*
+
+  1)  *identification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);*
+
+  2)  *a copyright notice;*
+
+  3)  *a notice that refers to this Public License;*
+
+  4)  *a notice that refers to the disclaimer of warranties;*
+
+  5)  *a URI or hyperlink to the Licensed Material to the extent reasonably practicable*".
+
+La CC-BY 4.0 permette, infatti, di rispettare dette informazioni **nella misura scelta dal licenziante, peraltro in qualsivoglia "forma ragionevole**"; conseguentemente, SI RACCOMANDA di convergere verso una soluzione di attribuzione ove possibile ancora più standardizzata, limitandosi alla mera richiesta di richiamare il nome dell'Ente (come titolare in caso di ripubblicazione di un set di dati non modificato o come fonte di origine in caso di mashup/evoluzione) e precisare se siano state apportate o meno modifiche. A tale proposito, il nome dell'Ente da utilizzare deve corrispondere al nome ufficiale registrato nell'*Indice dei domicili digitali della Pubblica Amministrazione e dei Gestori di Pubblici Servizi*[^#_bookmark117]. Tale nome è anche desumibile dai metadati in quanto nei profili dei metadati indicati nel par. **[-@sec-metadati]** sono previsti specifici elementi per indicare il titolare dei dati.
+
+Nei metadati, inoltre, è possibile indicare la licenza applicata ai dati descritti facendo riferimento al relativo vocabolario controllato.
+
+[^#_bookmark117]: <https://indicepa.gov.it>
+
 
 ## Tariffazione {#sec-tariffazione}
 
