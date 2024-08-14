@@ -38,29 +38,29 @@ Considerato quanto sopra esposto, si ritiene, quindi, che l'applicazione di cond
 
 Rispetto alla specifica licenza da apporre, si rammenta che ad oggi, si utilizzano numerose licenze standard, che possono essere suddivise in tre gruppi:
 
-### Licenze di sola attribuzione
+- **Licenze di sola attribuzione**
 
-- **CC-BY:** prodotta dall'omonimo movimento internazionale ([creativecommons.org](https://creativecommons.org/)) in diverse versioni successive; nella versione attuale (4.0), consente al licenziatario di condividere e modificare, per qualsiasi finalità, con la sola restrizione dell'attribuzione al licenziante. A differenza di precedenti versioni, le condizioni si applicano anche con riferimento ai diritti "sui generis" e l'*attribution* implica il richiamo di fonte, copyright, ecc. nella misura richiamata dal licenziante e può essere assolta in ogni forma "ragionevole". Vieta inoltre l'apposizione di restrizioni ulteriori, anche di natura tecnologica e richiede indicazione delle modifiche;
+  - **CC-BY:** prodotta dall'omonimo movimento internazionale ([creativecommons.org](https://creativecommons.org/)) in diverse versioni successive; nella versione attuale (4.0), consente al licenziatario di condividere e modificare, per qualsiasi finalità, con la sola restrizione dell'attribuzione al licenziante. A differenza di precedenti versioni, le condizioni si applicano anche con riferimento ai diritti "sui generis" e l'*attribution* implica il richiamo di fonte, copyright, ecc. nella misura richiamata dal licenziante e può essere assolta in ogni forma "ragionevole". Vieta inoltre l'apposizione di restrizioni ulteriori, anche di natura tecnologica e richiede indicazione delle modifiche;
 
-- **CDLA-permissiva 1.0**: consente al licenziatario di condividere e modificare, con la sola attribuzione al licenziante e citazione della licenza. Incoraggia l'arricchimento e il miglioramento dei dati e la produzione di opere derivate/mashup, senza creare vincoli con i dati di provenienza. Non impone obblighi o restrizioni ai dati "migliorati" (derivati e/o di mashup) e contiene il concetto di "risultato" - non condizionato - proprio delle elaborazioni algoritmiche;
+  - **CDLA-permissiva 1.0**: consente al licenziatario di condividere e modificare, con la sola attribuzione al licenziante e citazione della licenza. Incoraggia l'arricchimento e il miglioramento dei dati e la produzione di opere derivate/mashup, senza creare vincoli con i dati di provenienza. Non impone obblighi o restrizioni ai dati "migliorati" (derivati e/o di mashup) e contiene il concetto di "risultato" - non condizionato - proprio delle elaborazioni algoritmiche;
 
-- **IODL 2.0**: consente al licenziatario di condividere e modificare, per qualsiasi finalità, con la sola restrizione dell'attribuzione al licenziante, comprensiva del nome del soggetto che fornisce il dato, includendo, se possibile, il link alla licenza. Contiene riferimento alla normativa nazionale sul diritto d'autore e sui dati personali;
+  - **IODL 2.0**: consente al licenziatario di condividere e modificare, per qualsiasi finalità, con la sola restrizione dell'attribuzione al licenziante, comprensiva del nome del soggetto che fornisce il dato, includendo, se possibile, il link alla licenza. Contiene riferimento alla normativa nazionale sul diritto d'autore e sui dati personali;
 
-- **ODC-BY**: consente al licenziatario di condividere e modificare, per qualsiasi finalità, con la sola restrizione dell'attribuzione al licenziante. Prevede il diritto sui-generis, ma precisa espressamente che non regola anche i contenuti della banca dati;
+  - **ODC-BY**: consente al licenziatario di condividere e modificare, per qualsiasi finalità, con la sola restrizione dell'attribuzione al licenziante. Prevede il diritto sui-generis, ma precisa espressamente che non regola anche i contenuti della banca dati;
 
-### Licenze di Attribuzione e Condivisione:
+- **Licenze di Attribuzione e Condivisione:**
 
-- **CC-BY-SA**: consente al licenziatario di condividere e modificare, per qualsiasi finalità, con la restrizione dell'attribuzione al licenziante, con la duplice restrizione dell'attribuzione al licenziante e della redistribuzione del prodotto derivato con la stessa licenza dell'originale (o versione successiva). Vieta l'apposizione di restrizioni ulteriori, anche di natura tecnologica;
+  - **CC-BY-SA**: consente al licenziatario di condividere e modificare, per qualsiasi finalità, con la restrizione dell'attribuzione al licenziante, con la duplice restrizione dell'attribuzione al licenziante e della redistribuzione del prodotto derivato con la stessa licenza dell'originale (o versione successiva). Vieta l'apposizione di restrizioni ulteriori, anche di natura tecnologica;
 
-- **CDLA - Condivisione 1.0**: consente al licenziatario di utilizzare e pubblicare i dati per il riutilizzo, con la duplice restrizione dell'attribuzione al licenziante e della pubblicazione con la stessa licenza. Incoraggia l'arricchimento e il miglioramento dei dati e la produzione di opere derivate/mashup, senza creare vincoli con i dati di provenienza. Impone ai dati "migliorati" (derivati e/o di mashup) l'uso della stessa licenza, ma conserva la libertà d'uso incondizionata dei "risultati";
+  - **CDLA - Condivisione 1.0**: consente al licenziatario di utilizzare e pubblicare i dati per il riutilizzo, con la duplice restrizione dell'attribuzione al licenziante e della pubblicazione con la stessa licenza. Incoraggia l'arricchimento e il miglioramento dei dati e la produzione di opere derivate/mashup, senza creare vincoli con i dati di provenienza. Impone ai dati "migliorati" (derivati e/o di mashup) l'uso della stessa licenza, ma conserva la libertà d'uso incondizionata dei "risultati";
 
-- **IODL 1.0**: consente al licenziatario di condividere e modificare, per qualsiasi finalità, con la duplice restrizione dell'attribuzione al licenziante, comprensiva del nome del soggetto che fornisce il dato, includendo, se possibile, il link alla licenza, e della condivisione del prodotto derivato o di mashup con la stessa licenza;
+  - **IODL 1.0**: consente al licenziatario di condividere e modificare, per qualsiasi finalità, con la duplice restrizione dell'attribuzione al licenziante, comprensiva del nome del soggetto che fornisce il dato, includendo, se possibile, il link alla licenza, e della condivisione del prodotto derivato o di mashup con la stessa licenza;
 
-- **OdBl**: specifica per i database, consente al licenziatario di utilizzare, condividere, modificare, integrare e redistribuire il database, con la duplice restrizione dell'attribuzione al licenziante (anche per i prodotti derivati) e dell'uso della stessa licenza. Contempla il concetto di "produced work", ovvero di elaborato dal db ma diverso da quest'ultimo, che può essere diversamente licenziato (salva citazione fonte). Consente l'apposizione di restrizioni ulteriori, anche di natura tecnologica, a condizione che almeno una copia rimanga sempre libera;
+  - **OdBl**: specifica per i database, consente al licenziatario di utilizzare, condividere, modificare, integrare e redistribuire il database, con la duplice restrizione dell'attribuzione al licenziante (anche per i prodotti derivati) e dell'uso della stessa licenza. Contempla il concetto di "produced work", ovvero di elaborato dal db ma diverso da quest'ultimo, che può essere diversamente licenziato (salva citazione fonte). Consente l'apposizione di restrizioni ulteriori, anche di natura tecnologica, a condizione che almeno una copia rimanga sempre libera;
 
-### Waiwer
+- **Waiwer**
 
-- **CC0**: come noto, non è una vera e propria licenza, ma una rinuncia preventiva all'esercizio dei diritti in qualsiasi modo previsti o connessi al diritto d'autore. Si parla, a riguardo, di attribuzione (o donazione) al pubblico dominio.
+  - **CC0**: come noto, non è una vera e propria licenza, ma una rinuncia preventiva all'esercizio dei diritti in qualsiasi modo previsti o connessi al diritto d'autore. Si parla, a riguardo, di attribuzione (o donazione) al pubblico dominio.
 
 Oltre a quelle citate, va ricordata la **CDLA 2.0 permissive**, che si pone al limite del waiwer, posto che richiede, di fatto, il solo richiamo del testo della licenza (oltre a richiamare la nozione già citata di "risultati").
 
@@ -230,7 +230,7 @@ Questi ultimi aspetti sono peculiari ed esulano dalla necessaria semplificazione
 
 In linea con quanto sopra descritto, SI RACCOMANDA che le PA adottino nella costituzione, generazione ed acquisizione di dataset un **approccio "open by design"** fin dalla progettazione/commissione, come da art. 6, comma 4 del Decreto e sempre nel rispetto della normativa unionale e nazione in materia di protezione dei dati personali come già richiamato nei paragrafi precedenti (cfr. in particolare par. **[-@sec-requisiti-comuni]** e par. **[-@sec-individuazione-e-selezione]**, con particolare riferimento ai principi di cui all'art. 5 del \[[**GDPR**](capitolo-2.qmd#GDPR)\] e alla protezione dei dati sin dalla progettazione e per impostazione predefinita ex art. 25 del \[[**GDPR**](capitolo-2.qmd#GDPR)\], secondo i seguenti principi:
 
-1.  In caso di nuova costituzione di un dataset, a titolo esemplificativo, SI RACCOMANDA:
+-  In caso di nuova costituzione di un dataset, a titolo esemplificativo, SI RACCOMANDA:
 
     - di inserire clausole contrattuali utili a definire inequivocabilmente la proprietà del dataset in capo alla PA, accompagnate da indicazioni relative all'effettiva e relativa tutela e fruibilità tecnica nel tempo, nella misura possibile (es. indicazioni titolare nei metadati, uso di formati aperti, etc.);
 
@@ -274,17 +274,17 @@ Rispetto a detto ultimo profilo, si rammenta infatti che la clausola di attribut
 
 - "*retain the following if it is **supplied by the Licensor** with the Licensed Material:*
 
-  1)  *identification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);*
+  a)  *identification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);*
 
-  2)  *a copyright notice;*
+  b)  *a copyright notice;*
 
-  3)  *a notice that refers to this Public License;*
+  c)  *a notice that refers to this Public License;*
 
-  4)  *a notice that refers to the disclaimer of warranties;*
+  d)  *a notice that refers to the disclaimer of warranties;*
 
-  5)  *a URI or hyperlink to the Licensed Material to the extent reasonably practicable*".
+  e)  *a URI or hyperlink to the Licensed Material to the extent reasonably practicable*".
 
-La CC-BY 4.0 permette, infatti, di rispettare dette informazioni **nella misura scelta dal licenziante, peraltro in qualsivoglia "forma ragionevole**"; conseguentemente, SI RACCOMANDA di convergere verso una soluzione di attribuzione ove possibile ancora più standardizzata, limitandosi alla mera richiesta di richiamare il nome dell'Ente (come titolare in caso di ripubblicazione di un set di dati non modificato o come fonte di origine in caso di mashup/evoluzione) e precisare se siano state apportate o meno modifiche. A tale proposito, il nome dell'Ente da utilizzare deve corrispondere al nome ufficiale registrato nell'*Indice dei domicili digitali della Pubblica Amministrazione e dei Gestori di Pubblici Servizi*[^#_bookmark117]. Tale nome è anche desumibile dai metadati in quanto nei profili dei metadati indicati nel par. **[-@sec-metadati]** sono previsti specifici elementi per indicare il titolare dei dati.
+La CC-BY 4.0 permette, infatti, di rispettare dette informazioni **nella misura scelta dal licenziante, peraltro in qualsivoglia "forma ragionevole"**; conseguentemente, SI RACCOMANDA di convergere verso una soluzione di attribuzione ove possibile ancora più standardizzata, limitandosi alla mera richiesta di richiamare il nome dell'Ente (come titolare in caso di ripubblicazione di un set di dati non modificato o come fonte di origine in caso di mashup/evoluzione) e precisare se siano state apportate o meno modifiche. A tale proposito, il nome dell'Ente da utilizzare deve corrispondere al nome ufficiale registrato nell'*Indice dei domicili digitali della Pubblica Amministrazione e dei Gestori di Pubblici Servizi*[^#_bookmark117]. Tale nome è anche desumibile dai metadati in quanto nei profili dei metadati indicati nel par. **[-@sec-metadati]** sono previsti specifici elementi per indicare il titolare dei dati.
 
 Nei metadati, inoltre, è possibile indicare la licenza applicata ai dati descritti facendo riferimento al relativo vocabolario controllato.
 
