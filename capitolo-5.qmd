@@ -37,14 +37,9 @@ Di seguito alcune indicazioni per ciascun tipo di impatto come presenti nel rapp
 sopra:
 
 - **Impatto sociale** - Valuta la misura in cui i dati aperti hanno un impatto sulle sfide sociali, come l'inclusione dei gruppi emarginati nella società, l'aumento di sensibilizzazione riguardo all'edilizia abitativa nelle aree urbane, e le questioni legate alla salute e al benessere;
-
 - **Impatto politico** - Si concentra sui benefici che i dati aperti hanno in tre ambiti: miglioramento dell'efficienza del governo, miglioramento dell'efficacia del governo e aumento della trasparenza e della responsabilità;
-
 - **Impatto economico** - Considera aspetti quali l'impatto macro e micro- economico e i benefici economici per le amministrazioni pubbliche;
-
 - **Impatto ambientale** - Considera aspetti quali la sensibilizzazione sulla qualità dell'acqua e dell'aria, i livelli di rumore nelle città, i sistemi di gestione dei rifiuti, i sistemi di trasporto rispettosi dell'ambiente.
-
-
 
 ### Ruoli e responsabilità {#sec-ruoli-e-responsabilita}
 
@@ -101,7 +96,6 @@ Il processo di apertura dei dati non può che partire da una ricognizione dei da
 L'apertura può riguardare:
 
 - dati nativi, cioè dati generati dalle amministrazioni nell'adempimento delle proprie funzioni istituzionali;
-
 - dati mashup, cioè dati provenienti da diverse fonti e soggetti a operazioni di integrazione.
 
 In entrambi i casi, l'apertura può essere sollecitata da soggetti esterni interessati attraverso specifiche richieste (v. par. **[-@sec-richieste-di-riutilizzo]**).
@@ -109,7 +103,6 @@ In entrambi i casi, l'apertura può essere sollecitata da soggetti esterni inter
 In questa fase si può fare riferimento ad alcune disposizioni che, in taluni casi, prevedono di rendere disponibili i dati a fini di riutilizzo. In particolare, tra gli altri:
 
 - sulla base della disposizione di cui all'art. 7 del \[[**D-LGS-33-2013**](capitolo-2.qmd#D-LGS-33-2013)\], "*i documenti, le informazioni e i dati oggetto di pubblicazione obbligatoria ai sensi della normativa vigente, resi disponibili anche a seguito dell'accesso civico di cui all'articolo 5*" del medesimo decreto, fermi restando i limiti e le cautele previsti per i dati personali (v. par. **[-@sec-requisiti-comuni]**);
-
 - ai sensi dell'art. 50-quater del \[[**CAD**](capitolo-2.qmd#CAD)\], relativo ai dati generati nella fornitura di servizi in concessione, tutti i dati acquisiti e generati nella fornitura del servizio agli utenti e relativi anche all'utilizzo del servizio medesimo da parte degli utenti, esclusivamente per fini statistici e di ricerca e per lo svolgimento dei compiti istituzionali delle pubbliche amministrazioni.
 
 Per i nuovi dati, che rientrino nell'ambito di applicazione del Decreto, il processo di produzione e apertura DEVE essere guidato dal principio dell'**apertura fin dalla progettazione e per impostazione predefinita**, come, tra l'altro, disposto dall'art. 6, comma 4 del Decreto. A tale proposito, nel par. **[-@sec-buone-pratiche-approccio-open-by-design]** sono definite una serie di raccomandazioni per applicare il principio dell'"*open data by design*".
@@ -143,9 +136,7 @@ L'analisi dei vincoli e, quindi, la verifica sulla possibilità di rendere dispo
 Tra i criteri da considerare per definire la priorità nell'apertura dei dati possono essere considerati:
 
 - la tipologia di dato cui sia attribuito dal Decreto un enorme potenziale economico (dati dinamici, serie di dati di elevato valore e dati della ricerca) per come definita dal Decreto medesimo;
-
 - l'esistenza di richieste pervenute dai riutilizzatori sulla base dell'art. 5 del Decreto e della procedura di cui al par. **[-@sec-richieste-di-riutilizzo]**;
-
 - l'esistenza di specifiche disposizioni normative che prevedano di rendere disponibili obbligatoriamente, come dati di tipo aperto, talune tipologie di dati (v. i casi presentati all'inizio di questo paragrafo).
 
 Tale attività potrebbe essere sistematizzata attraverso la definizione di un **percorso di apertura dei dati** da inserire nel Piano Triennale ICT che ciascuna amministrazione, secondo la roadmap definita dalle Linee d'Azione nel Piano triennale nazionale e le modalità operative fornite da AgID, è chiamata a definire anche utilizzando il format PT reso disponibile da AgID stessa (v. box "Risorse utili"). La predisposizione di tale Piano rientra tra i compiti che la Circolare n. 3/2018 del Ministro per la pubblica amministrazione raccomanda di assegnare al RTD.
@@ -155,9 +146,7 @@ Tale attività potrebbe essere sistematizzata attraverso la definizione di un **
 A tale proposito, si fa presente che le linee d'azione del Piano Triennale nazionale relative al capitolo sui dati includono, tra l'altro:
 
 - l'individuazione dei dataset di tipo dinamico da rendere disponibili in open data in coerenza con quanto previsto dalla Direttiva e la loro documentazione nel catalogo nazionale dei dati aperti;
-
 - la messa a disposizione dei dati territoriali attraverso i servizi di rete di cui a \[[**INSPIRE-DIR**](capitolo-2.qmd#INSPIRE-DIR)\];
-
 - la documentazione dei dati di tipo aperto attraverso il catalogo nazionale dei dati aperti (in corrispondenza del risultato atteso relativo all'aumento del numero di dataset di tipo aperto).
 
 I criteri di prioritizzazione indicati innanzi, quindi, troverebbero fondamento anche nelle azioni che gli enti devono implementare per raggiungere gli obiettivi e i risultati attesi prefissati dal Piano Triennale nazionale.
@@ -221,9 +210,7 @@ Rientra in questa fase anche la documentazione delle modifiche e degli aggiornam
 A titolo di esempio, con riferimento ad alcuni formati riportati al par. [**2**](allegato-B.qmd#formati-aperti) dell'Allegato B (CSV, JSON, XML), gli schemi che potrebbero essere utilizzati sono i seguenti:
 
 - JSON Schema[^#_bookmark89] per il formato JSON;
-
 - XSD (XML Schema Definition)[^#_bookmark90] per il formato XML;
-
 - Table Schema per il formato CSV definito nell'ambito del toolkit Frictionless Data[^#_bookmark91].
 
 [^#_bookmark89]: v. <https://json-schema.org/>
@@ -243,7 +230,6 @@ Anche per garantire la coerenza tra i documenti, si richiama qui la fase denomin
 Le Linee Guida di cui sopra hanno già definito una serie di requisiti in tema di modelli dati. Come indicato nel documento citato, pertanto, nell'individuazione delle entità da condividere i diversi soggetti DEVONO:
 
 1) individuare i domini di interesse e in essi determinare le entità da rappresentare in termini di proprietà che li caratterizzano;
-
 2) verificare la presenza delle entità per dominio tra quelli definiti a livello nazionale nella rete di ontologie e vocabolari pubblicati nel Catalogo Nazionale per la semantica dei dati.
 
 A integrazione di quanto sopra, considerato quanto previsto dall'art. 6, comma 9 del Decreto, i modelli dati da considerare per i dati territoriali sono quelli definiti nell'ambito delle attività di regolamentazione derivanti dalla Direttiva INSPIRE **[INSPIRE-DIR](capitolo-2.qmd#INSPIRE-DIR)** e nell'ambito del framework nazionale che fa riferimento ai decreti 10/11/2011 e alle attività di estensione delle regole INSPIRE (v. par. **[-@sec-dati-territoriali]**).
@@ -255,9 +241,7 @@ Si aggiunge, pertanto, un ulteriore requisito:
 Come indicato nelle citate Linee Guida, successivamente all'attuazione delle regole 2) e 3) ci si può trovare in uno dei seguenti casi:
 
 a)  tutte le entità e le relative proprietà trovano copertura;
-
 b)  almeno una delle entità non è compresa nelle rappresentazioni;
-
 c)  almeno una proprietà di un'entità presente non risulta rappresentata.
 
 Nel caso a), il soggetto ha tutti gli elementi per rappresentare il proprio modello dati; viceversa, nei casi b) e c), la stessa amministrazione, in accordo con AgID, valuta l'opportunità di estendere il modello dati a livello nazionale.
@@ -295,15 +279,10 @@ La fase di validazione può essere un ulteriore passaggio per la verifica dei da
 Il documento "[Methodology for data validation 2.0](https://ec.europa.eu/eurostat/ramon/statmanuals/files/methodology_for_data_validation_v2_0_rev2018.pdf)" individua sei livelli di validazione che si riportano di seguito rimandando al documento citato per ulteriori approfondimenti.
 
 - **Livello 0**: coerenza con i requisiti strutturali IT previsti;
-
 - **Livello 1**: coerenza all'interno del set di dati;
-
 - **Livello 2**: coerenza con altri set di dati all'interno dello stesso dominio e all'interno della stessa origine dati;
-
 - **Livello 3**: coerenza all'interno dello stesso dominio tra origini dati diverse;
-
 - **Livello 4**: coerenza tra domini separati dello stesso fornitore di dati;
-
 - **Livello 5**: coerenza con i dati di altri fornitori di dati.
 
 {{< include ./include/risorse-utili/_risorse-cap5.1.6.qmd >}}
@@ -337,25 +316,16 @@ Le modalità, i termini e i tempi per le richieste di riutilizzo sono disciplina
 1.  La richiesta di riutilizzo PUÒ essere rivolta ad uno degli uffici indicati all'art. 5, comma 3 del D. Lgs. n. 33/2013 \[[**D-LGS-33-2013**](capitolo-2.qmd#D-LGS-33-2013)\], ovvero:
 
     1.  all'ufficio che detiene i dati, le informazioni o i documenti;
-
     2.  all'Ufficio relazioni con il pubblico;
-
     3.  ad altro ufficio indicato dall'amministrazione nella sezione "Amministrazione trasparente" del sito istituzionale;
-
     4.  al responsabile della prevenzione della corruzione e della trasparenza, ove l'istanza abbia ad oggetto dati, informazioni o documenti oggetto di pubblicazione obbligatoria ai sensi del D. Lgs. 33/2013 \[[**D-LGS-33-2013**](capitolo-2.qmd#D-LGS-33-2013)\].
 
 2.  Nel caso in cui un'Amministrazione abbia individuato e definito una procedura specifica per la presa in carico e l'espletamento delle richieste di riutilizzo, allora il richiedente DEVE seguire tale procedura by-passando il punto 1. Sulla base del Decreto, sono tenuti a definire specifici termini e modalità di riutilizzo dei dati secondo i rispettivi ordinamenti le imprese pubbliche, gli istituti di istruzione, le organizzazioni che svolgono attività di ricerca, le organizzazioni che finanziano la ricerca, il Dipartimento delle informazioni per la sicurezza (DIS), l'Agenzia informazioni e sicurezza esterna (AISE) e l'Agenzia informazioni e sicurezza interna (AISI).
-
 3.  L'esame delle richieste DEVE essere concluso con la formulazione di una **decisione entro 30 giorni**. A supporto di tale attività può essere considerato quanto indicato in relazione all'analisi dei vincoli di cui al par. **[-@sec-individuazione-e-selezione]** o in relazione ai "*Documenti esclusi dall'applicazione*" di cui al par. **[-@sec-documenti-esclusi-dallapplicazione]**
-
 4.  Nel caso le richieste siano numerose o complesse, allora il termine di cui al punto 3. PUÒ essere **prorogato di ulteriori 20 giorni** previa comunicazione al richiedente entro ventuno giorni dalla richiesta.
-
 5.  Se la decisione è positiva, i documenti oggetto della richiesta DEVONO essere **resi disponibili secondo i requisiti definiti nelle presenti Linee Guida**.
-
 6.  Se la decisione è negativa, l'ente titolare del dato DEVE **motivare il diniego attraverso un apposito provvedimento** sulla base delle disposizioni del Decreto (per esempio, se i documenti richiesti rientrano tra i documenti esclusi dall'applicazione del Decreto stesso, v\. par. **[-@sec-documenti-esclusi-dallapplicazione]**). Il provvedimento di diniego DEVE includere anche la comunicazione sui mezzi di tutela che il richiedente può esperire sulla base dell'art. 25, commi 4 e 5 della [legge 7 agosto 1990, n. 241](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241), mezzi di tutela che per convenienza si riportano al successivo punto 7, fermo restando di fare riferimento in ogni caso ai riferimenti normativi indicati innanzi.
-
 7.  In caso di diniego, il richiedente PUÒ presentare ricorso al tribunale amministrativo regionale, ovvero chiedere, nei confronti degli atti delle amministrazioni comunali, provinciali e regionali, al difensore civico competente per ambito territoriale, ove costituito, o a quello competente per l'ambito territoriale immediatamente superiore, che sia riesaminata la suddetta determinazione. Nei confronti degli atti delle amministrazioni centrali e periferiche dello Stato tale richiesta è inoltrata presso la Commissione per l'accesso ai documenti amministrativi istituita presso la Presidenza del Consiglio dei Ministri nonché presso l'amministrazione resistente. Il difensore civico o la Commissione per l'accesso si pronunciano entro trenta giorni dalla presentazione dell'istanza. Scaduto infruttuosamente tale termine, il ricorso si intende respinto. Se il difensore civico o la Commissione per l'accesso ritengono illegittimo il diniego o il differimento, ne informano il richiedente e lo comunicano all'autorità disponente. Se questa non emana il provvedimento confermativo motivato entro trenta giorni dal ricevimento della comunicazione del difensore civico o della Commissione, l'accesso è consentito e quindi l'ente DEVE seguire le indicazioni di cui al punto 6. Qualora il richiedente l'accesso si sia rivolto al difensore civico o alla Commissione, il termine per ricorrere giudizialmente avverso la decisione del difensore civico o della Commissione decorre dalla data di ricevimento, da parte del richiedente, dell'esito dell'istanza presentata al difensore civico o alla Commissione stessa. Se l'accesso è negato o differito per motivi inerenti ai dati personali che si riferiscono a soggetti terzi, la Commissione provvede, sentito il Garante per la protezione dei dati personali, il quale si pronuncia entro il termine di dieci giorni dalla richiesta, decorso inutilmente il quale il parere si intende reso.
-
 8.  Nel caso in cui il riutilizzo sia negato perché si tratta di documenti su cui terzi detengono diritti di proprietà intellettuale ai sensi della [legge 22 aprile 1941, n. 633](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1941-04-22;633), l'ente DEVE indicare la persona fisica o giuridica titolare del diritto, se è nota, oppure il licenziante dal quale il titolare del dato stesso ha ottenuto il materiale. Sono esentati da questa indicazione le biblioteche, comprese quelle universitarie, i musei e gli archivi (cfr. art. 5, comma 4 del Decreto).
 
 ## Qualità dei dati {#sec-qualita-dei-dati}
@@ -377,11 +347,8 @@ La Determinazione Commissariale n. 68/2013 di AgID[^#_bookmark98], relativa alle
 [^#_bookmark98]: [https://www.agid.gov.it/sites/default/files/repository_files/circolari/dt_cs_n.68_-_2013dig_- regole_tecniche_basi_dati_critiche_art_2bis_dl_179-2012_sito.pdf](https://www.agid.gov.it/sites/default/files/repository_files/circolari/dt_cs_n.68_-_2013dig_-regole_tecniche_basi_dati_critiche_art_2bis_dl_179-2012_sito.pdf)
 
 - **accuratezza** (sintattica e semantica) - il dato e i suoi attributi rappresentano correttamente il valore reale del concetto o dell'evento a cui ci si riferiscono;
-
 - **coerenza** - il dato e i suoi attributi non presentano contraddittorietà rispetto ad altri dati del contesto d'uso dell'amministrazione che detiene il dato;
-
 - **completezza** – il dato risulta esaustivo, sia per tutti i suoi valori attesi e sia rispetto alle entità relative (fonti) che concorrono alla definizione del procedimento a cui si riferisce;
-
 - **attualità** (o tempestività di aggiornamento) - il dato e i suoi attributi sono del "giusto tempo" (sono aggiornati) rispetto al procedimento a cui si riferiscono.
 
 {{< include ./include/raccomandazioni/_raccomandazione-8.qmd >}}
@@ -389,11 +356,8 @@ La Determinazione Commissariale n. 68/2013 di AgID[^#_bookmark98], relativa alle
 Altre caratteristiche di qualità sono garantite per via degli adempimenti richiesti da specifiche norme di legge o regole tecniche. Per esempio:
 
 - l'**accessibilità** è un obbligo derivante dalla [legge n.4/2004](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2004-01-09;4!vig=2014-09-02) e dalle relative Linee Guida AgID;
-
 - la **riservatezza** è correlata alle indicazioni derivanti dal \[[**GDPR**](capitolo-2.qmd#GDPR)\];
-
 - la **disponibilità** include il disaster recovery;
-
 - la **ripristinabilità** può essere fornita attraverso meccanismi di backup.
 
 Il passo successivo è quantificare le caratteristiche di qualità in termini di misure, individuando delle soglie che consentano di discriminare la bontà o meno di un dato rispetto alla caratteristica in esame. La fase di valutazione della qualità dei dati è importante in tutti i sistemi informativi indipendentemente dalla scelta/necessità di procedere alla loro apertura. Con l'adozione di politiche di apertura dei dati, la qualità dei dati assume un ruolo ancora più rilevante in quanto elemento per la certificazione della bontà dei dati forniti e soprattutto dell'appropriatezza rispetto all'utilizzo che del dato si vuole fare.

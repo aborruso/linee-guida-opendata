@@ -37,15 +37,10 @@ In relazione, inoltre, alle modalità di formazione del documento di cui al par.
 I dati pubblici che rientrano nell'ambito di applicazione delle presenti Linee Guida DEVONO essere messi a disposizione **per il riutilizzo a fini commerciali e non commerciali**:
 
 - in **formato leggibile meccanicamente**, cioè, come da definizione presente nel Decreto, in "*un formato di file strutturato in modo tale da consentire alle applicazioni software di individuare, riconoscere ed estrarre facilmente dati specifici, comprese dichiarazioni individuali di fatto e la loro struttura interna*";
-
 - in **formato aperto**, cioè, come da definizione dell'art. 1, comma 1, lettera l-bis) del **[CAD](capitolo-2.qmd#CAD)** in "*un formato di dati reso pubblico, documentato esaustivamente e neutro rispetto agli strumenti tecnologici necessari per la fruizione dei dati stessi*";
-
 - **in modalità accessibile** attraverso le tecnologie dell'informazione e della comunicazione;
-
 - **gratuitamente o con i costi marginali** sostenuti per la riproduzione, messa a disposizione e divulgazione dei documenti, nonché per l'anonimizzazione di dati personali o per le misure adottate per proteggere le informazioni commerciali a carattere riservato (v. **[par. -@sec-tariffazione]**);
-
 - secondo i termini di **licenze standard**, disponibili in formato digitale (v. **[par. -@sec-licenze-e-condizioni-di-riutilizzo]**);
-
 - provvisti dei relativi **metadati** (v. **[par. -@sec-metadati]**).
 
 Tali indicazioni rappresentano le caratteristiche dei **dati di tipo aperto** come da definizione fornita all'art. 1, comma 1. lettera l-ter) del **[CAD](capitolo-2.qmd#CAD)** Resta fermo che il riutilizzo dei dati pubblici DEVE essere effettuato nel rispetto della normativa unionale europea e nazionale in materia di protezione dei dati personali, con particolare attenzione all'analisi della finalità e degli eventuali limiti del riutilizzo, anche ai sensi delle presenti Linee guida.
@@ -334,21 +329,16 @@ Il Decreto non include particolari disposizioni su tali dati, se non il rimando 
 Nel caso di dati territoriali, quindi, si DEVE fare riferimento ai Regolamenti europei e alle norme nazionali (e relativi documenti tecnici) per le diverse componenti (metadati, dati e servizi di dati, servizi di rete, condivisione e monitoraggio) dell'infrastruttura istituita e implementata nell'ambito di INSPIRE. In particolare:
 
 - per i metadati: le Linee Guida recanti regole tecniche per la definizione e l'aggiornamento del contenuto del Repertorio Nazionale dei Dati Territoriali \[[**LG-RNDT**](capitolo-2.qmd#LG-RNDT)\] (coerenti con il [<u>Regolamento (CE) n. 1205/2008</u>](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A02008R1205-20081224)) e la guida operativa per la compilazione dei metadati RNDT (v. box "Risorse utili"), coerente con la guida tecnica INSPIRE sui metadati[^#_bookmark68];
+- per i dati: [<u>Regolamento (UE) n. 1089/2010</u>](https://eur-lex.europa.eu/eli/reg/2010/1089) e le specifiche dei dati per ciascun tema INSPIRE (v. box "Risorse utili");
+- per i servizi di dati e i servizi di rete: [Regolamento (UE) n. 1089/2010](https://eur-lex.europa.eu/eli/reg/2010/1089/oj), [Regolamento (CE) n. 976/2009](https://eur-lex.europa.eu/eli/reg/2009/976) e le Linee Guida tecniche INSPIRE sui servizi di rete e sui servizi di dati territoriali (v. box "Risorse utili");
+- per il monitoraggio: [<u>Decisione di esecuzione (UE) 2019/1372</u>.](https://eur-lex.europa.eu/eli/dec_impl/2019/1372/oj)
 
 [^#_bookmark68]: <https://inspire.ec.europa.eu/id/document/tg/metadata-iso19139>
-
-- per i dati: [<u>Regolamento (UE) n. 1089/2010</u>](https://eur-lex.europa.eu/eli/reg/2010/1089) e le specifiche dei dati per ciascun tema INSPIRE (v. box "Risorse utili");
-
-- per i servizi di dati e i servizi di rete: [Regolamento (UE) n. 1089/2010](https://eur-lex.europa.eu/eli/reg/2010/1089/oj), [Regolamento (CE) n. 976/2009](https://eur-lex.europa.eu/eli/reg/2009/976) e le Linee Guida tecniche INSPIRE sui servizi di rete e sui servizi di dati territoriali (v. box "Risorse utili");
-
-- per il monitoraggio: [<u>Decisione di esecuzione (UE) 2019/1372</u>.](https://eur-lex.europa.eu/eli/dec_impl/2019/1372/oj)
 
 A questi si aggiungono norme e specifiche tecniche nazionali di dominio, definite eventualmente anche come estensione delle regole INSPIRE; tra le altre (v. box "Risorse utili"):
 
 - specifiche tecniche per i Database GeoTopografici (DBGT) di cui al Decreto 10/11/2011;
-
 - specifiche tecniche per le reti di sottoservizi e il Sistema Informativo Nazionale Federato delle Infrastrutture (SINFI) di cui al Decreto del Ministro dello Sviluppo Economico dell'11 maggio 2016;
-
 - specifiche tecniche per l'illuminazione pubblica.
 
 Sono fatte salve tutte le altre norme applicabili ai dati territoriali, non esplicitamente citate in questo paragrafo (come la [<u>legge n. 132/2016</u>](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2016-06-28;132) relativamente al Sistema Informativo Nazionale Ambientale – SINA - e alla rete SINANET o le norme che disciplinano i Sistemi Informativi Territoriali Regionali).
