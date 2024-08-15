@@ -1,0 +1,14 @@
+----
+
+::: {.callout-tip icon=false #res-7.1.1 .risorsa}
+
+📚 **Risorse utili - cap. 7.1.1** [🔗](#res-7.1.1){.link-req}
+
+- [OpenAPI Checker](https://developers.italia.it/it/software/pcm-italia-api-oas-checker), Developers Italia
+- [Guide tecniche INSPIRE per i servizi di rete](https://inspire.ec.europa.eu/Technical-Guidelines2/Network-Services/41)
+- [Evaluation of Application Programming Interfaces for INSPIRE](https://op.europa.eu/en/publication-detail/-/publication/5ea37e1b-b565-11ec-b6f4-01aa75ed71a1/language-en/format-PDF), Publications Office of the European Union, 2022
+- [OGC API – Features as an INSPIRE download service](https://inspire.ec.europa.eu/good-practice/ogc-api-%E2%80%93-features-inspire-download-service)
+- [OGC SensorThings API as an INSPIRE download service](https://inspire.ec.europa.eu/good-practice/ogc-sensorthings-api-inspire-download-service)
+- [Strategia Cloud Italia](https://innovazione.gov.it/dipartimento/focus/strategia-cloud-italia/)
+
+:::

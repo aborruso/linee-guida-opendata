@@ -1,0 +1,10 @@
+----
+
+::: {.callout-tip icon=false #res-7.1.2 .risorsa}
+
+📚 **Risorse utili - cap. 7.1.2** [🔗](#res-7.1.2){.link-req}
+
+- [Strategia Cloud Italia](https://innovazione.gov.it/dipartimento/focus/strategia-cloud-italia/)
+- [Regolamento recante i livelli minimi di sicurezza, capacità elaborativa, risparmio energetico e affidabilità delle infrastrutture digitali per la PA e le caratteristiche di qualità, sicurezza, performance e scalabilità, portabilità dei servizi cloud per per la pubblica amministrazione, le modalità di migrazione, nonché le modalità di qualificazione dei servizi cloud per la pubblica amministrazione](https://trasparenza.agid.gov.it/archivio28_provvedimenti-amministrativi_0_123065_725_1.html), adottato con la Determinazione AgID n. 628/2021 del 15 dicembre 2021.
+
+:::
