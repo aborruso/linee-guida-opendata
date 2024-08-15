@@ -41,6 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -475,9 +478,9 @@ document.addEventListener('DOMContentLoaded', function() {
 <p>L’implementazione di API coerenti con il <a href="#req-27"><strong>REQUISITO 27</strong>,</a> pertanto, assicura il rispetto degli adempimenti e la conformità al citato art. 51 del <a href="./capitolo-2.html#CAD"><strong>CAD</strong>.</a></p>
 <p>Nell’ambito della Strategia Cloud Italia (v. box “Risorse utili”), a cui si rimanda, inoltre, al fine di regolamentare l’offerta di servizi cloud disponibili sul mercato per mitigare i rischi sistemici di sicurezza e affidabilità, è stata definita una classificazione dei dati e dei servizi allo scopo di definire un processo di classificazione dei dati, in base al danno che una loro compromissione potrebbe provocare al sistema Paese (strategici, critici e ordinari). Il risultato della classificazione, si legge nella strategia, consente di uniformare e guidare il processo di migrazione al Cloud della PA. Le classi individuate sono:</p>
 <ul>
-<li><p><strong>Strategico</strong>: dati e servizi la cui compromissione può avere un impatto sulla sicurezza nazionale;</p></li>
-<li><p><strong>Critico</strong>: dati e servizi la cui compromissione potrebbe determinare un pregiudizio al mantenimento di funzioni rilevanti per la società, la salute, la sicurezza e il benessere economico e sociale del Paese;</p></li>
-<li><p><strong>Ordinario</strong>: dati e servizi la cui compromissione non provochi l’interruzione di servizi dello Stato o, comunque, un pregiudizio per il benessere economico e sociale del Paese.</p></li>
+<li><strong>Strategico</strong>: dati e servizi la cui compromissione può avere un impatto sulla sicurezza nazionale;</li>
+<li><strong>Critico</strong>: dati e servizi la cui compromissione potrebbe determinare un pregiudizio al mantenimento di funzioni rilevanti per la società, la salute, la sicurezza e il benessere economico e sociale del Paese;</li>
+<li><strong>Ordinario</strong>: dati e servizi la cui compromissione non provochi l’interruzione di servizi dello Stato o, comunque, un pregiudizio per il benessere economico e sociale del Paese.</li>
 </ul>
 <hr>
 <div class="risorsa callout callout-style-default callout-tip no-icon callout-titled">
@@ -508,13 +511,13 @@ document.addEventListener('DOMContentLoaded', function() {
 <p>I principali livelli architetturali che compongono una soluzione per la pubblicazione e l’interrogazione di dati aperti possono essere istanziati in diverso modo a seconda delle capacità economiche e tecniche delle amministrazioni, nonché della qualità del servizio che si vuole offrire agli utenti. Si distinguono due livelli: livello di front-end e livello infrastrutturale. Il livello di front- end consiste di una parte di presentazione che può essere sia un sito Web, sia una sezione in un sito esistente. In questa parte rientrano tutti quegli strumenti che consentono di dare massima visibilità ai dati disponibili e di interagire in maniera “user-friendly” con gli utenti stessi, per esempio per capire quali dati siano di loro interesse, quali nuovi dati siano richiesti, quali suggerimenti vogliano dare per migliorare anche la qualità dei dati. Il livello di presentazione si completa con l’interfaccia di accesso via web per interrogazioni puntuali sui dati e sui metadati. L’interfaccia ha come obiettivo quello di aumentare l’interazione machine-to-machine attraverso il dispiegamento di una piattaforma di esposizione dati basata su API di servizio (o Open Data Service). Nel caso di dati dei livelli 4 e 5 del modello per i dati di cui all’Allegato A, l’interfaccia di accesso via web è rappresentata dallo SPARQL endpoint.</p>
 <p>In generale, SI RACCOMANDA di:</p>
 <ul>
-<li><p>assegnare ai dataset nomi autoesplicativi per comprenderne il principale contenuto;</p></li>
-<li><p>fornire, ove possibile, descrizioni testuali dei dataset;</p></li>
-<li><p>mettere in evidenza la licenza in uso in forma “human and machine-readable”;</p></li>
-<li><p>fornire, ove possibile, strumenti di visualizzazione e navigazione, anche georiferita, dei dati, che possano facilitare la lettura degli stessi;</p></li>
-<li><p>fornire, ove possibile, statistiche di uso, accesso e produzione;</p></li>
-<li><p>fornire notifiche di cambiamenti nel sito web, di aggiornamenti ai dataset (per es., RSS feed);</p></li>
-<li><p>fornire strumenti per rendere le interrogazioni più agevoli, anche per utenti non del tutto esperti. Nel caso dei dati dei livelli 4 e 5 non si può pubblicare solo dataset RDF ma è bene mettere in evidenza la presenza dello SPARQL endpoint (cioè, un servizio Web che accetta interrogazioni SPARQL, le risolve e restituisce i risultati in output), pubblicando il link di accesso, fornendo altresì un ampio insieme di “query” di esempio che possono essere eseguite producendo risultati disponibili in diversi formati di più comune utilizzo soprattutto nell’ambito delle comunità open data (per es., CSV, JSON, XML).</p></li>
+<li>assegnare ai dataset nomi autoesplicativi per comprenderne il principale contenuto;</li>
+<li>fornire, ove possibile, descrizioni testuali dei dataset;</li>
+<li>mettere in evidenza la licenza in uso in forma “human and machine-readable”;</li>
+<li>fornire, ove possibile, strumenti di visualizzazione e navigazione, anche georiferita, dei dati, che possano facilitare la lettura degli stessi;</li>
+<li>fornire, ove possibile, statistiche di uso, accesso e produzione;</li>
+<li>fornire notifiche di cambiamenti nel sito web, di aggiornamenti ai dataset (per es., RSS feed);</li>
+<li>fornire strumenti per rendere le interrogazioni più agevoli, anche per utenti non del tutto esperti. Nel caso dei dati dei livelli 4 e 5 non si può pubblicare solo dataset RDF ma è bene mettere in evidenza la presenza dello SPARQL endpoint (cioè, un servizio Web che accetta interrogazioni SPARQL, le risolve e restituisce i risultati in output), pubblicando il link di accesso, fornendo altresì un ampio insieme di “query” di esempio che possono essere eseguite producendo risultati disponibili in diversi formati di più comune utilizzo soprattutto nell’ambito delle comunità open data (per es., CSV, JSON, XML).</li>
 </ul>
 <p>Nei casi di amministrazioni di minori dimensioni o amministrazioni che non siano nelle condizioni di poter fornire un servizio con le caratteristiche sopra elencate, si consiglia di implementare azioni di sussidiarietà verticale (ad esempio, i comuni di medio-piccole dimensioni possono riferirsi alla Regione di appartenenza) o di unirsi in iniziative comuni (v. paragrafo <strong><a href="capitolo-5.html#sec-coordinamento-tra-livello-nazionale-regionale-e-locale" class="quarto-xref"><span>5.1.1.1</span></a></strong>).</p>
 <p>Il livello infrastrutturale è rappresentato dall’infrastruttura che ospita i dati e i metadati. Nel caso di dati aperti, tenuto conto della loro natura intrinseca, ovvero di dati tipicamente non riferibili a singole persone e per i quali solitamente non si richiede il soddisfacimento di specifici requisiti di protezione dei dati personali, tecnologie basate sul paradigma del cloud computing pubblico possono essere facilmente impiegabili al fine di ospitare le infrastrutture per la pubblicazione di dati aperti.</p>
@@ -543,12 +546,12 @@ document.addEventListener('DOMContentLoaded', function() {
 <p>Nei requisiti per i dati della ricerca volti a rendere tali dati conformi ai principi FAIR si è fatto riferimento più volte a identificatori univoci e persistenti. Tali identificatori (che è buona prassi applicare a tutti i dati e non solo a quelli della ricerca) sono generalmente rappresentati dagli URI (Uniform Resource Identifier), una sequenza di caratteri che identifica una risorsa astratta o fisica. Essi sono utilizzati nei linked data (v. par. <strong><a href="capitolo-5.html#sec-arricchimento" class="quarto-xref"><span>5.1.4</span></a></strong>) per risolvere il problema dell’identità.</p>
 <p>Gli URI DEVONO essere persistenti e dereferenziabili. Una politica per garantire URI persistenti e fornire aspetti di naming è proposta in uno studio dalla Commissione Europea (v. box “Risorse utili” in calce). Facendo riferimento a tale documento, per la creazione di URI persistenti sono da evitare quelli che contengano:</p>
 <ul>
-<li><p>nome del progetto/ufficio/unità amministrativa che detiene la risorsa per evitare problemi derivanti dalla fine del progetto stesso o fusioni o chiusure di uffici nell’organizzazione;</p></li>
-<li><p>numeri di versione;</p></li>
-<li><p>identificatori esistenti che in passato siano stati utilizzati per identificare risorse differenti;</p></li>
-<li><p>riferimenti generati in modo automatico e incrementale a meno che non vi sia la garanzia che il processo non venga mai più ripetuto o, se ripetuto, generi sicuramente gli stessi identificatori per gli stessi dati di input;</p></li>
-<li><p>stringhe rappresentanti “query” a database;</p></li>
-<li><p>estensione del file.</p></li>
+<li>nome del progetto/ufficio/unità amministrativa che detiene la risorsa per evitare problemi derivanti dalla fine del progetto stesso o fusioni o chiusure di uffici nell’organizzazione;</li>
+<li>numeri di versione;</li>
+<li>identificatori esistenti che in passato siano stati utilizzati per identificare risorse differenti;</li>
+<li>riferimenti generati in modo automatico e incrementale a meno che non vi sia la garanzia che il processo non venga mai più ripetuto o, se ripetuto, generi sicuramente gli stessi identificatori per gli stessi dati di input;</li>
+<li>stringhe rappresentanti “query” a database;</li>
+<li>estensione del file.</li>
 </ul>
 <p>Sono, invece, da ritenersi buone pratiche le seguenti:</p>
 <ul>
@@ -556,17 +559,17 @@ document.addEventListener('DOMContentLoaded', function() {
 </ul>
 <p><code>http://{dominio}/{tipo}/{concetto}/{riferimento}</code></p>
 <ul>
-<li><p>includere nell’ URI i seguenti elementi:</p>
+<li>includere nell’ URI i seguenti elementi:
 <ul>
-<li><p><em>dominio</em>: il dominio Web su cui reperire la risorsa</p></li>
-<li><p><em>tipo</em>: l’elemento che specifica il tipo di risorsa. Dovrebbe poter assumere un numero limitato di valori come “doc” se la risorsa identificata è un documento descrittivo, “set” se la risorsa è un dataset, “id” o “item” se la risorsa è un oggetto del mondo reale</p></li>
+<li><em>dominio</em>: il dominio Web su cui reperire la risorsa</li>
+<li><em>tipo</em>: l’elemento che specifica il tipo di risorsa. Dovrebbe poter assumere un numero limitato di valori come “doc” se la risorsa identificata è un documento descrittivo, “set” se la risorsa è un dataset, “id” o “item” se la risorsa è un oggetto del mondo reale</li>
 </ul></li>
-<li><p><em>concetto</em>: il tipo di un oggetto del mondo reale</p></li>
-<li><p><em>riferimento</em>: lo specifico elemento, termine o concetto che rappresenta la risorsa</p></li>
-<li><p>costruire URI per più formati al fine di identificare al meglio la risorsa</p></li>
-<li><p>collegare tra loro le rappresentazioni multiple della stessa risorsa</p></li>
-<li><p>implementare il codice di risposta 303 per gli oggetti del mondo reale e risorse in generale (si veda di seguito “content negotiation” e “dereferenziazione” degli URI)</p></li>
-<li><p>utilizzare servizi dedicati.</p></li>
+<li><em>concetto</em>: il tipo di un oggetto del mondo reale</li>
+<li><em>riferimento</em>: lo specifico elemento, termine o concetto che rappresenta la risorsa</li>
+<li>costruire URI per più formati al fine di identificare al meglio la risorsa</li>
+<li>collegare tra loro le rappresentazioni multiple della stessa risorsa</li>
+<li>implementare il codice di risposta 303 per gli oggetti del mondo reale e risorse in generale (si veda di seguito “content negotiation” e “dereferenziazione” degli URI)</li>
+<li>utilizzare servizi dedicati.</li>
 </ul>
 <p>Nella gestione degli URI è opportuno utilizzare il meccanismo cosiddetto di “<em>content negotiation</em>” che consente di rendere disponibile, allo stesso URI, diverse rappresentazioni di una risorsa in caso di molteplici rappresentazioni possibili (per es. URI che rappresentano sia entità del web semantico sia risorse web). Analogamente, è una buona prassi utilizzare sempre URI “deferenziabili”, come già indicato prima, cioè URI che restituiscono una rappresentazione web (ad es. una pagina web informativa) di una risorsa.</p>
 <hr>
@@ -591,6 +594,8 @@ document.addEventListener('DOMContentLoaded', function() {
 </section>
 <section id="sec-strumenti-per-la-ricerca" class="level2" data-number="7.2">
 <h2 data-number="7.2" class="anchored" data-anchor-id="sec-strumenti-per-la-ricerca"><span class="header-section-number">7.2</span> Strumenti per la ricerca</h2>
+<p>Il Decreto individua come strumenti per la ricerca dei dati il <strong>catalogo nazionale dei dati aperti</strong><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> e, per i dati territoriali, il <strong>Repertorio Nazionale dei Dati Territoriali (RNDT)</strong><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> di cui all’art. 59 del <a href="./capitolo-2.html#CAD"><strong>CAD</strong>,</a> entrambi gestiti da AgID.</p>
+<p>Ai sensi dell’articolo 9 del Decreto, <strong>il portale nazionale dei dati aperti (<a href="https://dati.gov.it/">dati.gov.it</a>) è l’unico riferimento per la documentazione e la ricerca di tutti i dati aperti della pubblica amministrazione</strong>. Esso, in quanto punto di accesso nazionale per i metadati dei dati aperti, <strong>è l’unico ad abilitare il colloquio con l’analogo</strong> <a href="https://data.europa.eu/">portale ufficiale dei dati europei</a> data.europa.eu. Il portale nazionale include i metadati, conformi al profilo DCAT-AP_IT, che descrivono i dati aperti delle amministrazioni secondo quanto indicato al par. <strong><a href="capitolo-4.html#sec-metadati" class="quarto-xref"><span>4.6</span></a></strong>.</p>
 <div class="requisito callout callout-style-simple callout-important no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -604,6 +609,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <p><span class="testo-rosso"><strong>REQUISITO 29</strong></span>: <strong>dlgs36-2006/opendata/req/publication/od-portal</strong> <a href="#req-29" class="link-req">🔗</a><br> Le amministrazioni sono tenute a inserire e a mantenere aggiornati nel portale dati.gov.it, attraverso le modalità di alimentazione previste dal catalogo, i metadati dei dati, ad esclusione di quelli territoriali.</p>
 </div>
 </div>
+<p>I dati, il cui riferimento è pubblicato sul portale nazionale, rimangono presso il titolare del dato che conserva la responsabilità della loro correttezza, tenuta, gestione, aggiornamento e divulgazione a livello nazionale.</p>
 <div class="requisito callout callout-style-simple callout-important no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -617,11 +623,133 @@ document.addEventListener('DOMContentLoaded', function() {
 <p><span class="testo-rosso"><strong>REQUISITO 30</strong></span>: <strong>dlgs36-2006/opendata/req/publication/rndt</strong> <a href="#req-30" class="link-req">🔗</a><br> I dati territoriali DEVONO essere documentati esclusivamente presso il Repertorio Nazionale dei Dati Territoriali (RNDT) che, in maniera automatizzata, si occupa dell’allineamento con il portale nazionale dei dati aperti dati.gov.it.</p>
 </div>
 </div>
+<p>L’integrazione dei due cataloghi avviene attraverso la specifica GeoDCAT-AP che fornisce una sintassi RDF per i metadati INSPIRE e ISO 19115 (profilo core) e la sua estensione italiana che è stata definita con la <em>Guida nazionale per l’implementazione della specifica GeoDCAT-AP</em> (v. box “Risorse utili”).</p>
+<p>Nella citata Guida sono definite, tra l’altro, le due regole principali così formulate:</p>
+<ol type="1">
+<li>I dati territoriali, anche quando siano resi disponibili secondo il paradigma open data, <strong>DEVONO essere documentati ESCLUSIVAMENTE nel RNDT</strong> secondo le regole nazionali sui metadati dei dati territoriali e le relative guide operative;</li>
+<li>Il RNDT garantirà l’accesso ai dati territoriali “di tipo aperto” anche nel catalogo nazionale dei dati aperti (dati.gov.it), secondo lo standard DCAT-AP_IT, attraverso GeoDCAT-AP e sulla base delle corrispondenze definite nel documento.</li>
+</ol>
+<p>Sulla base di queste regole e delle corrispondenze definite tra i metadati dei due standard di riferimento, i dati territoriali aperti documentati nel RNDT sono resi accessibili attraverso le funzionalità tipiche del catalogo nazionale dei dati aperti, dati.gov.it, senza nessun ulteriore adempimento da parte dei titolari di dati.</p>
+<p>Come indicato nelle Linee Guida RNDT [<a href="./capitolo-2.html#LG-RNDT"><strong>LG-RNDT</strong></a>], il Repertorio, in quanto punto di accesso nazionale per i metadati dei dati territoriali, provvede a rendere disponibili i metadati anche al geoportale INSPIRE<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> secondo le modalità individuate per l’applicazione di <a href="./capitolo-2.html#INSPIRE-DIR"><strong>INSPIRE-DIR</strong>,</a> anche ai fini delle operazioni di monitoraggio di cui alla Decisione di esecuzione (UE) 2019/1372 della Commissione Europea<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>.</p>
+<p>Nella figura che segue è rappresentato lo schema di coordinamento e integrazione tra i due cataloghi nazionali e la loro interazione con i portali europei.</p>
+<div id="fig-interoperabilita-cataloghi" class="lightbox quarto-figure quarto-figure-center quarto-float anchored" alt="Interoperabilità tra cataloghi nazionali ed europei." data-align="center" width="90%">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-interoperabilita-cataloghi-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="immagini/image96.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1"><img src="immagini/image96.jpeg" class="img-fluid figure-img" style="width:90.0%" data-align="center" alt="Interoperabilità tra cataloghi nazionali ed europei."></a><span class="glightbox-desc lightbox-desc-1">Figura&nbsp;7.1: Interoperabilità tra cataloghi nazionali ed europei</span>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-interoperabilita-cataloghi-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;7.1: Interoperabilità tra cataloghi nazionali ed europei
+</figcaption>
+</figure>
+</div>
+<p>Come indicato nella guida nazionale su GeoDCAT-AP, quanto sopra è riferito alla integrazione dei cataloghi nazionali RNDT e dati.gov.it e all’allineamento delle informazioni in essi contenute; ferma restando la possibilità di un diverso orientamento, SI RACCOMANDA alle amministrazioni di adottare l’approccio nazionale anche nella gestione dei cataloghi “locali”.</p>
+<p>Analogamente ai dati territoriali, anche per i dati statistici è stata definita un’estensione della specifica DCAT-AP, denominata StatDCAT-AP<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> (v. box “Risorse utili”), allo scopo di garantire la disponibilità dei dati statistici, utilizzando gli standard specifici, come SDMX, anche nei portali generalisti dei dati aperti.</p>
+<div class="raccomandazione callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<a href="" id="racc-16"></a>Raccomandazione&nbsp;7.2
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="testo-blu"><strong>Raccomandazione 16</strong></span>: <strong>dlgs36-2006/opendata/rec/publication/statdcat-ap</strong><br> Al fine di poter documentare i dati statistici, compresi quelli identificati come dati ad elevato valore, nel portale nazionale dati.gov.it secondo il relativo profilo di metadati basato sulla specifica europea DCAT-AP, SI RACCOMANDA di fare riferimento all’estensione StatDCAT-AP.</p>
+</div>
+</div>
+<hr>
+<div class="risorsa callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<a href="" id="res-7.2"></a>Risorsa&nbsp;7.4
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>📚 <strong>Risorse utili - cap. 7.2</strong> <a href="#res-7.2" class="link-req">🔗</a></p>
+<ul>
+<li><a href="https://geodati.gov.it/geoportale/images/struttura/documenti/GeoDCAT-AP_IT-v1.0.pdf">Guida nazionale per l’implementazione della specifica GeoDCAT-AP</a></li>
+<li><a href="https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/statdcat-application-profile-data-portals-europe/about">StatDCAT Application Profile for data portals in Europe</a></li>
+</ul>
+</div>
+</div>
 <section id="sec-elenchi-delle-categorie-e-modalita-di-ricerca" class="level3" data-number="7.2.1">
 <h3 data-number="7.2.1" class="anchored" data-anchor-id="sec-elenchi-delle-categorie-e-modalita-di-ricerca"><span class="header-section-number">7.2.1</span> Elenchi delle categorie e modalità di ricerca</h3>
+<p>Il Decreto dispone che i soggetti destinatari delle presenti Linee Guida debbano individuare le modalità per facilitare la ricerca, anche interlinguistica, dei documenti disponibili per il riutilizzo, insieme ai rispettivi metadati, ove possibile accessibili on-line e in formati leggibili meccanicamente. Tale disposizione è attuata attraverso il rispetto del <a href="./capitolo-6.html#req-20"><strong>REQUISITO 20</strong></a> e <a href="./capitolo-6.html#req-21"><strong>REQUISITO 21</strong></a> definiti innanzi.</p>
+<p>Il Decreto prevede, inoltre, quanto indicato nel seguente Requisito 31.</p>
+<div class="requisito callout callout-style-simple callout-important no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<a href="" id="req-31"></a>Requisito&nbsp;7.5
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="testo-rosso"><strong>REQUISITO 31</strong></span>: <strong>dlgs36-2006/opendata/req/publication/categories</strong> <a href="#req-31" class="link-req">🔗</a><br> I destinatari delle presenti Linee Guida DEVONO pubblicare e aggiornare annualmente nei propri siti istituzionali gli elenchi delle categorie di dati detenuti ai fini del riutilizzo attraverso collegamenti ipertestuali al portale nazionale dati.gov.it.</p>
+</div>
+</div>
+<p>Per adempiere a tale disposizione, considerato che in base ai Requisiti 20 e 21 i dati DEVONO essere documentati nel portale nazionale dei dati aperti dati.gov.it, si può pubblicare nel proprio sito istituzionale, eventualmente in una sezione dedicata agli open data, anche al fine di evitare eventuali duplicazioni, un <strong>collegamento ipertestuale</strong> (anche sfruttando le API disponibili nel portale nazionale), per ciascuna categoria tematica (facendo riferimento ai temi DCAT-AP), ai propri dataset pubblicati nel portale nazionale. Un esempio di URL da inserire nel proprio sito istituzionale è il seguente:</p>
+<p><code>https://dati.gov.it/view-dataset?holder_name=%22Provincia%20Autonoma%20di%20Trento%22&amp;groups=ambiente</code></p>
+<p>dove l’amministrazione titolare è la Provincia Autonoma di Trento e la categoria è “ambiente”.</p>
+<p>Le categorie tematiche da considerare sono quelle corrispondenti ai temi definiti nell’ambito della specifica DCAT-AP<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> che si riportano di seguito:</p>
+<ul>
+<li>Agricoltura, pesca, silvicoltura e prodotti alimentari;</li>
+<li>Ambiente;</li>
+<li>Economia e finanze;</li>
+<li>Energia;</li>
+<li>Giustizia, sistema giuridico e sicurezza pubblica;</li>
+<li>Governo e settore pubblico;</li>
+<li>Istruzione, cultura e sport;</li>
+<li>Popolazione e società;</li>
+<li>Regioni e città;</li>
+<li>Salute;</li>
+<li>Scienza e tecnologia;</li>
+<li>Tematiche internazionali;</li>
+<li>Trasporti.</li>
+</ul>
+<p>Tali temi, in quanto definiti nel profilo di metadati DCAT-AP_IT, sono già utilizzati come classificazione dei dataset nei portali dei dati aperti, a partire da quello nazionale dati.gov.it.</p>
+<p>Nel caso di dati territoriali aperti, come già indicato, questi vanno documentati esclusivamente nel RNDT che li renderà disponibili anche in dati.gov.it, consentendo, quindi, la creazione del collegamento ipertestuale di cui sopra.</p>
+<p>Per la pubblicazione dei metadati nel catalogo nazionale, ci si può avvalere dei <strong>principi di sussidiarietà verticale</strong>, già in precedenza menzionati, o <strong>adottare autonomamente una delle possibili soluzioni</strong> descritte di seguito.</p>
+<p>Per quanto riguarda la sussidiarietà verticale, nell’ambito locale, <strong>le Regioni possono assumere il ruolo di aggregatori territoriali</strong>. In sostanza, la Regione, ove possibile, si coordina con le varie amministrazioni che operano nell’ambito territoriale della Regione stessa, raccogliendo le informazioni sui dataset disponibili come dati aperti e assicurando una adeguata frequenza di aggiornamento. Le amministrazioni locali delegano così la Regione all’esposizione dei propri metadati e <strong>possono evitare di richiedere direttamente la raccolta degli stessi da parte del portale nazionale</strong>; quest’ultimo si interfaccia quindi con i soli cataloghi regionali.</p>
+<p>Lo stesso modello può applicarsi nei casi di amministrazioni centrali che svolgano un ruolo di “coordinamento” nei riguardi di altre amministrazioni. In questo caso, si richiede che le amministrazioni comunichino tale situazione al portale nazionale durante la fase di richiesta di raccolta.</p>
+<p>Per quanto riguarda le possibili soluzioni “autonome”, che possono essere adottate anche qualora il modello di sussidiarietà di cui sopra non potesse essere applicato (per es., per mancanza di un catalogo regionale o difficoltà, anche tecniche, di colloquio tra i diversi livelli amministrativi locali), di seguito si riportano alcune di queste possibili soluzioni per la creazione di piattaforme di pubblicazione dei dati.</p>
+<p><strong>Soluzione nativa.</strong> Viene creato un portale ad-hoc o creata un’apposita sezione di un portale esistente. In questo caso, la creazione non differisce dalla creazione di un sito web classico.</p>
+<p><strong>Estensione soluzione CMS esistente.</strong> Molto spesso l’amministrazione gestisce già un sito web, realizzato mediante l’uso di un CMS, che vuole estendere con una sezione dedicata agli Open Data. La criticità in questo caso è data dall’aggiunta di una componente semantica all’interno della configurazione del CMS stesso.</p>
+<p><strong>Utilizzo di piattaforme esterne.</strong> Viene utilizzata una piattaforma che include funzionalità per la catalogazione, visualizzazione, ricerca e interrogazione dei dati. In alcuni casi queste piattaforme sono disponibili in modalità «<em>as a service</em>».</p>
+<div class="raccomandazione callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<a href="" id="racc-17"></a>Raccomandazione&nbsp;7.3
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="testo-blu"><strong>Raccomandazione 17</strong></span>: <strong>dlgs36-2006/opendata/rec/publication/portals</strong><br> SI RACCOMANDA di non creare tanti portali diversi per singole iniziative ma, ove possibile, di raccordarle per facilitare il reperimento e il riutilizzo dei dati da parte degli utenti finali.</p>
+</div>
+</div>
 
 
 </section>
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p><a href="https://dati.gov.it/" class="uri">https://dati.gov.it/</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p><a href="https://geodati.gov.it/" class="uri">https://geodati.gov.it/</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p><a href="https://inspire-geoportal.ec.europa.eu/" class="uri">https://inspire-geoportal.ec.europa.eu/</a><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Decisione di esecuzione (UE) 2019/1372 della Commissione del 19 agosto 2019 recante attuazione della direttiva 2007/2/CE del Parlamento europeo e del Consiglio per quanto riguarda il monitoraggio e la comunicazione<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Attualmente l’estensione StatDCAT-AP è allineata alla versione 1.1 di DCAT-AP<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><ol start="22" type="a">
+<li>il relativo vocabolario controllato disponibile al link <a href="https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/data-theme" class="uri">https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/data-theme</a></li>
+</ol>
+<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></li>
+</ol>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Torna in cima</a></main> <!-- /main -->
@@ -888,6 +1016,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","descPosition":"bottom","openEffect":"zoom","loop":false});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 
