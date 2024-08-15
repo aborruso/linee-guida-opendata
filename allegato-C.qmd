@@ -1,1 +1,11 @@
 # Riepilogo di requisiti e raccomandazioni {#sec-allegato-c}
+
+Di seguito l'elenco dei requisiti e delle raccomandazioni definiti nelle presenti Linee Guida. Per ciascuno di essi, oltre al numero e al testo, sono indicati i destinatari tenuti alla loro osservanza e gli articoli del Decreto di riferimento (solo per i requisiti).
+
+## Requisiti {#requisiti}
+
+{{< include ./include/tabelle/_requisiti.qmd >}}
+
+## Raccomandazioni {#raccomandazioni}
+
+{{< include ./include/tabelle/_raccomandazioni.qmd >}}
