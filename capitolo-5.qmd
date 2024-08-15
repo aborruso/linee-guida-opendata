@@ -24,7 +24,6 @@ L'implementazione del processo deve avvenire in maniera costante: **le attività
 
 ![Processo di preparazione dei dati](immagini/image48.png){#fig-preparazione-dati width="90%" fig-alt="Processo di preparazione dei dati." align="center" .lightbox}
 
-
 Un altro modello metodologico per la gestione dei dati aperti è rappresentato da **Open Data Management Cycle (ODMC)**[^#_bookmark79], già utilizzato in alcune Pubbliche Amministrazioni, che include un modello dei processi, un modello informativo e un modello organizzativo. Per tutti gli aspetti che sono allineati alle presenti Linee Guida, il modello indicato può rappresentare un utile riferimento per un approccio comune alla gestione del patrimonio informativo. Nel modello indicato, inoltre, sono presenti indicazioni anche per le fasi non considerate nel processo rappresentato nella @fig-preparazione-dati.
 
 Ai fini di valutare l'efficacia del processo di apertura, è anche utile misurare l'impatto dell'utilizzo dei dati aperti. Non esiste una definizione di "**impatto dei dati aperti**" nella legislazione o nella documentazione tecnica nazionale. Esso può essere inteso come l'insieme degli effetti e dei benefici ottenuti direttamente o indirettamente dall'utilizzo e/o il riutilizzo dei dati aperti in specifiche politiche, aree o domini. In linea con il rapporto sulla maturità dei dati aperti in Europa pubblicato annualmente[^#_bookmark81], i domini rispetto ai quali misurare l'impatto possono essere: società, governo, economia e ambiente.

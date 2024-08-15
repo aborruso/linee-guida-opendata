@@ -1,0 +1,4 @@
+::: {#req-31 .callout-important appearance="simple" icon=false .requisito}
+[**REQUISITO 31**]{.testo-rosso}: **dlgs36-2006/opendata/req/publication/categories** [🔗](#req-31){.link-req}<br>
+I destinatari delle presenti Linee Guida DEVONO pubblicare e aggiornare annualmente nei propri siti istituzionali gli elenchi delle categorie di dati detenuti ai fini del riutilizzo attraverso collegamenti ipertestuali al portale nazionale dati.gov.it.
+:::

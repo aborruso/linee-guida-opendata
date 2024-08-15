@@ -1,0 +1,9 @@
+----
+
+::: {.callout-tip icon=false #res-7.2 .risorsa}
+
+📚 **Risorse utili - cap. 7.2** [🔗](#res-7.2){.link-req}
+
+- [Guida nazionale per l’implementazione della specifica GeoDCAT-AP](https://geodati.gov.it/geoportale/images/struttura/documenti/GeoDCAT-AP_IT-v1.0.pdf)
+- [StatDCAT Application Profile for data portals in Europe](https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/statdcat-application-profile-data-portals-europe/about)
+:::
