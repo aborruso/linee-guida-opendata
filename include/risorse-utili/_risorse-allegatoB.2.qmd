@@ -1,0 +1,9 @@
+----
+
+::: {.callout-tip icon=false #res-B.2.2 .risorsa}
+
+📚 **Risorse utili - cap. B.2.2** [🔗](#res-B.2.2){.link-req}
+
+- [GeoJSON encoding of INSPIRE datasets](https://inspire.ec.europa.eu/good-practice/geojson-encoding-inspire-datasets)
+- [GeoPackage encoding of INSPIRE datasets](https://inspire.ec.europa.eu/good-practice/geopackage-encoding-inspire-datasets)
+:::

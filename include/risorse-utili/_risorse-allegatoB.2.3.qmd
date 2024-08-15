@@ -1,0 +1,9 @@
+----
+
+::: {.callout-tip icon=false #res-B.2.3 .risorsa}
+
+📚 **Risorse utili - cap. B.2.3** [🔗](#res-B.2.3){.link-req}
+
+- [Circolare AgID n. 2/2019 "Adozione di standard per la rappresentazione elettronica e
+l'identificazione univoca del patrimonio informativo di natura giuridica e istituzione del Forum Nazionale per l'informazione giuridica"](https://trasparenza.agid.gov.it/index.php?id_oggetto=19&id_doc=5380&id_sez_ori=0&template_ori=1)
+:::

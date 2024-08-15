@@ -1,0 +1,9 @@
+----
+
+::: {.callout-tip icon=false #res-B.2.1.2 .risorsa}
+
+📚 **Risorse utili - cap. B.2.1.2** [🔗](#res-B.2.1.2){.link-req}
+
+- [Generating JSON from Tabular Data on the Web](https://www.w3.org/TR/csv2json/), W3C
+- [data.europa.eu – Data quality guidelines](https://op.europa.eu/it/publication-detail/-/publication/023ce8e4-50c8-11ec-91ac-01aa75ed71a1/language-en), Publications Office, 2021
+:::

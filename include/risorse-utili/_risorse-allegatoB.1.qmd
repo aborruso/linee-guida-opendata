@@ -1,0 +1,9 @@
+----
+
+::: {.callout-tip icon=false #res-B.1 .risorsa}
+
+📚 **Risorse utili - cap. B.1** [🔗](#res-B.1){.link-req}
+
+- [European Catalogue on the ICT standards](https://joinup.ec.europa.eu/collection/ict-standards-procurement/ict), Commissione Europea
+- [Architectures and Standards for Spatial Data Infrastructures and Digital Government](https://joinup.ec.europa.eu/sites/default/files/document/2020-09/jrc121025_jrc121025_architectures_and_standards_for_sdis_and_digital_government.pdf), JRC Technical Report, 2020
+:::
