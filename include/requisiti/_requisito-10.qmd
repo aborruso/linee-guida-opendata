@@ -1,4 +1,4 @@
-::: {#req-10 .callout-important appearance="simple" icon=false}
+::: {#req-10 .callout-important appearance="simple" icon=false .requisito}
 [**REQUISITO 10**]{.testo-rosso}: **dlgs36-2006/opendata/req/research/findable** [🔗](#req-10){.link-req}<br>
 Per rendere i dati reperibili È RICHIESTO:
 

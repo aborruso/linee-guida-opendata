@@ -1,4 +1,4 @@
-::: {#req-8 .callout-important appearance="simple" icon=false}
+::: {#req-8 .callout-important appearance="simple" icon=false .requisito}
 [**REQUISITO 8**]{.testo-rosso}: **dlgs36-2006/opendata/req/hvd/free** [🔗](#req-8){.link-req}<br>
 Le serie di dati di elevato valore, individuate dal Regolamento (UE) di esecuzione n. 2023/138, DEVONO essere messe a disposizione gratuitamente ad eccezione di quelle:
 

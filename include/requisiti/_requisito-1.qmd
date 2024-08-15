@@ -1,4 +1,4 @@
-::: {#req-1 .callout-important appearance="simple" icon=false}
+::: {#req-1 .callout-important appearance="simple" icon=false .requisito}
 [**REQUISITO 1**]{.testo-rosso}: **dlgs36-2006/opendata/req/common/guidelines** [🔗](#req-1){.link-req}<br>
 I soggetti di cui al **[par. -@sec-soggetti-destinatari]** DEVONO rendere disponibili i documenti e i dati di cui al **[par. -@sec-documenti-oggetto-di-applicazione]** per il loro riutilizzo a fini commerciali e non commerciali secondo quanto indicato nelle presenti Linee Guida.
 :::

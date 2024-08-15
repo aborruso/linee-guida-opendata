@@ -1,4 +1,4 @@
-::: {#req-6 .callout-important appearance="simple" icon=false}
+::: {#req-6 .callout-important appearance="simple" icon=false .requisito}
 [**REQUISITO 6**]{.testo-rosso}: **dlgs36-2006/opendata/req/dynamic/release** [🔗](#req-6){.link-req}<br>
 I dati dinamici DEVONO essere resi disponibili per il riutilizzo immediatamente dopo la raccolta. <br>
 Se, per motivi di capacità finanziarie o tecniche, ciò non sia possibile, allora i dati dinamici POSSONO essere resi disponibili per il riutilizzo entro un termine e/o con temporanee restrizioni tecniche, tali, però, da non pregiudicare indebitamente lo sfruttamento del loro potenziale economico e sociale.<br>

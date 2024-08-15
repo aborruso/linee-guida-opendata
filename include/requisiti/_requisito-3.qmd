@@ -1,4 +1,4 @@
-::: {#req-3 .callout-important appearance="simple" icon=false}
+::: {#req-3 .callout-important appearance="simple" icon=false .requisito}
 [**REQUISITO 3**]{.testo-rosso}: **dlgs36-2006/opendata/req/common/more-formats** [🔗](#req-3){.link-req}<br>
 Nel caso in cui un dato sia disponibile in più formati, almeno uno di essi DEVE essere coerente con il [**REQUISITO 2**](#req-2){.testo-rosso}.
 :::

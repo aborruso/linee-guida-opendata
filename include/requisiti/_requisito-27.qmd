@@ -1,4 +1,4 @@
-::: {#req-27 .callout-important appearance="simple" icon=false}
+::: {#req-27 .callout-important appearance="simple" icon=false .requisito}
 [**REQUISITO 27**]{.testo-rosso}: **dlgs36-2006/opendata/req/publication/api** [🔗](#req-27){.link-req}<br>
 Le API sviluppate per rendere disponibili i dati per il riutilizzo DEVONO essere conformi alle "Linee Guida sull’interoperabilità tecnica delle Pubbliche Amministrazioni" e le "Linee Guida Tecnologie e standard per la sicurezza dell’interoperabilità tramite API dei sistemi informatici", adottate con la Determinazione di AgID n. 547/2021.
 :::

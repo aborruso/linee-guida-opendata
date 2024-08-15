@@ -1,4 +1,4 @@
-::: {#req-5 .callout-important appearance="simple" icon=false}
+::: {#req-5 .callout-important appearance="simple" icon=false .requisito}
 [**REQUISITO 5**]{.testo-rosso}: **dlgs36-2006/opendata/req/dynamic/api** [🔗](#req-5){.link-req}<br>
 I dati dinamici DEVONO essere messi a disposizione per il riutilizzo attraverso API coerenti con il [**REQUISITO 27**](capitolo-7.qmd#rec-27){.testo-rosso}.
 :::

@@ -1,4 +1,4 @@
-::: {#req-12 .callout-important appearance="simple" icon=false}
+::: {#req-12 .callout-important appearance="simple" icon=false .requisito}
 [**REQUISITO 12**]{.testo-rosso}: **dlgs36-2006/opendata/req/research/interoperable** [🔗](#req-12){.link-req}<br>
 Per rendere i dati interoperabili È RICHIESTO:
 

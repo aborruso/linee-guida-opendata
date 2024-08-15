@@ -1,4 +1,4 @@
-::: {#req-14 .callout-important appearance="simple" icon=false}
+::: {#req-14 .callout-important appearance="simple" icon=false .requisito}
 [**REQUISITO 14**]{.testo-rosso}: **dlgs36-2006/opendata/req/spatial/inspire** [🔗](#req-14){.link-req}<br>
 Nel caso di dati territoriali, DEVONO essere applicate le regole tecniche adottate nell'ambito del framework definito in applicazione della [Direttiva 2007/2/CE](capitolo-2.qmd#D-LGS-32-2010) e relativo decreto di recepimento, [D. Lgs. n. 32/2010](capitolo-2.qmd#D-LGS-32-2010#D-LGS-32-2010), oltre che di tutte le altre norme ad essi collegate.
 
