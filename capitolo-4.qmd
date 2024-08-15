@@ -150,7 +150,7 @@ I dati dinamici costituiscono una delle tipologie più preziose dal punto di vis
 
 {{< include ./include/requisiti/_requisito-5.qmd >}}
 
-Il **[REQUISITO 27](capitolo-7.qmd#rec-27){.testo-rosso}** citato indica, in sintesi, che le API implementate per rendere disponibili i dati dinamici DEVONO essere conformi ai requisiti definiti nell'ambito del modello di interoperabilità ed essere registrate nel catalogo API, reso disponibile attraverso la Piattaforma Digitale Nazionale Dati (PDND) in attuazione dell'art. 50-ter del [**CAD**](capitolo-2.qmd#CAD).
+Il **[REQUISITO 27](capitolo-7.qmd#req-27){.testo-rosso}** citato indica, in sintesi, che le API implementate per rendere disponibili i dati dinamici DEVONO essere conformi ai requisiti definiti nell'ambito del modello di interoperabilità ed essere registrate nel catalogo API, reso disponibile attraverso la Piattaforma Digitale Nazionale Dati (PDND) in attuazione dell'art. 50-ter del [**CAD**](capitolo-2.qmd#CAD).
 
 {{< include ./include/raccomandazioni/_raccomandazione-2.qmd >}}
 
