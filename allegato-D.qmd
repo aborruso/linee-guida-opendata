@@ -1,1 +1,5 @@
 # Elenco analitico delle risorse utili {#sec-allegato-d}
+
+Di seguito l'elenco delle risorse utili citate nelle presenti Linee Guida. In corrispondenza di ciascuna risorsa vengono indicate le sezioni del documento (capitoli e paragrafi) dove tali risorse sono indicate come riferimento
+
+{{< include ./include/tabelle/_risorse.qmd >}}
