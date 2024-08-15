@@ -410,10 +410,18 @@ document.addEventListener('DOMContentLoaded', function() {
 </header>
 
 
+<p>L’art. 9 del Decreto contiene le previsioni normative relative alle modalità per facilitare la ricerca di dati e documenti resi disponibili per il riutilizzo, con l’indicazione dei due strumenti nazionali a tale scopo deputati, ovvero il portale nazionale dei dati aperti <a href="https://dati.gov.it/">dati.gov.it</a> e il <a href="https://geodati.gov.it/">Repertorio Nazionale dei Dati Territoriali</a>.</p>
+<p>Quanto alla pubblicazione dei dati, la Direttiva e il Decreto hanno individuato nelle API (Application Programming Interface) lo strumento per rendere disponibili i dati dinamici e le serie di dati di elevato valore (v. art. 6, comma 5 e art. 12-bis del Decreto).</p>
+<p>Il presente capitolo, oltre alle indicazioni relative alle disposizioni di cui sopra, contiene anche ulteriori indicazioni non vincolanti - in quanto non derivanti da specifiche disposizioni normative - per la pubblicazione dei dati, già presenti nelle <em>Linee Guida per la valorizzazione del patrimonio informativo pubblico</em>.</p>
 <section id="sec-pubblicazione-dei-dati" class="level2" data-number="7.1">
 <h2 data-number="7.1" class="anchored" data-anchor-id="sec-pubblicazione-dei-dati"><span class="header-section-number">7.1</span> Pubblicazione dei dati</h2>
 <section id="sec-api" class="level3" data-number="7.1.1">
 <h3 data-number="7.1.1" class="anchored" data-anchor-id="sec-api"><span class="header-section-number">7.1.1</span> API</h3>
+<p>Per i dati dinamici e le serie di dati di elevato valore, il Decreto prevede che i dati debbano essere resi disponibili attraverso un’interfaccia per programmi applicativi (API), che, come da definizione, è un insieme di funzioni, procedure, definizioni e protocolli per la comunicazione da macchina a macchina e lo scambio ininterrotto di dati. Questo non impedisce, ovviamente, che i titolari dei dati possano continuare a rendere disponibili i dati anche in modalità diverse. Del resto, lo stesso art. 50-ter, comma 7 del <strong><a href="./capitolo-2.html#CAD">CAD</a></strong> prevede che le PA possano “<em>continuare a utilizzare anche i sistemi di interoperabilità già previsti dalla legislazione vigente</em>”.</p>
+<p>La Direttiva evidenzia che per la creazione e l’impiego di API sia necessario basarsi su alcuni principi: disponibilità, stabilità, manutenzione per tutto il ciclo di vita, uniformità di utilizzo e delle norme, facilità d’uso e sicurezza.</p>
+<p>In tema di API, con la Determinazione di AgID n.&nbsp;547/2021 sono state adottate le “<em>Linee Guida sull’interoperabilità tecnica delle Pubbliche Amministrazioni</em>” [<a href="./capitolo-2.html#LG-INT"><strong>LG-INT</strong></a>] e le “<em>Linee Guida Tecnologie e standard per la sicurezza dell’interoperabilità tramite API dei sistemi informatici</em>” [<a href="./capitolo-2.html#LG-SIC"><strong>LG-SIC</strong></a>], che definiscono le modalità con cui le Pubbliche Amministrazioni implementano le proprie API, quale elemento</p>
+<p>tecnologico di base del Modello di Interoperabilità (ModI), e individuano le soluzioni tecniche idonee a garantire l’autenticazione dei soggetti coinvolti e la protezione, l’integrità e la riservatezza dei dati scambiati nelle interazioni tra sistemi informatici della pubblica amministrazione e di questi con i sistemi informatici di soggetti privati per il tramite di API.</p>
+<p>Le API che il Decreto indica di utilizzare per rendere disponibili dati dinamici e serie di dati di elevato valore DEVONO essere sviluppate e pubblicate in conformità con le Linee Guida citate innanzi.</p>
 <div class="requisito callout callout-style-simple callout-important no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -427,15 +435,158 @@ document.addEventListener('DOMContentLoaded', function() {
 <p><span class="testo-rosso"><strong>REQUISITO 27</strong></span>: <strong>dlgs36-2006/opendata/req/publication/api</strong> <a href="#req-27" class="link-req">🔗</a><br> Le API sviluppate per rendere disponibili i dati per il riutilizzo DEVONO essere conformi alle “Linee Guida sull’interoperabilità tecnica delle Pubbliche Amministrazioni” e le “Linee Guida Tecnologie e standard per la sicurezza dell’interoperabilità tramite API dei sistemi informatici”, adottate con la Determinazione di AgID n.&nbsp;547/2021.</p>
 </div>
 </div>
+<p>Dette Linee Guida individuano il Catalogo delle API quale componente, unica e centralizzata, che assicuri alle parti coinvolte nel rapporto di erogazione e fruizione la consapevolezza sulle API disponibili, e per esse, i livelli di servizio dichiarati. Tale Catalogo, in applicazione dell’art. 50 ter del <a href="./capitolo-2.html#CAD"><strong>CAD</strong>,</a> è reso disponibile attraverso la Piattaforma Digitale Nazionale Dati (PDND) a cui si applicano le indicazioni delle “<em>Linee Guida sull’infrastruttura tecnologica della Piattaforma Digitale Nazionale Dati per l’interoperabilità dei sistemi informativi e delle basi di dati</em>” adottate con la Determinazione di AgID n.&nbsp;627/2021 [<a href="./capitolo-2.html#LG-PDND"><strong>LG-PDND</strong></a>].</p>
+<p>La coerenza con le Linee Guida suddette garantisce anche l’adempimento di quanto previsto nel Regolamento (UE) [<a href="./capitolo-2.html#REG-HVD"><strong>REG-HVD</strong></a>] relativo ai dati di elevato valore (v. par. <strong><a href="capitolo-4.html#sec-serie-di-dati-di-elevato-valore" class="quarto-xref"><span>4.3</span></a></strong>), in particolare con la previsione di cui all’art. 3(2) circa le condizioni di utilizzo delle API e i criteri di qualità del servizio.</p>
+<p>Il paragrafo del Regolamento citato dispone, infatti, che debbano essere stabiliti e pubblicati i termini di utilizzo delle API e i criteri di qualità dei servizi in relazione a prestazione, capacità e disponibilità. Tale disposizione può essere estesa anche oltre l’ambito di applicazione del suddetto Regolamento, applicandola in modo generalizzato in modo che i titolari dei dati assumano impegni precisi e non ci si affidi al criterio del <em>best-effort</em>. Nel caso dei servizi di rete INSPIRE, i criteri di qualità sono definiti con il Regolamento (CE) n.&nbsp;976/2009 e s.m.i. In generale, occorre fare riferimento ai requisiti e alle indicazioni sulla qualità dei servizi definiti nelle Linee Guida sull’interoperabilità tecnica delle Pubbliche Amministrazioni.</p>
+<p>Considerato che, come evidenziato dalla Direttiva, è, in generale, vantaggioso riutilizzare e condividere i dati tramite un impiego adeguato di API, perché possono aiutare gli sviluppatori e le start-up a creare nuovi servizi e prodotti e rappresentano, inoltre, un elemento fondamentale della strutturazione di ecosistemi di valore attorno a un patrimonio di dati spesso inutilizzato, è fortemente raccomandato l’utilizzo di API per rendere disponibili per il riutilizzo anche quelle tipologie di dati per le quali il Decreto non prevede tale disposizione.</p>
+<p>In caso di serie storiche di dati, la pubblicazione dovrebbe riguardare non solo i dati più recenti o attuali, ma tutta la successione in modo da non disperdere un patrimonio informativo importante utile, per esempio, per analisi sull’evoluzione dei vari fenomeni di interesse.</p>
+<div class="raccomandazione callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<a href="" id="racc-15"></a>Raccomandazione&nbsp;7.1
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="testo-blu"><strong>Raccomandazione 15</strong></span>: <strong>dlgs36-2006/opendata/rec/publication/api</strong><br> Ove possibile, SI RACCOMANDA di utilizzare API conformi al <a href="#req-27">REQUISITO 27</a> per rendere disponibili per il riutilizzo tutte le tipologie di dati, non solo quelli dinamici e/o di elevato valore.</p>
+</div>
+</div>
+<p>Nel caso di dati territoriali, viste le regole tecniche di cui alle Linee Guida INSPIRE per l’implementazione dei servizi di rete di cui all’art. 7, comma 1 del D. Lgs.n. 32/2010 [<strong><a href="./capitolo-2.html#D-LGS-32-2010">D-LGS-32-2010</a></strong>], <strong>detti servizi di rete possono essere considerati come API</strong> in considerazione del fatto che nell’ambito delle Linee Guida sull’interoperabilità tecnica delle PA, accettando la nomenclatura in uso a livello europeo e più in generale nel contesto internazionale, si utilizza il termine generico API per indicare indifferentemente le Web API, i web service e le API REST.</p>
+<div class="requisito callout callout-style-simple callout-important no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<a href="" id="req-28"></a>Requisito&nbsp;7.2
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="testo-rosso"><strong>REQUISITO 28</strong></span>: <strong>dlgs36-2006/opendata/req/publication/inspire-ns</strong> <a href="#req-28" class="link-req">🔗</a><br> Nel caso di dati territoriali, il <a href="#req-27">REQUISITO 27</a> è attuato attraverso l’implementazione dei servizi di rete di cui all’art. 11 della Direttiva 2007/2/CE, del Regolamento (CE) n.&nbsp;976/2009 e delle relative Linee Guida tecniche.</p>
+</div>
+</div>
+<p>Nel caso dell’applicazione del <a href="#req-28"><strong>REQUISITO 28</strong>,</a> fermo restando, comunque, quanto previsto dal già citato art. 50-ter, comma 7 del <a href="./capitolo-2.html#CAD"><strong>CAD</strong>,</a> detti servizi potrebbero essere documentati anche nel catalogo API disponibile nella PDND.</p>
 <section id="sec-sicurezza-e-disponibilita-dei-dati" class="level4" data-number="7.1.1.1">
 <h4 data-number="7.1.1.1" class="anchored" data-anchor-id="sec-sicurezza-e-disponibilita-dei-dati"><span class="header-section-number">7.1.1.1</span> Sicurezza e disponibilità dei dati</h4>
+<p>L’art. 51, comma 1 del <strong><a href="./capitolo-2.html#CAD">CAD</a></strong> demanda a specifiche Linee guida l’individuazione delle soluzioni tecniche idonee a <strong>garantire la protezione, la disponibilità, l’accessibilità, l’integrità e la riservatezza dei dati</strong> e la continuità operativa dei sistemi e delle infrastrutture.</p>
+<p>Tali Linee Guida sono state definite nell’ambito del modello di interoperabilità delle pubbliche amministrazioni e corrispondono alle già citate Linee Guida “<em>Tecnologie e standard per la sicurezza dell’interoperabilità tramite API dei sistemi informatici</em>” [<a href="./capitolo-2.html#LG-SIC"><strong>LG-SIC</strong></a>], che definiscono le tecnologie e le loro modalità di utilizzo al fine di garantire la sicurezza delle transazioni digitali realizzate tra e verso le pubbliche amministrazioni che utilizzano le API tramite rete di collegamento informatica.</p>
+<p>L’implementazione di API coerenti con il <a href="#req-27"><strong>REQUISITO 27</strong>,</a> pertanto, assicura il rispetto degli adempimenti e la conformità al citato art. 51 del <a href="./capitolo-2.html#CAD"><strong>CAD</strong>.</a></p>
+<p>Nell’ambito della Strategia Cloud Italia (v. box “Risorse utili”), a cui si rimanda, inoltre, al fine di regolamentare l’offerta di servizi cloud disponibili sul mercato per mitigare i rischi sistemici di sicurezza e affidabilità, è stata definita una classificazione dei dati e dei servizi allo scopo di definire un processo di classificazione dei dati, in base al danno che una loro compromissione potrebbe provocare al sistema Paese (strategici, critici e ordinari). Il risultato della classificazione, si legge nella strategia, consente di uniformare e guidare il processo di migrazione al Cloud della PA. Le classi individuate sono:</p>
+<ul>
+<li><p><strong>Strategico</strong>: dati e servizi la cui compromissione può avere un impatto sulla sicurezza nazionale;</p></li>
+<li><p><strong>Critico</strong>: dati e servizi la cui compromissione potrebbe determinare un pregiudizio al mantenimento di funzioni rilevanti per la società, la salute, la sicurezza e il benessere economico e sociale del Paese;</p></li>
+<li><p><strong>Ordinario</strong>: dati e servizi la cui compromissione non provochi l’interruzione di servizi dello Stato o, comunque, un pregiudizio per il benessere economico e sociale del Paese.</p></li>
+</ul>
+<hr>
+<div class="risorsa callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<a href="" id="res-7.1.1"></a>Risorsa&nbsp;7.1
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>📚 <strong>Risorse utili - cap. 7.1.1</strong> <a href="#res-7.1.1" class="link-req">🔗</a></p>
+<ul>
+<li><a href="https://developers.italia.it/it/software/pcm-italia-api-oas-checker">OpenAPI Checker</a>, Developers Italia</li>
+<li><a href="https://inspire.ec.europa.eu/Technical-Guidelines2/Network-Services/41">Guide tecniche INSPIRE per i servizi di rete</a></li>
+<li><a href="https://op.europa.eu/en/publication-detail/-/publication/5ea37e1b-b565-11ec-b6f4-01aa75ed71a1/language-en/format-PDF">Evaluation of Application Programming Interfaces for INSPIRE</a>, Publications Office of the European Union, 2022</li>
+<li><a href="https://inspire.ec.europa.eu/good-practice/ogc-api-%E2%80%93-features-inspire-download-service">OGC API – Features as an INSPIRE download service</a></li>
+<li><a href="https://inspire.ec.europa.eu/good-practice/ogc-sensorthings-api-inspire-download-service">OGC SensorThings API as an INSPIRE download service</a></li>
+<li><a href="https://innovazione.gov.it/dipartimento/focus/strategia-cloud-italia/">Strategia Cloud Italia</a></li>
+</ul>
+</div>
+</div>
 </section>
 </section>
 <section id="sec-elementi-architetturali" class="level3" data-number="7.1.2">
 <h3 data-number="7.1.2" class="anchored" data-anchor-id="sec-elementi-architetturali"><span class="header-section-number">7.1.2</span> Elementi architetturali</h3>
+<p>I principali livelli architetturali che compongono una soluzione per la pubblicazione e l’interrogazione di dati aperti possono essere istanziati in diverso modo a seconda delle capacità economiche e tecniche delle amministrazioni, nonché della qualità del servizio che si vuole offrire agli utenti. Si distinguono due livelli: livello di front-end e livello infrastrutturale. Il livello di front- end consiste di una parte di presentazione che può essere sia un sito Web, sia una sezione in un sito esistente. In questa parte rientrano tutti quegli strumenti che consentono di dare massima visibilità ai dati disponibili e di interagire in maniera “user-friendly” con gli utenti stessi, per esempio per capire quali dati siano di loro interesse, quali nuovi dati siano richiesti, quali suggerimenti vogliano dare per migliorare anche la qualità dei dati. Il livello di presentazione si completa con l’interfaccia di accesso via web per interrogazioni puntuali sui dati e sui metadati. L’interfaccia ha come obiettivo quello di aumentare l’interazione machine-to-machine attraverso il dispiegamento di una piattaforma di esposizione dati basata su API di servizio (o Open Data Service). Nel caso di dati dei livelli 4 e 5 del modello per i dati di cui all’Allegato A, l’interfaccia di accesso via web è rappresentata dallo SPARQL endpoint.</p>
+<p>In generale, SI RACCOMANDA di:</p>
+<ul>
+<li><p>assegnare ai dataset nomi autoesplicativi per comprenderne il principale contenuto;</p></li>
+<li><p>fornire, ove possibile, descrizioni testuali dei dataset;</p></li>
+<li><p>mettere in evidenza la licenza in uso in forma “human and machine-readable”;</p></li>
+<li><p>fornire, ove possibile, strumenti di visualizzazione e navigazione, anche georiferita, dei dati, che possano facilitare la lettura degli stessi;</p></li>
+<li><p>fornire, ove possibile, statistiche di uso, accesso e produzione;</p></li>
+<li><p>fornire notifiche di cambiamenti nel sito web, di aggiornamenti ai dataset (per es., RSS feed);</p></li>
+<li><p>fornire strumenti per rendere le interrogazioni più agevoli, anche per utenti non del tutto esperti. Nel caso dei dati dei livelli 4 e 5 non si può pubblicare solo dataset RDF ma è bene mettere in evidenza la presenza dello SPARQL endpoint (cioè, un servizio Web che accetta interrogazioni SPARQL, le risolve e restituisce i risultati in output), pubblicando il link di accesso, fornendo altresì un ampio insieme di “query” di esempio che possono essere eseguite producendo risultati disponibili in diversi formati di più comune utilizzo soprattutto nell’ambito delle comunità open data (per es., CSV, JSON, XML).</p></li>
+</ul>
+<p>Nei casi di amministrazioni di minori dimensioni o amministrazioni che non siano nelle condizioni di poter fornire un servizio con le caratteristiche sopra elencate, si consiglia di implementare azioni di sussidiarietà verticale (ad esempio, i comuni di medio-piccole dimensioni possono riferirsi alla Regione di appartenenza) o di unirsi in iniziative comuni (v. paragrafo <strong><a href="capitolo-5.html#sec-coordinamento-tra-livello-nazionale-regionale-e-locale" class="quarto-xref"><span>5.1.1.1</span></a></strong>).</p>
+<p>Il livello infrastrutturale è rappresentato dall’infrastruttura che ospita i dati e i metadati. Nel caso di dati aperti, tenuto conto della loro natura intrinseca, ovvero di dati tipicamente non riferibili a singole persone e per i quali solitamente non si richiede il soddisfacimento di specifici requisiti di protezione dei dati personali, tecnologie basate sul paradigma del cloud computing pubblico possono essere facilmente impiegabili al fine di ospitare le infrastrutture per la pubblicazione di dati aperti.</p>
+<p>In tema di cloud, la Strategia Cloud Italia (v. box “Risorse utili”), già citata innanzi, definita dal Dipartimento per la trasformazione digitale della Presidenza del Consiglio dei Ministri e dall’Agenzia per la cybersicurezza nazionale (ACN), contiene gli indirizzi strategici per il percorso di migrazione verso il cloud di dati e servizi digitali della Pubblica Amministrazione. Per l’attuazione della strategia, AgID ha adottato, con la Determinazione n.&nbsp;628/2021, il Regolamento che definisce i requisiti minimi per le infrastrutture digitali e le caratteristiche e le modalità di qualificazione e migrazione dei servizi cloud.</p>
+<hr>
+<div class="risorsa callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<a href="" id="res-7.1.2"></a>Risorsa&nbsp;7.2
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>📚 <strong>Risorse utili - cap. 7.1.2</strong> <a href="#res-7.1.2" class="link-req">🔗</a></p>
+<ul>
+<li><a href="https://innovazione.gov.it/dipartimento/focus/strategia-cloud-italia/">Strategia Cloud Italia</a></li>
+<li><a href="https://trasparenza.agid.gov.it/archivio28_provvedimenti-amministrativi_0_123065_725_1.html">Regolamento recante i livelli minimi di sicurezza, capacità elaborativa, risparmio energetico e affidabilità delle infrastrutture digitali per la PA e le caratteristiche di qualità, sicurezza, performance e scalabilità, portabilità dei servizi cloud per per la pubblica amministrazione, le modalità di migrazione, nonché le modalità di qualificazione dei servizi cloud per la pubblica amministrazione</a>, adottato con la Determinazione AgID n.&nbsp;628/2021 del 15 dicembre 2021.</li>
+</ul>
+</div>
+</div>
 </section>
 <section id="sec-identificatori-univoci-e-persistenti" class="level3" data-number="7.1.3">
 <h3 data-number="7.1.3" class="anchored" data-anchor-id="sec-identificatori-univoci-e-persistenti"><span class="header-section-number">7.1.3</span> Identificatori univoci e persistenti</h3>
+<p>Nei requisiti per i dati della ricerca volti a rendere tali dati conformi ai principi FAIR si è fatto riferimento più volte a identificatori univoci e persistenti. Tali identificatori (che è buona prassi applicare a tutti i dati e non solo a quelli della ricerca) sono generalmente rappresentati dagli URI (Uniform Resource Identifier), una sequenza di caratteri che identifica una risorsa astratta o fisica. Essi sono utilizzati nei linked data (v. par. <strong><a href="capitolo-5.html#sec-arricchimento" class="quarto-xref"><span>5.1.4</span></a></strong>) per risolvere il problema dell’identità.</p>
+<p>Gli URI DEVONO essere persistenti e dereferenziabili. Una politica per garantire URI persistenti e fornire aspetti di naming è proposta in uno studio dalla Commissione Europea (v. box “Risorse utili” in calce). Facendo riferimento a tale documento, per la creazione di URI persistenti sono da evitare quelli che contengano:</p>
+<ul>
+<li><p>nome del progetto/ufficio/unità amministrativa che detiene la risorsa per evitare problemi derivanti dalla fine del progetto stesso o fusioni o chiusure di uffici nell’organizzazione;</p></li>
+<li><p>numeri di versione;</p></li>
+<li><p>identificatori esistenti che in passato siano stati utilizzati per identificare risorse differenti;</p></li>
+<li><p>riferimenti generati in modo automatico e incrementale a meno che non vi sia la garanzia che il processo non venga mai più ripetuto o, se ripetuto, generi sicuramente gli stessi identificatori per gli stessi dati di input;</p></li>
+<li><p>stringhe rappresentanti “query” a database;</p></li>
+<li><p>estensione del file.</p></li>
+</ul>
+<p>Sono, invece, da ritenersi buone pratiche le seguenti:</p>
+<ul>
+<li>strutturare l’URI come segue:</li>
+</ul>
+<p><code>http://{dominio}/{tipo}/{concetto}/{riferimento}</code></p>
+<ul>
+<li><p>includere nell’ URI i seguenti elementi:</p>
+<ul>
+<li><p><em>dominio</em>: il dominio Web su cui reperire la risorsa</p></li>
+<li><p><em>tipo</em>: l’elemento che specifica il tipo di risorsa. Dovrebbe poter assumere un numero limitato di valori come “doc” se la risorsa identificata è un documento descrittivo, “set” se la risorsa è un dataset, “id” o “item” se la risorsa è un oggetto del mondo reale</p></li>
+</ul></li>
+<li><p><em>concetto</em>: il tipo di un oggetto del mondo reale</p></li>
+<li><p><em>riferimento</em>: lo specifico elemento, termine o concetto che rappresenta la risorsa</p></li>
+<li><p>costruire URI per più formati al fine di identificare al meglio la risorsa</p></li>
+<li><p>collegare tra loro le rappresentazioni multiple della stessa risorsa</p></li>
+<li><p>implementare il codice di risposta 303 per gli oggetti del mondo reale e risorse in generale (si veda di seguito “content negotiation” e “dereferenziazione” degli URI)</p></li>
+<li><p>utilizzare servizi dedicati.</p></li>
+</ul>
+<p>Nella gestione degli URI è opportuno utilizzare il meccanismo cosiddetto di “<em>content negotiation</em>” che consente di rendere disponibile, allo stesso URI, diverse rappresentazioni di una risorsa in caso di molteplici rappresentazioni possibili (per es. URI che rappresentano sia entità del web semantico sia risorse web). Analogamente, è una buona prassi utilizzare sempre URI “deferenziabili”, come già indicato prima, cioè URI che restituiscono una rappresentazione web (ad es. una pagina web informativa) di una risorsa.</p>
+<hr>
+<div class="risorsa callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<a href="" id="res-7.1.3"></a>Risorsa&nbsp;7.3
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>📚 <strong>Risorse utili - cap. 7.1.3</strong> <a href="#res-7.1.3" class="link-req">🔗</a></p>
+<ul>
+<li><a href="https://www.w3.org/TR/cooluris/">Cool URIs for the Semantic Web</a>, W3C</li>
+<li><a href="https://joinup.ec.europa.eu/sites/default/files/document/2013-02/D7.1.3%20-%20Study%20on%20persistent%20URIs.pdf">Study on persistent URIs, with identification of best practices and recommendations on the topic for the MSs and the EC</a>, programma ISA, Commissione Europea</li>
+</ul>
+</div>
+</div>
 </section>
 </section>
 <section id="sec-strumenti-per-la-ricerca" class="level2" data-number="7.2">
@@ -446,7 +597,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<a href="" id="req-29"></a>Requisito&nbsp;7.2
+<a href="" id="req-29"></a>Requisito&nbsp;7.3
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -459,7 +610,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<a href="" id="req-30"></a>Requisito&nbsp;7.3
+<a href="" id="req-30"></a>Requisito&nbsp;7.4
 </div>
 </div>
 <div class="callout-body-container callout-body">
