@@ -1,4 +1,4 @@
-:::{.matrice_compatibilita #tbl-matrice_compatibilita}
+:::{.matrice_compatibilita #tbl-matrice_compatibilita .column-page-inset-right}
 <table id="matrice_compatibilita" class="table-sm table-bordered text-center">
     <tr>
         <th></th> <!-- Cella vuota -->

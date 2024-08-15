@@ -1,4 +1,4 @@
-:::{.licenze-applicabili #tbl-licenze-applicabili}
+:::{.licenze-applicabili #tbl-licenze-applicabili .column-page-inset-right}
 <table id="buone_pratiche" class="table table-responsive-md table-bordered table-sm">
     <tr>
         <th></th>
