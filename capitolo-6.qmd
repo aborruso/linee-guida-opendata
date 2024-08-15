@@ -74,7 +74,7 @@ Tutte le ulteriori licenze Creative Commons sono classificabili come:
 
 Le licenze suindicate sono raffigurate nella Figura seguente.
 
-![Licenze](immagini/image65.jpeg){#fig-licenze width="90%" fig-alt="Licenze" align="center"}
+![Licenze](immagini/image65.jpeg){#fig-licenze width="90%" fig-alt="Licenze" align="center" .lightbox}
 
 Alla luce del Considerando (44) della Direttiva, le presenti Linee Guida valutano come ragionevole motivo di pubblico interesse l'adozione di una licenza standard omogenea, funzionale a preservare l'interesse parimenti fondato di conservare traccia della fonte "pubblica" del dato e, in particolare, per questioni attinenti all'affidabilità dello stesso (a tutela, peraltro, anche del riutilizzatore), valutano come, in generale, l'unica condizione ammissibile sia la "attribuzione".
 
