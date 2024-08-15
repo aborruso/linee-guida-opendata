@@ -1,0 +1,13 @@
+:::{.column-page-inset-right}
+| **Cod.** | **Condizioni da osservare / specifiche di applicazione**                                                                                                       | **Licenze impattate** |                  |     |  |     |  |  |
+| --- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **A**    | segnalazione modifica cambiamenti                                                                                                                              | CDLA 1 perm           | CDLA 1 SHAR              |             | CC-BY    |             |          |          |
+| **B**    | testo licenza: con riferimento al dataset originale, riportare il testo della licenza e/o inserire link (tra [ ] per la IODL in quanto precisa "se possibile") | CDLA 1 perm           | CDLA 1 SHAR              | CDLA 2 perm | CC-BY    | [IODL 2.01] | IODL 1.0 | OdBL     |
+| **C**    | attribution: rispetto specifiche condizioni                                                                                                                    | CDLA 1 perm           | CDLA 1 SHAR              |             | CC-BY    | IODL 2.0    | IODL 1.0 | OdBL     |
+| **D**    | output ulteriore realizzato ["Produced work" - es. Mappa da db geografico]; richiede sola attribution                                                          |                       |                          |             |          |             |          | OdBL     |
+| **E**    | risultato da "computational use" senza condizioni                                                                                                              | CDLA 1 perm           | CDLA 1 SHAR / perm 1 e 2 | CDLA 2 perm |          |             |          |          |
+| **F**    | prevede la nozione di "collective database"                                                                                                                    |                       |                          |             |          |             |          | OdBL     |
+| **G**    | limiti DRM                                                                                                                                                     |                       |                          |             | CC-BY    |             | OdBL     |          |
+
+: condizioni da osservare / specifiche di applicazione {#tbl-condizioni-licenze .table-sm .table-striped .table-bordered .table-responsive tbl-colwidths="[1,50,7,7,7,7,7,7,7]"}
+:::
