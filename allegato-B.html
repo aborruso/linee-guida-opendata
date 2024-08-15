@@ -388,7 +388,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <div class="toc-actions"><ul><li><a href="https://github.com/ondata/linee-guida-opendata/edit/main/allegato-B.qmd" class="toc-action"><i class="bi bi-github"></i>Modifica questa pagina</a></li><li><a href="https://github.com/ondata/linee-guida-opendata/issues/new" class="toc-action"><i class="bi empty"></i>Segnala un problema</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./allegato-A.html">Allegati</a></li><li class="breadcrumb-item"><a href="./allegato-B.html"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Standard di riferimento e formati aperti</span></a></li></ol></nav>
 <div class="quarto-title">
@@ -409,88 +409,595 @@ document.addEventListener('DOMContentLoaded', function() {
 </header>
 
 
-<section id="standard-riferimento" class="level2" data-number="B.1">
+<section id="standard-riferimento" class="level2 page-columns page-full" data-number="B.1">
 <h2 data-number="B.1" class="anchored" data-anchor-id="standard-riferimento"><span class="header-section-number">B.1</span> Standard di riferimento</h2>
+<p>Come già indicato per i principi FAIR (v. par. <strong><a href="capitolo-4.html#sec-dati-della-ricerca" class="quarto-xref"><span>4.4</span></a></strong>) e, più in generale, nelle indicazioni fornite nei paragrafi <strong><a href="capitolo-5.html#sec-arricchimento" class="quarto-xref"><span>5.1.4</span></a></strong> e <strong><a href="capitolo-5.html#sec-modellazione-e-documentazione" class="quarto-xref"><span>5.1.5</span></a></strong> relativi alle fasi, rispettivamente, di arricchimento e di modellazione, per assicurare l’interoperabilità e consentire che dati e metadati possano essere combinati con altri dati e/o strumenti, è necessario, tra l’altro, che vengano utilizzati standard pertinenti, oltre a vocabolari controllati, thesauri e ontologie, riconosciuti auspicabilmente a livello internazionale.</p>
+<p>Nel pubblicare dati aperti, quindi, sarebbe opportuno, ove possibile, seguire standard definiti dagli organismi di standardizzazione internazionali, come ISO, W3C, OGC, IETF, o nell’ambito delle attività istituzionali della Commissione Europea. Nel caso in cui non siano disponibili standard a livello internazionale e/o europeo, allora si può fare riferimento a standard e regole tecniche nazionali, anche definiti dalle amministrazioni competenti in funzione dello specifico dominio. Si richiama qui quanto indicato per i modelli dati al par. <strong><a href="capitolo-5.html#sec-modellazione-e-documentazione" class="quarto-xref"><span>5.1.5</span></a></strong>.</p>
+<p>Le tabelle che seguono riportano l’elenco, non esaustivo, dei principali standard di riferimento. In aggiunta a quelli riportati, sono da considerare i documenti tecnici (come, per es., le Linee Guida) indicati nel <a href="./capitolo-2.html#normativa-di-riferimento"><strong>Capitolo 2</strong></a>.</p>
+<hr>
+<div class="risorsa callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<a href="" id="res-B.1"></a>Risorsa&nbsp;B.1
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>📚 <strong>Risorse utili - cap. B.1</strong> <a href="#res-B.1" class="link-req">🔗</a></p>
+<ul>
+<li><a href="https://joinup.ec.europa.eu/collection/ict-standards-procurement/ict">European Catalogue on the ICT standards</a>, Commissione Europea</li>
+<li><a href="https://joinup.ec.europa.eu/sites/default/files/document/2020-09/jrc121025_jrc121025_architectures_and_standards_for_sdis_and_digital_government.pdf">Architectures and Standards for Spatial Data Infrastructures and Digital Government</a>, JRC Technical Report, 2020</li>
+</ul>
+</div>
+</div>
+<div class="column-page-inset-right">
+<div id="tbl-standard-rappresentazione" class="table-sm table-striped table-bordered table-responsive quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-standard-rappresentazione-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabella&nbsp;B.1: Principali standard di riferimento: <strong>rappresentazione delle informazioni</strong>
+</figcaption>
+<div aria-describedby="tbl-standard-rappresentazione-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="table-responsive">
+<table class="table-sm table-striped table-bordered small table">
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Acronimo/ abbreviazione</strong></th>
+<th style="text-align: left;"><strong>Titolo</strong></th>
+<th style="text-align: left;"><strong>Organismo di standardizzazione</strong></th>
+<th style="text-align: left;"><strong>Dominio</strong></th>
+<th style="text-align: left;"><strong>URL</strong></th>
+<th style="text-align: left;"><strong>Note</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">DataCube</td>
+<td style="text-align: left;">The RDF Data Cube Vocabulary</td>
+<td style="text-align: left;">W3C</td>
+<td style="text-align: left;">Dati statistici</td>
+<td style="text-align: left;"><a href="https://www.w3.org/TR/vocab-data-cube/" class="uri">https://www.w3.org/TR/vocab-data-cube/</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">EU vocabularies</td>
+<td style="text-align: left;">Risorse (vocabolari controllati, modelli, schemi e ontologie) rese disponibili dall’Ufficio delle Pubblicazioni dell’Unione Europea</td>
+<td style="text-align: left;">Commissione Europea</td>
+<td style="text-align: left;">Vari domini</td>
+<td style="text-align: left;"><a href="https://op.europa.eu/en/web/eu-vocabularies/home" class="uri">https://op.europa.eu/en/web/eu-vocabularies/home</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">INSPIRE</td>
+<td style="text-align: left;">Infrastructure for Spatial Information in the European Community</td>
+<td style="text-align: left;">Commissione Europea</td>
+<td style="text-align: left;">Dati territoriali</td>
+<td style="text-align: left;"><a href="http://inspire.ec.europa.eu/" class="uri">http://inspire.ec.europa.eu/</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ISO 639</td>
+<td style="text-align: left;">Language codes</td>
+<td style="text-align: left;">ISO</td>
+<td style="text-align: left;">Lingua</td>
+<td style="text-align: left;"><a href="https://www.iso.org/iso-639-language-code" class="uri">https://www.iso.org/iso-639-language-code</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ISO 8601</td>
+<td style="text-align: left;">Date and time format</td>
+<td style="text-align: left;">ISO</td>
+<td style="text-align: left;">Tempo</td>
+<td style="text-align: left;"><a href="https://www.iso.org/iso-8601-date-and-time-format.html" class="uri">https://www.iso.org/iso-8601-date-and-time-format.html</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ISO 19100</td>
+<td style="text-align: left;">Serie 19100 “Geographic Information”</td>
+<td style="text-align: left;">ISO</td>
+<td style="text-align: left;">Dati territoriali</td>
+<td style="text-align: left;"><a href="https://www.iso.org/committee/54904/x/catalogue/" class="uri">https://www.iso.org/committee/54904/x/catalogue/</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">NDC</td>
+<td style="text-align: left;">Catalogo nazionale della semantica dei dati</td>
+<td style="text-align: left;">Governo italiano / ISTAT</td>
+<td style="text-align: left;">Vari domini</td>
+<td style="text-align: left;"><a href="https://www.schema.gov.it/" class="uri">https://www.schema.gov.it/</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">NUTS</td>
+<td style="text-align: left;">Nomenclature of territorial units for statistics</td>
+<td style="text-align: left;">Commissione Europea</td>
+<td style="text-align: left;">Dati territoriali</td>
+<td style="text-align: left;"><a href="https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Nomenclature_of_territorial_units_for_statistics_(NUTS)" class="uri">https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Nomenclature_of_territorial_units_for_statistics_(NUTS)</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SDMX</td>
+<td style="text-align: left;">Statistical Data and Metadata eXchange</td>
+<td style="text-align: left;">SDMX community</td>
+<td style="text-align: left;">Dati statistici</td>
+<td style="text-align: left;"><a href="https://sdmx.org/?page_id=5008" class="uri">https://sdmx.org/?page_id=5008</a></td>
+<td style="text-align: left;">SDMX è anche uno Standard ISO (<a href="https://www.iso.org/standard/52500.html">ISO 17369:2013</a>)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Regole tecniche dati territoriali</td>
+<td style="text-align: left;">Governo italiano / AgID</td>
+<td style="text-align: left;">Dati territoriali</td>
+<td style="text-align: left;"><a href="https://geodati.gov.it/geoportale/datiterritoriali/regole-tecniche">https://geodati.gov.it/geoportale/datiterritoriali/regole-tecniche</a></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</figure>
+</div>
+</div>
+<div class="column-page-inset-right">
+<div id="tbl-standard-metadati" class="table-sm table-striped table-bordered table-responsive quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-standard-metadati-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabella&nbsp;B.2: Principali standard di riferimento: <strong>metadati</strong>
+</figcaption>
+<div aria-describedby="tbl-standard-metadati-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="table-responsive">
+<table class="table-sm table-striped table-bordered small table">
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Acronimo/ abbreviazione</strong></th>
+<th style="text-align: left;"><strong>Titolo</strong></th>
+<th style="text-align: left;"><strong>Organismo di standardizzazione</strong></th>
+<th style="text-align: left;"><strong>Dominio</strong></th>
+<th style="text-align: left;"><strong>URL</strong></th>
+<th style="text-align: left;"><strong>Note</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">DCAT</td>
+<td style="text-align: left;">Data Catalog Vocabulary</td>
+<td style="text-align: left;">W3C</td>
+<td style="text-align: left;">Vari domini</td>
+<td style="text-align: left;"><a href="http://www.w3.org/TR/vocab-dcat/" class="uri">http://www.w3.org/TR/vocab-dcat/</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">DCAT-AP_IT</td>
+<td style="text-align: left;">DCAT Application Profile (Italia)</td>
+<td style="text-align: left;">AgID</td>
+<td style="text-align: left;">Vari domini</td>
+<td style="text-align: left;"><a href="https://docs.italia.it/italia/daf/linee-guida-cataloghi-dati-dcat-ap-it/it/stabile/dcat-ap_it.html" class="uri">https://docs.italia.it/italia/daf/linee-guida-cataloghi-dati-dcat-ap-it/it/stabile/dcat-ap_it.html</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">DCMI</td>
+<td style="text-align: left;">Dublin Core Metadata Initiative</td>
+<td style="text-align: left;">Dublin Core</td>
+<td style="text-align: left;">Vari domini</td>
+<td style="text-align: left;"><a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/" class="uri">https://www.dublincore.org/specifications/dublin-core/dcmi-terms/</a></td>
+<td style="text-align: left;">DCMI è anche disponibile come Standard ISO:<br>- ISO 15836-1:2017 Information and documentation — The Dublin Core metadata element set — <a href="https://www.iso.org/standard/71339.html">Part 1: Core elements</a>;<br>- ISO 15836-2:2019 Information and documentation — The Dublin Core metadata element set — Part 2: <a href="https://www.iso.org/standard/71341.html">DCMI Properties and classes</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">RNDT</td>
+<td style="text-align: left;">Profilo italiano di metadati per i dati territoriali e relativi servizi</td>
+<td style="text-align: left;">AgID</td>
+<td style="text-align: left;">Dati territoriali</td>
+<td style="text-align: left;"><a href="https://agid.github.io/geodocs/rndt-lg/2.0.1/" class="uri">https://agid.github.io/geodocs/rndt-lg/2.0.1/</a></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</figure>
+</div>
+</div>
+<div class="column-page-inset-right">
+<div id="tbl-standard-metadati" class="table-sm table-striped table-bordered table-responsive quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-standard-metadati-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabella&nbsp;B.3: Principali standard di riferimento: <strong>web semantico</strong>
+</figcaption>
+<div aria-describedby="tbl-standard-metadati-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="table-responsive">
+<table class="table-sm table-striped table-bordered small table">
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Acronimo/ abbreviazione</strong></th>
+<th style="text-align: left;"><strong>Titolo</strong></th>
+<th style="text-align: left;"><strong>Organismo di standardizzazione</strong></th>
+<th style="text-align: left;"><strong>Dominio</strong></th>
+<th style="text-align: left;"><strong>URL</strong></th>
+<th style="text-align: left;"><strong>Note</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">OWL</td>
+<td style="text-align: left;">Ontology Web Language</td>
+<td style="text-align: left;">W3C</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://www.w3.org/TR/owl-features/" class="uri">https://www.w3.org/TR/owl-features/</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">RDF</td>
+<td style="text-align: left;">Resource Description Framework</td>
+<td style="text-align: left;">W3C</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://www.w3.org/TR/rdf11-primer/" class="uri">https://www.w3.org/TR/rdf11-primer/</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">RDFS</td>
+<td style="text-align: left;">RDF Schema</td>
+<td style="text-align: left;">W3C</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://www.w3.org/TR/rdf-schema/" class="uri">https://www.w3.org/TR/rdf-schema/</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">SPARQL</td>
+<td style="text-align: left;">SPARQL Protocol for RDF</td>
+<td style="text-align: left;">W3C</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://www.w3.org/TR/rdf-sparql-protocol/" class="uri">https://www.w3.org/TR/rdf-sparql-protocol/</a></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</figure>
+</div>
+</div>
 </section>
 <section id="formati-aperti" class="level2" data-number="B.2">
 <h2 data-number="B.2" class="anchored" data-anchor-id="formati-aperti"><span class="header-section-number">B.2</span> Formati aperti per dati e documenti</h2>
+<p>Nei sottoparagrafi che seguono vengono elencati i più comuni formati per dati e documenti; un elenco comunque non esaustivo. Per alcuni formati, vengono indicate anche alcune puntuali raccomandazioni tratte dal documento “data.europa.eu – Data quality guidelines”, indicato nel box “Risorse utili”, a cui si rimanda per ulteriori approfondimenti.</p>
+<p>Una raccomandazione generale valida per tutti i formati è la seguente:</p>
+<ul>
+<li><strong>Utilizza codifiche dei caratteri standard</strong></li>
+</ul>
+<p>Per garantire che i caratteri siano visualizzati correttamente e avere la massima compatibilità possibile con le applicazioni che elaborano i dati, è sempre necessario utilizzare una codifica standardizzata dei caratteri. In genere, UTF-8 è la codifica utilizzata nel web. È utile, in ogni caso, indicare qual è la codifica dei caratteri utilizzata.</p>
 <section id="formati-aperti-dati" class="level3" data-number="B.2.1">
 <h3 data-number="B.2.1" class="anchored" data-anchor-id="formati-aperti-dati"><span class="header-section-number">B.2.1</span> Formati aperti per i dati</h3>
 <section id="csv" class="level4" data-number="B.2.1.1">
 <h4 data-number="B.2.1.1" class="anchored" data-anchor-id="csv"><span class="header-section-number">B.2.1.1</span> CSV (Comma Separated Values)</h4>
+<p>È un formato di file testuale utilizzato per rappresentare informazioni con struttura tabellare. Le righe delle tabelle corrispondono a righe nel file di testo CSV e i valori delle celle sono divisi da un carattere separatore, che, come indica il nome stesso, dovrebbe essere la virgola. Il CSV non è uno standard vero e proprio ma la sua modalità d’uso è descritta nell’RFC 4180. Nel rilascio di dati secondo il formato CSV, per agevolare i riutilizzatori, si raccomanda di dichiarare almeno 1) il separatore di campo utilizzato (per es., virgola, punto e virgola); 2) se è stato usato un carattere per delimitare i campi di testo.</p>
+<section id="raccomandazioni-sul-formato-csvb_csv" class="level5" data-number="B.2.1.1.1">
+<h5 data-number="B.2.1.1.1" class="anchored" data-anchor-id="raccomandazioni-sul-formato-csvb_csv"><span class="header-section-number">B.2.1.1.1</span> Raccomandazioni sul formato CSV<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></h5>
+<section id="dichiara-il-separatore-di-campo-utilizzato" class="level6" data-number="B.2.1.1.1.1">
+<h6 data-number="B.2.1.1.1.1" class="anchored" data-anchor-id="dichiara-il-separatore-di-campo-utilizzato"><span class="header-section-number">B.2.1.1.1.1</span> Dichiara il separatore di campo utilizzato</h6>
+<p>Come indicato nel nome stesso del formato, il separatore dei campi è generalmente la virgola. Tuttavia, possono essere utilizzati altri segni; il documento europeo suggerisce di utilizzare il punto e virgola perché la virgola è utilizzata spesso all’interno dei valori, per esempio in caso di numeri decimali. In ogni caso, è bene rendere esplicito al fruitore dei dati qual è il separatore utilizzato.</p>
+</section>
+<section id="utilizza-un-file-per-tabella" class="level6" data-number="B.2.1.1.1.2">
+<h6 data-number="B.2.1.1.1.2" class="anchored" data-anchor-id="utilizza-un-file-per-tabella"><span class="header-section-number">B.2.1.1.1.2</span> Utilizza un file per tabella</h6>
+<p>Ogni file CSV deve contenere solo una tabella. Se la tabella da pubblicare è composta da più fogli, è necessario creare un file CSV per ogni foglio. Nella tabella ogni riga deve contenere una sola osservazione, così come ogni colonna una sola variabile (cd. regole di <em>Tidy Data</em>).</p>
+</section>
+<section id="evita-gli-spazi-bianchi-e-informazioni-aggiuntive-nel-file" class="level6" data-number="B.2.1.1.1.3">
+<h6 data-number="B.2.1.1.1.3" class="anchored" data-anchor-id="evita-gli-spazi-bianchi-e-informazioni-aggiuntive-nel-file"><span class="header-section-number">B.2.1.1.1.3</span> Evita gli spazi bianchi e informazioni aggiuntive nel file</h6>
+<p>È importante assicurarsi che il file contenga solo i dati che appartengono alla tabella effettiva, come le intestazioni di colonna e i valori delle voci presenti nella tabella stessa. Nel file CSV, quindi, non devono essere presenti titolo della tabella, righe vuote o eventuali informazioni aggiuntive che aiutino l’utente a capire meglio i dati (queste ultime, che sono utilissime, vanno inserite nei metadati). Il file, inoltre, deve contenere una sola riga di intestazione.</p>
+</section>
+<section id="inserisci-le-intestazioni-di-colonna" class="level6" data-number="B.2.1.1.1.4">
+<h6 data-number="B.2.1.1.1.4" class="anchored" data-anchor-id="inserisci-le-intestazioni-di-colonna"><span class="header-section-number">B.2.1.1.1.4</span> Inserisci le intestazioni di colonna</h6>
+<p>Le intestazioni di colonna devono essere auto-esplicative ed essere incluse nella prima riga del file CSV. Senza le intestazioni, è difficile per gli utenti interpretare il significato dei dati. Le intestazioni dovrebbero seguire le etichette dei concetti definiti nelle ontologie di riferimento, se disponibili, pubblicate nel Catalogo nazionale della semantica dei dati.</p>
+</section>
+<section id="assicurati-che-tutte-le-righe-abbiano-lo-stesso-numero-di-colonne" class="level6" data-number="B.2.1.1.1.5">
+<h6 data-number="B.2.1.1.1.5" class="anchored" data-anchor-id="assicurati-che-tutte-le-righe-abbiano-lo-stesso-numero-di-colonne"><span class="header-section-number">B.2.1.1.1.5</span> Assicurati che tutte le righe abbiano lo stesso numero di colonne</h6>
+<p>Ogni riga deve avere lo stesso numero di colonne e, quindi, di caratteri separatori. Se in una riga manca un valore, questo di solito viene interpretato come “null”. Ciò può comportare un trattamento errato dei dati. Se il CSV contiene righe con un numero diverso di colonne, bisognerebbe controllare se c’è un problema con valori di ‘escape’ non corretti (ad es. un valore che corrisponde al carattere separatore che in quel caso non va interpretato come tale).</p>
+</section>
+<section id="indica-le-unità-in-una-modalità-facilmente-elaborabile" class="level6" data-number="B.2.1.1.1.6">
+<h6 data-number="B.2.1.1.1.6" class="anchored" data-anchor-id="indica-le-unità-in-una-modalità-facilmente-elaborabile"><span class="header-section-number">B.2.1.1.1.6</span> Indica le unità in una modalità facilmente elaborabile</h6>
+<p>L’unità di misura di un valore dovrebbe essere indicata nell’intestazione della colonna. Se l’unità cambia da un valore all’altro, allora bisognerebbe considerare una colonna dedicata con un’opportuna intestazione e non inserire l’unità insieme al valore stesso. Per le unità dovrebbero essere utilizzati i codici (URI) derivati da un vocabolario controllato.</p>
+<hr>
+<div class="risorsa callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<a href="" id="res-B.2.1.1"></a>Risorsa&nbsp;B.2
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>📚 <strong>Risorse utili - cap. B.2.1.1</strong> <a href="#res-B.2.1.1" class="link-req">🔗</a></p>
+<ul>
+<li><a href="https://www.w3.org/TR/tabular-data-primer/">CSV on the Web</a>, W3C</li>
+<li><a href="https://op.europa.eu/it/publication-detail/-/publication/023ce8e4-50c8-11ec-91ac-01aa75ed71a1/language-en">data.europa.eu – Data quality guidelines</a>, Publications Office, 2021</li>
+</ul>
+</div>
+</div>
+</section>
+</section>
 </section>
 <section id="json" class="level4" data-number="B.2.1.2">
 <h4 data-number="B.2.1.2" class="anchored" data-anchor-id="json"><span class="header-section-number">B.2.1.2</span> JSON (JavaScript Object Notation)</h4>
+<p>È un formato aperto per la rappresentazione e lo scambio di dati semi-strutturati, leggibile anche dagli utenti e che mantiene, rispetto a formati simili come l’XML, una sintassi poco prolissa. Questo aspetto ne fa un formato flessibile e compatto. Esso nasce dalla rappresentazione di strutture dati semplici nel linguaggio di programmazione JavaScript, ma mantiene indipendenza rispetto ai linguaggi di programmazione.</p>
+<section id="raccomandazioni-sul-formato-json_bookmark152" class="level5" data-number="B.2.1.2.1">
+<h5 data-number="B.2.1.2.1" class="anchored" data-anchor-id="raccomandazioni-sul-formato-json_bookmark152"><span class="header-section-number">B.2.1.2.1</span> Raccomandazioni sul formato JSON<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></h5>
+<section id="utilizza-tipi-di-dati-adeguati" class="level6" data-number="B.2.1.2.1.1">
+<h6 data-number="B.2.1.2.1.1" class="anchored" data-anchor-id="utilizza-tipi-di-dati-adeguati"><span class="header-section-number">B.2.1.2.1.1</span> Utilizza tipi di dati adeguati</h6>
+<p>JSON consente l’utilizzo dei seguenti tipi di dati:</p>
+<ul>
+<li>Valore nullo (assenza di un valore), rappresentato dalla parola chiave <code>null</code>;</li>
+<li>Valori booleani, vero o falso;</li>
+<li>Stringhe, dove la mascheratura dei singoli caratteri funziona allo stesso modo del file CSV;</li>
+<li>Numeri e sequenze semplici delle cifre 0–9, eventualmente con un segno e/o punto decimale;</li>
+<li>Elenchi, detti anche array, racchiusi tra parentesi quadre, in cui i singoli elementi sono separati da virgole. Gli elenchi possono anche essere vuoti;</li>
+<li>Oggetti, racchiusi tra parentesi graffe e contenenti un numero qualsiasi di coppie chiave-valore separate da virgole.</li>
+</ul>
+<p>Per ulteriori elaborazioni è importante utilizzare tipi di dati adeguati.</p>
+</section>
+<section id="utilizza-le-gerarchie-per-raggruppare-i-dati" class="level6" data-number="B.2.1.2.1.2">
+<h6 data-number="B.2.1.2.1.2" class="anchored" data-anchor-id="utilizza-le-gerarchie-per-raggruppare-i-dati"><span class="header-section-number">B.2.1.2.1.2</span> Utilizza le gerarchie per raggruppare i dati</h6>
+<p>Invece di allegare tutti i campi all’oggetto radice del JSON, i dati dovrebbero essere raggruppati semanticamente. Ciò migliora la leggibilità da parte degli esseri umani e può migliorare le prestazioni durante l’elaborazione del file.</p>
+<hr>
+<div class="risorsa callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<a href="" id="res-B.2.1.2"></a>Risorsa&nbsp;B.3
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>📚 <strong>Risorse utili - cap. B.2.1.2</strong> <a href="#res-B.2.1.2" class="link-req">🔗</a></p>
+<ul>
+<li><a href="https://www.w3.org/TR/csv2json/">Generating JSON from Tabular Data on the Web</a>, W3C</li>
+<li><a href="https://op.europa.eu/it/publication-detail/-/publication/023ce8e4-50c8-11ec-91ac-01aa75ed71a1/language-en">data.europa.eu – Data quality guidelines</a>, Publications Office, 2021</li>
+</ul>
+</div>
+</div>
+</section>
+</section>
 </section>
 <section id="xml" class="level4" data-number="B.2.1.3">
 <h4 data-number="B.2.1.3" class="anchored" data-anchor-id="xml"><span class="header-section-number">B.2.1.3</span> XML (eXtensible Markup Language)</h4>
+<p>È un linguaggio di marcatura standardizzato dal W3C usato per l’annotazione di documenti e per la costruzione di altri linguaggi più specifici per l’annotazione di documenti. XML è basato sull’utilizzo di marcatori (tag) che consentono di strutturare il contenuto informativo da rappresentare. Nell’ambito del Web Semantico è stata definita una specifica serializzazione RDF/XML.</p>
+<section id="raccomandazioni-sul-formato-xml_bookmark153" class="level5" data-number="B.2.1.3.1">
+<h5 data-number="B.2.1.3.1" class="anchored" data-anchor-id="raccomandazioni-sul-formato-xml_bookmark153"><span class="header-section-number">B.2.1.3.1</span> Raccomandazioni sul formato XML<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></h5>
+<section id="fornisci-una-dichiarazione-xml" class="level6" data-number="B.2.1.3.1.1">
+<h6 data-number="B.2.1.3.1.1" class="anchored" data-anchor-id="fornisci-una-dichiarazione-xml"><span class="header-section-number">B.2.1.3.1.1</span> Fornisci una dichiarazione XML</h6>
+<p>Ogni file XML dovrebbe avere una dichiarazione XML completa. Questa contiene metadati relativi alla struttura del documento ed è importante affinché le applicazioni elaborino correttamente il file.</p>
+</section>
+<section id="fai-l-escaping-dei-caratteri-speciali" class="level6" data-number="B.2.1.3.1.2">
+<h6 data-number="B.2.1.3.1.2" class="anchored" data-anchor-id="fai-l-escaping-dei-caratteri-speciali"><span class="header-section-number">B.2.1.3.1.2</span> Fai l’ “escaping” dei caratteri speciali</h6>
+<p>Quando vengono utilizzati caratteri speciali nei file XML, è necessario eseguire l’ “escape”. Ciò garantisce una struttura del file pulita e impedisce alle applicazioni utilizzate per l’elaborazione del file di interpretare erroneamente i dati. L’ ‘escape’ viene eseguito sostituendoli con le entità XML equivalenti.</p>
+</section>
+<section id="utilizza-nomi-significativi-per-gli-identificatori" class="level6" data-number="B.2.1.3.1.3">
+<h6 data-number="B.2.1.3.1.3" class="anchored" data-anchor-id="utilizza-nomi-significativi-per-gli-identificatori"><span class="header-section-number">B.2.1.3.1.3</span> Utilizza nomi significativi per gli identificatori</h6>
+<p>Tutti gli identificatori, siano essi tag o attributi, dovrebbero avere nomi significativi e non dovrebbero auspicabilmente essere usati due volte.</p>
+</section>
+<section id="utilizza-correttamente-attributi-ed-elementi" class="level6" data-number="B.2.1.3.1.4">
+<h6 data-number="B.2.1.3.1.4" class="anchored" data-anchor-id="utilizza-correttamente-attributi-ed-elementi"><span class="header-section-number">B.2.1.3.1.4</span> Utilizza correttamente attributi ed elementi</h6>
+<p>Sebbene non vi sia una direttiva vincolante obbligatoria in merito alla codifica dei dati in elementi o attributi, la prassi è che le informazioni che fanno parte dei dati effettivi debbano essere rappresentate da elementi. I metadati che contengono informazioni aggiuntive dovrebbero invece essere implementati come attributi.</p>
+</section>
+<section id="rimuovi-i-dati-specifici-del-programma" class="level6" data-number="B.2.1.3.1.5">
+<h6 data-number="B.2.1.3.1.5" class="anchored" data-anchor-id="rimuovi-i-dati-specifici-del-programma"><span class="header-section-number">B.2.1.3.1.5</span> Rimuovi i dati specifici del programma</h6>
+<p>XML, come qualsiasi formato aperto, dovrebbe essere sempre indipendente da programmi o strumenti specifici utilizzati per l’elaborazione dei file. Questo permette all’utente di scegliere lo strumento che preferisce per il trattamento dei dati senza doverlo prima bonificare.</p>
+</section>
+</section>
 </section>
 <section id="rdf" class="level4" data-number="B.2.1.4">
 <h4 data-number="B.2.1.4" class="anchored" data-anchor-id="rdf"><span class="header-section-number">B.2.1.4</span> Serializzazioni RDF</h4>
+<section id="n-triples" class="level5" data-number="B.2.1.4.1">
+<h5 data-number="B.2.1.4.1" class="anchored" data-anchor-id="n-triples"><span class="header-section-number">B.2.1.4.1</span> N-triples</h5>
+<p>È una serializzazione di RDF in cui ogni tripla è espressa interamente e indipendentemente dalle altre. La concatenazione delle triple di un dataset RDF secondo N-Triples avviene utilizzando il carattere punto (es., <code>&lt;soggetto1&gt; &lt;predicato1&gt; &lt;oggetto1&gt; . &lt;soggetto2&gt; &lt;predicato2&gt; &lt;oggetto2&gt;</code>).</p>
+</section>
+<section id="notation3" class="level5" data-number="B.2.1.4.2">
+<h5 data-number="B.2.1.4.2" class="anchored" data-anchor-id="notation3"><span class="header-section-number">B.2.1.4.2</span> Notation3</h5>
+<p>Notation3 (o N3) è una serializzazione RDF pensata per essere più compatta rispetto a quella ottenuta utilizzando la sintassi XML. Essa risulta più leggibile da parte degli utenti e possiede delle caratteristiche che esulano dall’uso stretto di RDF (per es., rappresentazione di formule logiche).</p>
+</section>
+<section id="turtle" class="level5" data-number="B.2.1.4.3">
+<h5 data-number="B.2.1.4.3" class="anchored" data-anchor-id="turtle"><span class="header-section-number">B.2.1.4.3</span> Turtle</h5>
+<p>È una versione semplificata (un sottoinsieme di funzionalità) di N3. Un dataset in Turtle è una rappresentazione testuale di un grafo RDF e, al contrario di RDF/XML, è di più facile lettura e gestione anche manuale.</p>
+</section>
+<section id="json-ld" class="level5" data-number="B.2.1.4.4">
+<h5 data-number="B.2.1.4.4" class="anchored" data-anchor-id="json-ld"><span class="header-section-number">B.2.1.4.4</span> JSON-LD</h5>
+<p>È un formato di serializzazione per RDF, standardizzato dal W3C, che fa uso di una sintassi JSON. Viene proposto come formato per Linked Data, mascherando di proposito la sua natura di serializzazione di RDF per ragioni di diffusione del formato. Il gruppo di lavoro che l’ha definito ha posto come obiettivo, oltre quello di mettere a disposizione un’ulteriore funzionalità al framework RDF, anche quello di avvicinare il mondo dello sviluppo Web e degli utilizzatori dei sistemi di gestione dati NoSQL (in particolare dei document store) al Web Semantico. Da un punto di vista pratico è possibile rilasciare dati RDF utilizzando questo «dialetto» JSON nelle situazioni in cui inizialmente non ci si possa dotare di tecnologie ad-hoc come triple store. Allo stesso tempo, con JSON-LD si fornisce uno strumento standard che consente il collegamento di documenti JSON che per loro natura sono unità di informazione indipendenti.</p>
+</section>
+<section id="raccomandazioni-sul-formato-rdfxxx_bookmark155" class="level5" data-number="B.2.1.4.5">
+<h5 data-number="B.2.1.4.5" class="anchored" data-anchor-id="raccomandazioni-sul-formato-rdfxxx_bookmark155"><span class="header-section-number">B.2.1.4.5</span> Raccomandazioni sul formato RDF/xxx<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></h5>
+<section id="utilizza-uri-httphttps-per-identificare-le-risorse" class="level6" data-number="B.2.1.4.5.1">
+<h6 data-number="B.2.1.4.5.1" class="anchored" data-anchor-id="utilizza-uri-httphttps-per-identificare-le-risorse"><span class="header-section-number">B.2.1.4.5.1</span> Utilizza URI http/https per identificare le risorse</h6>
+<p>Gli ID di una risorsa dovrebbero essere URI HTTP/HTTPS, poiché questi consentono l’accesso diretto alla risorsa in questione. Rendono inoltre le risorse indicizzabili dai motori di ricerca, il che migliora la loro reperibilità.</p>
+</section>
+<section id="utilizza-namespace-spazi-dei-nomi-quando-possibile" class="level6" data-number="B.2.1.4.5.2">
+<h6 data-number="B.2.1.4.5.2" class="anchored" data-anchor-id="utilizza-namespace-spazi-dei-nomi-quando-possibile"><span class="header-section-number">B.2.1.4.5.2</span> Utilizza ‘namespace’ (spazi dei nomi) quando possibile</h6>
+<p>Sebbene gli spazi dei nomi non siano necessari per l’elaborazione di RDF, riducono la verbosità e le dimensioni del file.</p>
+<hr>
+<div class="risorsa callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<a href="" id="res-B.2.1.4"></a>Risorsa&nbsp;B.4
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>📚 <strong>Risorse utili - cap. B.2.1.4</strong> <a href="#res-B.2.1.4" class="link-req">🔗</a></p>
+<ul>
+<li><a href="https://www.w3.org/TR/csv2rdf/">Generating RDF from Tabular Data on the Web</a>, W3C</li>
+<li><a href="https://op.europa.eu/it/publication-detail/-/publication/023ce8e4-50c8-11ec-91ac-01aa75ed71a1/language-en">data.europa.eu – Data quality guidelines</a>, Publications Office, 2021</li>
+</ul>
+</div>
+</div>
+</section>
+</section>
 </section>
 </section>
 <section id="formati-aperti-geografici" class="level3" data-number="B.2.2">
 <h3 data-number="B.2.2" class="anchored" data-anchor-id="formati-aperti-geografici"><span class="header-section-number">B.2.2</span> Formati aperti più diffusi per i dati geografici</h3>
 <section id="shapefile" class="level4" data-number="B.2.2.1">
 <h4 data-number="B.2.2.1" class="anchored" data-anchor-id="shapefile"><span class="header-section-number">B.2.2.1</span> Shapefile</h4>
+<p>È il formato standard de-facto per la rappresentazione dei dati dei sistemi informativi geografici (GIS). I dati sono di tipo vettoriale. Lo shapefile è stato creato dalla società privata ESRI che rende comunque pubbliche le sue specifiche. L’apertura delle specifiche ha consentito lo sviluppo di diversi strumenti in grado di gestire e creare tale formato. Seppur impropriamente ci si riferisca a uno shapefile, nella pratica si devono considerare almeno tre file: un .shp contenente le</p>
+<p>forme geometriche, un .dbf contenente il database degli attributi delle forme geometriche e un file</p>
+<p>.shx come indice delle forme geometriche. A questi tre si deve anche accompagnare un file .prj che contiene le impostazioni del sistema di riferimento. Si raccomanda comunque di specificare nei metadati la proiezione utilizzata, meglio se fornendo il file .prj stesso. È importante notare che non risulta ancora chiaro se tale formato lo si possa considerare propriamente aperto (e quindi coerente con la definizione introdotta dal <a href="./capitolo-2.html#CAD"><strong>CAD</strong></a>) di livello 3 secondo il modello per i dati proposto nel presente documento. Tenuto conto dell’ampio uso di tale formato per la rappresentazione dei dati geografici si ritiene opportuno includerlo comunque in questo elenco.</p>
 </section>
 <section id="kml" class="level4" data-number="B.2.2.2">
 <h4 data-number="B.2.2.2" class="anchored" data-anchor-id="kml"><span class="header-section-number">B.2.2.2</span> KML</h4>
+<p>È un formato basato su XML per rappresentare dati geografici. Nato con Google, è diventato poi uno standard OGC. Le specifiche della versione 2.2 presentano una serie di entità XML attraverso cui archiviare le coordinate geografiche che rappresentano punti, linee e poligoni espressi in coordinate WGS84 e altre utili a definire gli stili attraverso cui visualizzare i dati. Eventuali attributi delle geometrie vanno espressi invece attraverso la personalizzazione di alcune entità. Molti strumenti di conversione non si occupano tuttavia di creare questa struttura dati e delegano gli attributi delle geometrie allo stile di visualizzazione. Si consiglia pertanto di distribuire questo dato prestando attenzione o, eventualmente, accompagnando il dataset assieme ad un altro formato aperto per i dati geografici (ad esempio, .shp, .geojson).</p>
 </section>
 <section id="geojson" class="level4" data-number="B.2.2.3">
 <h4 data-number="B.2.2.3" class="anchored" data-anchor-id="geojson"><span class="header-section-number">B.2.2.3</span> GeoJSON</h4>
+<p>È un formato aperto per la rappresentazione e l’interscambio dei dati territoriali in forma vettoriale, basato su JSON. Ogni dato è codificato come oggetto che può rappresentare una geometria, una caratteristica o una collezione di caratteristiche. A ogni oggetto è associato un insieme di coppie nome/valore (membri). I principali nomi di membri che rappresentano le caratteristiche dei dati geografici sono: «type» che serve a indicare il tipo di geometria (punto, linea, poligono o insieme multi-parte di questi tipi); «coordinates» attraverso cui sono indicate le coordinate dell’oggetto in un dato sistema di riferimento; «bbox» attraverso cui sono indicate le coordinate di un riquadro di delimitazione geografica; «crs» (opzionale) per l’indicazione del sistema di riferimento. Inoltre, è possibile associare all’oggetto specifici attributi, attraverso il membro con nome «properties». Si tratta di un formato molto diffuso e supportato da diversi software, ampiamente utilizzato in ambito di sviluppo web. Nel 2016 è stata pubblicata la relativa RFC 7946 “The GeoJSON Format”. La specifica raccomanda di limitare la precisione delle coordinate a 6 decimali, attraverso cui si può specificare qualsiasi posizione sulla terra con una</p>
+<p>tolleranza di 10 centimetri. La specifica inoltre richiede che i dati siano memorizzati con un sistema di riferimento di coordinate geografiche WGS 84, in latitudine e longitudine, nello stesso stile dei dati GPS.</p>
 </section>
 <section id="gml" class="level4" data-number="B.2.2.4">
 <h4 data-number="B.2.2.4" class="anchored" data-anchor-id="gml"><span class="header-section-number">B.2.2.4</span> GML</h4>
+<p>È una grammatica XML che rappresenta un formato di scambio aperto per i dati territoriali. Definita originariamente da OGC e diventata poi lo Standard ISO 19136:2008, essa fornisce la codifica XML (schemi XSD) delle classi concettuali definite in diversi Standard ISO della serie 19100 e di classi aggiuntive quali: geometrie, oggetti topologici, unità di misura, tipi di base, riferimenti temporali, caratteristiche, sistemi di riferimento, copertura.</p>
 </section>
 <section id="geopackage" class="level4" data-number="B.2.2.5">
 <h4 data-number="B.2.2.5" class="anchored" data-anchor-id="geopackage"><span class="header-section-number">B.2.2.5</span> GeoPackage</h4>
+<p>È un formato aperto per la rappresentazione di dati geografici e può essere un’alternativa al suddetto formato shapefile. Esso supporta SpatiaLite ovvero un’estensione dello schema del database SQLite. Il principale vantaggio offerto da GeoPackage è quello di rappresentare in un unico file diversi dati geografici, sia di tipo vettoriale che raster, che possono essere gestiti anche tramite apposite interrogazioni SQL. Lo standard è riconosciuto dall’Open Geospatial Consortium.</p>
+<hr>
+<div class="risorsa callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<a href="" id="res-B.2.2"></a>Risorsa&nbsp;B.5
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>📚 <strong>Risorse utili - cap. B.2.2</strong> <a href="#res-B.2.2" class="link-req">🔗</a></p>
+<ul>
+<li><a href="https://inspire.ec.europa.eu/good-practice/geojson-encoding-inspire-datasets">GeoJSON encoding of INSPIRE datasets</a></li>
+<li><a href="https://inspire.ec.europa.eu/good-practice/geopackage-encoding-inspire-datasets">GeoPackage encoding of INSPIRE datasets</a></li>
+</ul>
+</div>
+</div>
 </section>
 </section>
 <section id="formati-aperti-documenti" class="level3" data-number="B.2.3">
 <h3 data-number="B.2.3" class="anchored" data-anchor-id="formati-aperti-documenti"><span class="header-section-number">B.2.3</span> Formati aperti per i documenti</h3>
 <section id="odf" class="level4" data-number="B.2.3.1">
 <h4 data-number="B.2.3.1" class="anchored" data-anchor-id="odf"><span class="header-section-number">B.2.3.1</span> ODF (Open Document Format)</h4>
+<p>È uno standard dell’OASIS che specifica le caratteristiche di un formato per documenti digitali basato su XML, indipendente dall’applicazione e dalla piattaforma utilizzata. La seguente serie di formati aperti è parte dello standard OASIS ODF:</p>
+<ul>
+<li>ODT (Open Document Text). Standard aperto per documenti testuali. È stato adottato come formato principale per i testi in alcune suite per l’automazione</li>
+</ul>
+<p>d’ufficio come OpenOffice.org e LibreOffice; è supportato da altre come Microsoft Office, Google Drive e IBM Lotus.</p>
+<ul>
+<li><p>ODS (Open Document Spreadsheet). Standard aperto per fogli di calcolo. Come nel caso precedente, è stato adottato come formato principale per i fogli di calcolo in alcune suite per l’automazione d’ufficio come OpenOffice.org e LibreOffice; è supportato da altre come Microsoft Office, Google Drive e IBM Lotus.</p></li>
+<li><p>ODP (Open Document Presentation). Standard aperto per documenti di presentazione. È stato adottato come formato principale per i documenti di presentazione in alcune suite per l’automazione d’ufficio come OpenOffice.org e LibreOffice; è supportato da altre come Microsoft Office, Google Drive e IBM Lotus.</p></li>
+</ul>
 </section>
 <section id="pdf" class="level4" data-number="B.2.3.2">
 <h4 data-number="B.2.3.2" class="anchored" data-anchor-id="pdf"><span class="header-section-number">B.2.3.2</span> PDF</h4>
+<p>È un formato aperto creato da Adobe per la rappresentazione di documenti contenenti testo e immagini che sia indipendente dalla piattaforma di lettura (applicativo, sistema operativo e hardware). È stato standardizzato dall’ISO (ISO/IEC 32000-1:2008) con una serie di formati differenti, ognuno avente una propria prerogativa (per es., PDF/UA per l’accessibilità, PDF/H per documenti sanitari, PDF/A per l’archiviazione, ecc.). Si noti che rilasciare dati secondo tale formato limita fortemente il riutilizzo dei dati stessi in quanto l’intervento umano richiesto per la loro elaborazione è molto elevato (dati rilasciati in formato PDF con una licenza aperta rappresentano solo il <strong>primo livello del modello dei dati aperti e quindi non sono coerenti con il</strong> <a href="./capitolo-4.html#req-2"><strong><u>REQUISITO 2</u></strong></a> <strong>delle presenti Linee Guida</strong>).</p>
 </section>
 <section id="akoma-ntoso" class="level4" data-number="B.2.3.3">
 <h4 data-number="B.2.3.3" class="anchored" data-anchor-id="akoma-ntoso"><span class="header-section-number">B.2.3.3</span> Akoma Ntoso</h4>
+<p>È un linguaggio basato su XML per la rappresentazione di documenti giuridici. Nel 2017 è diventato una specifica OASIS.</p>
+<p>Lo standard Akoma Ntoso 1.0 al primo livello è stato adottato quale standard di riferimento per la rappresentazione elettronica dei provvedimenti normativi con la Circolare n.&nbsp;2/2019 di AgID recante “<em>Adozione di standard per la rappresentazione elettronica e l’identificazione univoca del patrimonio informativo di natura giuridica e istituzione del Forum Nazionale per l’informazione giuridica</em>” (v. box “Risorse utili”), a cui si rimanda per tutto quello non previsto nelle presenti Linee Guida.</p>
+<hr>
+<div class="risorsa callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<a href="" id="res-B.2.3"></a>Risorsa&nbsp;B.6
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>📚 <strong>Risorse utili - cap. B.2.3</strong> <a href="#res-B.2.3" class="link-req">🔗</a></p>
+<ul>
+<li><a href="https://trasparenza.agid.gov.it/index.php?id_oggetto=19&amp;id_doc=5380&amp;id_sez_ori=0&amp;template_ori=1">Circolare AgID n.&nbsp;2/2019 “Adozione di standard per la rappresentazione elettronica e l’identificazione univoca del patrimonio informativo di natura giuridica e istituzione del Forum Nazionale per l’informazione giuridica”</a></li>
+</ul>
+</div>
+</div>
 </section>
 </section>
 <section id="altri-formati" class="level3" data-number="B.2.4">
 <h3 data-number="B.2.4" class="anchored" data-anchor-id="altri-formati"><span class="header-section-number">B.2.4</span> Altri formati per i dati di elevato valore</h3>
+<p>Per le serie di dati di elevato valore, il Regolamento UE dispone che, in generale, si debba utilizzare un formato aperto e leggibile meccanicamente riconosciuto nell’Unione o a livello internazionale, indicazione che può trovare attuazione seguendo il <strong><a href="./capitolo-4.html#req-2">REQUISITO 2</a></strong> e quanto riportato innanzi nel presente allegato.</p>
+<p>Per alcune categorie tematiche, il predetto Regolamento indica la possibilità di utilizzare anche alcuni formati specifici che sono riportati di seguito.</p>
 <section id="formati-meteorologici" class="level4" data-number="B.2.4.1">
 <h4 data-number="B.2.4.1" class="anchored" data-anchor-id="formati-meteorologici"><span class="header-section-number">B.2.4.1</span> Formati per dati meteorologici</h4>
+<p>Oltre che, in generale, un formato aperto e leggibile meccanicamente riconosciuto nell’Unione o a livello internazionale, per i <strong>dati di osservazione misurati dalle stazioni meteorologiche</strong>, il Regolamento indica che è possibile utilizzare i seguenti formati:</p>
+<ul>
+<li><strong>JSON</strong> per dati orari;</li>
+<li><strong>BUFR (Binary Universal Form for the Representation of meteorological data)</strong>, formato di dati gestito dall’Organizzazione Meteorologica Mondiale (WMO – World Meteorological Organization)<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>;</li>
+<li><strong>NetCDF (Network Common Data Form)</strong>, insieme di librerie software e formati di dati indipendenti dalla macchina che supportano la creazione, l’accesso e la condivisione di dati scientifici <em>array-oriented</em><a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>;</li>
+<li><strong>ASCII (American Standard Code for Information Interchange)</strong>, codice per la codifica dei caratteri da utilizzare per lo scambio generale di informazioni tra sistemi di elaborazione e comunicazione<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a>.</li>
+</ul>
+<p>Per i <strong>dati climatici</strong>, possono essere utilizzati i formati <strong>NetCDF</strong> e <strong>JSON</strong>. Per gli <strong>avvisi meteo</strong> possono essere utilizzati i seguenti formati:</p>
+<ul>
+<li><strong>CAP (Common Alerting Protocol)</strong>, formato di dati basato su XML per lo scambio di avvisi pubblici ed emergenze tra tecnologie di allerta<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a>;</li>
+<li><strong>RSS (Really Simple Syndication)/Atom</strong>, formati di dati basati su XML per distribuire contenuti come elenchi di informazioni conosciuti come “feed”<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a>.</li>
+</ul>
+<p>Per i <strong>dati radar</strong>, oltre al JSON, può essere utilizzato il formato HDF5 (Hierarchical Data Format), progettato per archiviare e organizzare grandi quantità di dati<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a>.</p>
+<p>Per i <strong>dati del modello NWP (Numerical weather prediction)</strong>, oltre al <strong>JSON</strong> e a <strong>NetCDF</strong>, si può utilizzare il formato <strong>GRIB (General Representation of fields In Binary)</strong>, rappresentazione binaria di dati risultanti da un’osservazione o da una simulazione su modello numerico di una proprietà osservabile in un dominio spaziale e temporale su un sistema di riferimento geospaziale o celeste<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a>.</p>
 </section>
 <section id="formati-statistici" class="level4" data-number="B.2.4.2">
 <h4 data-number="B.2.4.2" class="anchored" data-anchor-id="formati-statistici"><span class="header-section-number">B.2.4.2</span> Formati per dati statistici</h4>
+<p>Per i dati statistici il Regolamento indica che, oltre a CSV, JSON e qualsiasi altro formato aperto e leggibile meccanicamente, si può utilizzare anche il formato XML con riferimento a <strong>SDMX (Statistical Data and Metadata eXchange)</strong>, uno standard ISO progettato per descrivere dati statistici e relativi metadati, normalizzare il loro scambio e migliorare la loro condivisione tra organizzazioni statistiche e simili<a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a>.</p>
 </section>
 <section id="formati-imprese" class="level4" data-number="B.2.4.3">
 <h4 data-number="B.2.4.3" class="anchored" data-anchor-id="formati-imprese"><span class="header-section-number">B.2.4.3</span> Formati per i dati relativi alle imprese e alla proprietà delle imprese</h4>
+<p>Oltre all’indicazione di utilizzare qualsiasi formato che sia aperto e leggibile meccanicamente, per dati e documenti che rientrano nel campo di applicazione del Regolamento Delegato (UE) 2018/81579 della Commissione il Regolamento indica di utilizzare il formato <strong>XHTML (Xtensible HyperText Markup Language)</strong>, un linguaggio di marcatura per creare pagine web che utilizza la sintassi XML<a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a>.</p>
 </section>
 </section>
 <section id="formati-immagini" class="level3" data-number="B.2.5">
 <h3 data-number="B.2.5" class="anchored" data-anchor-id="formati-immagini"><span class="header-section-number">B.2.5</span> Formati per immagini e dati raster</h3>
 <section id="png" class="level4" data-number="B.2.5.1">
 <h4 data-number="B.2.5.1" class="anchored" data-anchor-id="png"><span class="header-section-number">B.2.5.1</span> PNG (Portable Network Graphics)</h4>
+<p>È un formato che supporta la compressione dei dati senza perdita di informazioni (<em>lossless</em>). Nel 2004 è stato definito come Standard ISO/IEC 15948:2004<a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a>, rivisto e confermato l’ultima volta nel 2021.</p>
 </section>
 <section id="jpeg" class="level4" data-number="B.2.5.2">
 <h4 data-number="B.2.5.2" class="anchored" data-anchor-id="jpeg"><span class="header-section-number">B.2.5.2</span> JPEG</h4>
+<p>È un formato che utilizza un metodo per la compressione con perdita di informazioni (<em>lossy</em>) per le immagini digitali. È stato definito come Standard ISO/IEC 10918 composto da cinque parti e denominato ufficialmente “<em>Information technology – Digital compression and coding of continuous- tone still images</em>”<a href="#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a>.</p>
 </section>
 <section id="jpeg2000" class="level4" data-number="B.2.5.3">
 <h4 data-number="B.2.5.3" class="anchored" data-anchor-id="jpeg2000"><span class="header-section-number">B.2.5.3</span> JPEG 2000</h4>
+<p>È un sistema di codifica delle immagini che utilizza tecniche di compressione all’avanguardia basate sulla tecnologia wavelet<a href="#fn16" class="footnote-ref" id="fnref16" role="doc-noteref"><sup>16</sup></a>. Esso utilizza compressione sia <em>lossy</em> che <em>lossless</em>. È definito dalla suite di Standard ISO/IEC 15444-1:2019 “<em>Information technology — JPEG 2000 image coding system</em>”.</p>
 </section>
 <section id="geotiff" class="level4" data-number="B.2.5.4">
 <h4 data-number="B.2.5.4" class="anchored" data-anchor-id="geotiff"><span class="header-section-number">B.2.5.4</span> GeoTIFF (Georeferenced Tagged Image File Format)</h4>
+<p>È un formato che definisce una serie di tag per descrivere tutte le informazioni geografiche associate alle immagini TIFF che provengono da sistemi satellitari, ortoimmagini, modelli di elevazione digitali o come risultato di analisi geografiche. È diventato uno Standard OGC<a href="#fn17" class="footnote-ref" id="fnref17" role="doc-noteref"><sup>17</sup></a>.</p>
 </section>
 <section id="safe" class="level4" data-number="B.2.5.5">
 <h4 data-number="B.2.5.5" class="anchored" data-anchor-id="safe"><span class="header-section-number">B.2.5.5</span> SAFE (Standard Archive Format for Europe)</h4>
+<p>È un formato standard per l’archiviazione e il trasporto dei dati di osservazione della Terra all’interno del sistema di archiviazione dell’Agenzia spaziale europea (ESA), conforme allo standard Open Archival Information System (OAIS)<a href="#fn18" class="footnote-ref" id="fnref18" role="doc-noteref"><sup>18</sup></a>.</p>
 
 
 </section>
 </section>
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>Tratte dal documento “data.europa.eu – Data quality guidelines”, indicato nel box “Risorse utili”, a cui si rimanda per ulteriori approfondimenti.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Tratte dal documento “data.europa.eu – Data quality guidelines”, indicato nel box “Risorse utili”, a cui si rimanda per ulteriori approfondimenti.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Tratte dal documento “data.europa.eu – Data quality guidelines”, indicato nel box “Risorse utili”, a cui si rimanda per ulteriori approfondimenti.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Tratte dal documento “data.europa.eu – Data quality guidelines”, indicato nel box “Risorse utili”, a cui si rimanda per ulteriori approfondimenti.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p><a href="https://community.wmo.int/activity-areas/wmo-codes/manual-codes/bufr-edition-3-and-crex-edition-1" class="uri">https://community.wmo.int/activity-areas/wmo-codes/manual-codes/bufr-edition-3-and-crex-edition-1</a><a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p><a href="https://www.unidata.ucar.edu/software/netcdf/" class="uri">https://www.unidata.ucar.edu/software/netcdf/</a><a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p><a href="https://datatracker.ietf.org/doc/html/rfc20" class="uri">https://datatracker.ietf.org/doc/html/rfc20</a><a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p><a href="http://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2-os.pdf" class="uri">http://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2-os.pdf</a><a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>Per RSS v. <a href="https://www.rssboard.org/rss-2-0-1"><u>https://www.rssboard.org/rss-2-0-1</u>,</a> per Atom v. <a href="https://datatracker.ietf.org/doc/html/rfc4287"><u>https://datatracker.ietf.org/doc/html/rfc4287</u></a><a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p><a href="https://www.hdfgroup.org/solutions/hdf5/" class="uri">https://www.hdfgroup.org/solutions/hdf5/</a><a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p><a href="https://old.wmo.int/extranet/pages/prog/www/WMOCodes/ManualonCodes.html#Codes" class="uri">https://old.wmo.int/extranet/pages/prog/www/WMOCodes/ManualonCodes.html#Codes</a><a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn12"><p><a href="https://sdmx.org/?page_id=5008" class="uri">https://sdmx.org/?page_id=5008</a><a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13"><p><a href="https://www.w3.org/TR/2018/SPSD-xhtml-basic-20180327/" class="uri">https://www.w3.org/TR/2018/SPSD-xhtml-basic-20180327/</a><a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn14"><p><a href="https://www.iso.org/standard/29581.html" class="uri">https://www.iso.org/standard/29581.html</a><a href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn15"><p><a href="https://jpeg.org/jpeg/index.html" class="uri">https://jpeg.org/jpeg/index.html</a><a href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn16"><p><a href="https://jpeg.org/jpeg2000/" class="uri">https://jpeg.org/jpeg2000/</a><a href="#fnref16" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn17"><p><a href="https://www.ogc.org/standards/geotiff" class="uri">https://www.ogc.org/standards/geotiff</a><a href="#fnref17" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn18"><p><a href="https://public.ccsds.org/pubs/650x0m2.pdf" class="uri">https://public.ccsds.org/pubs/650x0m2.pdf</a><a href="#fnref18" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Torna in cima</a></main> <!-- /main -->
