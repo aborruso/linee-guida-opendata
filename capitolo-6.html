@@ -41,6 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -491,10 +494,10 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 </div>
 <p>Le licenze suindicate sono raffigurate nella Figura seguente.</p>
-<div id="fig-licenze" class="quarto-figure quarto-figure-center quarto-float anchored" width="90%" data-align="center" alt="Licenze">
+<div id="fig-licenze" class="lightbox quarto-figure quarto-figure-center quarto-float anchored" alt="Licenze" width="90%" data-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-licenze-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="immagini/image65.jpeg" class="img-fluid figure-img" style="width:90.0%" data-align="center" alt="Licenze">
+<a href="immagini/image65.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1"><img src="immagini/image65.jpeg" class="img-fluid figure-img" style="width:90.0%" data-align="center" alt="Licenze"></a><span class="glightbox-desc lightbox-desc-1">Figura&nbsp;6.1: Licenze</span>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-licenze-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figura&nbsp;6.1: Licenze
@@ -1641,6 +1644,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","loop":false,"selector":".lightbox","descPosition":"bottom"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 
