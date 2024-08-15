@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="it-IT" xml:lang="it-IT"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.534">
+<meta name="generator" content="quarto-1.4.551">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -412,13 +412,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 <p>Il modello da considerare per produrre e pubblicare dati aperti è quello noto come modello a cinque stelle rappresentato in <a href="#fig-modello_a_cinque_stelle_per_i_dati_aperti" class="quarto-xref">Figura&nbsp;<span>A.1</span></a> che fornisce una scala per misurare l’apertura dei dati.</p>
-<div id="fig-modello_a_cinque_stelle_per_i_dati_aperti" class="lightbox quarto-figure quarto-figure-center quarto-float anchored" data-align="center" alt="Modello a cinque stelle per i dati aperti." width="90%">
+<div id="fig-modello_a_cinque_stelle_per_i_dati_aperti" class="lightbox quarto-figure quarto-figure-center quarto-float anchored" data-align="center" alt="Modello a cinque stelle per i dati aperti.">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-modello_a_cinque_stelle_per_i_dati_aperti-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="immagini/image101.jpeg" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1"><img src="immagini/image101.jpeg" class="img-fluid figure-img" style="width:90.0%" data-align="center" alt="Modello a cinque stelle per i dati aperti."></a><span class="glightbox-desc lightbox-desc-1">Figura&nbsp;A.1: Modello a cinque stelle per i dati aperti<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></span>
+<a href="immagini/image101.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1"><img src="immagini/image101.jpeg" class="img-fluid figure-img" style="width:90.0%" data-align="center" alt="Modello a cinque stelle per i dati aperti."></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-modello_a_cinque_stelle_per_i_dati_aperti-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;A.1: Modello a cinque stelle per i dati aperti<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>
+Figura&nbsp;A.1: Modello a cinque stelle per i dati aperti<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>
 </figcaption>
 </figure>
 </div>
@@ -467,6 +467,9 @@ Figura&nbsp;A.1: Modello a cinque stelle per i dati aperti<a href="#fn2" class="
 </ul>
 
 
+<div class="hidden" aria-hidden="true">
+<span class="glightbox-desc lightbox-desc-1">Figura&nbsp;A.1: Modello a cinque stelle per i dati aperti<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></span>
+</div>
 </section>
 </section>
 <section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
@@ -568,6 +571,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
           // target, if specified
           link.setAttribute("target", "_blank");
           if (link.getAttribute("rel") === null) {
@@ -717,12 +725,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./debug/home.html" class="pagination-link  aria-label=" &lt;span="">
+      <a href="./debug/home.html" class="pagination-link" aria-label="Casa">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Casa</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./allegato-B.html" class="pagination-link" aria-label="<span class='chapter-number'>B</span>&nbsp; <span class='chapter-title'>Standard di riferimento e formati aperti</span>">
+      <a href="./allegato-B.html" class="pagination-link" aria-label="Standard di riferimento e formati aperti">
         <span class="nav-page-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Standard di riferimento e formati aperti</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
@@ -741,7 +749,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"loop":false,"openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom","selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","selector":".lightbox","closeEffect":"zoom","loop":false,"openEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
