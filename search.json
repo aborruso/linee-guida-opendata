@@ -563,7 +563,29 @@
     "href": "allegato-A.html",
     "title": "Allegato A — Modello per i dati aperti",
     "section": "",
-    "text": "Torna in cima",
+    "text": "A.1 I livelli del modello per i dati aperti\nPer ciascun livello, di seguito vengono indicate le caratteristiche principali in termini di informazione, accesso e servizi.\nLa Tabella 4.1 riportata al par. 4.1 indica, per ciascun formato, il numero di stelle raggiungibile.",
+    "crumbs": [
+      "Allegati",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Modello per i dati aperti</span>"
+    ]
+  },
+  {
+    "objectID": "allegato-A.html#sec-livelli_del_modello_per_i_dati_aperti",
+    "href": "allegato-A.html#sec-livelli_del_modello_per_i_dati_aperti",
+    "title": "Allegato A — Modello per i dati aperti",
+    "section": "",
+    "text": "A.1.1 Livello 1 (1 stella)\n\nInformazione: Dati disponibili tramite una licenza aperta e inclusi in documenti leggibili e interpretabili solo grazie a un significativo intervento umano (per es., PDF);\nAccesso: Prevalentemente umano, necessario anche per dare un senso ai dati inclusi nei documenti;\nServizi: Solo rilevanti interventi umani di estrazione ed elaborazione dei possibili dati consentono di sviluppare servizi con l’informazione disponibile in questo livello;\n\n\n\nA.1.2 Livello 2 (2 stelle)\n\nInformazione: Dati disponibili in forma strutturata e con licenza aperta. Tuttavia, i formati sono proprietari (per es., Excel) e un intervento umano è fortemente necessario per un’elaborazione dei dati;\nAccesso: I programmi possono elaborare i dati ma non sono in grado di interpretarli; pertanto è necessario un intervento umano al fine di scrivere programmi ad-hoc per il loro utilizzo;\nServizi: Servizi ad-hoc che devono incorporare i dati per consentire un accesso diretto via Web agli stessi;\n\n\n\nA.1.3 Livello 3 (3 stelle)\n\nInformazione: Dati con caratteristiche del livello precedente ma in un formato non proprietario (per es., CSV, JSON, geoJSON). I dati sono leggibili da un programma ma l’intervento umano è necessario per una qualche elaborazione degli stessi;\nAccesso: I programmi possono elaborare i dati ma non sono in grado di interpretarli; pertanto è necessario un intervento umano al fine di scrivere programmi ad-hoc per il loro utilizzo;\nServizi: Servizi ad-hoc che devono incorporare i dati per consentire un accesso diretto via Web agli stessi;\n\n\n\nA.1.4 Livello 4 (4 stelle)\n\nInformazione: Dati con caratteristiche del livello precedente ma esposti usando standard W3C quali RDF e SPARQL. I dati sono descritti semanticamente tramite metadati e ontologie;\nAccesso: I programmi sono in grado di conoscere l’ontologia di riferimento e pertanto di elaborare i dati quasi senza ulteriori interventi umani;\nServizi: Servizi che sfruttano accessi diretti a Web per reperire i dati di interesse;\n\n\n\nA.1.5 Livello 5 (5 stelle)\n\nInformazione: Dati con caratteristiche del livello precedente ma collegati a quelli esposti da altre fonti (per es., Linked Open Data). I dati sono descritti semanticamente tramite metadati e ontologie. Essi seguono il paradigma RDF, in cui alle entità è assegnato un URI univoco sul Web. Nel caso dei Linked Open Data l’intervento umano è minimo o nullo;\nAccesso: I programmi sono in grado di conoscere l’ontologia di riferimento e pertanto di elaborare i dati quasi senza ulteriori interventi umani;\nServizi: Servizi che sfruttano sia accessi diretti a Web sia l’informazione ulteriore catturata attraverso i link dei dati di interesse, facilitando il mashup di dati.",
+    "crumbs": [
+      "Allegati",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Modello per i dati aperti</span>"
+    ]
+  },
+  {
+    "objectID": "allegato-A.html#footnotes",
+    "href": "allegato-A.html#footnotes",
+    "title": "Allegato A — Modello per i dati aperti",
+    "section": "",
+    "text": "Rivisitazione della figura disponibile sul web↩︎\nRivisitazione della figura disponibile sul web↩︎",
     "crumbs": [
       "Allegati",
       "<span class='chapter-number'>A</span>  <span class='chapter-title'>Modello per i dati aperti</span>"
