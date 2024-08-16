@@ -4,7 +4,7 @@ breadcrumb: false
 
 # Ambito di applicazione
 
-Le presenti Linee Guida stabiliscono le regole tecniche per l'attuazione del D. Lgs. 24 gennaio 2006, n. 36 (di seguito **Decreto**), così come modificato dal D. Lgs. 8 novembre 2021, n. 200 di recepimento della Direttiva (UE) 2019/1024 (di seguito **Direttiva**), in ottemperanza all'art. 12 del Decreto stesso.
+Le presenti Linee Guida stabiliscono le regole tecniche per l'attuazione del [D. Lgs. 24 gennaio 2006, n. 36](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36) (di seguito **Decreto**), così come modificato dal D. Lgs. 8 novembre 2021, n. 200 di recepimento della [Direttiva (UE) 2019/1024](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32019L1024) (di seguito **Direttiva**), in ottemperanza all'art. 12 del Decreto stesso.
 
 Il documento ha l'obiettivo di supportare le pubbliche amministrazioni e gli altri soggetti interessati (vedi **[par. -@sec-soggetti-destinatari]**) nel processo di apertura dei dati e di riutilizzo dell'informazione del settore pubblico attraverso indicazioni volte ad implementare le disposizioni e le modalità disciplinate dal Decreto.
 
@@ -17,7 +17,7 @@ Coerentemente con quanto disposto dall'art. 1 del Decreto, **le presenti Linee G
 - a tutti i dati pubblici e tutti i documenti contenenti dati pubblici detenuti da pubbliche amministrazioni, organismi di diritto pubblico, imprese pubbliche e private, ad eccezione di quelli indicati nel **[par. -@sec-documenti-esclusi-dallapplicazione]**
 - a dati e documenti i cui diritti di proprietà intellettuale sono detenuti da biblioteche, comprese le biblioteche universitarie, i musei e gli archivi, solo se il riutilizzo è autorizzato in conformità a quanto previsto nella Parte II, Titolo II, Capo I e Capo III, del decreto legislativo 22 gennaio 2004, n. 42 e nella Parte II, Titolo VII, Capo II, del decreto legislativo 30 giugno 2003 n. 196;
 - ai dati della ricerca (v. **[par. -@sec-dati-della-ricerca]**);
-- ai dati territoriali ai quali si applica il D Lgs. 27 gennaio 2010, n. 32, di recepimento della Direttiva 2007/2/CE, cosiddetta Direttiva INSPIRE (v. **[par -@sec-dati-territoriali]**);
+- ai dati territoriali ai quali si applica il D Lgs. 27 gennaio 2010, n. 32, di recepimento della [Direttiva 2007/2/CE](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32007L0002), cosiddetta Direttiva INSPIRE (v. **[par -@sec-dati-territoriali]**);
 - ai documenti che all'atto di entrata in vigore delle indicazioni del Decreto sono già stati diffusi per il riutilizzo.
 
 Quando, nel prosieguo del presente documento, si utilizzeranno i termini "documenti" e "dati" si intenderà fare riferimento a quei documenti e dati che rientrano nell'ambito di applicazione delineato.
@@ -34,12 +34,12 @@ Coerentemente con quanto disposto dall'art. 3 del Decreto, **le presenti Linee G
 - diversi da quelli della ricerca, nel caso di tutti gli altri istituti di istruzione;
 - nella disponibilità di enti culturali diversi dalle biblioteche, comprese quelle universitarie, dai musei e dagli archivi[^#_bookmark12];
 - nella disponibilità degli organismi coinvolti nel sistema di informazione per la sicurezza della Repubblica;
-- esclusi, ai sensi dell'articolo 24 della legge 7 agosto 1990, n. 241, anche solo per un limitato periodo di tempo fissato dalle amministrazioni, ovvero:
-  - documenti coperti da segreto di Stato ai sensi della legge 24 ottobre 1977, n. 801 e nei casi di segreto o di divieto di divulgazione espressamente previsti dalla legge, dal regolamento governativo adottato ai sensi dell'articolo 17, comma 2, della legge 23 agosto 1988, n. 400 e dalle pubbliche amministrazioni;
+- esclusi, ai sensi dell'[articolo 24](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241~art24) della legge 7 agosto 1990, n. 241, anche solo per un limitato periodo di tempo fissato dalle amministrazioni, ovvero:
+  - documenti coperti da segreto di Stato ai sensi della [legge 24 ottobre 1977, n. 801](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1977-10-24;801) e nei casi di segreto o di divieto di divulgazione espressamente previsti dalla legge, dal regolamento governativo adottato ai sensi dell'[articolo 17](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1988-08-23;400~art17), comma 2, della legge 23 agosto 1988, n. 400 e dalle pubbliche amministrazioni;
   - documenti dei procedimenti tributari;
   - documenti delle attività di formazione ed emanazione di atti normativi, amministrativi generali, di pianificazione e di programmazione;
   - documenti dei procedimenti selettivi, nei confronti dei documenti amministrativi contenenti informazioni di carattere psicoattitudinale relativi a terzi;
-- esclusi ai sensi dell'articolo 5-bis del decreto legislativo 14 marzo 2013, n. 33, ovvero:
+- esclusi ai sensi dell'[articolo 5-bis](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2013-03-14;33!vig=2016-02-12~art5bis) del decreto legislativo 14 marzo 2013, n. 33, ovvero:
   - documenti o parti di documenti inerenti ai seguenti interessi pubblici:
     - sicurezza pubblica e ordine pubblico;
     - sicurezza nazionale;
@@ -52,12 +52,12 @@ Coerentemente con quanto disposto dall'art. 3 del Decreto, **le presenti Linee G
     - protezione dei dati personali, in conformità con la disciplina legislativa in materia;
     - libertà e segretezza della corrispondenza;
     - interessi economici e commerciali di una persona fisica o giuridica, ivi compresi la proprietà intellettuale, il diritto d'autore e i segreti commerciali;
-- esclusi per motivi di tutela del segreto statistico ai sensi dell'art. 9 del decreto legislativo 6 settembre 1989, n. 322, ovvero dati raccolti nell'ambito di rilevazioni statistiche comprese nel programma statistico nazionale da parte degli uffici di statistica. Tali dati possono essere resi disponibili solo in forma aggregata, in modo che non se ne possa trarre alcun riferimento relativamente a persone identificabili, e possono essere utilizzati solo per scopi statistici;
-- su cui terzi detengono diritti di proprietà intellettuale ai sensi della legge 22 aprile 1941, n. 633, ovvero diritti di proprietà industriale ai sensi del decreto legislativo 10 febbraio 2005, n. 30;
-- non contenenti dati pubblici, il cui accesso è disciplinato dal Capo V della legge 7 agosto 1990, n. 241;
+- esclusi per motivi di tutela del segreto statistico ai sensi dell'[art. 9](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1989-09-06;322~art9) del decreto legislativo 6 settembre 1989, n. 322, ovvero dati raccolti nell'ambito di rilevazioni statistiche comprese nel programma statistico nazionale da parte degli uffici di statistica. Tali dati possono essere resi disponibili solo in forma aggregata, in modo che non se ne possa trarre alcun riferimento relativamente a persone identificabili, e possono essere utilizzati solo per scopi statistici;
+- su cui terzi detengono diritti di proprietà intellettuale ai sensi della [legge 22 aprile 1941, n. 633](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1941-04-22;633), ovvero diritti di proprietà industriale ai sensi del decreto legislativo 10 febbraio 2005, n. 30;
+- non contenenti dati pubblici, il cui accesso è disciplinato dal Capo V della [legge 7 agosto 1990, n. 241](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241);
 - parti di documenti contenenti solo logotipi, stemmi e distintivi;
-- il cui accesso, ai sensi delle previsioni del Regolamento (UE) 2016/679 e del decreto legislativo 30 giugno 2003, n. 196 e s.m.i. nonché del decreto legislativo 18 maggio 2018, n. 51, è escluso, limitato o risulti pregiudizievole per la tutela della vita privata e dell'integrità degli individui, comprese le parti di documenti accessibili che contengono dati personali il cui riutilizzo è stato definito per legge incompatibile con le previsioni delle suddette disposizioni normative;
-- il cui accesso è escluso o limitato per motivi di protezione delle informazioni sensibili relative alle infrastrutture critiche definite, all'articolo 2 del decreto legislativo 11 aprile 2011, n. 61, come "*infrastrutture, ubicate in uno Stato membro dell'Unione europea, che sono essenziali per il mantenimento delle funzioni vitali della società, della salute, della sicurezza e del benessere economico e sociale della popolazione ed il cui danneggiamento o la cui distruzione avrebbe un impatto significativo in quello Stato, a causa dell'impossibilità di mantenere tali funzioni";*
+- il cui accesso, ai sensi delle previsioni del [Regolamento (UE) 2016/679](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32016R0679) e del [decreto legislativo 30 giugno 2003, n. 196 e s.m.i.](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196) nonché del [decreto legislativo 18 maggio 2018, n. 51](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2018-05-18;51!vig=2024-08-16), è escluso, limitato o risulti pregiudizievole per la tutela della vita privata e dell'integrità degli individui, comprese le parti di documenti accessibili che contengono dati personali il cui riutilizzo è stato definito per legge incompatibile con le previsioni delle suddette disposizioni normative;
+- il cui accesso è escluso o limitato per motivi di protezione delle informazioni sensibili relative alle infrastrutture critiche definite, all'[articolo 2](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2011-04-11;61~art2) del decreto legislativo 11 aprile 2011, n. 61, come "*infrastrutture, ubicate in uno Stato membro dell'Unione europea, che sono essenziali per il mantenimento delle funzioni vitali della società, della salute, della sicurezza e del benessere economico e sociale della popolazione ed il cui danneggiamento o la cui distruzione avrebbe un impatto significativo in quello Stato, a causa dell'impossibilità di mantenere tali funzioni";*
 - diversi dai dati della ricerca, nella disponibilità di organizzazioni che svolgono attività di ricerca e di organizzazioni che finanziano la ricerca, comprese le organizzazioni preposte al trasferimento dei risultati della ricerca.
 
 [^#_bookmark12]: Il Considerando (65) della Direttiva indica alcuni esempi di enti culturali che devono essere esclusi dall'applicazione della Direttiva stessa, ovvero orchestre, teatri lirici, compagnie di ballo e teatri, compresi gli archivi che ne fanno parte, in virtù della loro specificità di "arti dello spettacolo" e del fatto che quasi tutto il loro materiale è soggetto a diritti di proprietà intellettuale di terzi.
@@ -66,7 +66,7 @@ Coerentemente con quanto disposto dall'art. 3 del Decreto, **le presenti Linee G
 
 I destinatari delle presenti Linee Guida sono quelli individuati dal Decreto e innanzi già citati, ovvero le pubbliche amministrazioni, gli organismi di diritto pubblico e le imprese pubbliche e private.
 
-Per l'individuazione delle "**pubbliche amministrazioni**" si fa riferimento all'art. 1, comma 2 del D. Lgs. 30 marzo 2001, n. 165; sono compresi, quindi:
+Per l'individuazione delle "**pubbliche amministrazioni**" si fa riferimento all'[art. 1](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2001-03-30;165!vig=2024-08-16~art1), comma 2 del D. Lgs. 30 marzo 2001, n. 165; sono compresi, quindi:
 
 - tutte le amministrazioni dello Stato, ivi compresi gli istituti e scuole di ogni ordine e grado e le istituzioni educative;
 - le aziende ed amministrazioni dello Stato ad ordinamento autonomo;
@@ -83,7 +83,7 @@ Per l'individuazione delle "**pubbliche amministrazioni**" si fa riferimento all
 
 Il Decreto precisa che sono comprese anche le autorità di sistema portuale, le autorità amministrative indipendenti di garanzia, vigilanza e regolazione, nonché i loro consorzi o associazioni a qualsiasi fine istituiti.
 
-Per l'individuazione degli "**organismi di diritto pubblico**" si fa riferimento all'art. 3, comma 1, lettera d) del D. Lgs. 18 aprile 2016, n. 50; sono, quindi, compresi, sulla base dell'allegato IV del predetto decreto legislativo, i seguenti organismi[^#_bookmark14]:
+Per l'individuazione degli "**organismi di diritto pubblico**" si fa riferimento all'[art. 3](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2016-04-18;50~art3), comma 1, lettera d) del D. Lgs. 18 aprile 2016, n. 50; sono, quindi, compresi, sulla base dell'allegato IV del predetto decreto legislativo, i seguenti organismi[^#_bookmark14]:
 
 - Mostra d'oltremare S.p.A.;
 - Ente nazionale per l'aviazione civile - ENAC;
@@ -109,7 +109,7 @@ e le seguenti categorie:
 
 Per quanto riguarda le **imprese pubbliche**, sono da considerare:
 
-- quelle attive nei settori di cui agli articoli da 115 a 121 del [D. Lgs. 18 aprile 2016, n. 50,](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2016-04-18;50) che, all'atto di adottare le presenti Linee Guida, sono i seguenti:
+- quelle attive nei settori di cui agli articoli da [115](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2016-04-18;50~art115) a [121](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2016-04-18;50~art121) del [D. Lgs. 18 aprile 2016, n. 50,](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2016-04-18;50) che, all'atto di adottare le presenti Linee Guida, sono i seguenti:
   - gas ed energia termica;
   - elettricità;
   - acqua;
