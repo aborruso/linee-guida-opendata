@@ -1,4 +1,4 @@
 ::: {#req-25 .callout-important appearance="simple" icon=false .requisito}
 [**REQUISITO 25**]{.testo-rosso}: **dlgs36-2006/opendata/req/conditions/local** [🔗](#req-25){.link-req}<br>
-Nel caso di enti territoriali ed enti e organismi pubblici diversi da quelli indicati, gli importi delle tariffe, calcolati sulla base dei criteri indicati innanzi, e le relative modalità di versamento sono determinati con disposizioni o atti deliberativi dell’ente titolare, sentita l’Agenzia per l’Italia Digitale.
+Nel caso di enti territoriali ed enti e organismi pubblici diversi da quelli indicati, gli importi delle tariffe, calcolati sulla base dei criteri indicati innanzi, e le relative modalità di versamento sono determinati con disposizioni o atti deliberativi dell'ente titolare, sentita l'Agenzia per l'Italia Digitale.
 :::

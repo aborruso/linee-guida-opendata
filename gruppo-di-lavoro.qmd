@@ -8,7 +8,7 @@ format:
 
 La redazione del documento è stata curata dal Gruppo di lavoro coordinato da AgID e composto dai rappresentanti dei seguenti Enti:
 
-- Agenzia per l’Italia Digitale;
+- Agenzia per l'Italia Digitale;
 - Dipartimento per la Trasformazione Digitale della Presidenza del Consiglio dei Ministri
 - Formez PA;
 - Istituto Geografico Militare;

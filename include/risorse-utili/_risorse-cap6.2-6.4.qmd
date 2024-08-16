@@ -7,6 +7,6 @@
 - [Comunicazione della Commissione Europea 2014/C 240/01](https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX%3A52014XC0724(01)&from=IT) - Orientamenti sulle licenze standard raccomandate, i dataset e la tariffazione del riutilizzo dei documenti -
 Parte 4
 - [Piano nazionale di digitalizzazione del patrimonio culturale 2022-2023 e relative Linee Guida](https://docs.italia.it/italia/icdp/), Ministero della Cultura
-- [Linee Guida per l’acquisizione, la circolazione e il riuso delle riproduzioni dei beni culturali in ambiente digitale](https://docs.italia.it/italia/icdp/icdp-pnd-circolazione-riuso-docs/it/v1.0-giugno-2022/index.html), Ministero della Cultura
+- [Linee Guida per l'acquisizione, la circolazione e il riuso delle riproduzioni dei beni culturali in ambiente digitale](https://docs.italia.it/italia/icdp/icdp-pnd-circolazione-riuso-docs/it/v1.0-giugno-2022/index.html), Ministero della Cultura
 
 :::

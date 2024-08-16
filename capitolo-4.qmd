@@ -292,7 +292,7 @@ Ai fini delle presenti Linee Guida, anche i dati della ricerca DEVONO essere doc
 
 [^#_bookmark64]: <https://force11.org/info/the-fair-data-principles/>
 
-[^#_bookmark65]: Nella definizione dei requisiti, si è fatto riferimento alla guida "How to make your data FAIR" pubblicata nell’ambito dell’iniziativa OpenAIRE (v. <https://www.openaire.eu/how-to-make-your-data-fair>) e la checklist "How fair are your data?" creata da Sarah Jones e Marjan Grootveld (v. <https://zenodo.org/record/5111307#.YhEfAd_SKCQ>).
+[^#_bookmark65]: Nella definizione dei requisiti, si è fatto riferimento alla guida "How to make your data FAIR" pubblicata nell'ambito dell'iniziativa OpenAIRE (v. <https://www.openaire.eu/how-to-make-your-data-fair>) e la checklist "How fair are your data?" creata da Sarah Jones e Marjan Grootveld (v. <https://zenodo.org/record/5111307#.YhEfAd_SKCQ>).
 
 [^#_bookmark66]: v. <https://www.openaire.eu/>
 

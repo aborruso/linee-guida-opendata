@@ -151,7 +151,7 @@ Come indicato nella guida nazionale su GeoDCAT-AP, quanto sopra è riferito alla
 
 Analogamente ai dati territoriali, anche per i dati statistici è stata definita un'estensione della specifica DCAT-AP, denominata StatDCAT-AP[^#_bookmark136] (v. box "Risorse utili"), allo scopo di garantire la disponibilità dei dati statistici, utilizzando gli standard specifici, come SDMX, anche nei portali generalisti dei dati aperti.
 
-[^#_bookmark136]: Attualmente l’estensione StatDCAT-AP è allineata alla versione 1.1 di DCAT-AP
+[^#_bookmark136]: Attualmente l'estensione StatDCAT-AP è allineata alla versione 1.1 di DCAT-AP
 
 {{< include ./include/raccomandazioni/_raccomandazione-16.qmd >}}
 

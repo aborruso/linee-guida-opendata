@@ -2,7 +2,7 @@
 
 ::: {.callout-tip icon=false}
 ## 📚 Risorse utili - cap. 4.5
-- [Guida operativa per la compilazione dei metadati RNDT](https://geodati.gov.it/geoportale/images/struttura/documenti/Manuale-RNDT_2-guida-operativa-compilazione-metadati_v3.0.pdf), Agenzia per l’Italia Digitale
+- [Guida operativa per la compilazione dei metadati RNDT](https://geodati.gov.it/geoportale/images/struttura/documenti/Manuale-RNDT_2-guida-operativa-compilazione-metadati_v3.0.pdf), Agenzia per l'Italia Digitale
 - [INSPIRE Data Specifications](https://knowledge-base.inspire.ec.europa.eu/index_en)
 - INSPIRE Technical Specifications for the implementation of Network Services
 - [Technical Guidance for INSPIRE Spatial Data Services](https://knowledge-base.inspire.ec.europa.eu/publications/technical-guidance-inspire-spatial-data-services-and-services-allowing-spatial-data-services-be_en)

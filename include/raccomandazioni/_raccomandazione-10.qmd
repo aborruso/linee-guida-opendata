@@ -1,6 +1,6 @@
 ::: {#racc-10 .callout-note appearance="simple" icon=false .raccomandazione}
 [**Raccomandazione 10**]{.testo-blu}: **dlgs36-2006/opendata/rec/conditions/more-conditions**<br>
-SI RACCOMANDA di limitare l’uso di licenze con condizioni ulteriori rispetto alla sola attribuzione solo ai casi strettamente necessari.
+SI RACCOMANDA di limitare l'uso di licenze con condizioni ulteriori rispetto alla sola attribuzione solo ai casi strettamente necessari.
 :::
 
 

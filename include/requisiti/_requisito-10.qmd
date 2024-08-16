@@ -5,5 +5,5 @@ Per rendere i dati reperibili È RICHIESTO:
 - documentare i dati con metadati dettagliati;
 - assegnare a dati e metadati un identificatore univoco e persistente (per es. DOI);
 - rendere disponibili online i metadati attraverso una risorsa consultabile, come per esempio un catalogo o un repository, seguendo il [**REQUISITO 29**](capitolo-7.qmd#req-29){.testo-rosso} e il [**REQUISITO 30**](capitolo-7.qmd#req-30){.testo-rosso};
-- specificare l’identificatore del dato nei metadati.
+- specificare l'identificatore del dato nei metadati.
 :::

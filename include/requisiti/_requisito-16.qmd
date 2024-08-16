@@ -1,4 +1,4 @@
 ::: {#req-16 .callout-important appearance="simple" icon=false .requisito}
 [**REQUISITO 16**]{.testo-rosso}: **dlgs36-2006/opendata/req/md/rndt** [🔗](#req-16){.link-req}<br>
-I dati territoriali resi disponibili per il riutilizzo DEVONO essere documentati esclusivamente attraverso metadati conformi alle "*Linee Guida recanti regole tecniche per la definizione e l’aggiornamento del contenuto del Repertorio Nazionale dei Dati Territoriali*" e le relative guide operative.
+I dati territoriali resi disponibili per il riutilizzo DEVONO essere documentati esclusivamente attraverso metadati conformi alle "*Linee Guida recanti regole tecniche per la definizione e l'aggiornamento del contenuto del Repertorio Nazionale dei Dati Territoriali*" e le relative guide operative.
 :::
