@@ -196,7 +196,7 @@ d'ufficio come OpenOffice.org e LibreOffice; è supportato da altre come Microso
 
 #### PDF {#pdf}
 
-È un formato aperto creato da Adobe per la rappresentazione di documenti contenenti testo e immagini che sia indipendente dalla piattaforma di lettura (applicativo, sistema operativo e hardware). È stato standardizzato dall'ISO (ISO/IEC 32000-1:2008) con una serie di formati differenti, ognuno avente una propria prerogativa (per es., PDF/UA per l'accessibilità, PDF/H per documenti sanitari, PDF/A per l'archiviazione, ecc.). Si noti che rilasciare dati secondo tale formato limita fortemente il riutilizzo dei dati stessi in quanto l'intervento umano richiesto per la loro elaborazione è molto elevato (dati rilasciati in formato PDF con una licenza aperta rappresentano solo il **primo livello del modello dei dati aperti e quindi non sono coerenti con il** [**<u>REQUISITO 2</u>**](capitolo-4.qmd#req-2) **delle presenti Linee Guida**).
+È un formato aperto creato da Adobe per la rappresentazione di documenti contenenti testo e immagini che sia indipendente dalla piattaforma di lettura (applicativo, sistema operativo e hardware). È stato standardizzato dall'ISO (ISO/IEC 32000-1:2008) con una serie di formati differenti, ognuno avente una propria prerogativa (per es., PDF/UA per l'accessibilità, PDF/H per documenti sanitari, PDF/A per l'archiviazione, ecc.). Si noti che rilasciare dati secondo tale formato limita fortemente il riutilizzo dei dati stessi in quanto l'intervento umano richiesto per la loro elaborazione è molto elevato (dati rilasciati in formato PDF con una licenza aperta rappresentano solo il **primo livello del modello dei dati aperti e quindi non sono coerenti con il** [**REQUISITO 2**](capitolo-4.qmd#req-2) **delle presenti Linee Guida**).
 
 #### Akoma Ntoso {#akoma-ntoso}
 
@@ -238,7 +238,7 @@ Per i **dati del modello NWP (Numerical weather prediction)**, oltre al **JSON**
 
 [^#_bookmark161]: <http://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2-os.pdf>
 
-[^#_bookmark162]: Per RSS v. [<u>https://www.rssboard.org/rss-2-0-1</u>,](https://www.rssboard.org/rss-2-0-1) per Atom v. [<u>https://datatracker.ietf.org/doc/html/rfc4287</u>](https://datatracker.ietf.org/doc/html/rfc4287)
+[^#_bookmark162]: Per RSS v. [https://www.rssboard.org/rss-2-0-1,](https://www.rssboard.org/rss-2-0-1) per Atom v. [https://datatracker.ietf.org/doc/html/rfc4287](https://datatracker.ietf.org/doc/html/rfc4287)
 
 [^#_bookmark163]: <https://www.hdfgroup.org/solutions/hdf5/>
 
