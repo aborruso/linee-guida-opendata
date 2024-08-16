@@ -1,5 +1,5 @@
 ::: {#racc-14 .callout-note appearance="simple" icon=false .raccomandazione}
-[**Raccomandazione 14**]{.testo-blu}: **dlgs36-2006/opendata/rec/conditions/update**<br>
+[**Raccomandazione 14**]{.testo-blu}: **dlgs36-2006/opendata/rec/conditions/update** [🔗](#racc-14){.link-req}<br>
 SI RACCOMANDA ai titolari che hanno già pubblicato set di dati con licenze diverse da quelle sopra richiamate, incluse versioni della CC-BY precedente alla 4.0, di valutare il rinnovo della licenza, adeguandola alle indicazioni suddette, individuando nel caso le ragioni eventualmente impedienti tale aggiornamento.
 :::
 

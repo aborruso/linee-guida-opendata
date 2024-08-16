@@ -1,4 +1,4 @@
 ::: {#racc-1 .callout-note appearance="simple" icon=false .raccomandazione}
-[**Raccomandazione 1**]{.testo-blu}: **dlgs36-2006/opendata/rec/common/lod**<br>
+[**Raccomandazione 1**]{.testo-blu}: **dlgs36-2006/opendata/rec/common/lod** [🔗](#racc-1){.link-req}<br>
 SI RACCOMANDA un percorso graduale verso la produzione nativa di Linked Open Data – LOD (livello cinque stelle nella classificazione del modello di cui all'[Allegato @sec-allegato-a]).
 :::

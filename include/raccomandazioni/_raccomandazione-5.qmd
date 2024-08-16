@@ -1,4 +1,4 @@
 ::: {#racc-5 .callout-note appearance="simple" icon=false .raccomandazione}
-[**Raccomandazione 5**]{.testo-blu}: **dlgs36-2006/opendata/req/organization/wg**<br>
+[**Raccomandazione 5**]{.testo-blu}: **dlgs36-2006/opendata/req/organization/wg** [🔗](#racc-5){.link-req}<br>
 SI RACCOMANDA di costituire, all'interno dell'organizzazione dell'Ente, un apposito gruppo di lavoro dedicato al processo di apertura dei dati, anche per l'applicazione delle presenti Linee Guida, prevedendo, ove possibile, le strutture e le figure adatte e necessarie a tale scopo, tenendo in considerazione i referenti dei singoli domini (come le infrastrutture di dati territoriali) e prevedendo altresì il necessario coinvolgimento del Responsabile per la protezione dei dati laddove siano coinvolti dati personali.
 :::

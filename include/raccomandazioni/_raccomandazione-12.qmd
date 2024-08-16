@@ -1,5 +1,5 @@
 ::: {#racc-12 .callout-note appearance="simple" icon=false .raccomandazione}
-[**Raccomandazione 12**]{.testo-blu}: **dlgs36-2006/opendata/rec/conditions/cc**<br>
+[**Raccomandazione 12**]{.testo-blu}: **dlgs36-2006/opendata/rec/conditions/cc** [🔗](#racc-12){.link-req}<br>
 SI RACCOMANDA di non utilizzare le licenze Creative Commons precedenti alla 4.0, in cui i diritti sui generis non erano citati/previsti (2.5) o erano richiamati come meramente rinunciati (3.0).
 :::
 

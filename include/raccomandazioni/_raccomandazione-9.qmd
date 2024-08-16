@@ -1,4 +1,4 @@
 ::: {#racc-9 .callout-note appearance="simple" icon=false .raccomandazione}
-[**Raccomandazione 9**]{.testo-blu}: **dlgs36-2006/opendata/rec/licenses/attribution**<br>
+[**Raccomandazione 9**]{.testo-blu}: **dlgs36-2006/opendata/rec/licenses/attribution** [🔗](#racc-9){.link-req}<br>
 SI RACCOMANDA di restringere le condizioni di cui alla licenza apposta ai dati alla sola attribuzione, fatta eccezione per le regole in materia di riutilizzo dei dati personali (cfr. par. [-@sec-requisiti-comuni] e par. [-@sec-individuazione-e-selezione]).
 :::

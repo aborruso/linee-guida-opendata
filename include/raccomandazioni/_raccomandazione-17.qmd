@@ -1,4 +1,4 @@
 ::: {#racc-17 .callout-note appearance="simple" icon=false .raccomandazione}
-[**Raccomandazione 17**]{.testo-blu}: **dlgs36-2006/opendata/rec/publication/portals**<br>
+[**Raccomandazione 17**]{.testo-blu}: **dlgs36-2006/opendata/rec/publication/portals** [🔗](#racc-17){.link-req}<br>
 SI RACCOMANDA di non creare tanti portali diversi per singole iniziative ma, ove possibile, di raccordarle per facilitare il reperimento e il riutilizzo dei dati da parte degli utenti finali.
 :::

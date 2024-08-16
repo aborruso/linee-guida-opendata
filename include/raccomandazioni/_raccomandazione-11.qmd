@@ -1,5 +1,5 @@
 ::: {#racc-11 .callout-note appearance="simple" icon=false .raccomandazione}
-[**Raccomandazione 11**]{.testo-blu}: **dlgs36-2006/opendata/rec/conditions/sa**<br>
+[**Raccomandazione 11**]{.testo-blu}: **dlgs36-2006/opendata/rec/conditions/sa** [🔗](#racc-11){.link-req}<br>
 SI RACCOMANDA di limitare l'uso della clausola di "condivisione" ("share-alike" - SA) solo ai casi in cui sia motivatamente necessaria ovvero previa verifica di impossibilità di rilascio con licenza CC BY 4.0, ad esempio, in ragione dell'uso non altrimenti gestibile di una fonte già rilasciata con licenza SA.
 :::
 

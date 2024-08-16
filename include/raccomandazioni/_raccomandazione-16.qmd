@@ -1,4 +1,4 @@
 ::: {#racc-16 .callout-note appearance="simple" icon=false .raccomandazione}
-[**Raccomandazione 16**]{.testo-blu}: **dlgs36-2006/opendata/rec/publication/statdcat-ap**<br>
+[**Raccomandazione 16**]{.testo-blu}: **dlgs36-2006/opendata/rec/publication/statdcat-ap** [🔗](#racc-16){.link-req}<br>
 Al fine di poter documentare i dati statistici, compresi quelli identificati come dati ad elevato valore, nel portale nazionale dati.gov.it secondo il relativo profilo di metadati basato sulla specifica europea DCAT-AP, SI RACCOMANDA di fare riferimento all'estensione StatDCAT-AP.
 :::

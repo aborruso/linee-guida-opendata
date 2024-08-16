@@ -1,5 +1,5 @@
 ::: {#racc-8 .callout-note appearance="simple" icon=false .raccomandazione}
-[**Raccomandazione 8**]{.testo-blu}: **dlgs36-2006/opendata/req/organization/quality**<br>
+[**Raccomandazione 8**]{.testo-blu}: **dlgs36-2006/opendata/req/organization/quality** [🔗](#racc-8){.link-req}<br>
 SI RACCOMANDA di garantire, per tutti i dati in generale e per quelli resi disponibili per il riutilizzo, in particolare, il rispetto almeno delle quattro caratteristiche di qualità dei dati (ovvero accuratezza, coerenza, completezza e attualità), fra le 15 previste dallo Standard ISO/IEC 25012 come da indicazioni della Determinazione Commissariale n. 68/2013 di AgID.<br>
 Per la misura delle suddette caratteristiche, fare riferimento allo Standard ISO/IEC 25024.
 :::

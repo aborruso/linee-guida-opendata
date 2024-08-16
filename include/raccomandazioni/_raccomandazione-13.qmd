@@ -1,5 +1,5 @@
 ::: {#racc-13 .callout-note appearance="simple" icon=false .raccomandazione}
-[**Raccomandazione 13**]{.testo-blu}: **dlgs36-2006/opendata/rec/conditions/iodl**<br>
+[**Raccomandazione 13**]{.testo-blu}: **dlgs36-2006/opendata/rec/conditions/iodl** [🔗](#racc-13){.link-req}<br>
 SI RACCOMANDA di evitare quelle licenze che – per quanto ben impostate – presentano forti caratteristiche di localizzazione, anch'esse potenzialmente costituenti elementi di ambiguità in caso di riutilizzo e mashup (come la IODL).
 :::
 
