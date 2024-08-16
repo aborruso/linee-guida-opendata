@@ -7,3 +7,5 @@ debug.docx
 
 /.quarto/
 /_book/
+
+/.luarc.json

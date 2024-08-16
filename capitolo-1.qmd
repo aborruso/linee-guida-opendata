@@ -1,3 +1,7 @@
+---
+breadcrumb: false
+---
+
 # Ambito di applicazione
 
 Le presenti Linee Guida stabiliscono le regole tecniche per l'attuazione del D. Lgs. 24 gennaio 2006, n. 36 (di seguito **Decreto**), così come modificato dal D. Lgs. 8 novembre 2021, n. 200 di recepimento della Direttiva (UE) 2019/1024 (di seguito **Direttiva**), in ottemperanza all'art. 12 del Decreto stesso.
