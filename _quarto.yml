@@ -4,6 +4,7 @@ project:
     - "lg.csl"
   render:
     - "!note.md"
+    - "!debug/*"
 language:
   section-title-appendices: "Allegati"
 
@@ -39,14 +40,14 @@ book:
         - capitolo-5.qmd
         - capitolo-6.qmd
         - capitolo-7.qmd
-    - part: "Test"
-      chapters:
-        - debug/raw-html-cr.qmd
-        - test_cit.qmd
-        - small_table.qmd
-        - debug/column-page-inset.qmd
-        - debug/cr-label.qmd
-        - debug/home.qmd
+    # - part: "Test"
+    #   chapters:
+    #     - debug/raw-html-cr.qmd
+    #     - test_cit.qmd
+    #     - small_table.qmd
+    #     - debug/column-page-inset.qmd
+    #     - debug/cr-label.qmd
+    #     - debug/home.qmd
   appendices:
     - allegato-A.qmd
     - allegato-B.qmd
@@ -84,6 +85,12 @@ format:
 
 website:
   back-to-top-navigation: true
+  announcement:
+    icon: envelope-arrow-down
+    dismissable: false
+    content: "[Iscriviti alla **newsletter di onData**](https://ondata.substack.com/)"
+    type: primary
+    position: below-navbar
 
 crossref:
   custom:

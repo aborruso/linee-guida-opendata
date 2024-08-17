@@ -1,7 +1,58 @@
 # CR Label
 
-See at @req-5
+This is @req-5.
 
-See at [a -@req-5]{.quarto-xref aria-expanded="false"}
+This is [-@req-5].
 
-This is [my custom label](#req-5){.quarto-xref aria-expanded="false"}.
+1. @req-1
+2. @req-2
+3. @req-3
+4. @req-4
+5. @req-5
+6. @req-6
+7. @req-7
+8. @req-8
+9. @req-9
+10. @req-10
+11. @req-11
+12. @req-12
+13. @req-13
+14. @req-14
+15. @req-15
+16. @req-16
+17. @req-17
+18. @req-18
+19. @req-19
+20. @req-20
+21. @req-21
+22. @req-22
+23. @req-23
+24. @req-24
+25. @req-25
+26. @req-26
+27. @req-27
+28. @req-28
+29. @req-29
+30. @req-30
+31. @req-31
+
+---
+
+
+1. @racc-1
+2. @racc-2
+3. @racc-3
+4. @racc-4
+5. @racc-5
+6. @racc-6
+7. @racc-7
+8. @racc-8
+9. @racc-9
+10. @racc-10
+11. @racc-11
+12. @racc-12
+13. @racc-13
+14. @racc-14
+15. @racc-15
+16. @racc-16
+17. @racc-17
