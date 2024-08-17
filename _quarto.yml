@@ -9,7 +9,15 @@ language:
 
 book:
   title: "Linee guida Open Data"
+  description: "La versione HTML a cura dell'associazione onData"
   sharing: [twitter, facebook,linkedin]
+  twitter-card:
+    creator: "@ondatait"
+    image: "/immagini/linee_guida_open_data.png"
+  site-url: https://ondata.github.io/linee-guida-opendata
+  open-graph:
+    locale: "it_IT"
+    image: "/immagini/linee_guida_open_data.png"
   sidebar:
     logo: immagini/logo.png
     search: true

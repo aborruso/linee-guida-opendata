@@ -4,6 +4,7 @@ note.md
 ~$*.docx
 ~$*.ods
 debug.docx
+*.Identifier
 
 /.quarto/
 /_book/
