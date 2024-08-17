@@ -93,3 +93,6 @@ crossref:
 execute:
   daemon: false
   freeze: auto
+
+# filters:
+#   - fix_refs.lua
