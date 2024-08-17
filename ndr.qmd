@@ -28,7 +28,7 @@ Mentre con questa versione HTML, si prende ad esempio il link al [requisito 2](c
 E chi lo riceve visualizzerà subito il requisito 2 nel suo contesto, come in @fig-link-req, e potrà approfondire la lettura.
 
 :::{.column-page-inset-right}
-![Esempio di pagina aperta sul requisito 2](./immagini/link_requisito.png){#fig-link-req fig-alt="Esempio di pagina aperta sul requisito 2" align="center"}
+![Esempio di pagina aperta sul requisito 2](./immagini/link_requisito.png){#fig-link-req fig-alt="Esempio di pagina aperta sul requisito 2" align="center" .lightbox}
 :::
 
 Un altro elemento che ci ha spinto a creare questa **versione alternativa a quella ufficiale** è una cosa **vecchia come il web**: la **navigazione ipertestuale**.<br>
