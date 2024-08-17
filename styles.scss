@@ -47,23 +47,27 @@ section#footnotes a.uri {
   color: #003399;
 }
 
+// div[id*="req-"] {
+//   margin-top: 100px !important;
+// }
+
 // per avere l'ancora dei requisiti poco sotto l'inizio della finestra
 a[id*="req-"] {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 50px !important;
+  margin-top: -50px !important;
 }
 
 // per avere l'ancora dei requisiti poco sotto l'inizio della finestra
 a[id*="res-"] {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 50px !important;
+  margin-top: -50px !important;
 }
 
 
 // per avere l'ancora delle raccomandazioni poco sotto l'inizio della finestra
 a[id*="racc-"] {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 50px !important;
+  margin-top: -50px !important;
 }
 
 // per nascondere l'header del call-out requisito
