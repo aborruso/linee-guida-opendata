@@ -1,6 +1,10 @@
+---
+page-navigation: false
+---
+
 # Note di redazione {.unnumbered}
 
-Queste note sono a cura dell'associazione onData, non sono parte delle linee guida e non sono vincolanti.
+Queste **note** sono **a cura dell'associazione onData**, **non sono parte delle linee guida** e non sono vincolanti.
 
 ## Introduzione {.unnumbered}
 
@@ -57,3 +61,33 @@ Abbiamo allora **chiesto** ad **AgID** di inviarci il **documento** nel **format
 
 Lo abbiamo **convertito** in un **formato testuale** più adatto a essere trasformato in `HTML`, ovvero in [Markdown](https://omni.wikiwand.com/en/articles/Markdown) (`.md`), utilizzando [Pandoc](https://pandoc.org/).<br>
 A partire da questo formato, abbiamo creato un [**progetto Quarto**](https://quarto.org/) e lo abbiamo esportato in `HTML`.
+
+## Modifiche al documento originale {.unnumbered}
+
+Abbiamo apportato pochissime **modifiche** al documento originale, per renderlo più **leggibile** e **navigabile**. Ma nessuna alterazione del **contenuto** o di **significato**:
+
+- abbiamo aggiunto alcuni collegamenti ipertestuali;
+- abbiamo corretto alcuni collegamenti ipertestuali non più funzionanti;
+- abbiamo trasformato la "check list" utile alla verifica di alcuni aspetti giuridici, presente nel paragrafo 5.1.2, da tabella a un elenco puntato gerarchico (ci sembra più leggibile sul web).
+
+Potremmo aver commesso degli errori, per cui ti chiediamo di [**segnalarceli**](https://github.com/ondata/linee-guida-opendata/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen) per correggerli.
+
+## Dove è pubblicato il codice sorgente {.unnumbered}
+
+Il codice sorgente di questo progetto è pubblicato su [GitHub](https://github.com/ondata/linee-guida-opendata).
+
+## Licenza {.unnumbered}
+
+Questa versione delle linee guida è rilasciata con licenza [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it). Sei libero di:
+
+- **Condividere **— riprodurre, distribuire, comunicare al pubblico, esporre in pubblico, rappresentare, eseguire e recitare questo materiale con qualsiasi mezzo e formato per qualsiasi fine, anche commerciale.
+- **Modificare **— remixare, trasformare il materiale e basarti su di esso per le tue opere per qualsiasi fine, anche commerciale.
+
+Devi riconoscere i crediti appropriati citando l'associazione onData e inserendo il link all'homepage di questo progetto:<br>
+<https://ondata.github.io/linee-guida-opendata/>
+
+
+::: {.callout-note}
+## Esempio citazione
+Ad esempio "Un [progetto](https://ondata.github.io/linee-guida-opendata/) dell'associazione onData".
+:::
