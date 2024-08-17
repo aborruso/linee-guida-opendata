@@ -1,10 +1,10 @@
 :::{.column-page-inset-right}
-| **Acronimo/ abbreviazione** | **Titolo**                                                                                                                          | **Organismo di standardizzazione** | **Dominio**       | **URL**                                                                                                                                  | **Note**                                                                                                                         |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| OWL                         | Ontology Web Language          | W3C                                |             | <https://www.w3.org/TR/owl-features/>        |
-| RDF                         | Resource Description Framework | W3C                                |             | <https://www.w3.org/TR/rdf11-primer/>        |
-| RDFS                        | RDF Schema                     | W3C                                |             | <https://www.w3.org/TR/rdf-schema/>          |
-| SPARQL                      | SPARQL Protocol for RDF        | W3C                                |             | <https://www.w3.org/TR/rdf-sparql-protocol/> |
+|  **Acronimo/  abbreviazione**  |  **Titolo**  |  **Organismo  di  standardizzazione**  |  **Dominio**  |  **URL**  |  **Note**  |
+|  :---  |  :---  |  :---  |  :---  |  :---  |  :---  |
+|  OWL  |  Ontology  Web  Language  |  W3C  |  | [🔗](https://www.w3.org/TR/owl-features/) |
+|  RDF  |  Resource  Description  Framework  |  W3C  |  | [🔗](https://www.w3.org/TR/rdf11-primer/) |
+|  RDFS  |  RDF  Schema  |  W3C  |  | [🔗](https://www.w3.org/TR/rdf-schema/) |
+|  SPARQL  |  SPARQL  Protocol  for  RDF  |  W3C  |  | [🔗](https://www.w3.org/TR/rdf-sparql-protocol/) |
 
-: Principali standard di riferimento: **web semantico** {#tbl-standard-metadati .table-sm .table-striped .table-bordered .table-responsive}
+:  Principali  standard  di  riferimento:  **web  semantico**  {#tbl-standard-metadati  .table-sm  .table-striped  .table-bordered  .table-responsive}
 :::
