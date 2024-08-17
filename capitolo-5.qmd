@@ -28,9 +28,7 @@ Ai fini di valutare l'efficacia del processo di apertura, è anche utile misurar
 
 [^#_bookmark81]: Open Data Maturity Report (v. <https://data.europa.eu/en/publications/open-data-maturity/2022>)
 
-Di seguito alcune indicazioni per ciascun tipo di impatto come presenti nel rapporto di cui
-
-sopra:
+Di seguito alcune indicazioni per ciascun tipo di impatto come presenti nel rapporto di cui sopra:
 
 - **Impatto sociale** - Valuta la misura in cui i dati aperti hanno un impatto sulle sfide sociali, come l'inclusione dei gruppi emarginati nella società, l'aumento di sensibilizzazione riguardo all'edilizia abitativa nelle aree urbane, e le questioni legate alla salute e al benessere;
 - **Impatto politico** - Si concentra sui benefici che i dati aperti hanno in tre ambiti: miglioramento dell'efficienza del governo, miglioramento dell'efficacia del governo e aumento della trasparenza e della responsabilità;
