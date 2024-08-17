@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Linee guida Open Data",
     "section": "",
-    "text": "Introduzione\nNell’estate del 2023 l’Agenzia per l’Italia Digitale (AgID) ha annunciato la pubblicazione delle “Linee Guida recanti regole tecniche per l’apertura dei dati e il riutilizzo dell’informazione del settore pubblico”.\n💡 Il documento è pubblicato - ad oggi 17 agosto 2024 - soltanto come PDF: per diffonderlo e condividerlo, in modo più ampio ed efficace, ne abbiamo creato una versione HTML, consultabile e condivisibile da qualsiasi terminale.\n👉 Leggile",
+    "text": "Introduzione\nNell’estate del 2023 l’Agenzia per l’Italia Digitale (AgID) ha annunciato la pubblicazione delle “Linee Guida recanti regole tecniche per l’apertura dei dati e il riutilizzo dell’informazione del settore pubblico”.\nIl documento è pubblicato - ad oggi 17 agosto 2024 - soltanto come PDF.\n💡 Allora ne abbiamo creato una versione HTML, consultabile e condivisibile da qualsiasi terminale, per diffonderle e condividerle, in modo più ampio ed efficace.\n👉 Leggile ℹ️ Note",
     "crumbs": [
       "Home"
     ]
@@ -435,6 +435,39 @@
     "crumbs": [
       "Linee guida",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Pubblicazione e strumenti di ricerca</span>"
+    ]
+  },
+  {
+    "objectID": "ndr.html",
+    "href": "ndr.html",
+    "title": "Note di redazione",
+    "section": "",
+    "text": "Introduzione\nPer noi dell’assocazione onData tutti i documenti pubblici di riferimento - come queste linee guida - dovrebbero essere resi disponibili in lettura anche su Docs Italia.\nPer tante ragioni:\nScegliendo come unica modalità di pubblicazione il file PDF, tutto questo non è possibile.\nCon un PDF è molto scomodo fare anche il passaparola e inviare in chat, in un’e-mail, in una condisivione su un social network, ecc. il link a uno dei requisiti delle linee guida. Senza impazzire a sfogliare 150 pagine di PDF o fare una ricerca di testo in questo, magari in un terminale mobile scomodo (per un PDF).\nMentre con questa versione HTML, si prende ad esempio il link al requisito 2 e si scrive in chat:\nE chi lo riceve visualizzerà subito il requisito 2 nel suo contesto, come in Figura 1, e potrà approfondire la lettura.\nUn altro elemento che ci ha spinto a creare questa versione alternativa a quella ufficiale è una cosa vecchia come il web: la navigazione ipertestuale. Queste linee guida sono ricche di richiami a fonti esterne, come i link agli articoli del Decreto Legislativo di riferimento per queste linee guida. E sarebbe prezioso avere il link ipertestuale agli articoli citati. Questo (molto spesso) non avviene nel documento ufficiale e non è un aspetto che dipende dal formato PDF.",
+    "crumbs": [
+      "Note",
+      "Note di redazione"
+    ]
+  },
+  {
+    "objectID": "ndr.html#introduzione",
+    "href": "ndr.html#introduzione",
+    "title": "Note di redazione",
+    "section": "",
+    "text": "consente un processo di pubblicazione e di modifica di tipo collaborativo, in cui tutti possono proporre contributi e suggerimenti ai documenti;\nè un luogo unico che offre una visione di insieme sui progetti pubblici in corso;\ni documenti cambiano e si arricchiscono nel tempo ed è possibile vederne l’evoluzione;\ni documenti di Docs Italia hanno un indice ben strutturato, un motore di ricerca efficace e sono di facile lettura, anche sullo smartphone.\n\n\n\n\n\nGuarda che bello, il requisito 2 delle linee guida open data dice che i dati devono essere pubblicati in formato CSV, non quell’orrendo di PDF https://ondata.github.io/linee-guida-opendata/capitolo-4.html#req-2\n\n\n\n\n\n\n\n\n\nFigura 1: Esempio di pagina aperta sul requisito 2\n\n\n\n\n\n Sotto un esempio dell’inizio del capitolo 4. Nella prima immagine il documento ufficiale in cui non c’è alcun link ipertestuale agli articoli citati, mentre nella seconda immagine (relativa a questo progetto) ci sono quelli per i citati articoli 6, 9-bis e 12-bis del “Decreto Legislativo 24 gennaio 2006, n. 36”.È possibile inserire i link ai singoli articoli di un Decreto, grazie al prezioso Normattiva\n\n\n\n\n\n\n\n\n\n\n\n\n(a) Linee guida ufficiali\n\n\n\n\n\n\n\n\n\n\n\n(b) Questa versione\n\n\n\n\n\n\n\nFigura 2: l’inizio del capitolo 4",
+    "crumbs": [
+      "Note",
+      "Note di redazione"
+    ]
+  },
+  {
+    "objectID": "ndr.html#come-abbiamo-lavorato",
+    "href": "ndr.html#come-abbiamo-lavorato",
+    "title": "Note di redazione",
+    "section": "Come abbiamo lavorato",
+    "text": "Come abbiamo lavorato\nAbbiamo iniziato provando a trasformare il documento PDF ufficiale in un formato testuale, adatto poi a essere trasformato in HTML. Ma per la “ricchezza” in termini di struttura e contenuti, non riuscivamo a ottenere un risultato soddisfacente.\nAbbiamo allora chiesto ad AgID di inviarci il documento nel formato in cui nativamente è stato redatto (il PDF è infatti qui un formato di esportazione).Ci hanno allora inviato il file LG-Open-Data_v.1.0.docx, ovvero il documento in formato Microsoft Word.\nLo abbiamo convertito in un formato testuale più adatto a essere trasformato in HTML, ovvero in Markdown (.md), utilizzando Pandoc. A partire da questo formato, abbiamo creato un progetto Quarto e lo abbiamo esportato in HTML.",
+    "crumbs": [
+      "Note",
+      "Note di redazione"
     ]
   },
   {

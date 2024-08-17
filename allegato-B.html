@@ -344,13 +344,30 @@ document.addEventListener('DOMContentLoaded', function() {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">Allegati</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Attiva/disattiva sezione">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Note</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Attiva/disattiva sezione">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ndr.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Note di redazione</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Allegati</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Attiva/disattiva sezione">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./allegato-A.html" class="sidebar-item-text sidebar-link">
@@ -389,12 +406,42 @@ document.addEventListener('DOMContentLoaded', function() {
   <ul>
   <li><a href="#standard-riferimento" id="toc-standard-riferimento" class="nav-link active" data-scroll-target="#standard-riferimento"><span class="header-section-number">B.1</span> Standard di riferimento</a></li>
   <li><a href="#formati-aperti" id="toc-formati-aperti" class="nav-link" data-scroll-target="#formati-aperti"><span class="header-section-number">B.2</span> Formati aperti per dati e documenti</a>
+  <ul>
+  <li><a href="#formati-aperti-dati" id="toc-formati-aperti-dati" class="nav-link" data-scroll-target="#formati-aperti-dati"><span class="header-section-number">B.2.1</span> Formati aperti per i dati</a>
   <ul class="collapse">
-  <li><a href="#formati-aperti-dati" id="toc-formati-aperti-dati" class="nav-link" data-scroll-target="#formati-aperti-dati"><span class="header-section-number">B.2.1</span> Formati aperti per i dati</a></li>
-  <li><a href="#formati-aperti-geografici" id="toc-formati-aperti-geografici" class="nav-link" data-scroll-target="#formati-aperti-geografici"><span class="header-section-number">B.2.2</span> Formati aperti più diffusi per i dati geografici</a></li>
-  <li><a href="#formati-aperti-documenti" id="toc-formati-aperti-documenti" class="nav-link" data-scroll-target="#formati-aperti-documenti"><span class="header-section-number">B.2.3</span> Formati aperti per i documenti</a></li>
-  <li><a href="#altri-formati" id="toc-altri-formati" class="nav-link" data-scroll-target="#altri-formati"><span class="header-section-number">B.2.4</span> Altri formati per i dati di elevato valore</a></li>
-  <li><a href="#formati-immagini" id="toc-formati-immagini" class="nav-link" data-scroll-target="#formati-immagini"><span class="header-section-number">B.2.5</span> Formati per immagini e dati raster</a></li>
+  <li><a href="#csv" id="toc-csv" class="nav-link" data-scroll-target="#csv"><span class="header-section-number">B.2.1.1</span> CSV (Comma Separated Values)</a></li>
+  <li><a href="#json" id="toc-json" class="nav-link" data-scroll-target="#json"><span class="header-section-number">B.2.1.2</span> JSON (JavaScript Object Notation)</a></li>
+  <li><a href="#xml" id="toc-xml" class="nav-link" data-scroll-target="#xml"><span class="header-section-number">B.2.1.3</span> XML (eXtensible Markup Language)</a></li>
+  <li><a href="#rdf" id="toc-rdf" class="nav-link" data-scroll-target="#rdf"><span class="header-section-number">B.2.1.4</span> Serializzazioni RDF</a></li>
+  </ul></li>
+  <li><a href="#formati-aperti-geografici" id="toc-formati-aperti-geografici" class="nav-link" data-scroll-target="#formati-aperti-geografici"><span class="header-section-number">B.2.2</span> Formati aperti più diffusi per i dati geografici</a>
+  <ul class="collapse">
+  <li><a href="#shapefile" id="toc-shapefile" class="nav-link" data-scroll-target="#shapefile"><span class="header-section-number">B.2.2.1</span> Shapefile</a></li>
+  <li><a href="#kml" id="toc-kml" class="nav-link" data-scroll-target="#kml"><span class="header-section-number">B.2.2.2</span> KML</a></li>
+  <li><a href="#geojson" id="toc-geojson" class="nav-link" data-scroll-target="#geojson"><span class="header-section-number">B.2.2.3</span> GeoJSON</a></li>
+  <li><a href="#gml" id="toc-gml" class="nav-link" data-scroll-target="#gml"><span class="header-section-number">B.2.2.4</span> GML</a></li>
+  <li><a href="#geopackage" id="toc-geopackage" class="nav-link" data-scroll-target="#geopackage"><span class="header-section-number">B.2.2.5</span> GeoPackage</a></li>
+  </ul></li>
+  <li><a href="#formati-aperti-documenti" id="toc-formati-aperti-documenti" class="nav-link" data-scroll-target="#formati-aperti-documenti"><span class="header-section-number">B.2.3</span> Formati aperti per i documenti</a>
+  <ul class="collapse">
+  <li><a href="#odf" id="toc-odf" class="nav-link" data-scroll-target="#odf"><span class="header-section-number">B.2.3.1</span> ODF (Open Document Format)</a></li>
+  <li><a href="#pdf" id="toc-pdf" class="nav-link" data-scroll-target="#pdf"><span class="header-section-number">B.2.3.2</span> PDF</a></li>
+  <li><a href="#akoma-ntoso" id="toc-akoma-ntoso" class="nav-link" data-scroll-target="#akoma-ntoso"><span class="header-section-number">B.2.3.3</span> Akoma Ntoso</a></li>
+  </ul></li>
+  <li><a href="#altri-formati" id="toc-altri-formati" class="nav-link" data-scroll-target="#altri-formati"><span class="header-section-number">B.2.4</span> Altri formati per i dati di elevato valore</a>
+  <ul class="collapse">
+  <li><a href="#formati-meteorologici" id="toc-formati-meteorologici" class="nav-link" data-scroll-target="#formati-meteorologici"><span class="header-section-number">B.2.4.1</span> Formati per dati meteorologici</a></li>
+  <li><a href="#formati-statistici" id="toc-formati-statistici" class="nav-link" data-scroll-target="#formati-statistici"><span class="header-section-number">B.2.4.2</span> Formati per dati statistici</a></li>
+  <li><a href="#formati-imprese" id="toc-formati-imprese" class="nav-link" data-scroll-target="#formati-imprese"><span class="header-section-number">B.2.4.3</span> Formati per i dati relativi alle imprese e alla proprietà delle imprese</a></li>
+  </ul></li>
+  <li><a href="#formati-immagini" id="toc-formati-immagini" class="nav-link" data-scroll-target="#formati-immagini"><span class="header-section-number">B.2.5</span> Formati per immagini e dati raster</a>
+  <ul class="collapse">
+  <li><a href="#png" id="toc-png" class="nav-link" data-scroll-target="#png"><span class="header-section-number">B.2.5.1</span> PNG (Portable Network Graphics)</a></li>
+  <li><a href="#jpeg" id="toc-jpeg" class="nav-link" data-scroll-target="#jpeg"><span class="header-section-number">B.2.5.2</span> JPEG</a></li>
+  <li><a href="#jpeg2000" id="toc-jpeg2000" class="nav-link" data-scroll-target="#jpeg2000"><span class="header-section-number">B.2.5.3</span> JPEG 2000</a></li>
+  <li><a href="#geotiff" id="toc-geotiff" class="nav-link" data-scroll-target="#geotiff"><span class="header-section-number">B.2.5.4</span> GeoTIFF (Georeferenced Tagged Image File Format)</a></li>
+  <li><a href="#safe" id="toc-safe" class="nav-link" data-scroll-target="#safe"><span class="header-section-number">B.2.5.5</span> SAFE (Standard Archive Format for Europe)</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/ondata/linee-guida-opendata/edit/main/allegato-B.qmd" class="toc-action"><i class="bi bi-github"></i>Modifica questa pagina</a></li><li><a href="https://github.com/ondata/linee-guida-opendata/issues/new" class="toc-action"><i class="bi empty"></i>Segnala un problema</a></li></ul></div></nav>

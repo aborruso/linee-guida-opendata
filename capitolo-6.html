@@ -348,12 +348,29 @@ document.addEventListener('DOMContentLoaded', function() {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
- <span class="menu-text">Allegati</span></a>
+ <span class="menu-text">Note</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Attiva/disattiva sezione">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ndr.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Note di redazione</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Allegati</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Attiva/disattiva sezione">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./allegato-A.html" class="sidebar-item-text sidebar-link">
@@ -391,7 +408,7 @@ document.addEventListener('DOMContentLoaded', function() {
    
   <ul>
   <li><a href="#sec-licenze-e-condizioni-di-riutilizzo" id="toc-sec-licenze-e-condizioni-di-riutilizzo" class="nav-link active" data-scroll-target="#sec-licenze-e-condizioni-di-riutilizzo"><span class="header-section-number">6.1</span> Licenze e condizioni di riutilizzo</a>
-  <ul class="collapse">
+  <ul>
   <li><a href="#sec-compatibilita-tra-licenze" id="toc-sec-compatibilita-tra-licenze" class="nav-link" data-scroll-target="#sec-compatibilita-tra-licenze"><span class="header-section-number">6.1.1</span> Compatibilità tra licenze</a></li>
   <li><a href="#sec-buone-pratiche-approccio-open-by-design" id="toc-sec-buone-pratiche-approccio-open-by-design" class="nav-link" data-scroll-target="#sec-buone-pratiche-approccio-open-by-design"><span class="header-section-number">6.1.2</span> Buone pratiche: approccio “open by design”</a></li>
   </ul></li>
@@ -506,7 +523,7 @@ Requisito&nbsp;6.1
 </div>
 </div>
 <p>Le licenze suindicate sono raffigurate nella Figura seguente.</p>
-<div id="fig-licenze" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" data-align="center" alt="Licenze">
+<div id="fig-licenze" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" alt="Licenze" data-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-licenze-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <a href="immagini/image65.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figura&nbsp;6.1: Licenze"><img src="immagini/image65.jpeg" class="img-fluid figure-img" style="width:90.0%" data-align="center" alt="Licenze"></a>
@@ -1712,7 +1729,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","selector":".lightbox","closeEffect":"zoom","loop":false,"openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","loop":false,"selector":".lightbox","closeEffect":"zoom"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {
