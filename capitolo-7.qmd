@@ -1,8 +1,8 @@
 # Pubblicazione e strumenti di ricerca
 
-L'art. 9 del Decreto contiene le previsioni normative relative alle modalità per facilitare la ricerca di dati e documenti resi disponibili per il riutilizzo, con l'indicazione dei due strumenti nazionali a tale scopo deputati, ovvero il portale nazionale dei dati aperti [dati.gov.it](https://dati.gov.it/) e il [Repertorio Nazionale dei Dati Territoriali](https://geodati.gov.it/).
+L'[art. 9](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36~art9) del Decreto contiene le previsioni normative relative alle modalità per facilitare la ricerca di dati e documenti resi disponibili per il riutilizzo, con l'indicazione dei due strumenti nazionali a tale scopo deputati, ovvero il portale nazionale dei dati aperti [dati.gov.it](https://dati.gov.it/) e il [Repertorio Nazionale dei Dati Territoriali](https://geodati.gov.it/).
 
-Quanto alla pubblicazione dei dati, la Direttiva e il Decreto hanno individuato nelle API (Application Programming Interface) lo strumento per rendere disponibili i dati dinamici e le serie di dati di elevato valore (v. art. 6, comma 5 e art. 12-bis del Decreto).
+Quanto alla pubblicazione dei dati, la Direttiva e il Decreto hanno individuato nelle API (Application Programming Interface) lo strumento per rendere disponibili i dati dinamici e le serie di dati di elevato valore (v. [art. 6](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36~art6), comma 5 e art. [12-bis](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36~art12bis) del Decreto).
 
 Il presente capitolo, oltre alle indicazioni relative alle disposizioni di cui sopra, contiene anche ulteriori indicazioni non vincolanti - in quanto non derivanti da specifiche disposizioni normative - per la pubblicazione dei dati, già presenti nelle *Linee Guida per la valorizzazione del patrimonio informativo pubblico*.
 
@@ -10,7 +10,7 @@ Il presente capitolo, oltre alle indicazioni relative alle disposizioni di cui s
 ## Pubblicazione dei dati {#sec-pubblicazione-dei-dati}
 
 ### API {#sec-api}
-Per i dati dinamici e le serie di dati di elevato valore, il Decreto prevede che i dati debbano essere resi disponibili attraverso un'interfaccia per programmi applicativi (API), che, come da definizione, è un insieme di funzioni, procedure, definizioni e protocolli per la comunicazione da macchina a macchina e lo scambio ininterrotto di dati. Questo non impedisce, ovviamente, che i titolari dei dati possano continuare a rendere disponibili i dati anche in modalità diverse. Del resto, lo stesso art. 50-ter, comma 7 del **[CAD](capitolo-2.qmd#CAD)** prevede che le PA possano "*continuare a utilizzare anche i sistemi di interoperabilità già previsti dalla legislazione vigente*".
+Per i dati dinamici e le serie di dati di elevato valore, il Decreto prevede che i dati debbano essere resi disponibili attraverso un'interfaccia per programmi applicativi (API), che, come da definizione, è un insieme di funzioni, procedure, definizioni e protocolli per la comunicazione da macchina a macchina e lo scambio ininterrotto di dati. Questo non impedisce, ovviamente, che i titolari dei dati possano continuare a rendere disponibili i dati anche in modalità diverse. Del resto, lo stesso [art. 50-ter](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82!vig=2024-08-17~art50ter), comma 7 del **[CAD](capitolo-2.qmd#CAD)** prevede che le PA possano "*continuare a utilizzare anche i sistemi di interoperabilità già previsti dalla legislazione vigente*".
 
 La Direttiva evidenzia che per la creazione e l'impiego di API sia necessario basarsi su alcuni principi: disponibilità, stabilità, manutenzione per tutto il ciclo di vita, uniformità di utilizzo e delle norme, facilità d'uso e sicurezza.
 
@@ -22,7 +22,7 @@ Le API che il Decreto indica di utilizzare per rendere disponibili dati dinamici
 
 {{< include ./include/requisiti/_requisito-27.qmd >}}
 
-Dette Linee Guida individuano il Catalogo delle API quale componente, unica e centralizzata, che assicuri alle parti coinvolte nel rapporto di erogazione e fruizione la consapevolezza sulle API disponibili, e per esse, i livelli di servizio dichiarati. Tale Catalogo, in applicazione dell'art. 50 ter del [**CAD**,](capitolo-2.qmd#CAD) è reso disponibile attraverso la Piattaforma Digitale Nazionale Dati (PDND) a cui si applicano le indicazioni delle "*Linee Guida sull'infrastruttura tecnologica della Piattaforma Digitale Nazionale Dati per l'interoperabilità dei sistemi informativi e delle basi di dati*" adottate con la Determinazione di AgID n. 627/2021 \[[**LG-PDND**](capitolo-2.qmd#LG-PDND)\].
+Dette Linee Guida individuano il Catalogo delle API quale componente, unica e centralizzata, che assicuri alle parti coinvolte nel rapporto di erogazione e fruizione la consapevolezza sulle API disponibili, e per esse, i livelli di servizio dichiarati. Tale Catalogo, in applicazione dell'[art. 50](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82!vig=2024-08-17~art50) ter del [**CAD**,](capitolo-2.qmd#CAD) è reso disponibile attraverso la Piattaforma Digitale Nazionale Dati (PDND) a cui si applicano le indicazioni delle "*Linee Guida sull'infrastruttura tecnologica della Piattaforma Digitale Nazionale Dati per l'interoperabilità dei sistemi informativi e delle basi di dati*" adottate con la Determinazione di AgID n. 627/2021 \[[**LG-PDND**](capitolo-2.qmd#LG-PDND)\].
 
 La coerenza con le Linee Guida suddette garantisce anche l'adempimento di quanto previsto nel Regolamento (UE) \[[**REG-HVD**](capitolo-2.qmd#REG-HVD)\] relativo ai dati di elevato valore (v. par. **[-@sec-serie-di-dati-di-elevato-valore]**), in particolare con la previsione di cui all'art. 3(2) circa le condizioni di utilizzo delle API e i criteri di qualità del servizio.
 
@@ -34,19 +34,19 @@ In caso di serie storiche di dati, la pubblicazione dovrebbe riguardare non solo
 
 {{< include ./include/raccomandazioni/_raccomandazione-15.qmd >}}
 
-Nel caso di dati territoriali, viste le regole tecniche di cui alle Linee Guida INSPIRE per l'implementazione dei servizi di rete di cui all'art. 7, comma 1 del D. Lgs.n. 32/2010 \[**[D-LGS-32-2010](capitolo-2.qmd#D-LGS-32-2010)**\], **detti servizi di rete possono essere considerati come API** in considerazione del fatto che nell'ambito delle Linee Guida sull'interoperabilità tecnica delle PA, accettando la nomenclatura in uso a livello europeo e più in generale nel contesto internazionale, si utilizza il termine generico API per indicare indifferentemente le Web API, i web service e le API REST.
+Nel caso di dati territoriali, viste le regole tecniche di cui alle Linee Guida INSPIRE per l'implementazione dei servizi di rete di cui all'[art. 7](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-01-27;32!vig=2024-08-17~art7), comma 1 del D. Lgs.n. 32/2010 \[**[D-LGS-32-2010](capitolo-2.qmd#D-LGS-32-2010)**\], **detti servizi di rete possono essere considerati come API** in considerazione del fatto che nell'ambito delle Linee Guida sull'interoperabilità tecnica delle PA, accettando la nomenclatura in uso a livello europeo e più in generale nel contesto internazionale, si utilizza il termine generico API per indicare indifferentemente le Web API, i web service e le API REST.
 
 {{< include ./include/requisiti/_requisito-28.qmd >}}
 
-Nel caso dell'applicazione del [**REQUISITO 28**,](#req-28) fermo restando, comunque, quanto previsto dal già citato art. 50-ter, comma 7 del [**CAD**,](capitolo-2.qmd#CAD) detti servizi potrebbero essere documentati anche nel catalogo API disponibile nella PDND.
+Nel caso dell'applicazione del [**REQUISITO 28**,](#req-28) fermo restando, comunque, quanto previsto dal già citato art. [50-ter](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82!vig=2024-08-17~art50ter), comma 7 del [**CAD**,](capitolo-2.qmd#CAD) detti servizi potrebbero essere documentati anche nel catalogo API disponibile nella PDND.
 
 #### Sicurezza e disponibilità dei dati {#sec-sicurezza-e-disponibilita-dei-dati}
 
-L'art. 51, comma 1 del **[CAD](capitolo-2.qmd#CAD)** demanda a specifiche Linee guida l'individuazione delle soluzioni tecniche idonee a **garantire la protezione, la disponibilità, l'accessibilità, l'integrità e la riservatezza dei dati** e la continuità operativa dei sistemi e delle infrastrutture.
+L'[art. 51](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82!vig=2024-08-17~art51), comma 1 del **[CAD](capitolo-2.qmd#CAD)** demanda a specifiche Linee guida l'individuazione delle soluzioni tecniche idonee a **garantire la protezione, la disponibilità, l'accessibilità, l'integrità e la riservatezza dei dati** e la continuità operativa dei sistemi e delle infrastrutture.
 
 Tali Linee Guida sono state definite nell'ambito del modello di interoperabilità delle pubbliche amministrazioni e corrispondono alle già citate Linee Guida "*Tecnologie e standard per la sicurezza dell'interoperabilità tramite API dei sistemi informatici*" \[[**LG-SIC**](capitolo-2.qmd#LG-SIC)\], che definiscono le tecnologie e le loro modalità di utilizzo al fine di garantire la sicurezza delle transazioni digitali realizzate tra e verso le pubbliche amministrazioni che utilizzano le API tramite rete di collegamento informatica.
 
-L'implementazione di API coerenti con il [**REQUISITO 27**,](#req-27) pertanto, assicura il rispetto degli adempimenti e la conformità al citato art. 51 del [**CAD**.](capitolo-2.qmd#CAD)
+L'implementazione di API coerenti con il [**REQUISITO 27**,](#req-27) pertanto, assicura il rispetto degli adempimenti e la conformità al citato [art. 51](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82!vig=2024-08-17~art51) del [**CAD**.](capitolo-2.qmd#CAD)
 
 Nell'ambito della Strategia Cloud Italia (v. box "Risorse utili"), a cui si rimanda, inoltre, al fine di regolamentare l'offerta di servizi cloud disponibili sul mercato per mitigare i rischi sistemici di sicurezza e affidabilità, è stata definita una classificazione dei dati e dei servizi allo scopo di definire un processo di classificazione dei dati, in base al danno che una loro compromissione potrebbe provocare al sistema Paese (strategici, critici e ordinari). Il risultato della classificazione, si legge nella strategia, consente di uniformare e guidare il processo di migrazione al Cloud della PA. Le classi individuate sono:
 
@@ -113,13 +113,9 @@ Nella gestione degli URI è opportuno utilizzare il meccanismo cosiddetto di "*c
 
 ## Strumenti per la ricerca {#sec-strumenti-per-la-ricerca}
 
-Il Decreto individua come strumenti per la ricerca dei dati il **catalogo nazionale dei dati aperti**[^#_bookmark131] e, per i dati territoriali, il **Repertorio Nazionale dei Dati Territoriali (RNDT)**[^#_bookmark132] di cui all'art. 59 del [**CAD**,](capitolo-2.qmd#CAD) entrambi gestiti da AgID.
+Il Decreto individua come strumenti per la ricerca dei dati il **[catalogo nazionale dei dati aperti](https://dati.gov.it/)** e, per i dati territoriali, il **[Repertorio Nazionale dei Dati Territoriali (RNDT)](https://geodati.gov.it/)** di cui all'[art. 59](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82!vig=2024-08-17~art59) del [**CAD**,](capitolo-2.qmd#CAD) entrambi gestiti da AgID.
 
-[^#_bookmark131]: <https://dati.gov.it/>
-
-[^#_bookmark132]: <https://geodati.gov.it/>
-
-Ai sensi dell'articolo 9 del Decreto, **il portale nazionale dei dati aperti ([dati.gov.it](https://dati.gov.it/)) è l'unico riferimento per la documentazione e la ricerca di tutti i dati aperti della pubblica amministrazione**. Esso, in quanto punto di accesso nazionale per i metadati dei dati aperti, **è l'unico ad abilitare il colloquio con l'analogo** [portale ufficiale dei dati europei](https://data.europa.eu/) data.europa.eu. Il portale nazionale include i metadati, conformi al profilo DCAT-AP_IT, che descrivono i dati aperti delle amministrazioni secondo quanto indicato al par. **[-@sec-metadati]**.
+Ai sensi dell'[articolo 9](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36~art9) del Decreto, **il portale nazionale dei dati aperti ([dati.gov.it](https://dati.gov.it/)) è l'unico riferimento per la documentazione e la ricerca di tutti i dati aperti della pubblica amministrazione**. Esso, in quanto punto di accesso nazionale per i metadati dei dati aperti, **è l'unico ad abilitare il colloquio con l'analogo** [portale ufficiale dei dati europei](https://data.europa.eu/) data.europa.eu. Il portale nazionale include i metadati, conformi al profilo DCAT-AP_IT, che descrivono i dati aperti delle amministrazioni secondo quanto indicato al par. **[-@sec-metadati]**.
 
 {{< include ./include/requisiti/_requisito-29.qmd >}}
 
@@ -136,9 +132,7 @@ Nella citata Guida sono definite, tra l'altro, le due regole principali così fo
 
 Sulla base di queste regole e delle corrispondenze definite tra i metadati dei due standard di riferimento, i dati territoriali aperti documentati nel RNDT sono resi accessibili attraverso le funzionalità tipiche del catalogo nazionale dei dati aperti, dati.gov.it, senza nessun ulteriore adempimento da parte dei titolari di dati.
 
-Come indicato nelle Linee Guida RNDT \[[**LG-RNDT**](capitolo-2.qmd#LG-RNDT)\], il Repertorio, in quanto punto di accesso nazionale per i metadati dei dati territoriali, provvede a rendere disponibili i metadati anche al geoportale INSPIRE[^#_bookmark133] secondo le modalità individuate per l'applicazione di [**INSPIRE-DIR**,](capitolo-2.qmd#INSPIRE-DIR) anche ai fini delle operazioni di monitoraggio di cui alla Decisione di esecuzione (UE) 2019/1372 della Commissione Europea[^#_bookmark134].
-
-[^#_bookmark133]: <https://inspire-geoportal.ec.europa.eu/>
+Come indicato nelle Linee Guida RNDT \[[**LG-RNDT**](capitolo-2.qmd#LG-RNDT)\], il Repertorio, in quanto punto di accesso nazionale per i metadati dei dati territoriali, provvede a rendere disponibili i metadati anche al [geoportale INSPIRE](https://inspire-geoportal.ec.europa.eu/) secondo le modalità individuate per l'applicazione di [**INSPIRE-DIR**,](capitolo-2.qmd#INSPIRE-DIR) anche ai fini delle operazioni di monitoraggio di cui alla Decisione di esecuzione (UE) 2019/1372 della Commissione Europea[^#_bookmark134].
 
 [^#_bookmark134]: Decisione di esecuzione (UE) 2019/1372 della Commissione del 19 agosto 2019 recante attuazione della direttiva 2007/2/CE del Parlamento europeo e del Consiglio per quanto riguarda il monitoraggio e la comunicazione
 

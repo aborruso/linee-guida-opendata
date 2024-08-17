@@ -217,73 +217,49 @@ Per alcune categorie tematiche, il predetto Regolamento indica la possibilità d
 Oltre che, in generale, un formato aperto e leggibile meccanicamente riconosciuto nell'Unione o a livello internazionale, per i **dati di osservazione misurati dalle stazioni meteorologiche**, il Regolamento indica che è possibile utilizzare i seguenti formati:
 
 - **JSON** per dati orari;
-- **BUFR (Binary Universal Form for the Representation of meteorological data)**, formato di dati gestito dall'Organizzazione Meteorologica Mondiale (WMO – World Meteorological Organization)[^#_bookmark158];
-- **NetCDF (Network Common Data Form)**, insieme di librerie software e formati di dati indipendenti dalla macchina che supportano la creazione, l'accesso e la condivisione di dati scientifici *array-oriented*[^#_bookmark159];
-- **ASCII (American Standard Code for Information Interchange)**, codice per la codifica dei caratteri da utilizzare per lo scambio generale di informazioni tra sistemi di elaborazione e comunicazione[^#_bookmark160].
-
-[^#_bookmark158]: <https://community.wmo.int/activity-areas/wmo-codes/manual-codes/bufr-edition-3-and-crex-edition-1>
-
-[^#_bookmark159]: <https://www.unidata.ucar.edu/software/netcdf/>
+- **BUFR (Binary Universal Form for the Representation of meteorological data)**, formato di dati gestito dall'Organizzazione Meteorologica Mondiale ([WMO – World Meteorological Organization](https://community.wmo.int/activity-areas/wmo-codes/manual-codes/bufr-edition-3-and-crex-edition-1));
+- **[NetCDF](https://www.unidata.ucar.edu/software/netcdf/) (Network Common Data Form)**, insieme di librerie software e formati di dati indipendenti dalla macchina che supportano la creazione, l'accesso e la condivisione di dati scientifici *array-oriented*;
+- **[ASCII](https://datatracker.ietf.org/doc/html/rfc20) (American Standard Code for Information Interchange)**, codice per la codifica dei caratteri da utilizzare per lo scambio generale di informazioni tra sistemi di elaborazione e comunicazione.
 
 Per i **dati climatici**, possono essere utilizzati i formati **NetCDF** e **JSON**. Per gli **avvisi meteo** possono essere utilizzati i seguenti formati:
 
-- **CAP (Common Alerting Protocol)**, formato di dati basato su XML per lo scambio di avvisi pubblici ed emergenze tra tecnologie di allerta[^#_bookmark161];
+- **[CAP](http://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2-os.pdf) (Common Alerting Protocol)**, formato di dati basato su XML per lo scambio di avvisi pubblici ed emergenze tra tecnologie di allerta;
 - **RSS (Really Simple Syndication)/Atom**, formati di dati basati su XML per distribuire contenuti come elenchi di informazioni conosciuti come "feed"[^#_bookmark162].
 
-Per i **dati radar**, oltre al JSON, può essere utilizzato il formato HDF5 (Hierarchical Data Format), progettato per archiviare e organizzare grandi quantità di dati[^#_bookmark163].
+Per i **dati radar**, oltre al JSON, può essere utilizzato il formato [HDF5](https://www.hdfgroup.org/solutions/hdf5/) (Hierarchical Data Format), progettato per archiviare e organizzare grandi quantità di dati.
 
 Per i **dati del modello NWP (Numerical weather prediction)**, oltre al **JSON** e a **NetCDF**, si può utilizzare il formato **GRIB (General Representation of fields In Binary)**, rappresentazione binaria di dati risultanti da un'osservazione o da una simulazione su modello numerico di una proprietà osservabile in un dominio spaziale e temporale su un sistema di riferimento geospaziale o celeste[^#_bookmark164].
 
-[^#_bookmark160]: <https://datatracker.ietf.org/doc/html/rfc20>
-
-[^#_bookmark161]: <http://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2-os.pdf>
-
 [^#_bookmark162]: Per RSS v. [https://www.rssboard.org/rss-2-0-1,](https://www.rssboard.org/rss-2-0-1) per Atom v. [https://datatracker.ietf.org/doc/html/rfc4287](https://datatracker.ietf.org/doc/html/rfc4287)
-
-[^#_bookmark163]: <https://www.hdfgroup.org/solutions/hdf5/>
 
 [^#_bookmark164]:<https://old.wmo.int/extranet/pages/prog/www/WMOCodes/ManualonCodes.html#Codes>
 
 #### Formati per dati statistici {#formati-statistici}
 
-Per i dati statistici il Regolamento indica che, oltre a CSV, JSON e qualsiasi altro formato aperto e leggibile meccanicamente, si può utilizzare anche il formato XML con riferimento a **SDMX (Statistical Data and Metadata eXchange)**, uno standard ISO progettato per descrivere dati statistici e relativi metadati, normalizzare il loro scambio e migliorare la loro condivisione tra organizzazioni statistiche e simili[^#_bookmark165].
-
-[^#_bookmark165]: <https://sdmx.org/?page_id=5008>
+Per i dati statistici il Regolamento indica che, oltre a CSV, JSON e qualsiasi altro formato aperto e leggibile meccanicamente, si può utilizzare anche il formato XML con riferimento a **[SDMX](https://sdmx.org/?page_id=5008) (Statistical Data and Metadata eXchange)**, uno standard ISO progettato per descrivere dati statistici e relativi metadati, normalizzare il loro scambio e migliorare la loro condivisione tra organizzazioni statistiche e simili.
 
 #### Formati per i dati relativi alle imprese e alla proprietà delle imprese {#formati-imprese}
 
-Oltre all'indicazione di utilizzare qualsiasi formato che sia aperto e leggibile meccanicamente, per dati e documenti che rientrano nel campo di applicazione del Regolamento Delegato (UE) 2018/81579 della Commissione il Regolamento indica di utilizzare il formato **XHTML (Xtensible HyperText Markup Language)**, un linguaggio di marcatura per creare pagine web che utilizza la sintassi XML[^#_bookmark167].
-
-[^#_bookmark167]: <https://www.w3.org/TR/2018/SPSD-xhtml-basic-20180327/>
+Oltre all'indicazione di utilizzare qualsiasi formato che sia aperto e leggibile meccanicamente, per dati e documenti che rientrano nel campo di applicazione del Regolamento Delegato (UE) 2018/81579 della Commissione il Regolamento indica di utilizzare il formato **[XHTML](https://www.w3.org/TR/2018/SPSD-xhtml-basic-20180327/) (Xtensible HyperText Markup Language)**, un linguaggio di marcatura per creare pagine web che utilizza la sintassi XML.
 
 ### Formati per immagini e dati raster {#formati-immagini}
 
 #### PNG (Portable Network Graphics) {#png}
 
-È un formato che supporta la compressione dei dati senza perdita di informazioni (*lossless*). Nel 2004 è stato definito come Standard ISO/IEC 15948:2004[^#_bookmark168], rivisto e confermato l'ultima volta nel 2021.
+È un formato che supporta la compressione dei dati senza perdita di informazioni (*lossless*). Nel 2004 è stato definito come [Standard ISO/IEC 15948:2004](https://www.iso.org/standard/29581.html), rivisto e confermato l'ultima volta nel 2021.
 
 #### JPEG {#jpeg}
 
-È un formato che utilizza un metodo per la compressione con perdita di informazioni (*lossy*) per le immagini digitali. È stato definito come Standard ISO/IEC 10918 composto da cinque parti e denominato ufficialmente "*Information technology – Digital compression and coding of continuous- tone still images*"[^#_bookmark169].
+È un [formato](https://jpeg.org/jpeg/index.html) che utilizza un metodo per la compressione con perdita di informazioni (*lossy*) per le immagini digitali. È stato definito come Standard ISO/IEC 10918 composto da cinque parti e denominato ufficialmente "*Information technology – Digital compression and coding of continuous- tone still images*".
 
 #### JPEG 2000 {#jpeg2000}
 
-È un sistema di codifica delle immagini che utilizza tecniche di compressione all'avanguardia basate sulla tecnologia wavelet[^#_bookmark170]. Esso utilizza compressione sia *lossy* che *lossless*. È definito dalla suite di Standard ISO/IEC 15444-1:2019 "*Information technology — JPEG 2000 image coding system*".
+È un sistema di codifica delle immagini che utilizza tecniche di compressione all'avanguardia basate sulla tecnologia wavelet. Esso utilizza compressione sia *lossy* che *lossless*. È definito dalla suite di Standard ISO/IEC 15444-1:2019 "*[Information technology — JPEG 2000 image coding system](https://jpeg.org/jpeg2000/)*".
 
 #### GeoTIFF (Georeferenced Tagged Image File Format) {#geotiff}
 
-È un formato che definisce una serie di tag per descrivere tutte le informazioni geografiche associate alle immagini TIFF che provengono da sistemi satellitari, ortoimmagini, modelli di elevazione digitali o come risultato di analisi geografiche. È diventato uno Standard OGC[^#_bookmark171].
+È un [formato](https://www.ogc.org/standards/geotiff) che definisce una serie di tag per descrivere tutte le informazioni geografiche associate alle immagini TIFF che provengono da sistemi satellitari, ortoimmagini, modelli di elevazione digitali o come risultato di analisi geografiche. È diventato uno Standard OGC.
 
 #### SAFE (Standard Archive Format for Europe) {#safe}
 
-È un formato standard per l'archiviazione e il trasporto dei dati di osservazione della Terra all'interno del sistema di archiviazione dell'Agenzia spaziale europea (ESA), conforme allo standard Open Archival Information System (OAIS)[^#_bookmark172].
-
-[^#_bookmark168]: <https://www.iso.org/standard/29581.html>
-
-[^#_bookmark169]: <https://jpeg.org/jpeg/index.html>
-
-[^#_bookmark170]: <https://jpeg.org/jpeg2000/>
-
-[^#_bookmark171]: <https://www.ogc.org/standards/geotiff>
-
-[^#_bookmark172]: <https://public.ccsds.org/pubs/650x0m2.pdf>
+È un [formato standard](https://public.ccsds.org/pubs/650x0m2.pdf) per l'archiviazione e il trasporto dei dati di osservazione della Terra all'interno del sistema di archiviazione dell'Agenzia spaziale europea (ESA), conforme allo standard Open Archival Information System (OAIS).
