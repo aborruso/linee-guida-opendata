@@ -12,25 +12,19 @@ Il Decreto utilizza il termine "documento" nell'accezione di cui all'[art. 2](ht
 
 Il Decreto - a differenza della Direttiva - include anche la definizione di "dato pubblico" nel medesimo [articolo 2](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36~art2), comma 1, lettera d), quale "*dato conoscibile da chiunque*".
 
-Non è, quindi, definita chiaramente la distinzione tra "documento" e "dato"; anzi, se si considerano altre fonti normative, come il Regolamento (UE) 2022/868 (Data Governance Act)[^#_bookmark39] o la proposta di Data Act[^#_bookmark40], la definizione di "dato" presente in quelle fonti è coincidente con quella di "documento" innanzi riportata. L'unica differenza è che nel caso di "dato" è considerata solo la rappresentazione digitale, mentre nel caso di "documento" è compresa anche la rappresentazione attraverso supporto cartaceo.
-
-[^#_bookmark39]: <https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX%3A32022R0868&from=EN>
-
-[^#_bookmark40]: <https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX%3A52022PC0068&from=EN>
+Non è, quindi, definita chiaramente la distinzione tra "documento" e "dato"; anzi, se si considerano altre fonti normative, come il [Regolamento (UE) 2022/868](https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX%3A32022R0868&from=EN) (Data Governance Act) o la proposta di [Data Act](https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX%3A52022PC0068&from=EN), la definizione di "dato" presente in quelle fonti è coincidente con quella di "documento" innanzi riportata. L'unica differenza è che nel caso di "dato" è considerata solo la rappresentazione digitale, mentre nel caso di "documento" è compresa anche la rappresentazione attraverso supporto cartaceo.
 
 Nella Direttiva, inoltre, i dati dinamici, i dati della ricerca e le serie di dati di elevato valore sono definiti anch'essi come "documenti".
 
 Ai fini delle presenti Linee Guida si rende necessario fornire una distinzione in modo da rendere più agevole l'applicazione delle stesse.
 
-Nella legislazione italiana si riscontra la presenza della definizione dei diversi tipi di documenti[^#_bookmark41]. Il **[CAD](capitolo-2.qmd#CAD)** presenta la definizione di "documento informatico" come "*il documento elettronico che **contiene** la rappresentazione informatica di atti, fatti o dati giuridicamente rilevanti*"; la legge n\. 241/90 include, all'[art. 22](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241!vig=2024-08-16~art22), comma 1, lettera d), la definizione di "documento amministrativo" come "*rappresentazione grafica, fotocinematografica, elettromagnetica o di qualunque altra specie del **contenuto** di atti, anche interni o non relativi ad uno specifico procedimento, detenuti da una pubblica amministrazione* \[…\]".
+Nella legislazione italiana si riscontra la presenza della definizione dei [diversi tipi di documenti](https://www.disfipeq.unich.it/sites/st10/files/8._il_documento_informatico.pdf). Il **[CAD](capitolo-2.qmd#CAD)** presenta la definizione di "documento informatico" come "*il documento elettronico che **contiene** la rappresentazione informatica di atti, fatti o dati giuridicamente rilevanti*"; la legge n\. 241/90 include, all'[art. 22](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241!vig=2024-08-16~art22), comma 1, lettera d), la definizione di "documento amministrativo" come "*rappresentazione grafica, fotocinematografica, elettromagnetica o di qualunque altra specie del **contenuto** di atti, anche interni o non relativi ad uno specifico procedimento, detenuti da una pubblica amministrazione* \[…\]".
 
 Al di là dell'aggettivazione utilizzata per caratterizzare la tipologia di documento, nelle definizioni riportate dati e informazioni risultano rappresentare il contenuto di un documento e, di conseguenza, il documento risulta essere il "contenitore" di dati e informazioni. Tale interpretazione sembra essere confermata anche dall'[art. 1](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36~art1), comma 1 del Decreto nel quale, a proposito dell'oggetto e dell'ambito di applicazione del Decreto stesso, si parla di "documenti **contenenti** dati pubblici". Nel prosieguo delle presenti Linee Guida, quindi, l'utilizzo dei termini "documento" e "dato" farà riferimento all'accezione indicata innanzi.
 
 Considerata, quindi, la distinzione tra documenti e dati introdotta prima, l'applicazione delle indicazioni delle presenti Linee Guida non è da limitare solo ai documenti, ma DEVE riguardare anche i dati contenuti nei documenti. Ad esempio, nel processo di apertura dei dati si suggerisce, nel caso di pubblicazione di un report contenente tabelle di dati, di pubblicare separatamente sia il documento che le singole tabelle di dati ivi contenute, seguendo le regole definite nel presente documento.
 
 A tale proposito, si precisa che quanto sopra non comporta obblighi aggiuntivi a quanto richiesto nelle "Linee Guida sulla formazione, gestione e conservazione dei documenti informatici" \[**[LG-CONS](capitolo-2.qmd#LG-CONS)**\] in relazione alla formazione del documento informatico. Ciò significa che le indicazioni presenti nelle citate Linee Guida continuano ad essere riferibili ai soli documenti che rientrano nell'ambito di applicazione ivi definito.
-
-[^#_bookmark41]: <https://www.disfipeq.unich.it/sites/st10/files/8._il_documento_informatico.pdf>
 
 In relazione, inoltre, alle modalità di formazione del documento di cui al par. 2.1.1 delle Linee Guida di cui sopra, con particolare riferimento alla lettera a)[^#_bookmark42], nel caso in cui estrarre e pubblicare separatamente i dati contenuti nei documenti comporti difficoltà sproporzionate, è applicabile quanto indicato con il [**REQUISITO 4**](#req-4){.testo-rosso}. SI RACCOMANDA, in questi casi, di valutare se le difficoltà sproporzionate di cui sopra possano essere superate pubblicando i documenti in modo che sia consentita l'estrazione dei dati in essi contenuti direttamente da parte dei riutilizzatori.
 
@@ -131,11 +125,9 @@ Quanto indicato in questo paragrafo è valido per tutte le tipologie di dati.
 
 Il Decreto individua particolari tipi di dati quali i dati dinamici, le serie di dati di elevato valore e i dati della ricerca per i quali, nei paragrafi successivi, saranno fornite specifiche indicazioni supplementari in attuazione di quanto disposto dal Decreto.
 
-Per l'implementazione delle regole tecniche contenute nelle presenti Linee Guida, AgID può adottare, ai sensi dell'art. 3, comma 2 del *Regolamento per l'adozione di linee guida per l'attuazione del Codice dell'Amministrazione Digitale* di cui alla Determinazione AgID n. 160/2018[^#_bookmark48], opportune **guide operative** per fornire ai soggetti interessati indicazioni e istruzioni più dettagliate, anche in relazione a specifici casi d'uso.
+Per l'implementazione delle regole tecniche contenute nelle presenti Linee Guida, AgID può adottare, ai sensi dell'art. 3, comma 2 del *Regolamento per l'adozione di linee guida per l'attuazione del Codice dell'Amministrazione Digitale* di cui alla [Determinazione AgID n. 160/2018](https://trasparenza.agid.gov.it/archivio19_regolamenti_0_5376.html), opportune **guide operative** per fornire ai soggetti interessati indicazioni e istruzioni più dettagliate, anche in relazione a specifici casi d'uso.
 
 {{< include ./include/risorse-utili/_risorse-cap4.1.qmd >}}
-
-[^#_bookmark48]: v. <https://trasparenza.agid.gov.it/archivio19_regolamenti_0_5376.html>
 
 ## Dati dinamici {#sec-dati-dinamici}
 
@@ -266,23 +258,21 @@ Esempi di tale tipologia di dati sono forniti nella Direttiva: statistiche, risu
 
 **I dati da considerare, come da definizione, sono quelli raccolti o prodotti nel corso della ricerca scientifica finanziata con fondi pubblici, utilizzati come elementi di prova nel processo di ricerca o necessari per convalidare le conclusioni e i risultati della ricerca, e resi pubblici**, anche attraverso l'archiviazione in una banca dati pubblica gestita a livello istituzionale o su base tematica, da ricercatori, organizzazioni che svolgono attività di ricerca e organizzazioni che finanziano la ricerca.
 
-Nel processo di identificazione dei dati della ricerca, da rendere disponibili per il riutilizzo, è necessario tenere conto della normativa in materia di protezione dei dati personali, degli interessi commerciali, dei diritti di proprietà intellettuale[^#_bookmark61] e dei diritti di proprietà industriale[^#_bookmark62].
+Nel processo di identificazione dei dati della ricerca, da rendere disponibili per il riutilizzo, è necessario tenere conto della normativa in materia di protezione dei dati personali, degli interessi commerciali, dei diritti di proprietà intellettuale[^#_bookmark61] e [dei diritti di proprietà industriale](https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2005-02-10%3B30).
 
 A tale proposito, la Direttiva indica che bisogna considerare il principio "*il più aperto possibile, chiuso il tanto necessario*", ripreso anche nella [Raccomandazione (UE) 2018/790](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32018H0790), fermo restando che i "*dati personali trattati a fini statistici o di ricerca scientifica non possono essere utilizzati per prendere decisioni o provvedimenti relativamente all'interessato, né per trattamenti di dati per scopi di altra natura*", come stabilito all'[art. 105](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196~art105), comma 1, del D. Lgs. 196/2003 \[[**D-LGS-196-2003**](capitolo-2.qmd#D-LGS-196-2003)\][^#_bookmark63].
 
 [^#_bookmark61]: v. [legge 22 aprile 1941, n. 633](https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Alegge%3A1941-04-22%3B633!vig)
 
-[^#_bookmark62]: v. <https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2005-02-10%3B30>
-
 Se i dati della ricerca sono dati dinamici, dati di elevato valore o dati territoriali, allora si applica anche quanto indicato rispettivamente ai paragrafi **[-@sec-dati-dinamici]**, **[-@sec-serie-di-dati-di-elevato-valore]**  e **[-@sec-dati-territoriali]**.
 
-Il Decreto dispone che i dati della ricerca DEVONO **rispettare i requisiti di reperibilità, accessibilità, interoperabilità e riutilizzabilità** che rappresentano i 4 principi del framework FAIR (**F**indable - **A**ccessible - **I**nteroperable - **R**eusable)[^#_bookmark64].
+Il Decreto dispone che i dati della ricerca DEVONO **rispettare i requisiti di reperibilità, accessibilità, interoperabilità e riutilizzabilità** che rappresentano [i 4 principi del framework FAIR](https://force11.org/info/the-fair-data-principles/) (**F**indable - **A**ccessible - **I**nteroperable - **R**eusable).
 
 Di seguito le indicazioni per adempiere tale disposizione[^#_bookmark65].
 
 **Findable** (Reperibile) - Il primo requisito da rispettare per garantire il riutilizzo dei dati è di rendere i dati reperibili da macchine ed essere umani. Per fare questo, dovrebbero essere resi disponibili i metadati attraverso una risorsa consultabile online e dovrebbe essere assegnato un identificatore persistente a dati e metadati.
 
-Diversi sono i profili di metadati; per i dati della ricerca si fa riferimento anche al progetto OpenAIRE[^#_bookmark66] e alla relativa infrastruttura.
+Diversi sono i profili di metadati; per i dati della ricerca si fa riferimento anche al progetto [OpenAIRE](https://www.openaire.eu/) e alla relativa infrastruttura.
 
 Ai fini delle presenti Linee Guida, anche i dati della ricerca DEVONO essere documentati nel portale nazionale dati.gov.it o, nel caso siano anche dati territoriali, nel RNDT secondo il [**REQUISITO 29**](capitolo-7.qmd#req-29){.testo-rosso} e il [**REQUISITO 30**.](capitolo-7.qmd#req-30){.testo-rosso} In tali casi, DEVONO essere applicati gli standard di cui al [**REQUISITO 15**](capitolo-4.qmd#req-15){.testo-rosso} e al [**REQUISITO 16**](capitolo-4.qmd#req-16){.testo-rosso}.
 
@@ -290,11 +280,7 @@ Ai fini delle presenti Linee Guida, anche i dati della ricerca DEVONO essere doc
 
 [^#_bookmark63]: Si veda anche il Considerando 162 del [\[**GDPR**\]](capitolo-2.qmd#GDPR) sul trattamento di dati personali per finalità statistiche
 
-[^#_bookmark64]: <https://force11.org/info/the-fair-data-principles/>
-
 [^#_bookmark65]: Nella definizione dei requisiti, si è fatto riferimento alla guida "How to make your data FAIR" pubblicata nell'ambito dell'iniziativa OpenAIRE (v. <https://www.openaire.eu/how-to-make-your-data-fair>) e la checklist "How fair are your data?" creata da Sarah Jones e Marjan Grootveld (v. <https://zenodo.org/record/5111307#.YhEfAd_SKCQ>).
-
-[^#_bookmark66]: v. <https://www.openaire.eu/>
 
 **Accessible** (Accessibile) - Deve essere possibile ad essere umani e macchine accedere ai dati attraverso protocolli standard e aperti.
 
@@ -328,12 +314,10 @@ Il Decreto non include particolari disposizioni su tali dati, se non il rimando 
 
 Nel caso di dati territoriali, quindi, si DEVE fare riferimento ai Regolamenti europei e alle norme nazionali (e relativi documenti tecnici) per le diverse componenti (metadati, dati e servizi di dati, servizi di rete, condivisione e monitoraggio) dell'infrastruttura istituita e implementata nell'ambito di INSPIRE. In particolare:
 
-- per i metadati: le Linee Guida recanti regole tecniche per la definizione e l'aggiornamento del contenuto del Repertorio Nazionale dei Dati Territoriali \[[**LG-RNDT**](capitolo-2.qmd#LG-RNDT)\] (coerenti con il [Regolamento (CE) n. 1205/2008](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A02008R1205-20081224)) e la guida operativa per la compilazione dei metadati RNDT (v. box "Risorse utili"), coerente con la guida tecnica INSPIRE sui metadati[^#_bookmark68];
+- per i metadati: le Linee Guida recanti regole tecniche per la definizione e l'aggiornamento del contenuto del Repertorio Nazionale dei Dati Territoriali \[[**LG-RNDT**](capitolo-2.qmd#LG-RNDT)\] (coerenti con il [Regolamento (CE) n. 1205/2008](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A02008R1205-20081224)) e la guida operativa per la compilazione dei metadati RNDT (v. box "Risorse utili"), coerente con [la guida tecnica INSPIRE sui metadati](https://inspire.ec.europa.eu/id/document/tg/metadata-iso19139);
 - per i dati: [Regolamento (UE) n. 1089/2010](https://eur-lex.europa.eu/eli/reg/2010/1089) e le specifiche dei dati per ciascun tema INSPIRE (v. box "Risorse utili");
 - per i servizi di dati e i servizi di rete: [Regolamento (UE) n. 1089/2010](https://eur-lex.europa.eu/eli/reg/2010/1089/oj), [Regolamento (CE) n. 976/2009](https://eur-lex.europa.eu/eli/reg/2009/976) e le Linee Guida tecniche INSPIRE sui servizi di rete e sui servizi di dati territoriali (v. box "Risorse utili");
 - per il monitoraggio: [Decisione di esecuzione (UE) 2019/1372.](https://eur-lex.europa.eu/eli/dec_impl/2019/1372/oj)
-
-[^#_bookmark68]: <https://inspire.ec.europa.eu/id/document/tg/metadata-iso19139>
 
 A questi si aggiungono norme e specifiche tecniche nazionali di dominio, definite eventualmente anche come estensione delle regole INSPIRE; tra le altre (v. box "Risorse utili"):
 
@@ -351,11 +335,9 @@ Nel caso in cui i dati territoriali siano anche dati dinamici, allora DEVONO ess
 
 ## Metadati {#sec-metadati}
 
-La metadatazione ricopre un ruolo essenziale laddove i dati siano esposti a utenti terzi e a software. I metadati, infatti, consentono una maggiore comprensione e rappresentano la chiave attraverso cui abilitare più agevolmente la ricerca, la scoperta, l'accesso e quindi il riutilizzo dei dati stessi. Per i metadati descrittivi generali, ovvero non dipendenti dalle tipologie di dati, DEVE essere applicato il profilo nazionale DCAT-AP_IT, rispettando le obbligatorietà e le raccomandazioni ivi previsti e seguendo gli esempi definiti nella relativa specifica e ontologia. Il profilo è stato definito con le "**Linee guida per i cataloghi dati**" (v. box "Risorse utili") pubblicate prima delle modifiche apportate al [**CAD**](capitolo-2.qmd#CAD) dal [decreto legislativo 13 dicembre 2017, n. 217](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2017-12-13;217) e dal "*Regolamento per l'adozione di linee guida per l'attuazione del Codice dell'Amministrazione Digitale*"[^#_bookmark71]. A seguito di tali nuove previsioni normative e regolamentari, dette Linee Guida, potranno essere soggette a revisione con la nuova denominazione "**Guida operativa per i cataloghi dati**". A differenza del presente documento che, ai sensi dell'[art. 71](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82!vig=2024-08-17~art71) del [**CAD**,](capitolo-2.qmd#CAD) è aggiornato o modificato secondo la procedura prevista dal medesimo articolo, la guida operativa di cui sopra potrà essere aggiornata o modificata ogni qualvolta sarà necessario.
+La metadatazione ricopre un ruolo essenziale laddove i dati siano esposti a utenti terzi e a software. I metadati, infatti, consentono una maggiore comprensione e rappresentano la chiave attraverso cui abilitare più agevolmente la ricerca, la scoperta, l'accesso e quindi il riutilizzo dei dati stessi. Per i metadati descrittivi generali, ovvero non dipendenti dalle tipologie di dati, DEVE essere applicato il profilo nazionale DCAT-AP_IT, rispettando le obbligatorietà e le raccomandazioni ivi previsti e seguendo gli esempi definiti nella relativa specifica e ontologia. Il profilo è stato definito con le "**Linee guida per i cataloghi dati**" (v. box "Risorse utili") pubblicate prima delle modifiche apportate al [**CAD**](capitolo-2.qmd#CAD) dal [decreto legislativo 13 dicembre 2017, n. 217](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2017-12-13;217) e dal "*[Regolamento per l'adozione di linee guida per l'attuazione del Codice dell'Amministrazione Digitale](https://trasparenza.agid.gov.it/archivio19_regolamenti_0_5376.html)*". A seguito di tali nuove previsioni normative e regolamentari, dette Linee Guida, potranno essere soggette a revisione con la nuova denominazione "**Guida operativa per i cataloghi dati**". A differenza del presente documento che, ai sensi dell'[art. 71](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82!vig=2024-08-17~art71) del [**CAD**,](capitolo-2.qmd#CAD) è aggiornato o modificato secondo la procedura prevista dal medesimo articolo, la guida operativa di cui sopra potrà essere aggiornata o modificata ogni qualvolta sarà necessario.
 
 {{< include ./include/requisiti/_requisito-15.qmd >}}
-
-[^#_bookmark71]: <https://trasparenza.agid.gov.it/archivio19_regolamenti_0_5376.html>
 
 Per i dati territoriali, il profilo di metadati da considerare è quello definito con le Linee Guida RNDT \[[**LG-RNDT**](capitolo-2.qmd#LG-RNDT)\]. Tale profilo è coerente con la Direttiva INSPIRE \[[**INSPIRE-DIR**](capitolo-2.qmd#INSPIRE-DIR)\] e relativa norma di recepimento \[[**D-LGS-32-2010**](capitolo-2.qmd#D-LGS-32-2010)\], nonché con il [Regolamento (CE) n. 1205/2008](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A02008R1205-20081224) relativo ai metadati.
 
