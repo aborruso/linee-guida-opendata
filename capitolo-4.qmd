@@ -108,7 +108,7 @@ Ulteriori elementi per la scelta del formato da utilizzare si possono rinvenire 
 :::
 
 ::: {.callout-note}
-**\*** Il documento evidenzia che i formati *txt* e *html* dovrebbero essere valutati con tre stelle, poiché i dati potrebbero essere progettati per essere leggibili dalla macchina. Tuttavia, viene assegnata solo una stella perché questi formati non erano originariamente concepiti per rappresentare contenuti leggibili dalla macchina ma solo dall'uomo. La rappresentazione di contenuti leggibili automaticamente in questi formati non soddisfa, quindi, le migliori pratiche e pertanto non sono consigliati dagli autori del documento.
+`*` Il documento evidenzia che i formati *txt* e *html* dovrebbero essere valutati con tre stelle, poiché i dati potrebbero essere progettati per essere leggibili dalla macchina. Tuttavia, viene assegnata solo una stella perché questi formati non erano originariamente concepiti per rappresentare contenuti leggibili dalla macchina ma solo dall'uomo. La rappresentazione di contenuti leggibili automaticamente in questi formati non soddisfa, quindi, le migliori pratiche e pertanto non sono consigliati dagli autori del documento.
 :::
 
 Nella tabella i formati per le immagini (PNG, GIF, JPG/JPEG, TIFF) sono presenti nella zona evidenziata in rosso e, quindi, ne è sconsigliato il loro uso. Tale raccomandazione, però, è da intendere nell'utilizzo di tali formati per rappresentare dati che, invece, andrebbero rappresentati attraverso formati più appropriati (per es. una tabella rappresentata come immagine). Questo implica che per le immagini vere e proprie si possono utilizzare i relativi formati come indicato nell'[Allegato @sec-allegato-b].
