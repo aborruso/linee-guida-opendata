@@ -4,6 +4,7 @@ project:
     - "lg.csl"
     - "rawdata/LG-Open-Data_v.1.0.docx"
   render:
+    - "ndr.qmd"
     - "!note.md"
     - "!debug/*"
 language:
@@ -41,6 +42,9 @@ book:
         - capitolo-5.qmd
         - capitolo-6.qmd
         - capitolo-7.qmd
+    - part: "Note"
+      chapters:
+        - ndr.qmd
     # - part: "Test"
     #   chapters:
     #     - debug/raw-html-cr.qmd
@@ -60,7 +64,7 @@ book:
   repo-actions: [edit, issue]
 
   page-footer:
-    border: false
+    border: true
     background: light
     left: |
       A cura dell'[associazione onData](https://ondata.it).
@@ -72,6 +76,7 @@ book:
 format:
   html:
     lang: "it-IT"
+    toc-depth: 4
     theme:
       - cosmo
       - styles.scss

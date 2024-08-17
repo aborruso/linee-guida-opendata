@@ -11,6 +11,8 @@ Nell'estate del 2023 l'Agenzia per l'Italia Digitale (AgID) ha annunciato la pub
 
 > Hanno l'obiettivo di **supportare** le **pubbliche amministrazioni** e gli altri soggetti interessati al processo di **apertura** dei **dati** e di **riutilizzo** dell'**informazione del settore pubblico**, attraverso **indicazioni** volte ad implementare le **disposizioni** e le **modalità** disciplinate dalle norme indicate.
 
-💡 Il documento è pubblicato - ad oggi 17 agosto 2024 - [**soltanto come PDF**](https://www.agid.gov.it/sites/agid/files/2024-05/lg-open-data_v.1.0_1.pdf): per **diffonderlo** e **condividerlo**, in modo più **ampio** ed **efficace**, ne abbiamo creato [una **versione HTML**](prefazione.qmd), **consultabile** e **condivisibile** da **qualsiasi terminale**.
+Il documento è pubblicato - ad oggi 17 agosto 2024 - [**soltanto come PDF**](https://www.agid.gov.it/sites/agid/files/2024-05/lg-open-data_v.1.0_1.pdf).
 
-[👉 Leggile](prefazione.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg}
+💡 Allora ne abbiamo creato [una **versione HTML**](prefazione.qmd), **consultabile** e **condivisibile** da **qualsiasi terminale**, per **diffonderle** e **condividerle**, in modo più **ampio** ed **efficace**.
+
+[👉 Leggile](prefazione.qmd){.btn-action-primary .btn-action .btn .btn-primary .btn-lg} [ℹ️ Note](ndr.qmd){.btn-action-primary .btn-action .btn .btn-secondary .btn-lg}

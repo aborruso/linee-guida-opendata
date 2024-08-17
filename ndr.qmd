@@ -1,0 +1,59 @@
+# Note di redazione {.unnumbered}
+
+Queste note sono a cura dell'associazione onData, non sono parte delle linee guida e non sono vincolanti.
+
+## Introduzione {.unnumbered}
+
+Per noi dell'assocazione onData **tutti i documenti pubblici di riferimento** - come queste [linee guida](prefazione.qmd) - dovrebbero essere **resi disponibili** in lettura anche su [**Docs Italia**](https://docs.italia.it/).
+
+Per tante ragioni:
+
+- consente un processo di pubblicazione e di modifica di tipo **collaborativo**, in cui tutti possono proporre contributi e suggerimenti ai documenti;
+- è un **luogo unico** che offre una visione di insieme sui progetti pubblici in corso;
+- i documenti cambiano e si arricchiscono nel tempo ed è possibile vederne l'**evoluzione**;
+- i documenti di Docs Italia hanno un indice ben strutturato, un motore di ricerca efficace e sono di facile lettura, anche sullo smartphone.
+
+**Scegliendo** come unica modalità di pubblicazione il file **PDF**, **tutto questo non è possibile**.
+
+Con un PDF è molto **scomodo** fare anche il **passaparola** e **inviare** in chat, in un'e-mail, in una condisivione su un social network, ecc. il **link** a uno dei requisiti delle linee guida. Senza impazzire a sfogliare 150 pagine di PDF o fare una ricerca di testo in questo, magari in un terminale mobile scomodo (per un PDF).
+
+Mentre con questa versione HTML, si prende ad esempio il link al [requisito 2](capitolo-4.qmd#req-2){.testo-rosso} e si scrive in chat:
+
+> Guarda che bello, il requisito 2 delle linee guida open data dice che i dati devono essere pubblicati in formato CSV, non quell'orrendo di PDF <https://ondata.github.io/linee-guida-opendata/capitolo-4.html#req-2>
+
+E chi lo riceve visualizzerà subito il requisito 2 nel suo contesto, come in @fig-link-req, e potrà approfondire la lettura.
+
+:::{.column-page-inset-right}
+![Esempio di pagina aperta sul requisito 2](./immagini/link_requisito.png){#fig-link-req fig-alt="Esempio di pagina aperta sul requisito 2" align="center"}
+:::
+
+Un altro elemento che ci ha spinto a creare questa **versione alternativa a quella ufficiale** è una cosa **vecchia come il web**: la **navigazione ipertestuale**.<br>
+Queste linee guida sono ricche di richiami a fonti esterne, come i *link* agli articoli del [Decreto Legislativo di riferimento](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36) per queste linee guida. E sarebbe **prezioso** avere il **_link_** ipertestuale agli **articoli citati**.<br>
+Questo (molto spesso) non avviene nel documento ufficiale e non è un aspetto che dipende dal formato PDF.<br>
+
+[È possibile inserire i *link* ai singoli articoli di un Decreto, grazie al prezioso [Normattiva](https://www.normattiva.it/staticPage/faq#19)]{.aside}
+Sotto un esempio dell'inizio del [capitolo 4](capitolo-4.qmd). Nella prima immagine il [documento ufficiale](https://www.agid.gov.it/sites/agid/files/2024-05/lg-open-data_v.1.0_1.pdf) in cui non c'è alcun *link* ipertestuale agli articoli citati, mentre nella seconda immagine (relativa a questo progetto) ci sono quelli per i citati articoli [6](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36~art6), [9-bis](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36~art9bis) e [12-bis](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36~art12bis) del "Decreto Legislativo 24 gennaio 2006, n. 36".
+
+
+
+
+
+:::{.column-page-inset-right}
+::: {#fig-ipertesto layout-ncol=2}
+
+![Linee guida ufficiali](immagini/doc_hyperlink.png){#fig-doc_hyperlink .lightbox group="my-gallery"}
+
+![Questa versione](immagini/ondata_hyperlink.png){#fig-ondata_hyperlink .lightbox group="my-gallery"}
+
+l'inizio del capitolo 4
+:::
+:::
+
+## Come abbiamo lavorato {.unnumbered}
+
+Abbiamo iniziato provando a trasformare il documento PDF ufficiale in un formato testuale, adatto poi a essere trasformato in `HTML`. Ma per la "ricchezza" in termini di struttura e contenuti, non riuscivamo a ottenere un risultato soddisfacente.
+
+Abbiamo allora **chiesto** ad **AgID** di inviarci il **documento** nel **formato** in cui **nativamente** è stato **redatto** (il PDF è infatti qui un formato di esportazione).<br>Ci hanno allora inviato il file [`LG-Open-Data_v.1.0.docx`](rawdata/LG-Open-Data_v.1.0.docx), ovvero il documento in formato Microsoft Word.
+
+Lo abbiamo **convertito** in un **formato testuale** più adatto a essere trasformato in `HTML`, ovvero in [Markdown](https://omni.wikiwand.com/en/articles/Markdown) (`.md`), utilizzando [Pandoc](https://pandoc.org/).<br>
+A partire da questo formato, abbiamo creato un [**progetto Quarto**](https://quarto.org/) e lo abbiamo esportato in `HTML`.
