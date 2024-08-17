@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./allegato-A.html" rel="next">
-<link href="./capitolo-7.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -409,6 +407,9 @@ document.addEventListener('DOMContentLoaded', function() {
   <ul>
   <li><a href="#introduzione" id="toc-introduzione" class="nav-link active" data-scroll-target="#introduzione">Introduzione</a></li>
   <li><a href="#come-abbiamo-lavorato" id="toc-come-abbiamo-lavorato" class="nav-link" data-scroll-target="#come-abbiamo-lavorato">Come abbiamo lavorato</a></li>
+  <li><a href="#modifiche-al-documento-originale" id="toc-modifiche-al-documento-originale" class="nav-link" data-scroll-target="#modifiche-al-documento-originale">Modifiche al documento originale</a></li>
+  <li><a href="#dove-è-pubblicato-il-codice-sorgente" id="toc-dove-è-pubblicato-il-codice-sorgente" class="nav-link" data-scroll-target="#dove-è-pubblicato-il-codice-sorgente">Dove è pubblicato il codice sorgente</a></li>
+  <li><a href="#licenza" id="toc-licenza" class="nav-link" data-scroll-target="#licenza">Licenza</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/ondata/linee-guida-opendata/edit/main/ndr.qmd" class="toc-action"><i class="bi bi-github"></i>Modifica questa pagina</a></li><li><a href="https://github.com/ondata/linee-guida-opendata/issues/new" class="toc-action"><i class="bi empty"></i>Segnala un problema</a></li></ul></div></nav>
     </div>
@@ -434,7 +435,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </header>
 
 
-<p>Queste note sono a cura dell’associazione onData, non sono parte delle linee guida e non sono vincolanti.</p>
+<p>Queste <strong>note</strong> sono <strong>a cura dell’associazione onData</strong>, <strong>non sono parte delle linee guida</strong> e non sono vincolanti.</p>
 <section id="introduzione" class="level2 unnumbered page-columns page-full">
 <h2 class="unnumbered anchored" data-anchor-id="introduzione">Introduzione</h2>
 <p>Per noi dell’assocazione onData <strong>tutti i documenti pubblici di riferimento</strong> - come queste <a href="./prefazione.html">linee guida</a> - dovrebbero essere <strong>resi disponibili</strong> in lettura anche su <a href="https://docs.italia.it/"><strong>Docs Italia</strong></a>.</p>
@@ -509,6 +510,42 @@ Figura&nbsp;2: l’inizio del capitolo 4
 <p>Abbiamo iniziato provando a trasformare il documento PDF ufficiale in un formato testuale, adatto poi a essere trasformato in <code>HTML</code>. Ma per la “ricchezza” in termini di struttura e contenuti, non riuscivamo a ottenere un risultato soddisfacente.</p>
 <p>Abbiamo allora <strong>chiesto</strong> ad <strong>AgID</strong> di inviarci il <strong>documento</strong> nel <strong>formato</strong> in cui <strong>nativamente</strong> è stato <strong>redatto</strong> (il PDF è infatti qui un formato di esportazione).<br>Ci hanno allora inviato il file <a href="rawdata/LG-Open-Data_v.1.0.docx"><code>LG-Open-Data_v.1.0.docx</code></a>, ovvero il documento in formato Microsoft Word.</p>
 <p>Lo abbiamo <strong>convertito</strong> in un <strong>formato testuale</strong> più adatto a essere trasformato in <code>HTML</code>, ovvero in <a href="https://omni.wikiwand.com/en/articles/Markdown">Markdown</a> (<code>.md</code>), utilizzando <a href="https://pandoc.org/">Pandoc</a>.<br> A partire da questo formato, abbiamo creato un <a href="https://quarto.org/"><strong>progetto Quarto</strong></a> e lo abbiamo esportato in <code>HTML</code>.</p>
+</section>
+<section id="modifiche-al-documento-originale" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="modifiche-al-documento-originale">Modifiche al documento originale</h2>
+<p>Abbiamo apportato pochissime <strong>modifiche</strong> al documento originale, per renderlo più <strong>leggibile</strong> e <strong>navigabile</strong>. Ma nessuna alterazione del <strong>contenuto</strong> o di <strong>significato</strong>:</p>
+<ul>
+<li>abbiamo aggiunto alcuni collegamenti ipertestuali;</li>
+<li>abbiamo corretto alcuni collegamenti ipertestuali non più funzionanti;</li>
+<li>abbiamo trasformato la “check list” utile alla verifica di alcuni aspetti giuridici, presente nel paragrafo 5.1.2, da tabella a un elenco puntato gerarchico (ci sembra più leggibile sul web).</li>
+</ul>
+<p>Potremmo aver commesso degli errori, per cui ti chiediamo di <a href="https://github.com/ondata/linee-guida-opendata/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen"><strong>segnalarceli</strong></a> per correggerli.</p>
+</section>
+<section id="dove-è-pubblicato-il-codice-sorgente" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="dove-è-pubblicato-il-codice-sorgente">Dove è pubblicato il codice sorgente</h2>
+<p>Il codice sorgente di questo progetto è pubblicato su <a href="https://github.com/ondata/linee-guida-opendata">GitHub</a>.</p>
+</section>
+<section id="licenza" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="licenza">Licenza</h2>
+<p>Questa versione delle linee guida è rilasciata con licenza <a href="https://creativecommons.org/licenses/by/4.0/deed.it">CC-BY 4.0</a>. Sei libero di:</p>
+<ul>
+<li><strong>Condividere </strong>— riprodurre, distribuire, comunicare al pubblico, esporre in pubblico, rappresentare, eseguire e recitare questo materiale con qualsiasi mezzo e formato per qualsiasi fine, anche commerciale.</li>
+<li><strong>Modificare </strong>— remixare, trasformare il materiale e basarti su di esso per le tue opere per qualsiasi fine, anche commerciale.</li>
+</ul>
+<p>Devi riconoscere i crediti appropriati citando l’associazione onData e inserendo il link all’homepage di questo progetto:<br> <a href="https://ondata.github.io/linee-guida-opendata/" class="uri">https://ondata.github.io/linee-guida-opendata/</a></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Esempio citazione
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Ad esempio “Un <a href="https://ondata.github.io/linee-guida-opendata/">progetto</a> dell’associazione onData”.</p>
+</div>
+</div>
 
 
 </section>
@@ -767,18 +804,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="./capitolo-7.html" class="pagination-link" aria-label="Pubblicazione e strumenti di ricerca">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Pubblicazione e strumenti di ricerca</span></span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="./allegato-A.html" class="pagination-link" aria-label="Modello per i dati aperti">
-        <span class="nav-page-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Modello per i dati aperti</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -793,7 +818,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","loop":false,"selector":".lightbox","descPosition":"bottom","openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","closeEffect":"zoom","openEffect":"zoom","loop":false,"selector":".lightbox"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {
