@@ -91,7 +91,7 @@ website:
     dismissable: false
     content: "[Iscriviti alla **newsletter di onData**](https://ondata.substack.com/)"
     type: primary
-    position: below-navbar
+    position: above-navbar
 
 crossref:
   custom:
