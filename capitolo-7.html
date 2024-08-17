@@ -144,6 +144,47 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
+<script>
+    function scrollWithOffset() {
+        // Controlla se c'è un hash nella URL
+        const hash = window.location.hash;
+
+        if (hash) {
+            // Verifica che l'hash corrisponda ai pattern #req- o #racc- seguito da numeri
+            const regex = /^#(req|racc)-\d+$/;
+            if (regex.test(hash)) {
+                const targetElement = document.querySelector(hash);
+
+                if (targetElement) {
+                    // Ottieni la posizione verticale dell'elemento rispetto al documento
+                    const elementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
+
+                    // Sottrai 50 pixel dall'attuale posizione di scroll
+                    const offsetPosition = elementPosition - 20;
+
+                    // Scrolla alla nuova posizione con un piccolo ritardo per permettere il rendering completo
+                    setTimeout(() => {
+                        window.scrollTo({
+                            top: offsetPosition,
+                            behavior: "smooth"
+                        });
+                    }, 10); // Ritardo di 10 millisecondi
+                }
+            }
+        }
+    }
+
+    // Esegui la funzione al caricamento della pagina con un breve ritardo
+    document.addEventListener("DOMContentLoaded", function() {
+        setTimeout(scrollWithOffset, 10);
+    });
+
+    // Esegui la funzione quando cambia l'ancora nella URL
+    window.addEventListener("hashchange", function() {
+        scrollWithOffset();
+    });
+</script>
+
 
 <meta property="og:title" content="7&nbsp; Pubblicazione e strumenti di ricerca – Linee guida Open Data">
 <meta property="og:description" content="La versione HTML a cura dell’associazione onData">
@@ -603,7 +644,7 @@ Requisito&nbsp;7.4
 <p>Sulla base di queste regole e delle corrispondenze definite tra i metadati dei due standard di riferimento, i dati territoriali aperti documentati nel RNDT sono resi accessibili attraverso le funzionalità tipiche del catalogo nazionale dei dati aperti, dati.gov.it, senza nessun ulteriore adempimento da parte dei titolari di dati.</p>
 <p>Come indicato nelle Linee Guida RNDT [<a href="./capitolo-2.html#LG-RNDT"><strong>LG-RNDT</strong></a>], il Repertorio, in quanto punto di accesso nazionale per i metadati dei dati territoriali, provvede a rendere disponibili i metadati anche al <a href="https://inspire-geoportal.ec.europa.eu/">geoportale INSPIRE</a> secondo le modalità individuate per l’applicazione di <a href="./capitolo-2.html#INSPIRE-DIR"><strong>INSPIRE-DIR</strong>,</a> anche ai fini delle operazioni di monitoraggio di cui alla Decisione di esecuzione (UE) 2019/1372 della Commissione Europea<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
 <p>Nella figura che segue è rappresentato lo schema di coordinamento e integrazione tra i due cataloghi nazionali e la loro interazione con i portali europei.</p>
-<div id="fig-interoperabilita-cataloghi" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" data-align="center" alt="Interoperabilità tra cataloghi nazionali ed europei.">
+<div id="fig-interoperabilita-cataloghi" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" alt="Interoperabilità tra cataloghi nazionali ed europei." data-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-interoperabilita-cataloghi-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <a href="immagini/image96.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figura&nbsp;7.1: Interoperabilità tra cataloghi nazionali ed europei"><img src="immagini/image96.jpeg" class="img-fluid figure-img" style="width:90.0%" data-align="center" alt="Interoperabilità tra cataloghi nazionali ed europei."></a>
@@ -1000,7 +1041,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"descPosition":"bottom","openEffect":"zoom","closeEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","descPosition":"bottom","closeEffect":"zoom","loop":false});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {
