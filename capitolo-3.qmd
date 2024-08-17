@@ -78,7 +78,7 @@ operazione che consente, in modo semplice ed efficiente, di scaricare, con un'un
 **DRM clause (clausola DRM)**
 
 "*eventuali termini o misure tecnologiche presenti nel Database, in un Database Derivato, o in tutto o in parte sostanziale dei contenuti che alterano o limitano i termini della Licenza*" \[licenza ODbL\], intesa, quindi, come divieto di imposizione salvo possibilità di lasciare copia aperta<br>
-"*misure che, in assenza di apposita autorità, possono non essere eluse ai sensi di leggi che adempiono agli obblighi di cui all'articolo 11 del Trattato WIPO sul diritto d'autore adottato il 20 dicembre 1996, e/o accordi internazionali simili*" \[licenza CC-BY\], intesa quindi come divieto di imposizione senza alternative
+"*misure che, in assenza di apposita autorità, possono non essere eluse ai sensi di leggi che adempiono agli obblighi di cui all'articolo 11 del [Trattato WIPO sul diritto d'autore](https://web.archive.org/web/20220310062458/https://wipolex-res.wipo.int/edocs/lexdocs/treaties/en/wct/trt_wct_001en.pdf) adottato il 20 dicembre 1996, e/o accordi internazionali simili*" \[licenza CC-BY\], intesa quindi come divieto di imposizione senza alternative
 
 ###
 
