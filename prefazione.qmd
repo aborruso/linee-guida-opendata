@@ -2,6 +2,7 @@
 format:
   html:
     toc: false
+search: false
 ---
 
 # Prefazione {.unnumbered}
