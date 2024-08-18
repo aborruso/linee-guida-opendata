@@ -1,7 +1,7 @@
 :::{.column-page-inset-right}
 | **n** | **testo** |
 | :--- | :--- |
-| [1](capitolo-4.qmd#racc-1) | SI RACCOMANDA un percorso graduale verso la produzione nativa di Linked Open Data – LOD (livello cinque stelle nella classificazione del modello di cui all'allegato A). |
+| [1](capitolo-4.qmd#racc-1) | SI RACCOMANDA un percorso graduale verso la produzione nativa di Linked Open Data – LOD (livello cinque stelle nella classificazione del modello di cui all'[allegato A](allegato-A.qmd)). |
 | [2](capitolo-4.qmd#racc-2) | Ove possibile, opportuno o necessario, SI RACCOMANDA di rendere disponibili i dati dinamici anche attraverso download in blocco. |
 | [3](capitolo-4.qmd#racc-3) | Ove possibile, SI RACCOMANDA di seguire e applicare i principi FAIR per tutte le tipologie di dati, non solo per quelli della ricerca. |
 | [4](capitolo-5.qmd#racc-4) | SI RACCOMANDA di demandare al Responsabile per la transizione digitale (RTD) il compito di costituire un gruppo di lavoro dedicato al processo di apertura dei dati e all'implementazione delle presenti Linee Guida all'interno dell'organizzazione dell'Ente. |
