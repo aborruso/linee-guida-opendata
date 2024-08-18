@@ -30,6 +30,9 @@ book:
   chapters:
     - text: "Home"
       file: index.qmd
+    - text: "Note di redazione"
+      file: ndr.qmd
+    - text: "---"
     - part: "Linee guida"
       chapters:
         - gruppo-di-lavoro.qmd
@@ -42,9 +45,6 @@ book:
         - capitolo-5.qmd
         - capitolo-6.qmd
         - capitolo-7.qmd
-    - part: "Note"
-      chapters:
-        - ndr.qmd
     # - part: "Test"
     #   chapters:
     #     - debug/raw-html-cr.qmd
