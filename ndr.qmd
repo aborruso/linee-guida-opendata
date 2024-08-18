@@ -45,9 +45,9 @@ Sotto un esempio dell'inizio del [capitolo 4](capitolo-4.qmd). Nella prima immag
 :::{.column-page-inset-right}
 ::: {#fig-ipertesto layout-ncol=2}
 
-![Linee guida ufficiali](immagini/doc_hyperlink.png){#fig-doc_hyperlink .lightbox group="my-gallery"}
+![Linee guida ufficiali](immagini/doc_hyperlink.png){#fig-doc_hyperlink .lightbox group="cap4"}
 
-![Questa versione](immagini/ondata_hyperlink.png){#fig-ondata_hyperlink .lightbox group="my-gallery"}
+![Questa versione](immagini/ondata_hyperlink.png){#fig-ondata_hyperlink .lightbox group="cap4"}
 
 l'inizio del capitolo 4
 :::
@@ -78,7 +78,9 @@ Il codice sorgente di questo progetto è pubblicato su [GitHub](https://github.c
 
 ## Nostre note dentro il testo {.unnumbered}
 
-Abbiamo creato uno stile per le nostre **eventuali** note dentro al testo che è come quello di sotto.
+Le inseriremo solo se necessario, per chiarire o approfondire un concetto. In due modi.
+
+Con un box all'interno del testo, come questo di sotto.
 
 :::{.ndr}
 
@@ -93,6 +95,10 @@ Questa nota è un esempio di come potremmo inserire delle note nel testo.
 ::::
 
 :::
+
+Con delle note "laterali" al testo, come quella evidenziata nell'immagine di sotto.
+
+![Esempio di note "laterali"](immagini/note_aside.png){#fig-note_aside .lightbox}
 
 ## Licenza {.unnumbered}
 
