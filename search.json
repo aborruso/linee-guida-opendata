@@ -101,17 +101,6 @@
     ]
   },
   {
-    "objectID": "prefazione.html",
-    "href": "prefazione.html",
-    "title": "Prefazione",
-    "section": "",
-    "text": "Le presenti Linee Guida rappresentano l’attuazione dell’art. 12 del Decreto Legislativo 36/2006, come modificato dal Decreto Legislativo 200/2021, recepimento della Direttiva (UE) 2019/1024 (c.d. Direttiva Open Data).\nEsse vengono emesse ai sensi dell’articolo 71 del Decreto Legislativo 82/2005 e s.m.i. recante “Codice dell’Amministrazione Digitale” (di seguito CAD) e della Determinazione AgID n. 160/2018 recante “Regolamento per l’adozione di linee guida per l’attuazione del Codice dell’Amministrazione Digitale”. Ai sensi del citato art. 71, divengono efficaci il giorno successivo alla loro pubblicazione sul sito istituzionale di AgID e di esse è data notizia sulla Gazzetta Ufficiale della Repubblica italiana.\nLe presenti Linee guida sostituiscono, altresì, le Linee Guida per la valorizzazione del patrimonio informativo pubblico, adottate con Determinazione Commissariale di AgID n. 95/2014.\n\n\n\n Torna in cima",
-    "crumbs": [
-      "Linee guida",
-      "Prefazione"
-    ]
-  },
-  {
     "objectID": "introduzione.html",
     "href": "introduzione.html",
     "title": "Introduzione",
@@ -175,39 +164,6 @@
     "crumbs": [
       "Linee guida",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Ambito di applicazione</span>"
-    ]
-  },
-  {
-    "objectID": "capitolo-2.html",
-    "href": "capitolo-2.html",
-    "title": "2  Normativa di riferimento",
-    "section": "",
-    "text": "2.1 Legislazione nazionale ed europea",
-    "crumbs": [
-      "Linee guida",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Normativa di riferimento</span>"
-    ]
-  },
-  {
-    "objectID": "capitolo-2.html#sec-legislazione-nazionale-ed-europea",
-    "href": "capitolo-2.html#sec-legislazione-nazionale-ed-europea",
-    "title": "2  Normativa di riferimento",
-    "section": "",
-    "text": "label\ntesto\n\n\n\n\nCAD\nDecreto legislativo 7 marzo 2005, n. 82 recante “Codice dell’amministrazione digitale”\n\n\nD-LGS-196-2003\nDecreto legislativo 30 giugno 2003, n. 196 e s.m.i. recante “Codice in materia di protezione dei dati personali, recante disposizioni per l’adeguamento dell’ordinamento nazionale al regolamento (UE) n. 2016/679 del Parlamento europeo e del Consiglio, del 27 aprile 2016, relativo alla protezione delle persone fisiche con riguardo al trattamento dei dati personali, nonché alla libera circolazione di tali dati e che abroga la direttiva 95/46/CE”\n\n\nD-LGS-36-2006\nDecreto legislativo 24 gennaio 2006, n. 36 recante “Attuazione della direttiva (UE) 2019/1024 relativa all’apertura dei dati e al riutilizzo dell’informazione del settore pubblico che ha abrogato la direttiva 2003/98/CE”\n\n\nD-LGS-32-2010\nDecreto legislativo 27 gennaio 2010, n. 32 recante “Attuazione della direttiva 2007/2/CE, che istituisce un’infrastruttura per l’informazione territoriale nella Comunità europea (INSPIRE)”\n\n\nD-LGS-33-2013\nDecreto legislativo 14 marzo 2013, n. 33 recante “Riordino della disciplina riguardante il diritto di accesso civico e gli obblighi di pubblicità, trasparenza e diffusione di informazioni da parte delle pubbliche amministrazioni”\n\n\nD-LGS-51-2018\nDecreto legislativo 18 maggio 2018, n. 51 recante “Attuazione della direttiva (UE) 2016/680 del Parlamento europeo e del Consiglio, del 27 aprile 2016, relativa alla protezione delle persone fisiche con riguardo al trattamento dei dati personali da parte delle autorità competenti a fini di prevenzione, indagine, accertamento e perseguimento di reati o esecuzione di sanzioni penali, nonché alla libera circolazione di tali dati e che abroga la decisione quadro 2008/977/GAI del Consiglio”\n\n\nD-LGS-200-2021\nDecreto legislativo 8 novembre 2021, n. 200 recante “Attuazione della direttiva (UE) 2019/1024 del Parlamento europeo e del Consiglio, del 20 giugno 2019, relativa all’apertura dei dati e al riutilizzo dell’informazione del settore pubblico (rifusione)”\n\n\nINSPIRE-DIR\nDirettiva 2007/2/CE del Parlamento europeo e del Consiglio, del 14 marzo 2007, che istituisce un’Infrastruttura per l’informazione territoriale nella Comunità europea (INSPIRE)\n\n\nDIR-2016-680\nDirettiva (UE) 2016/680 del Parlamento europeo e del Consiglio del 27 aprile 2016 relativa alla protezione delle persone fisiche con riguardo al trattamento dei dati personali da parte delle autorità competenti a fini di prevenzione, indagine, accertamento e perseguimento di reati o esecuzione di sanzioni penali, nonché alla libera circolazione di tali dati e che abroga la decisione quadro 2008/977/GAI del Consiglio\n\n\nOD-DIR\nDirettiva (UE) 2019/1024 del Parlamento Europeo e del Consiglio del 20 giugno 2019 relativa all’apertura dei dati e al riutilizzo dell’informazione del settore pubblico (rifusione)\n\n\nGDPR\nRegolamento (UE) 2016/679 del Parlamento europeo e del Consiglio del 27 aprile 2016 relativo alla protezione delle persone fisiche con riguardo al trattamento dei dati personali, nonché alla libera circolazione di tali dati e che abroga la direttiva 95/46/CE (regolamento generale sulla protezione dei dati)\n\n\nREG-868-22\nRegolamento (UE) 2022/868 del Parlamento europeo e del Consiglio del 30 maggio 2022 relativo alla governance europea dei dati e che modifica il regolamento (UE) 2018/1724 (Regolamento sulla governance dei dati)\n\n\nREG-HVD\nRegolamento di esecuzione (UE) 2023/138 della Commissione del 21 dicembre 2022 che stabilisce un elenco di specifiche serie di dati di elevato valore e le relative modalità di pubblicazione e riutilizzo",
-    "crumbs": [
-      "Linee guida",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Normativa di riferimento</span>"
-    ]
-  },
-  {
-    "objectID": "capitolo-2.html#sec-linee-guida",
-    "href": "capitolo-2.html#sec-linee-guida",
-    "title": "2  Normativa di riferimento",
-    "section": "2.2 Linee Guida",
-    "text": "2.2 Linee Guida\n\n\n\n\n\n\n\n\nlabel\ntesto\n\n\n\n\nLG-CONS\nLinee Guida sulla formazione, gestione e conservazione dei documenti informatici, adottate con la Determinazione AgID n. 407/2020 come modificata con la Determinazione AgID n. 371/2021\n\n\nLG-INT\nLinee Guida sull’interoperabilità tecnica delle Pubbliche Amministrazioni, adottate con la Determinazione AgID n. 547/2021 del 1° ottobre 2021\n\n\nLG-PDND\nLinee Guida sull’infrastruttura tecnologica della Piattaforma Digitale Nazionale Dati per l’interoperabilità dei sistemi informativi e delle basi di dati, adottate con la Determinazione AgID n. 627/2021 del 15 dicembre 2021\n\n\nLG-RNDT\nLinee Guida recanti regole tecniche per la definizione e l’aggiornamento del contenuto del Repertorio Nazionale dei Dati Territoriali, adottate con la Determinazione AgID n. 50/2022 del 28 febbraio 2022\n\n\nLG-SIC\nLinee Guida Tecnologie e standard per la sicurezza dell’interoperabilità tramite API dei sistemi informatici, adottate con la Determinazione AgID n. 547/2021 del 1° ottobre 2021\n\n\nLG-GPDP\nLinee guida in materia di trattamento di dati personali, contenuti anche in atti e documenti amministrativi, effettuato per finalità di pubblicità e trasparenza sul web da soggetti pubblici e da altri enti obbligati, adottate con provvedimento del Garante per la protezione dei dati personali n. 243 del 15 maggio 2014\n\n\n\n\n\nSi specifica che tali ultime Linee guida sono attualmente in corso di aggiornamento con specifici riferimenti anche al tema del riutilizzo.\nSi richiamano altresì:\n\n\n\n\n\n\n\n\nlabel\ntesto\n\n\n\n\nPAR-06-2013\nParere 06/2013 del Gruppo di lavoro Articolo 29 sul riutilizzo dei dati aperti e delle informazioni del settore pubblico\n\n\nPAR-05-2014\nParere 05/2014 del Gruppo di lavoro Articolo 29 sulle tecniche di anonimizzazione\n\n\nPAR-03-2021\nParere congiunto del Comitato europeo per la protezione dei dati e del Garante europeo della protezione dei dati 03/2021 sulla proposta di regolamento del Parlamento europeo e del Consiglio relativo alla governance europea dei dati (Atto sulla governance dei dati)\n\n\n\n\n\n\nNdR: queste linee guida non sono un documento ufficiale. Quelle ufficiali sono queste pubblicate da AgID in formato PDF.",
-    "crumbs": [
-      "Linee guida",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Normativa di riferimento</span>"
     ]
   },
   {
