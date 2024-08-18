@@ -185,6 +185,20 @@ In ogni caso, ove si ritenga opportuno o necessario, anche per definire ulterior
 
 Tale guida sarà pubblicata nel sito istituzionale di AgID nonché nei portali dei cataloghi di dati di cui all'[art. 9](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36~art9), comma 2 del Decreto.
 
+:::{.ndr}
+
+::::{.ndr-header}
+:::::{.ndr-icon}
+:::::
+Guida operativa sulle serie di dati di elevato valore
+::::
+
+::::{.ndr-body}
+La **guida operativa** citata sopra, è [stata poi pubblicata](https://www.agid.gov.it/sites/agid/files/2024-06/Guida%20operativa%20sulle%20serie%20di%20dati%20di%20elevato%20valore.pdf) da AgID ([notizia](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2023/12/22/open-data-online-guida-operativa-sui-dati-elevato-valore) di lancio).
+::::
+
+:::
+
 Al fine di garantire un impatto massimo e agevolarne il riutilizzo, **le serie di dati di elevato valore DEVONO essere rese disponibili gratuitamente** (a meno di alcune eccezioni indicate di seguito nel [**REQUISITO 8**](#req-8){.testo-rosso}) e **attraverso API**, oltre che **attraverso download in blocco**.
 
 {{< include ./include/requisiti/_requisito-7.qmd >}}
