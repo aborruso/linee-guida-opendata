@@ -4,7 +4,7 @@ page-navigation: false
 
 # Note di redazione {.unnumbered}
 
-Queste **note** sono **a cura dell'associazione onData**, **non sono parte delle linee guida** e non sono vincolanti.
+Queste pagina di note è **a cura dell'associazione onData**, **non sono parte delle linee guida** e non sono vincolanti.
 
 ## Introduzione {.unnumbered}
 
@@ -75,6 +75,24 @@ Potremmo aver commesso degli errori, per cui ti chiediamo di [**segnalarceli**](
 ## Dove è pubblicato il codice sorgente {.unnumbered}
 
 Il codice sorgente di questo progetto è pubblicato su [GitHub](https://github.com/ondata/linee-guida-opendata).
+
+## Nostre note dentro il testo {.unnumbered}
+
+Abbiamo creato uno stile per le nostre **eventuali** note dentro al testo che è come quello di sotto.
+
+:::{.ndr}
+
+::::{.ndr-header}
+:::::{.ndr-icon}
+:::::
+Eventuale titolo della nota
+::::
+
+::::{.ndr-body}
+Questa nota è un esempio di come potremmo inserire delle note nel testo.
+::::
+
+:::
 
 ## Licenza {.unnumbered}
 
