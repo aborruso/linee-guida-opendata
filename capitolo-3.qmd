@@ -36,7 +36,7 @@ Quando, su alcuni aspetti specifici, esistono già documenti (norme, regole tecn
 
 Tale sezione è rappresentata come segue:
 
-::: {.callout-tip icon=false}
+::: {.callout-tip appearance="simple" icon=false}
 ## 📚 Risorse utili – par. x.x
 - link a risorsa 1 …
 - link a risorsa 2 …
