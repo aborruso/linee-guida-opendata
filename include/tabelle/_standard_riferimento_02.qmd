@@ -1,10 +1,19 @@
 :::{.column-page-inset-right}
-|  **Acronimo/  abbreviazione**  |  **Titolo**  |  **Organismo  di  standardizzazione**  |  **Dominio**  |  **URL**  |  **Note**  |
-|  :---  |  :---  |  :---  |  :---  |  :---  |  :---  |
-|  DCAT  |  Data  Catalog  Vocabulary  |  W3C  |  Vari  domini  | [🔗](http://www.w3.org/TR/vocab-dcat/) |  |
-|  DCAT-AP_IT  |  DCAT  Application  Profile  (Italia)  |  AgID  |  Vari  domini  | [🔗](https://docs.italia.it/italia/daf/linee-guida-cataloghi-dati-dcat-ap-it/it/stabile/dcat-ap_it.html) |  |
-|  DCMI  |  Dublin  Core  Metadata  Initiative  |  Dublin  Core  |  Vari  domini  | [🔗](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/) |  DCMI  è  anche  disponibile  come  Standard  ISO:<br>\-  ISO  15836-1:2017  Information  and  documentation  —  The  Dublin  Core  metadata  element  set  —  [Part  1:  Core  elements](https://www.iso.org/standard/71339.html);<br>\-  ISO  15836-2:2019  Information  and  documentation  —  The  Dublin  Core  metadata  element  set  —  Part  2:  [DCMI  Properties  and  classes](https://www.iso.org/standard/71341.html)  |
-|  RNDT  |  Profilo  italiano  di  metadati  per  i  dati  territoriali  e  relativi  servizi  |  AgID  |  Dati  territoriali  | [🔗](https://agid.github.io/geodocs/rndt-lg/2.0.1/) |  |
+| Acronimo/ abbreviazione | Titolo | Organismo di standardizzazione | Dominio |
+| :--- | :--- | :--- | :--- |
+| [DCAT](http://www.w3.org/TR/vocab-dcat/) | Data Catalog Vocabulary | W3C | Vari domini |
+| [DCAT-AP_IT](https://docs.italia.it/italia/daf/linee-guida-cataloghi-dati-dcat-ap-it/it/stabile/dcat-ap_it.html) | DCAT Application Profile (Italia) | AgID | Vari domini |
+| [DCMI](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/) | Dublin Core Metadata Initiative | Dublin Core | Vari domini |
+| [RNDT](https://agid.github.io/geodocs/rndt-lg/2.0.1/) | Profilo italiano di metadati per i dati territoriali e relativi servizi | AgID | Dati territoriali |
 
 :  Principali  standard  di  riferimento:  **metadati**  {#tbl-standard-metadati  .table-sm  .table-striped  .table-bordered  .table-responsive}
+
+::: {.callout-note}
+**DCMI** è anche disponibile come Standard ISO:
+
+- ISO 15836-1:2017 Information and documentation — The Dublin Core metadata element set — [Part 1: Core elements](https://www.iso.org/standard/71339.html);
+- ISO 15836-2:2019 Information and documentation — The Dublin Core metadata element set — Part 2: [DCMI Properties and classes](https://www.iso.org/standard/71341.html)
 :::
+
+:::
+
