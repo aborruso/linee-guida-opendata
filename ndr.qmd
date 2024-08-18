@@ -8,7 +8,7 @@ Queste **note** sono **a cura dell'associazione onData**, **non sono parte delle
 
 ## Introduzione {.unnumbered}
 
-Per noi dell'assocazione onData **tutti i documenti pubblici di riferimento** - come queste [linee guida](prefazione.qmd) - dovrebbero essere **resi disponibili** in lettura anche su [**Docs Italia**](https://docs.italia.it/).
+Per noi dell'assocazione onData **tutti i documenti pubblici di riferimento** - come queste linee guida - dovrebbero essere **resi disponibili** in lettura anche su [**Docs Italia**](https://docs.italia.it/).
 
 Per tante ragioni:
 
@@ -19,11 +19,11 @@ Per tante ragioni:
 
 **Scegliendo** come unica modalità di pubblicazione il file **PDF**, **tutto questo non è possibile**.
 
-Con un PDF è molto **scomodo** fare anche il **passaparola** e **inviare** in chat, in un'e-mail, in una condisivione su un social network, ecc. il **link** a uno dei requisiti delle linee guida. Senza impazzire a sfogliare 150 pagine di PDF o fare una ricerca di testo in questo, magari in un terminale mobile scomodo (per un PDF).
+Con un PDF è molto **scomodo** fare anche il **passaparola** e **inviare** ad esempio in chat, in un'e-mail, in una condivisione su un social network, ecc. il **link** a uno dei requisiti delle linee guida. Per queste ci sarebbero da sfogliare 150 pagine di PDF, fare una ricerca di testo, e magari in un terminale mobile scomodo (per un PDF).
 
-Mentre con questa versione HTML, si prende ad esempio il link al [requisito 2](capitolo-4.qmd#req-2){.testo-rosso} e si scrive in chat:
+Mentre con questa versione HTML, si può copiare il link al [requisito 2](capitolo-4.qmd#req-2){.testo-rosso} e scrivere in chat:
 
-> Guarda che bello, il requisito 2 delle linee guida open data dice che i dati devono essere pubblicati in formato CSV, non quell'orrendo di PDF <https://ondata.github.io/linee-guida-opendata/capitolo-4.html#req-2>
+> Guarda che bello, il requisito 2 delle linee guida open data dice che i dati devono essere pubblicati in formato CSV, non quell'orrendo PDF <https://ondata.github.io/linee-guida-opendata/capitolo-4.html#req-2>
 
 E chi lo riceve visualizzerà subito il requisito 2 nel suo contesto, come in @fig-link-req, e potrà approfondire la lettura.
 
