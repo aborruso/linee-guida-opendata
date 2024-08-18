@@ -38,7 +38,7 @@ Nel caso di dati territoriali, viste le regole tecniche di cui alle Linee Guida 
 
 {{< include ./include/requisiti/_requisito-28.qmd >}}
 
-Nel caso dell'applicazione del [**REQUISITO 28**,](#req-28) fermo restando, comunque, quanto previsto dal già citato art. [50-ter](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82!vig=2024-08-17~art50ter), comma 7 del [**CAD**,](capitolo-2.qmd#CAD) detti servizi potrebbero essere documentati anche nel catalogo API disponibile nella PDND.
+Nel caso dell'applicazione del [**REQUISITO 28**,](#req-28){.testo-rosso} fermo restando, comunque, quanto previsto dal già citato art. [50-ter](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82!vig=2024-08-17~art50ter), comma 7 del [**CAD**,](capitolo-2.qmd#CAD) detti servizi potrebbero essere documentati anche nel catalogo API disponibile nella PDND.
 
 #### Sicurezza e disponibilità dei dati {#sec-sicurezza-e-disponibilita-dei-dati}
 
@@ -46,7 +46,7 @@ L'[art. 51](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legisla
 
 Tali Linee Guida sono state definite nell'ambito del modello di interoperabilità delle pubbliche amministrazioni e corrispondono alle già citate Linee Guida "*Tecnologie e standard per la sicurezza dell'interoperabilità tramite API dei sistemi informatici*" \[[**LG-SIC**](capitolo-2.qmd#LG-SIC)\], che definiscono le tecnologie e le loro modalità di utilizzo al fine di garantire la sicurezza delle transazioni digitali realizzate tra e verso le pubbliche amministrazioni che utilizzano le API tramite rete di collegamento informatica.
 
-L'implementazione di API coerenti con il [**REQUISITO 27**,](#req-27) pertanto, assicura il rispetto degli adempimenti e la conformità al citato [art. 51](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82!vig=2024-08-17~art51) del [**CAD**.](capitolo-2.qmd#CAD)
+L'implementazione di API coerenti con il [**REQUISITO 27**,](#req-27){.testo-rosso} pertanto, assicura il rispetto degli adempimenti e la conformità al citato [art. 51](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82!vig=2024-08-17~art51) del [**CAD**.](capitolo-2.qmd#CAD)
 
 Nell'ambito della Strategia Cloud Italia (v. box "[Risorse utili](#res-7.1.1)"), a cui si rimanda, inoltre, al fine di regolamentare l'offerta di servizi cloud disponibili sul mercato per mitigare i rischi sistemici di sicurezza e affidabilità, è stata definita una classificazione dei dati e dei servizi allo scopo di definire un processo di classificazione dei dati, in base al danno che una loro compromissione potrebbe provocare al sistema Paese (strategici, critici e ordinari). Il risultato della classificazione, si legge nella strategia, consente di uniformare e guidare il processo di migrazione al Cloud della PA. Le classi individuate sono:
 
@@ -153,7 +153,7 @@ Analogamente ai dati territoriali, anche per i dati statistici è stata definita
 
 ### Elenchi delle categorie e modalità di ricerca {#sec-elenchi-delle-categorie-e-modalita-di-ricerca}
 
-Il Decreto dispone che i soggetti destinatari delle presenti Linee Guida debbano individuare le modalità per facilitare la ricerca, anche interlinguistica, dei documenti disponibili per il riutilizzo, insieme ai rispettivi metadati, ove possibile accessibili on-line e in formati leggibili meccanicamente. Tale disposizione è attuata attraverso il rispetto del [**REQUISITO 20**](capitolo-6.qmd#req-20) e [**REQUISITO 21**](capitolo-6.qmd#req-21) definiti innanzi.
+Il Decreto dispone che i soggetti destinatari delle presenti Linee Guida debbano individuare le modalità per facilitare la ricerca, anche interlinguistica, dei documenti disponibili per il riutilizzo, insieme ai rispettivi metadati, ove possibile accessibili on-line e in formati leggibili meccanicamente. Tale disposizione è attuata attraverso il rispetto del [**REQUISITO 20**](capitolo-6.qmd#req-20){.testo-rosso} e [**REQUISITO 21**](capitolo-6.qmd#req-21){.testo-rosso} definiti innanzi.
 
 Il Decreto prevede, inoltre, quanto indicato nel seguente Requisito 31.
 

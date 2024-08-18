@@ -119,7 +119,7 @@ Secondo quanto indicato nella Direttiva al Considerando (32), la valutazione del
 
 Ciò stante, anche il concetto di "semplice manipolazione" può cambiare in funzione dei due parametri innanzi indicati, se si fa riferimento alla disponibilità nell'ente di risorse umane, finanziarie e strumentali. In altre parole, le operazioni che sono riconducibili alla semplice manipolazione per un ente, per via delle capacità tecniche ed economiche disponibili, possono essere considerate uno sforzo sproporzionato in altri enti che di quelle capacità non dispongono. Per tale motivo, è necessario che vengano indicate puntualmente, con tutte le evidenze del caso, le attività necessarie per rispondere alla richiesta di apertura e che potrebbero rappresentare difficoltà sproporzionate per l'ente.
 
-È bene, infine, rimarcare che il [**REQUISITO 4**](#req-4) è applicabile sia ai dati già esistenti che a quelli che saranno prodotti dopo l'entrata in vigore delle presenti Linee Guida, ferma restando la disposizione di cui all'[art. 6](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36~art6), comma 2 del Decreto che non prevede un obbligo di creazione di nuovi dati, oltre all'adeguamento di dati già esistenti, nel caso di difficoltà sproporzionate.
+È bene, infine, rimarcare che il [**REQUISITO 4**](#req-4){.testo-rosso} è applicabile sia ai dati già esistenti che a quelli che saranno prodotti dopo l'entrata in vigore delle presenti Linee Guida, ferma restando la disposizione di cui all'[art. 6](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36~art6), comma 2 del Decreto che non prevede un obbligo di creazione di nuovi dati, oltre all'adeguamento di dati già esistenti, nel caso di difficoltà sproporzionate.
 
 Quanto indicato in questo paragrafo è valido per tutte le tipologie di dati.
 
@@ -187,7 +187,7 @@ In ogni caso, ove si ritenga opportuno o necessario, anche per definire ulterior
 
 Tale guida sarà pubblicata nel sito istituzionale di AgID nonché nei portali dei cataloghi di dati di cui all'[art. 9](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36~art9), comma 2 del Decreto.
 
-Al fine di garantire un impatto massimo e agevolarne il riutilizzo, **le serie di dati di elevato valore DEVONO essere rese disponibili gratuitamente** (a meno di alcune eccezioni indicate di seguito nel Requisito 8) e **attraverso API**, oltre che **attraverso download in blocco**.
+Al fine di garantire un impatto massimo e agevolarne il riutilizzo, **le serie di dati di elevato valore DEVONO essere rese disponibili gratuitamente** (a meno di alcune eccezioni indicate di seguito nel [**REQUISITO 8**](#req-8){.testo-rosso}) e **attraverso API**, oltre che **attraverso download in blocco**.
 
 {{< include ./include/requisiti/_requisito-7.qmd >}}
 

@@ -1,4 +1,4 @@
 ::: {#racc-15 .callout-note appearance="simple" icon=false .raccomandazione}
 [**Raccomandazione 15**]{.testo-blu}: **dlgs36-2006/opendata/rec/publication/api** [🔗](#racc-15){.link-req}<br>
-Ove possibile, SI RACCOMANDA di utilizzare API conformi al [REQUISITO 27](#req-27) per rendere disponibili per il riutilizzo tutte le tipologie di dati, non solo quelli dinamici e/o di elevato valore.
+Ove possibile, SI RACCOMANDA di utilizzare API conformi al [REQUISITO 27](#req-27){.testo-rosso} per rendere disponibili per il riutilizzo tutte le tipologie di dati, non solo quelli dinamici e/o di elevato valore.
 :::

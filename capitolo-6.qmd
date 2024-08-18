@@ -262,7 +262,7 @@ Nel caso di biblioteche, musei e archivi, la Direttiva suggerisce, inoltre, che,
 
 La Comunicazione della Commissione Europea citata innanzi fornisce indicazioni anche per il calcolo delle tariffe in base al metodo del recupero dei costi. Rispetto a quanto indicato nella Comunicazione bisogna tenere presente che la Direttiva ha introdotto il riferimento specifico a "un esercizio contabile" al posto del generico "periodo contabile adeguato" indicato nelle versioni precedenti e ha introdotto altresì il concetto di "utile ragionevole sugli investimenti", come sopra specificato, invece del "congruo utile sugli investimenti". Tenendo in considerazione queste differenze, il metodo proposto nella Comunicazione al par. 4.2 può essere un utile supporto per il calcolo delle tariffe.
 
-Nei casi indicati ai precedenti punti 2. e 3., vale quanto indicato nel Requisito 24 che segue.
+Nei casi indicati ai precedenti punti 2. e 3., vale quanto indicato nel [**REQUISITO 24**](#req-24){.testo-rosso} che segue.
 
 {{< include ./include/requisiti/_requisito-24.qmd >}}
 
@@ -284,7 +284,7 @@ Ricordiamo che, per agevolare la circolazione delle informazioni concernenti gli
 
 {{< include ./include/requisiti/_requisito-26.qmd >}}
 
-Il riutilizzo DEVE essere **sempre gratuito** nel caso delle **serie di dati di elevato valore** (v. par. **[-@sec-serie-di-dati-di-elevato-valore]**, con le esclusioni indicate nel [**REQUISITO 8**,](capitolo-4.qmd#req-8) e nel caso dei **dati della ricerca** (v. par. **[-@sec-dati-della-ricerca]**).
+Il riutilizzo DEVE essere **sempre gratuito** nel caso delle **serie di dati di elevato valore** (v. par. **[-@sec-serie-di-dati-di-elevato-valore]**, con le esclusioni indicate nel [**REQUISITO 8**,](capitolo-4.qmd#req-8){.testo-rosso} e nel caso dei **dati della ricerca** (v. par. **[-@sec-dati-della-ricerca]**).
 
 ## Non discriminazione {#sec-non-discriminazione}
 

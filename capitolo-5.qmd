@@ -246,7 +246,7 @@ A tale proposito, il Decreto stabilisce che le pubbliche amministrazioni e gli o
 
 {{< include ./include/requisiti/_requisito-17.qmd >}}
 
-Stante quanto indicato nel par. **[-@sec-requisiti-comuni]** relativamente alla distinzione tra documenti e dati, il [**REQUISITO 17**](#req-17) si applica solo ai documenti che rientrano nell'ambito di applicazione delle Linee Guida richiamate nel requisito stesso.
+Stante quanto indicato nel par. **[-@sec-requisiti-comuni]** relativamente alla distinzione tra documenti e dati, il [**REQUISITO 17**](#req-17){.testo-rosso} si applica solo ai documenti che rientrano nell'ambito di applicazione delle Linee Guida richiamate nel requisito stesso.
 
 {{< include ./include/risorse-utili/_risorse-cap5.1.5.qmd >}}
 
