@@ -1,0 +1,11 @@
+Acronimo/ abbreviazione,Titolo,Organismo di standardizzazione,Dominio,URL,Note
+DataCube,The RDF Data Cube Vocabulary,W3C,Dati statistici,https://www.w3.org/TR/vocab-data-cube/,
+EU vocabularies,"Risorse (vocabolari controllati, modelli, schemi e ontologie) rese disponibili dall’Ufficio delle Pubblicazioni dell’Unione Europea",Commissione Europea,Vari domini,https://op.europa.eu/en/web/eu-vocabularies/home,
+INSPIRE,Infrastructure for Spatial Information in the European Community,Commissione Europea,Dati territoriali,http://inspire.ec.europa.eu/,
+ISO 639,Language codes,ISO,Lingua,https://www.iso.org/iso-639-language-code,
+ISO 8601,Date and time format,ISO,Tempo,https://www.iso.org/iso-8601-date-and-time-format.html,
+ISO 19100,Serie 19100 “Geographic Information”,ISO,Dati territoriali,https://www.iso.org/committee/54904/x/catalogue/,
+NDC,Catalogo nazionale della semantica dei dati,Governo italiano / ISTAT,Vari domini,https://www.schema.gov.it/,
+NUTS,Nomenclature of territorial units for statistics,Commissione Europea,Dati territoriali,https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Nomenclature_of_territorial_units_for_statistics_(NUTS),
+SDMX,Statistical Data and Metadata eXchange,SDMX community,Dati statistici,https://sdmx.org/?page_id=5008,SDMX è anche uno Standard ISO (ISO 17369:2013 https://www.iso.org/standard/52500.html
+,Regole tecniche dati territoriali,Governo italiano / AgID,Dati territoriali,https://geodati.gov.it/geoportale/datiterritoriali/regole-tecniche,
