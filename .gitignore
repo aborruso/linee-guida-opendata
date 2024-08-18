@@ -8,5 +8,6 @@ debug.docx
 
 /.quarto/
 /_book/
+_freeze/
 
 /.luarc.json
