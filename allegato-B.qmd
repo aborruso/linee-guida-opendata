@@ -55,7 +55,7 @@ Le intestazioni di colonna devono essere auto-esplicative ed essere incluse nell
 
 ###### Assicurati che tutte le righe abbiano lo stesso numero di colonne
 
-Ogni riga deve avere lo stesso numero di colonne e, quindi, di caratteri separatori. Se in una riga manca un valore, questo di solito viene interpretato come "null". Ciò può comportare un trattamento errato dei dati. Se il CSV contiene righe con un numero diverso di colonne, bisognerebbe controllare se c'è un problema con valori di ‘escape' non corretti (ad es. un valore che corrisponde al carattere separatore che in quel caso non va interpretato come tale).
+Ogni riga deve avere lo stesso numero di colonne e, quindi, di caratteri separatori. Se in una riga manca un valore, questo di solito viene interpretato come "null". Ciò può comportare un trattamento errato dei dati. Se il CSV contiene righe con un numero diverso di colonne, bisognerebbe controllare se c'è un problema con valori di 'escape' non corretti (ad es. un valore che corrisponde al carattere separatore che in quel caso non va interpretato come tale).
 
 ###### Indica le unità in una modalità facilmente elaborabile
 
@@ -102,9 +102,9 @@ Invece di allegare tutti i campi all'oggetto radice del JSON, i dati dovrebbero 
 
 Ogni file XML dovrebbe avere una dichiarazione XML completa. Questa contiene metadati relativi alla struttura del documento ed è importante affinché le applicazioni elaborino correttamente il file.
 
-###### Fai l' "escaping" dei caratteri speciali
+###### Fai l'"escaping" dei caratteri speciali
 
-Quando vengono utilizzati caratteri speciali nei file XML, è necessario eseguire l' "escape". Ciò garantisce una struttura del file pulita e impedisce alle applicazioni utilizzate per l'elaborazione del file di interpretare erroneamente i dati. L' ‘escape' viene eseguito sostituendoli con le entità XML equivalenti.
+Quando vengono utilizzati caratteri speciali nei file XML, è necessario eseguire l' "escape". Ciò garantisce una struttura del file pulita e impedisce alle applicazioni utilizzate per l'elaborazione del file di interpretare erroneamente i dati. L' 'escape' viene eseguito sostituendoli con le entità XML equivalenti.
 
 ###### Utilizza nomi significativi per gli identificatori
 
@@ -144,7 +144,7 @@ Notation3 (o N3) è una serializzazione RDF pensata per essere più compatta ris
 
 Gli ID di una risorsa dovrebbero essere URI HTTP/HTTPS, poiché questi consentono l'accesso diretto alla risorsa in questione. Rendono inoltre le risorse indicizzabili dai motori di ricerca, il che migliora la loro reperibilità.
 
-###### Utilizza ‘namespace' (spazi dei nomi) quando possibile
+###### Utilizza 'namespace' (spazi dei nomi) quando possibile
 
 Sebbene gli spazi dei nomi non siano necessari per l'elaborazione di RDF, riducono la verbosità e le dimensioni del file.
 
