@@ -9,5 +9,6 @@ debug.docx
 /.quarto/
 /_book/
 _freeze/
+/trash/
 
 /.luarc.json
