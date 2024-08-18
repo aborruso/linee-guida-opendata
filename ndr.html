@@ -399,6 +399,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <li><a href="#come-abbiamo-lavorato" id="toc-come-abbiamo-lavorato" class="nav-link" data-scroll-target="#come-abbiamo-lavorato">Come abbiamo lavorato</a></li>
   <li><a href="#modifiche-al-documento-originale" id="toc-modifiche-al-documento-originale" class="nav-link" data-scroll-target="#modifiche-al-documento-originale">Modifiche al documento originale</a></li>
   <li><a href="#dove-è-pubblicato-il-codice-sorgente" id="toc-dove-è-pubblicato-il-codice-sorgente" class="nav-link" data-scroll-target="#dove-è-pubblicato-il-codice-sorgente">Dove è pubblicato il codice sorgente</a></li>
+  <li><a href="#nostre-note-dentro-il-testo" id="toc-nostre-note-dentro-il-testo" class="nav-link" data-scroll-target="#nostre-note-dentro-il-testo">Nostre note dentro il testo</a></li>
   <li><a href="#licenza" id="toc-licenza" class="nav-link" data-scroll-target="#licenza">Licenza</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/ondata/linee-guida-opendata/edit/main/ndr.qmd" class="toc-action"><i class="bi bi-github"></i>Modifica questa pagina</a></li><li><a href="https://github.com/ondata/linee-guida-opendata/issues/new" class="toc-action"><i class="bi empty"></i>Segnala un problema</a></li></ul></div></nav>
@@ -425,7 +426,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </header>
 
 
-<p>Queste <strong>note</strong> sono <strong>a cura dell’associazione onData</strong>, <strong>non sono parte delle linee guida</strong> e non sono vincolanti.</p>
+<p>Queste pagina di note è <strong>a cura dell’associazione onData</strong>, <strong>non sono parte delle linee guida</strong> e non sono vincolanti.</p>
 <section id="introduzione" class="level2 unnumbered page-columns page-full">
 <h2 class="unnumbered anchored" data-anchor-id="introduzione">Introduzione</h2>
 <p>Per noi dell’assocazione onData <strong>tutti i documenti pubblici di riferimento</strong> - come queste linee guida - dovrebbero essere <strong>resi disponibili</strong> in lettura anche su <a href="https://docs.italia.it/"><strong>Docs Italia</strong></a>.</p>
@@ -444,7 +445,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </blockquote>
 <p>E chi lo riceve visualizzerà subito il requisito 2 nel suo contesto, come in <a href="#fig-link-req" class="quarto-xref">Figura&nbsp;<span>1</span></a>, e potrà approfondire la lettura.</p>
 <div class="page-columns page-full">
-<div id="fig-link-req" class="lightbox quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" alt="Esempio di pagina aperta sul requisito 2" data-align="center">
+<div id="fig-link-req" class="lightbox quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-align="center" alt="Esempio di pagina aperta sul requisito 2">
 <figure class="quarto-float quarto-float-fig figure page-columns page-full">
 <div aria-describedby="fig-link-req-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca" class="page-columns page-full">
 <a href="./immagini/link_requisito.png" class="lightbox page-columns page-full" data-gallery="quarto-lightbox-gallery-1" title="Figura&nbsp;1: Esempio di pagina aperta sul requisito 2"><img src="./immagini/link_requisito.png" class="img-fluid figure-img column-page-inset-right" data-align="center" alt="Esempio di pagina aperta sul requisito 2"></a>
@@ -514,6 +515,21 @@ Figura&nbsp;2: l’inizio del capitolo 4
 <section id="dove-è-pubblicato-il-codice-sorgente" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="dove-è-pubblicato-il-codice-sorgente">Dove è pubblicato il codice sorgente</h2>
 <p>Il codice sorgente di questo progetto è pubblicato su <a href="https://github.com/ondata/linee-guida-opendata">GitHub</a>.</p>
+</section>
+<section id="nostre-note-dentro-il-testo" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="nostre-note-dentro-il-testo">Nostre note dentro il testo</h2>
+<p>Abbiamo creato uno stile per le nostre <strong>eventuali</strong> note dentro al testo che è come quello di sotto.</p>
+<div class="ndr">
+<div class="ndr-header">
+<div class="ndr-icon">
+
+</div>
+<p>Eventuale titolo della nota</p>
+</div>
+<div class="ndr-body">
+<p>Questa nota è un esempio di come potremmo inserire delle note nel testo.</p>
+</div>
+</div>
 </section>
 <section id="licenza" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="licenza">Licenza</h2>
@@ -808,7 +824,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom"});
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","loop":false,"selector":".lightbox","descPosition":"bottom","closeEffect":"zoom"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {
