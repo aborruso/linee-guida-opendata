@@ -1,10 +1,10 @@
 # Modello per i dati aperti {#sec-allegato-a}
 
-Il modello da considerare per produrre e pubblicare dati aperti è quello noto come modello a cinque stelle rappresentato in @fig-modello_a_cinque_stelle_per_i_dati_aperti che fornisce una scala per misurare l'apertura dei dati.
+Il modello da considerare per produrre e pubblicare dati aperti è quello noto come modello a cinque stelle rappresentato in @fig-modello_a_cinque_stelle_per_i_dati_aperti[^figura_dati_aperti] che fornisce una scala per misurare l'apertura dei dati.
 
-![Modello a cinque stelle per i dati aperti[^#_bookmark142]](immagini/image101.jpeg){#fig-modello_a_cinque_stelle_per_i_dati_aperti width="90%" fig-alt="Modello a cinque stelle per i dati aperti." align="center" .lightbox}
+[^figura_dati_aperti]: Rivisitazione della figura [disponibile sul web](http://5stardata.info/en/)
 
-[^#_bookmark142]: Rivisitazione della figura [disponibile sul web](http://5stardata.info/en/)
+![Modello a cinque stelle per i dati aperti](immagini/image101.jpeg){#fig-modello_a_cinque_stelle_per_i_dati_aperti width="90%" fig-alt="Modello a cinque stelle per i dati aperti." align="center" .lightbox}
 
 ## I livelli del modello per i dati aperti {#sec-livelli_del_modello_per_i_dati_aperti}
 
