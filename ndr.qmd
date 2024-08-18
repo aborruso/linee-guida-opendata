@@ -4,7 +4,7 @@ page-navigation: false
 
 # Note di redazione {.unnumbered}
 
-Queste pagina di note è **a cura dell'associazione onData**, **non sono parte delle linee guida** e non sono vincolanti.
+Questa pagina di note è **a cura dell'associazione onData**, **non è parte delle linee guida**.
 
 ## Introduzione {.unnumbered}
 
