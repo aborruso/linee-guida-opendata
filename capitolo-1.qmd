@@ -125,3 +125,5 @@ Per quanto riguarda le **imprese private**, sono da considerare:
 - in generale, i gestori di servizi pubblici in relazione ai servizi di pubblico interesse.
 
 {{< include ./include/risorse-utili/_risorse-cap1.qmd >}}
+
+{{< include ./include/_nota_generale.qmd >}}

@@ -9,3 +9,5 @@ Di seguito l'elenco dei requisiti e delle raccomandazioni definiti nelle present
 ## Raccomandazioni {#raccomandazioni}
 
 {{< include ./include/tabelle/_raccomandazioni.qmd >}}
+
+{{< include ./include/_nota_generale.qmd >}}

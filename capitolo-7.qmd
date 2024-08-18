@@ -202,3 +202,5 @@ Per quanto riguarda le possibili soluzioni "autonome", che possono essere adotta
 **Utilizzo di piattaforme esterne.** Viene utilizzata una piattaforma che include funzionalità per la catalogazione, visualizzazione, ricerca e interrogazione dei dati. In alcuni casi queste piattaforme sono disponibili in modalità «*as a service*».
 
 {{< include ./include/raccomandazioni/_raccomandazione-17.qmd >}}
+
+{{< include ./include/_nota_generale.qmd >}}

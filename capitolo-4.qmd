@@ -71,7 +71,7 @@ Per la scelta del formato da utilizzare per il rispetto delle caratteristiche di
 
 {{< include ./include/requisiti/_requisito-2.qmd >}}
 
-Ulteriori elementi per la scelta del formato da utilizzare si possono rinvenire nella Tabella seguente (@tbl-formati) tratta dal documento "**Data.europa.eu - Data Quality Guidelines**" (v. box "[Risorse utili](#res-4.1)" alla fine del paragrafo) [NdR: esiste una [versione più aggiornata del documento](https://op.europa.eu/it/publication-detail/-/publication/b601d9cc-b3c0-11ec-9d96-01aa75ed71a1) UE.]{.aside} che riporta l'elenco dei formati utilizzati comunemente specificando quali siano leggibili meccanicamente e non proprietari. L'ultima colonna indica il numero di stelle ottenibili utilizzando il corrispondente formato per la pubblicazione dei dati. I formati evidenziati in verde sono quelli che dovrebbero essere utilizzati; se questo non è possibile allora si possono utilizzare quelli evidenziati in giallo, mentre sono da escludere quelli evidenziati in rosso.
+Ulteriori elementi per la scelta del formato da utilizzare si possono rinvenire nella Tabella seguente (@tbl-formati) tratta dal documento "**Data.europa.eu - Data Quality Guidelines**" (v. box "[Risorse utili](#res-4.1)" alla fine del paragrafo) [**NdR**: esiste una [versione più aggiornata del documento](https://op.europa.eu/it/publication-detail/-/publication/b601d9cc-b3c0-11ec-9d96-01aa75ed71a1) UE.]{.aside} che riporta l'elenco dei formati utilizzati comunemente specificando quali siano leggibili meccanicamente e non proprietari. L'ultima colonna indica il numero di stelle ottenibili utilizzando il corrispondente formato per la pubblicazione dei dati. I formati evidenziati in verde sono quelli che dovrebbero essere utilizzati; se questo non è possibile allora si possono utilizzare quelli evidenziati in giallo, mentre sono da escludere quelli evidenziati in rosso.
 
 ::: {.formati}
 
@@ -356,3 +356,5 @@ Per i dati territoriali, il profilo di metadati da considerare è quello definit
 {{< include ./include/requisiti/_requisito-16.qmd >}}
 
 {{< include ./include/risorse-utili/_risorse-cap4.6.qmd >}}
+
+{{< include ./include/_nota_generale.qmd >}}

@@ -263,3 +263,5 @@ Oltre all'indicazione di utilizzare qualsiasi formato che sia aperto e leggibile
 #### SAFE (Standard Archive Format for Europe) {#safe}
 
 È un [formato standard](https://public.ccsds.org/pubs/650x0m2.pdf) per l'archiviazione e il trasporto dei dati di osservazione della Terra all'interno del sistema di archiviazione dell'Agenzia spaziale europea (ESA), conforme allo standard Open Archival Information System (OAIS).
+
+{{< include ./include/_nota_generale.qmd >}}

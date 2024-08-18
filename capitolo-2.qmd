@@ -60,3 +60,5 @@ Si richiamano altresì:
 : {tbl-colwidths="[20,80]" .table-sm .table-striped}
 
 :::
+
+{{< include ./include/_nota_generale.qmd >}}

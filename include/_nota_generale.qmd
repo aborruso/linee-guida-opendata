@@ -1,0 +1,5 @@
+---
+
+:::{.nota_generale}
+ℹ️ **Queste linee guida non sono un documento ufficiale**. Quelle ufficiali sono [queste](https://www.agid.gov.it/sites/agid/files/2024-05/lg-open-data_v.1.0_1.pdf) pubblicate da AgID in formato PDF.
+:::

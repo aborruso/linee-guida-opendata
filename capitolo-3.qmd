@@ -168,3 +168,5 @@ Di seguito si riportano gli ACRONIMI che sono utilizzati nelle presenti Linee Gu
 : {tbl-colwidths="[20,80]" .table-sm .table-striped}
 
 :::
+
+{{< include ./include/_nota_generale.qmd >}}

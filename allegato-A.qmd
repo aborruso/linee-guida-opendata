@@ -51,3 +51,5 @@ La @tbl-formati riportata al par. **[-@sec-requisiti-comuni]** indica, per ciasc
 - **Accesso**: I programmi sono in grado di conoscere l'ontologia di riferimento e pertanto di elaborare i dati quasi senza ulteriori interventi umani;
 
 - **Servizi**: Servizi che sfruttano sia accessi diretti a Web sia l'informazione ulteriore catturata attraverso i link dei dati di interesse, facilitando il mashup di dati.
+
+{{< include ./include/_nota_generale.qmd >}}
