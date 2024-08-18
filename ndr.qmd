@@ -72,9 +72,9 @@ Abbiamo apportato pochissime **modifiche** al documento originale, per renderlo 
 
 Potremmo aver commesso degli errori, per cui ti chiediamo di [**segnalarceli**](https://github.com/ondata/linee-guida-opendata/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen) per correggerli.
 
-## Dove è pubblicato il codice sorgente {.unnumbered}
+## Il codice sorgente di questa versione {.unnumbered}
 
-Il codice sorgente di questo progetto è pubblicato su [GitHub](https://github.com/ondata/linee-guida-opendata).
+Il codice sorgente di questa versione HTML delle linee guida è pubblicato su [GitHub](https://github.com/ondata/linee-guida-opendata).
 
 ## Nostre note dentro il testo {.unnumbered}
 
