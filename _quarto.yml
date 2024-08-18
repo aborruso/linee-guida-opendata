@@ -87,6 +87,7 @@ format:
     code-copy: true
     code-overflow: wrap
     link-external-newwindow: true
+    bread-crumbs: false
     link-external-icon: true
     link-external-filter: '^.*\.github\.io\/'
 
