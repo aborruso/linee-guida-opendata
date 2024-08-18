@@ -190,7 +190,7 @@ Tale guida sarà pubblicata nel sito istituzionale di AgID nonché nei portali d
 ::::{.ndr-header}
 :::::{.ndr-icon}
 :::::
-Guida operativa sulle serie di dati di elevato valore
+NdR - Guida operativa sulle serie di dati di elevato valore
 ::::
 
 ::::{.ndr-body}
