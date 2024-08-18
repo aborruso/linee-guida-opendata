@@ -1,7 +1,9 @@
 ----
 
-::: {.callout-tip icon=false}
-## 📚 Risorse utili - cap. 4.2
+::: {.callout-tip icon=false #res-4.2 .risorsa}
+
+📚 **Risorse utili - cap. 4.2** [🔗](#res-4.2){.link-req}
+
 - [Webinar "Real-time Data"](https://data.europa.eu/en/academy/real-time-data), data.europa.eu Academy, 2022
 - [OGC SensorThings API as an INSPIRE download service](https://inspire.ec.europa.eu/good-practice/ogc-sensorthings-api-inspire-download-service)
 :::

@@ -1,7 +1,9 @@
 ----
 
-::: {.callout-tip icon=false}
-## 📚 Risorse utili - cap. 4.4
+::: {.callout-tip icon=false #res-4.4 .risorsa}
+
+📚 **Risorse utili - cap. 4.4** [🔗](#res-4.4){.link-req}
+
 - [FAIR principles](https://www.go-fair.org/fair-principles/)
 - [The FAIR data principles](https://force11.org/info/the-fair-data-principles/)
 - [How to make your data FAIR](https://www.openaire.eu/how-to-make-your-data-fair) – Guides for Researchers

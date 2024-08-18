@@ -1,7 +1,9 @@
 ----
 
-::: {.callout-tip icon=false}
-## 📚 Risorse utili - cap. 4.6
+::: {.callout-tip icon=false #res-4.6 .risorsa}
+
+📚 **Risorse utili - cap. 4.6** [🔗](#res-4.6){.link-req}
+
 - [Guida operativa per i cataloghi dati](https://docs.italia.it/italia/daf/linee-guida-cataloghi-dati-dcat-ap-it/it/stabile/index.html)
 - [Guida operativa per la compilazione dei metadati RNDT](https://geodati.gov.it/geoportale/images/struttura/documenti/Manuale-RNDT_2-guida-operativa-compilazione-metadati_v3.0.pdf)
 :::

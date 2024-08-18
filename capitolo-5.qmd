@@ -47,7 +47,7 @@ Per le autonomie locali occorre tenere conto, in particolare, di quanto disposto
 
 Un ruolo essenziale per l'organizzazione di uffici e risorse per il processo di apertura e di riutilizzo dei dati può essere svolto dall'**ufficio del Responsabile per la transizione digitale** (RTD) istituito con l'[art. 17](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82!vig=2024-08-17~art17) del [**CAD**,](capitolo-2.qmd#CAD) che ha la responsabilità della transizione alla modalità operativa digitale e che risponde direttamente all'organo di vertice politico o, in assenza di questo, a quello amministrativo dell'ente.
 
-La Circolare n. 3 del 1° ottobre 2018 del Ministro per la pubblica amministrazione (v. box "Risorse utili"), al fine di garantire la piena operatività dell'Ufficio del RTD, raccomanda di prevedere, nell'atto di conferimento dell'incarico o di nomina, oltre che i compiti espressamente previsti dalle norme vigenti in materia, anche il **potere di costituire gruppi tematici per singole attività e/o adempimenti** come può essere il processo di apertura e pubblicazione dei dati.
+La Circolare n. 3 del 1° ottobre 2018 del Ministro per la pubblica amministrazione (v. box "[Risorse utili](#res-5.1.1)"), al fine di garantire la piena operatività dell'Ufficio del RTD, raccomanda di prevedere, nell'atto di conferimento dell'incarico o di nomina, oltre che i compiti espressamente previsti dalle norme vigenti in materia, anche il **potere di costituire gruppi tematici per singole attività e/o adempimenti** come può essere il processo di apertura e pubblicazione dei dati.
 
 Nel caso in cui tale potere non sia assegnato al RTD, la costituzione del gruppo "tematico" può essere direttamente decisa dal vertice politico o quello amministrativo.
 
@@ -113,7 +113,7 @@ c) *della natura dei dati personali, specialmente se siano trattate categorie pa
 d) *delle possibili conseguenze dell'ulteriore trattamento previsto per gli interessati;*<br>
 e) *dell'esistenza di garanzie adeguate, che possono comprendere la cifratura o la pseudonimizzazione*".
 
-Per meglio individuare per quali scopi ulteriori, compatibili con quelli originari, i dati personali pubblicamente disponibili *online* possono essere utilizzati (o debbano altrimenti essere anonimizzati), si vedano gli elementi condivisi in ambito europeo ed elaborati dal Gruppo Art. 29 nel Parere n. 03/2013 sul principio di limitazione della finalità (v. box "Risorse utili").
+Per meglio individuare per quali scopi ulteriori, compatibili con quelli originari, i dati personali pubblicamente disponibili *online* possono essere utilizzati (o debbano altrimenti essere anonimizzati), si vedano gli elementi condivisi in ambito europeo ed elaborati dal Gruppo Art. 29 nel Parere n. 03/2013 sul principio di limitazione della finalità (v. box "[Risorse utili](#res-5.1.2)").
 
 **Ricognizione -** Per i dati nativi, vanno, quindi, individuati, nell'ambito delle strutture organizzative dell'amministrazione, quali dati, tra tutti quelli prodotti, si vogliano rendere aperti, in quanto riutilizzabili da cittadini, imprese e stakeholder in genere, anche per abilitare nuove forme di riutilizzo dell'informazione. Per i dati mashup, le amministrazioni possono raccogliere e integrare informazioni da diverse fonti interne ed esterne che concorrano alla formazione del dato. Per tale tipologia di dati, la parte più importante è la definizione delle modalità di accesso a partire dalle politiche dei singoli produttori dei dati e le relative modalità di rilascio e aggiornamento dei dati stessi.
 
@@ -133,7 +133,7 @@ Tra i criteri da considerare per definire la priorità nell'apertura dei dati po
 - l'esistenza di richieste pervenute dai riutilizzatori sulla base dell'[art. 5](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36~art5) del Decreto e della procedura di cui al par. **[-@sec-richieste-di-riutilizzo]**;
 - l'esistenza di specifiche disposizioni normative che prevedano di rendere disponibili obbligatoriamente, come dati di tipo aperto, talune tipologie di dati (v. i casi presentati all'inizio di questo paragrafo).
 
-Tale attività potrebbe essere sistematizzata attraverso la definizione di un **percorso di apertura dei dati** da inserire nel Piano Triennale ICT che ciascuna amministrazione, secondo la roadmap definita dalle Linee d'Azione nel Piano triennale nazionale e le modalità operative fornite da AgID, è chiamata a definire anche utilizzando il format PT reso disponibile da AgID stessa (v. box "Risorse utili"). La predisposizione di tale Piano rientra tra i compiti che la Circolare n. 3/2018 del Ministro per la pubblica amministrazione raccomanda di assegnare al RTD.
+Tale attività potrebbe essere sistematizzata attraverso la definizione di un **percorso di apertura dei dati** da inserire nel Piano Triennale ICT che ciascuna amministrazione, secondo la roadmap definita dalle Linee d'Azione nel Piano triennale nazionale e le modalità operative fornite da AgID, è chiamata a definire anche utilizzando il format PT reso disponibile da AgID stessa (v. box "[Risorse utili](#res-5.1.2)"). La predisposizione di tale Piano rientra tra i compiti che la Circolare n. 3/2018 del Ministro per la pubblica amministrazione raccomanda di assegnare al RTD.
 
 {{< include ./include/raccomandazioni/_raccomandazione-7.qmd >}}
 
@@ -173,7 +173,7 @@ I vocabolari fanno sì che invece di utilizzare nei dati le etichette, queste po
 
 In caso di dati di elevato valore (v. par. **[-@sec-serie-di-dati-di-elevato-valore]**), per specifiche categorie tematiche (ovvero osservazione della terra e ambiente, statistica, imprese e proprietà delle imprese, mobilità) il Regolamento (UE) \[[**REG-HVD**](capitolo-2.qmd#REG-HVD)\] indica esplicitamente che i set di dati DEVONO utilizzare, ove possibile, vocabolari controllati e tassonomie documentati pubblicamente e riconosciuti nell'Unione o a livello internazionale.
 
-I vocabolari controllati sono disponibili nel Catalogo Nazionale della semantica dei dati e, per i dati territoriali, nel Sistema di Registri INSPIRE Italia (v. box "Risorse utili").
+I vocabolari controllati sono disponibili nel Catalogo Nazionale della semantica dei dati e, per i dati territoriali, nel Sistema di Registri INSPIRE Italia (v. box "[Risorse utili](#res-5.1.4)").
 
 **Integrazione con altri dati** - L'arricchimento dei dati può essere ottenuto, come detto, anche integrando informazioni da sorgenti esterne rendendo in questo modo i dati di origine più significativi e fruibili. Il valore aggiunto è ottenuto, per esempio, producendo i dati mashup già citati in precedenza.
 

@@ -19,7 +19,7 @@ Le tabelle che seguono riportano l'elenco, non esaustivo, dei principali standar
 
 ## Formati aperti per dati e documenti {#formati-aperti}
 
-Nei sottoparagrafi che seguono vengono elencati i più comuni formati per dati e documenti; un elenco comunque non esaustivo. Per alcuni formati, vengono indicate anche alcune puntuali raccomandazioni tratte dal documento "data.europa.eu – Data quality guidelines", indicato nel box "Risorse utili", a cui si rimanda per ulteriori approfondimenti.
+Nei sottoparagrafi che seguono vengono elencati i più comuni formati per dati e documenti; un elenco comunque non esaustivo. Per alcuni formati, vengono indicate anche alcune puntuali raccomandazioni tratte dal documento "data.europa.eu – Data quality guidelines", indicato nel box "[Risorse utili](#res-B.2.1.1)", a cui si rimanda per ulteriori approfondimenti.
 
 Una raccomandazione generale valida per tutti i formati è la seguente:
 
@@ -35,7 +35,7 @@ Per garantire che i caratteri siano visualizzati correttamente e avere la massim
 
 ##### Raccomandazioni sul formato CSV[^B_csv]
 
-[^B_csv]: Tratte dal documento "data.europa.eu – Data quality guidelines", indicato nel box "Risorse utili", a cui si rimanda per ulteriori approfondimenti.
+[^B_csv]: Tratte dal documento "[data.europa.eu – Data quality guidelines](https://op.europa.eu/it/publication-detail/-/publication/023ce8e4-50c8-11ec-91ac-01aa75ed71a1/language-en)", a cui si rimanda per ulteriori approfondimenti.
 
 ###### Dichiara il separatore di campo utilizzato
 
@@ -69,7 +69,7 @@ L'unità di misura di un valore dovrebbe essere indicata nell'intestazione della
 
 ##### Raccomandazioni sul formato JSON[^#_bookmark152]
 
-[^#_bookmark152]: Tratte dal documento "data.europa.eu – Data quality guidelines", indicato nel box "Risorse utili", a cui si rimanda per ulteriori approfondimenti.
+[^#_bookmark152]: Tratte dal documento "[data.europa.eu – Data quality guidelines](https://op.europa.eu/it/publication-detail/-/publication/023ce8e4-50c8-11ec-91ac-01aa75ed71a1/language-en)", a cui si rimanda per ulteriori approfondimenti.
 
 ###### Utilizza tipi di dati adeguati
 
@@ -96,7 +96,7 @@ Invece di allegare tutti i campi all'oggetto radice del JSON, i dati dovrebbero 
 
 ##### Raccomandazioni sul formato XML[^#_bookmark153]
 
-[^#_bookmark153]: Tratte dal documento "data.europa.eu – Data quality guidelines", indicato nel box "Risorse utili", a cui si rimanda per ulteriori approfondimenti.
+[^#_bookmark153]: Tratte dal documento "[data.europa.eu – Data quality guidelines](https://op.europa.eu/it/publication-detail/-/publication/023ce8e4-50c8-11ec-91ac-01aa75ed71a1/language-en)", a cui si rimanda per ulteriori approfondimenti.
 
 ###### Fornisci una dichiarazione XML
 
@@ -138,7 +138,7 @@ Notation3 (o N3) è una serializzazione RDF pensata per essere più compatta ris
 
 ##### Raccomandazioni sul formato RDF/xxx[^#_bookmark155]
 
-[^#_bookmark155]: Tratte dal documento "data.europa.eu – Data quality guidelines", indicato nel box "Risorse utili", a cui si rimanda per ulteriori approfondimenti.
+[^#_bookmark155]: Tratte dal documento "[data.europa.eu – Data quality guidelines](https://op.europa.eu/it/publication-detail/-/publication/023ce8e4-50c8-11ec-91ac-01aa75ed71a1/language-en)", a cui si rimanda per ulteriori approfondimenti.
 
 ###### Utilizza URI http/https per identificare le risorse
 
@@ -202,7 +202,7 @@ d'ufficio come OpenOffice.org e LibreOffice; è supportato da altre come Microso
 
 È un linguaggio basato su XML per la rappresentazione di documenti giuridici. Nel 2017 è diventato una specifica OASIS.
 
-Lo standard Akoma Ntoso 1.0 al primo livello è stato adottato quale standard di riferimento per la rappresentazione elettronica dei provvedimenti normativi con la Circolare n. 2/2019 di AgID recante "*Adozione di standard per la rappresentazione elettronica e l'identificazione univoca del patrimonio informativo di natura giuridica e istituzione del Forum Nazionale per l'informazione giuridica*" (v. box "Risorse utili"), a cui si rimanda per tutto quello non previsto nelle presenti Linee Guida.
+Lo standard Akoma Ntoso 1.0 al primo livello è stato adottato quale standard di riferimento per la rappresentazione elettronica dei provvedimenti normativi con la Circolare n. 2/2019 di AgID recante "*Adozione di standard per la rappresentazione elettronica e l'identificazione univoca del patrimonio informativo di natura giuridica e istituzione del Forum Nazionale per l'informazione giuridica*" (v. box "[Risorse utili](#res-B.2.3)"), a cui si rimanda per tutto quello non previsto nelle presenti Linee Guida.
 
 {{< include ./include/risorse-utili/_risorse-allegatoB.2.3.qmd >}}
 

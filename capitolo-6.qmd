@@ -138,7 +138,7 @@ Legenda @tbl-licenze-applicabili:
 
 ::: {.callout-note appearance="minimal"}
 `*` verificare gestibilità attribution e DRM<br>
-`**` il sito della CDLA (v. box infra) ritiene compatibile la CC BY 4.0 con il rilascio in CDLA 2.0 permissive, a condizione di rispettare l'attribution originale (anche se non raccomandato, per non creare "strati" di attribuzione", come da wiki delle CC di cui al link nel box "Risorse utili", "Adapter's license chart"). Analogo ragionamento a fortiori parrebbe essere applicabile per la IODL 2.0. Sempre come esempio, se si elabora un db rilasciato originariamente in CC BY SA, o in OdBL, sì dovrà rilasciare anche il nuovo DB in CC BY SA o rispettivamente OdBL (salvo l'eccezione del "produced work" per l'OdBL)<br>
+`**` il sito della CDLA (v. box infra) ritiene compatibile la CC BY 4.0 con il rilascio in CDLA 2.0 permissive, a condizione di rispettare l'attribution originale (anche se non raccomandato, per non creare "strati" di attribuzione", come da wiki delle CC di cui al link nel box "[Risorse utili](#res-6.1)", "Adapter's license chart"). Analogo ragionamento a fortiori parrebbe essere applicabile per la IODL 2.0. Sempre come esempio, se si elabora un db rilasciato originariamente in CC BY SA, o in OdBL, sì dovrà rilasciare anche il nuovo DB in CC BY SA o rispettivamente OdBL (salvo l'eccezione del "produced work" per l'OdBL)<br>
 `***` il sito della CDLA dichiara compatibile il rilascio di un'opera derivata sotto CC0 partendo da un'opera originaria sub CDLA 2.0 permissive a condizione di riportare il testo di quest'ultima (che tuttavia parrebbe condizione aggiuntiva alla CC0)
 :::
 
@@ -189,7 +189,7 @@ Si fa riferimento, a titolo di esempio:
 - ai limiti all'apponibilità di misure tecnologiche di protezione, in quanto alcune licenze (ad esempio, la CC-BY 4.0) contengono un divieto di apporre tali soluzioni, senza eccezioni; altre licenze non contemplano detto profilo (come la IODL); altre ancora contemplano tale divieto, individuando, tuttavia, soluzioni alternative (es. l'OdBL, che prevede il divieto, ma anche la possibilità alternativa di apporre dette misure, a condizione che una copia del database rimanga accessibile senza restrizioni);
 - a specifiche distinzioni sulle modalità di utilizzo delle fonti, prevista in alcune licenze (come l'OdBl rispetto ai "database collettivi"), e/o alla diversa gestione, anche sotto il profilo del "copyleft", del licensing del prodotto identificabile come "derivato" (ad esempio, nell'OdBL per il cd. "produced work" - classico esempio, le mappe rispetto al DB geografico - e nella CDLA per i "results from computational use", ovvero i risultati di una analisi algoritmica di diverse fonti per la produzione di un risultato "diverso").
 
-Questi ultimi aspetti sono peculiari ed esulano dalla necessaria semplificazione funzionale alle tabelle sottese; SI RACCOMANDA, pertanto, di fare comunque riferimento, per eventuali approfondimenti, alla serie di risorse utili indicate nel box, svolgendo, ove necessario, specifiche verifiche.
+Questi ultimi aspetti sono peculiari ed esulano dalla necessaria semplificazione funzionale alle tabelle sottese; SI RACCOMANDA, pertanto, di fare comunque riferimento, per eventuali approfondimenti, alla serie di [risorse utili](#res-6.1) indicate nel box, svolgendo, ove necessario, specifiche verifiche.
 
 {{< include ./include/risorse-utili/_risorse-cap6.1.qmd >}}
 
@@ -242,7 +242,7 @@ Ferma restando la condivisione dei dati tra pubbliche amministrazioni per finali
 
 {{< include ./include/requisiti/_requisito-22.qmd >}}
 
-Per il calcolo dei costi marginali si può fare riferimento alle indicazioni, tuttora valide, fornite nella Comunicazione della Commissione Europea 2014/C - 240/01 (v. box "Risorse utili" alla fine del paragrafo 6.4) a cui si rimanda per ulteriori approfondimenti. La Comunicazione, in particolare, indica che nell'ambiente in linea, la totalità del corrispettivo potrebbe essere limitata ai costi collegati direttamente alla manutenzione e al funzionamento dell'infrastruttura (ossia della banca dati elettronica) nella misura necessaria a riprodurre il documento e a metterlo a disposizione di un riutilizzatore in più.
+Per il calcolo dei costi marginali si può fare riferimento alle indicazioni, tuttora valide, fornite nella Comunicazione della Commissione Europea 2014/C - 240/01 (v. box "[Risorse utili](#res-6.2-6.4)" alla fine del paragrafo 6.4) a cui si rimanda per ulteriori approfondimenti. La Comunicazione, in particolare, indica che nell'ambiente in linea, la totalità del corrispettivo potrebbe essere limitata ai costi collegati direttamente alla manutenzione e al funzionamento dell'infrastruttura (ossia della banca dati elettronica) nella misura necessaria a riprodurre il documento e a metterlo a disposizione di un riutilizzatore in più.
 
 Stante quanto sopra, considerate l'esiguità e la tendenza al ribasso dei costi operativi medi di una banca dati, la Comunicazione stima che l'importo possa essere probabilmente **prossimo allo zero**. Da qui la conclusione che **per i documenti digitali divulgati per via elettronica si raccomanderebbe una politica di costo zero, quindi la messa a disposizione a titolo gratuito**, fermi restando i costi marginali richiesti per una eventuale rielaborazione o anonimizzazione dei dati.
 

@@ -48,7 +48,7 @@ Tali Linee Guida sono state definite nell'ambito del modello di interoperabilit�
 
 L'implementazione di API coerenti con il [**REQUISITO 27**,](#req-27) pertanto, assicura il rispetto degli adempimenti e la conformità al citato [art. 51](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82!vig=2024-08-17~art51) del [**CAD**.](capitolo-2.qmd#CAD)
 
-Nell'ambito della Strategia Cloud Italia (v. box "Risorse utili"), a cui si rimanda, inoltre, al fine di regolamentare l'offerta di servizi cloud disponibili sul mercato per mitigare i rischi sistemici di sicurezza e affidabilità, è stata definita una classificazione dei dati e dei servizi allo scopo di definire un processo di classificazione dei dati, in base al danno che una loro compromissione potrebbe provocare al sistema Paese (strategici, critici e ordinari). Il risultato della classificazione, si legge nella strategia, consente di uniformare e guidare il processo di migrazione al Cloud della PA. Le classi individuate sono:
+Nell'ambito della Strategia Cloud Italia (v. box "[Risorse utili](#res-7.1.1)"), a cui si rimanda, inoltre, al fine di regolamentare l'offerta di servizi cloud disponibili sul mercato per mitigare i rischi sistemici di sicurezza e affidabilità, è stata definita una classificazione dei dati e dei servizi allo scopo di definire un processo di classificazione dei dati, in base al danno che una loro compromissione potrebbe provocare al sistema Paese (strategici, critici e ordinari). Il risultato della classificazione, si legge nella strategia, consente di uniformare e guidare il processo di migrazione al Cloud della PA. Le classi individuate sono:
 
 - **Strategico**: dati e servizi la cui compromissione può avere un impatto sulla sicurezza nazionale;
 - **Critico**: dati e servizi la cui compromissione potrebbe determinare un pregiudizio al mantenimento di funzioni rilevanti per la società, la salute, la sicurezza e il benessere economico e sociale del Paese;
@@ -74,7 +74,7 @@ Nei casi di amministrazioni di minori dimensioni o amministrazioni che non siano
 
 Il livello infrastrutturale è rappresentato dall'infrastruttura che ospita i dati e i metadati. Nel caso di dati aperti, tenuto conto della loro natura intrinseca, ovvero di dati tipicamente non riferibili a singole persone e per i quali solitamente non si richiede il soddisfacimento di specifici requisiti di protezione dei dati personali, tecnologie basate sul paradigma del cloud computing pubblico possono essere facilmente impiegabili al fine di ospitare le infrastrutture per la pubblicazione di dati aperti.
 
-In tema di cloud, la Strategia Cloud Italia (v. box "Risorse utili"), già citata innanzi, definita dal Dipartimento per la trasformazione digitale della Presidenza del Consiglio dei Ministri e dall'Agenzia per la cybersicurezza nazionale (ACN), contiene gli indirizzi strategici per il percorso di migrazione verso il cloud di dati e servizi digitali della Pubblica Amministrazione. Per l'attuazione della strategia, AgID ha adottato, con la Determinazione n. 628/2021, il Regolamento che definisce i requisiti minimi per le infrastrutture digitali e le caratteristiche e le modalità di qualificazione e migrazione dei servizi cloud.
+In tema di cloud, la Strategia Cloud Italia (v. box "[Risorse utili](#res-7.1.2)"), già citata innanzi, definita dal Dipartimento per la trasformazione digitale della Presidenza del Consiglio dei Ministri e dall'Agenzia per la cybersicurezza nazionale (ACN), contiene gli indirizzi strategici per il percorso di migrazione verso il cloud di dati e servizi digitali della Pubblica Amministrazione. Per l'attuazione della strategia, AgID ha adottato, con la Determinazione n. 628/2021, il Regolamento che definisce i requisiti minimi per le infrastrutture digitali e le caratteristiche e le modalità di qualificazione e migrazione dei servizi cloud.
 
 {{< include ./include/risorse-utili/_risorse-cap7.1.2.qmd >}}
 
@@ -82,7 +82,7 @@ In tema di cloud, la Strategia Cloud Italia (v. box "Risorse utili"), già citat
 
 Nei requisiti per i dati della ricerca volti a rendere tali dati conformi ai principi FAIR si è fatto riferimento più volte a identificatori univoci e persistenti. Tali identificatori (che è buona prassi applicare a tutti i dati e non solo a quelli della ricerca) sono generalmente rappresentati dagli URI (Uniform Resource Identifier), una sequenza di caratteri che identifica una risorsa astratta o fisica. Essi sono utilizzati nei linked data (v. par. **[-@sec-arricchimento]**) per risolvere il problema dell'identità.
 
-Gli URI DEVONO essere persistenti e dereferenziabili. Una politica per garantire URI persistenti e fornire aspetti di naming è proposta in uno studio dalla Commissione Europea (v. box "Risorse utili" in calce). Facendo riferimento a tale documento, per la creazione di URI persistenti sono da evitare quelli che contengano:
+Gli URI DEVONO essere persistenti e dereferenziabili. Una politica per garantire URI persistenti e fornire aspetti di naming è proposta in uno studio dalla Commissione Europea (v. box "[Risorse utili](#res-7.1.3)" in calce). Facendo riferimento a tale documento, per la creazione di URI persistenti sono da evitare quelli che contengano:
 
 - nome del progetto/ufficio/unità amministrativa che detiene la risorsa per evitare problemi derivanti dalla fine del progetto stesso o fusioni o chiusure di uffici nell'organizzazione;
 - numeri di versione;
@@ -123,7 +123,7 @@ I dati, il cui riferimento è pubblicato sul portale nazionale, rimangono presso
 
 {{< include ./include/requisiti/_requisito-30.qmd >}}
 
-L'integrazione dei due cataloghi avviene attraverso la specifica GeoDCAT-AP che fornisce una sintassi RDF per i metadati INSPIRE e ISO 19115 (profilo core) e la sua estensione italiana che è stata definita con la *Guida nazionale per l'implementazione della specifica GeoDCAT-AP* (v. box "Risorse utili").
+L'integrazione dei due cataloghi avviene attraverso la specifica GeoDCAT-AP che fornisce una sintassi RDF per i metadati INSPIRE e ISO 19115 (profilo core) e la sua estensione italiana che è stata definita con la *Guida nazionale per l'implementazione della specifica GeoDCAT-AP* (v. box "[Risorse utili](#res-7.2)").
 
 Nella citata Guida sono definite, tra l'altro, le due regole principali così formulate:
 
@@ -143,7 +143,7 @@ Nella figura che segue è rappresentato lo schema di coordinamento e integrazion
 Come indicato nella guida nazionale su GeoDCAT-AP, quanto sopra è riferito alla integrazione dei cataloghi nazionali RNDT e dati.gov.it e all'allineamento delle informazioni in essi contenute; ferma restando la possibilità di un diverso orientamento, SI RACCOMANDA alle amministrazioni di adottare l'approccio nazionale anche nella gestione dei cataloghi "locali".
 
 
-Analogamente ai dati territoriali, anche per i dati statistici è stata definita un'estensione della specifica DCAT-AP, denominata StatDCAT-AP[^#_bookmark136] (v. box "Risorse utili"), allo scopo di garantire la disponibilità dei dati statistici, utilizzando gli standard specifici, come SDMX, anche nei portali generalisti dei dati aperti.
+Analogamente ai dati territoriali, anche per i dati statistici è stata definita un'estensione della specifica DCAT-AP, denominata StatDCAT-AP[^#_bookmark136] (v. box "[Risorse utili](#res-7.2)"), allo scopo di garantire la disponibilità dei dati statistici, utilizzando gli standard specifici, come SDMX, anche nei portali generalisti dei dati aperti.
 
 [^#_bookmark136]: Attualmente l'estensione StatDCAT-AP è allineata alla versione 1.1 di DCAT-AP
 
