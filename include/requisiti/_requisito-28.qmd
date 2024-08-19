@@ -1,4 +1,4 @@
 ::: {#req-28 .callout-important appearance="simple" icon=false .requisito}
 [**REQUISITO 28**]{.testo-rosso}: **dlgs36-2006/opendata/req/publication/inspire-ns** [🔗](#req-28){.link-req}<br>
-Nel caso di dati territoriali, il [REQUISITO 27](#req-27){.testo-rosso} è attuato attraverso l'implementazione dei servizi di rete di cui all'art. 11 della Direttiva 2007/2/CE, del Regolamento (CE) n. 976/2009 e delle relative Linee Guida tecniche.
+Nel caso di dati territoriali, il [**REQUISITO 27**](#req-27){.testo-rosso} è attuato attraverso l'implementazione dei servizi di rete di cui all'art. 11 della Direttiva 2007/2/CE, del Regolamento (CE) n. 976/2009 e delle relative Linee Guida tecniche.
 :::

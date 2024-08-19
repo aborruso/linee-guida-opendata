@@ -155,7 +155,7 @@ Analogamente ai dati territoriali, anche per i dati statistici è stata definita
 
 Il Decreto dispone che i soggetti destinatari delle presenti Linee Guida debbano individuare le modalità per facilitare la ricerca, anche interlinguistica, dei documenti disponibili per il riutilizzo, insieme ai rispettivi metadati, ove possibile accessibili on-line e in formati leggibili meccanicamente. Tale disposizione è attuata attraverso il rispetto del [**REQUISITO 20**](capitolo-6.qmd#req-20){.testo-rosso} e [**REQUISITO 21**](capitolo-6.qmd#req-21){.testo-rosso} definiti innanzi.
 
-Il Decreto prevede, inoltre, quanto indicato nel seguente Requisito 31.
+Il Decreto prevede, inoltre, quanto indicato nel seguente [**Requisito 31**](#req-31){.testo-rosso}.
 
 {{< include ./include/requisiti/_requisito-31.qmd >}}
 
