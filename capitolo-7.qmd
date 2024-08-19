@@ -134,7 +134,7 @@ Sulla base di queste regole e delle corrispondenze definite tra i metadati dei d
 
 Come indicato nelle Linee Guida RNDT \[[**LG-RNDT**](capitolo-2.qmd#LG-RNDT)\], il Repertorio, in quanto punto di accesso nazionale per i metadati dei dati territoriali, provvede a rendere disponibili i metadati anche al [geoportale INSPIRE](https://inspire-geoportal.ec.europa.eu/) secondo le modalità individuate per l'applicazione di [**INSPIRE-DIR**,](capitolo-2.qmd#INSPIRE-DIR) anche ai fini delle operazioni di monitoraggio di cui alla Decisione di esecuzione (UE) 2019/1372 della Commissione Europea[^#_bookmark134].
 
-[^#_bookmark134]: Decisione di esecuzione (UE) 2019/1372 della Commissione del 19 agosto 2019 recante attuazione della direttiva 2007/2/CE del Parlamento europeo e del Consiglio per quanto riguarda il monitoraggio e la comunicazione
+[^#_bookmark134]: [Decisione di esecuzione (UE) 2019/1372](https://eur-lex.europa.eu/eli/dec_impl/2019/1372/oj) della Commissione del 19 agosto 2019 recante attuazione della direttiva 2007/2/CE del Parlamento europeo e del Consiglio per quanto riguarda il monitoraggio e la comunicazione
 
 Nella figura che segue è rappresentato lo schema di coordinamento e integrazione tra i due cataloghi nazionali e la loro interazione con i portali europei.
 
