@@ -6,5 +6,5 @@
 | [RDFS](https://www.w3.org/TR/rdf-schema/) | RDF Schema | W3C |
 | [SPARQL](https://www.w3.org/TR/rdf-sparql-protocol/) | SPARQL Protocol for RDF | W3C |
 
-:  Principali  standard  di  riferimento:  **web  semantico**  {#tbl-standard-metadati  .table-sm  .table-striped  .table-bordered  .table-responsive}
+:  Principali  standard  di  riferimento:  **web  semantico**  {#tbl-standard-web-semantico  .table-sm  .table-striped  .table-bordered  .table-responsive}
 :::
