@@ -142,47 +142,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-<script>
-    function scrollWithOffset() {
-        // Controlla se c'è un hash nella URL
-        const hash = window.location.hash;
-
-        if (hash) {
-            // Verifica che l'hash corrisponda ai pattern #req- o #racc- seguito da numeri
-            const regex = /^#(req|racc)-\d+$/;
-            if (regex.test(hash)) {
-                const targetElement = document.querySelector(hash);
-
-                if (targetElement) {
-                    // Ottieni la posizione verticale dell'elemento rispetto al documento
-                    const elementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
-
-                    // Sottrai 50 pixel dall'attuale posizione di scroll
-                    const offsetPosition = elementPosition - 20;
-
-                    // Scrolla alla nuova posizione con un piccolo ritardo per permettere il rendering completo
-                    setTimeout(() => {
-                        window.scrollTo({
-                            top: offsetPosition,
-                            behavior: "smooth"
-                        });
-                    }, 10); // Ritardo di 10 millisecondi
-                }
-            }
-        }
-    }
-
-    // Esegui la funzione al caricamento della pagina con un breve ritardo
-    document.addEventListener("DOMContentLoaded", function() {
-        setTimeout(scrollWithOffset, 10);
-    });
-
-    // Esegui la funzione quando cambia l'ancora nella URL
-    window.addEventListener("hashchange", function() {
-        scrollWithOffset();
-    });
-</script>
-
 
 <meta property="og:title" content="Note di redazione – Linee guida Open Data">
 <meta property="og:description" content="La versione HTML a cura dell’associazione onData">
@@ -445,7 +404,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </blockquote>
 <p>E chi lo riceve visualizzerà subito il requisito 2 nel suo contesto, come in <a href="#fig-link-req" class="quarto-xref">Figura&nbsp;<span>1</span></a>, e potrà approfondire la lettura.</p>
 <div class="page-columns page-full">
-<div id="fig-link-req" class="lightbox quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-align="center" alt="Esempio di pagina aperta sul requisito 2">
+<div id="fig-link-req" class="lightbox quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" alt="Esempio di pagina aperta sul requisito 2" data-align="center">
 <figure class="quarto-float quarto-float-fig figure page-columns page-full">
 <div aria-describedby="fig-link-req-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca" class="page-columns page-full">
 <a href="./immagini/link_requisito.png" class="lightbox page-columns page-full" data-gallery="quarto-lightbox-gallery-1" title="Figura&nbsp;1: Esempio di pagina aperta sul requisito 2"><img src="./immagini/link_requisito.png" class="img-fluid figure-img column-page-inset-right" data-align="center" alt="Esempio di pagina aperta sul requisito 2"></a>
@@ -838,7 +797,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","selector":".lightbox","loop":false,"descPosition":"bottom"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","loop":false,"descPosition":"bottom","closeEffect":"zoom"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {

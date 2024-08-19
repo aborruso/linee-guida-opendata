@@ -144,47 +144,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-<script>
-    function scrollWithOffset() {
-        // Controlla se c'è un hash nella URL
-        const hash = window.location.hash;
-
-        if (hash) {
-            // Verifica che l'hash corrisponda ai pattern #req- o #racc- seguito da numeri
-            const regex = /^#(req|racc)-\d+$/;
-            if (regex.test(hash)) {
-                const targetElement = document.querySelector(hash);
-
-                if (targetElement) {
-                    // Ottieni la posizione verticale dell'elemento rispetto al documento
-                    const elementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
-
-                    // Sottrai 50 pixel dall'attuale posizione di scroll
-                    const offsetPosition = elementPosition - 20;
-
-                    // Scrolla alla nuova posizione con un piccolo ritardo per permettere il rendering completo
-                    setTimeout(() => {
-                        window.scrollTo({
-                            top: offsetPosition,
-                            behavior: "smooth"
-                        });
-                    }, 10); // Ritardo di 10 millisecondi
-                }
-            }
-        }
-    }
-
-    // Esegui la funzione al caricamento della pagina con un breve ritardo
-    document.addEventListener("DOMContentLoaded", function() {
-        setTimeout(scrollWithOffset, 10);
-    });
-
-    // Esegui la funzione quando cambia l'ancora nella URL
-    window.addEventListener("hashchange", function() {
-        scrollWithOffset();
-    });
-</script>
-
 
 <meta property="og:title" content="Allegato A — Modello per i dati aperti – Linee guida Open Data">
 <meta property="og:description" content="La versione HTML a cura dell’associazione onData">
@@ -431,7 +390,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 <p>Il modello da considerare per produrre e pubblicare dati aperti è quello noto come modello a cinque stelle rappresentato in <a href="#fig-modello_a_cinque_stelle_per_i_dati_aperti" class="quarto-xref">Figura&nbsp;<span>A.1</span></a><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> che fornisce una scala per misurare l’apertura dei dati.</p>
-<div id="fig-modello_a_cinque_stelle_per_i_dati_aperti" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" alt="Modello a cinque stelle per i dati aperti." data-align="center">
+<div id="fig-modello_a_cinque_stelle_per_i_dati_aperti" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" data-align="center" alt="Modello a cinque stelle per i dati aperti.">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-modello_a_cinque_stelle_per_i_dati_aperti-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <a href="immagini/image101.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figura&nbsp;A.1: Modello a cinque stelle per i dati aperti"><img src="immagini/image101.jpeg" class="img-fluid figure-img" style="width:90.0%" data-align="center" alt="Modello a cinque stelle per i dati aperti."></a>
@@ -781,7 +740,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","descPosition":"bottom","loop":false,"openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","loop":false,"selector":".lightbox","openEffect":"zoom","descPosition":"bottom"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {

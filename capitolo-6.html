@@ -144,47 +144,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-<script>
-    function scrollWithOffset() {
-        // Controlla se c'è un hash nella URL
-        const hash = window.location.hash;
-
-        if (hash) {
-            // Verifica che l'hash corrisponda ai pattern #req- o #racc- seguito da numeri
-            const regex = /^#(req|racc)-\d+$/;
-            if (regex.test(hash)) {
-                const targetElement = document.querySelector(hash);
-
-                if (targetElement) {
-                    // Ottieni la posizione verticale dell'elemento rispetto al documento
-                    const elementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
-
-                    // Sottrai 50 pixel dall'attuale posizione di scroll
-                    const offsetPosition = elementPosition - 20;
-
-                    // Scrolla alla nuova posizione con un piccolo ritardo per permettere il rendering completo
-                    setTimeout(() => {
-                        window.scrollTo({
-                            top: offsetPosition,
-                            behavior: "smooth"
-                        });
-                    }, 10); // Ritardo di 10 millisecondi
-                }
-            }
-        }
-    }
-
-    // Esegui la funzione al caricamento della pagina con un breve ritardo
-    document.addEventListener("DOMContentLoaded", function() {
-        setTimeout(scrollWithOffset, 10);
-    });
-
-    // Esegui la funzione quando cambia l'ancora nella URL
-    window.addEventListener("hashchange", function() {
-        scrollWithOffset();
-    });
-</script>
-
 
 <meta property="og:title" content="6&nbsp; Aspetti legali e di costo – Linee guida Open Data">
 <meta property="og:description" content="La versione HTML a cura dell’associazione onData">
@@ -513,7 +472,7 @@ Requisito&nbsp;6.1
 </div>
 </div>
 <p>Le licenze suindicate sono raffigurate nella Figura seguente.</p>
-<div id="fig-licenze" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" alt="Licenze" data-align="center">
+<div id="fig-licenze" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" data-align="center" alt="Licenze">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-licenze-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <a href="immagini/image65.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figura&nbsp;6.1: Licenze"><img src="immagini/image65.jpeg" class="img-fluid figure-img" style="width:90.0%" data-align="center" alt="Licenze"></a>
@@ -1725,7 +1684,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"descPosition":"bottom","closeEffect":"zoom","openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"loop":false,"selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {
