@@ -1,7 +1,7 @@
 ---
 
 :::{.nota_generale}
-NdR: queste linee guida sono una versione derivata dal documento ufficiale [pubblicato da AgID in formato PDF](https://www.agid.gov.it/sites/agid/files/2024-05/lg-open-data_v.1.0_1.pdf). **Questo sito web non è un documento ufficiale** e si prega di fare riferimento al suddetto PDF.
+**NdR**: queste linee guida sono una versione derivata dal documento ufficiale [pubblicato da AgID in formato PDF](https://www.agid.gov.it/sites/agid/files/2024-05/lg-open-data_v.1.0_1.pdf). **Questo sito web non è un documento ufficiale** e si prega di fare riferimento al suddetto PDF.
 :::
 
 
