@@ -270,11 +270,13 @@ Esempi di tale tipologia di dati sono forniti nella Direttiva: statistiche, risu
 
 **I dati da considerare, come da definizione, sono quelli raccolti o prodotti nel corso della ricerca scientifica finanziata con fondi pubblici, utilizzati come elementi di prova nel processo di ricerca o necessari per convalidare le conclusioni e i risultati della ricerca, e resi pubblici**, anche attraverso l'archiviazione in una banca dati pubblica gestita a livello istituzionale o su base tematica, da ricercatori, organizzazioni che svolgono attività di ricerca e organizzazioni che finanziano la ricerca.
 
-Nel processo di identificazione dei dati della ricerca, da rendere disponibili per il riutilizzo, è necessario tenere conto della normativa in materia di protezione dei dati personali, degli interessi commerciali, dei diritti di proprietà intellettuale[^#_bookmark61] e [dei diritti di proprietà industriale](https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2005-02-10%3B30).
+Nel processo di identificazione dei dati della ricerca, da rendere disponibili per il riutilizzo, è necessario tenere conto della normativa in materia di protezione dei dati personali, degli interessi commerciali, dei diritti di proprietà intellettuale[^#_bookmark61] e dei diritti di proprietà industriale[^#_bookmark62].
 
 A tale proposito, la Direttiva indica che bisogna considerare il principio "*il più aperto possibile, chiuso il tanto necessario*", ripreso anche nella [Raccomandazione (UE) 2018/790](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32018H0790), fermo restando che i "*dati personali trattati a fini statistici o di ricerca scientifica non possono essere utilizzati per prendere decisioni o provvedimenti relativamente all'interessato, né per trattamenti di dati per scopi di altra natura*", come stabilito all'[art. 105](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196~art105), comma 1, del D. Lgs. 196/2003 \[[**D-LGS-196-2003**](capitolo-2.qmd#D-LGS-196-2003)\][^#_bookmark63].
 
-[^#_bookmark61]: v. [legge 22 aprile 1941, n. 633](https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Alegge%3A1941-04-22%3B633!vig)
+[^#_bookmark61]: v. [legge 22 aprile 1941, n. 633](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1941-04-22;633)
+
+[^#_bookmark62]: v. [decreto legislativo 10 febbraio 2005, n. 30](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-02-10;30)
 
 Se i dati della ricerca sono dati dinamici, dati di elevato valore o dati territoriali, allora si applica anche quanto indicato rispettivamente ai paragrafi **[-@sec-dati-dinamici]**, **[-@sec-serie-di-dati-di-elevato-valore]**  e **[-@sec-dati-territoriali]**.
 

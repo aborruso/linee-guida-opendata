@@ -87,7 +87,7 @@ Con un box all'interno del testo, come questo di sotto.
 ::::{.ndr-header}
 :::::{.ndr-icon}
 :::::
-Eventuale titolo della nota
+**NdR**: Eventuale titolo della nota
 ::::
 
 ::::{.ndr-body}
