@@ -3,6 +3,7 @@ project:
   resources:
     - "lg.csl"
     - "rawdata/LG-Open-Data_v.1.0.docx"
+    - "googlecd08604f4edafe6e.html"
   render:
     - "ndr.qmd"
     - "!note.md"
