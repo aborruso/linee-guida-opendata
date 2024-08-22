@@ -11,7 +11,7 @@ Nell'[estate del 2023](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione
 
 > Hanno l'obiettivo di **supportare** le **pubbliche amministrazioni** e gli altri soggetti interessati al processo di **apertura** dei **dati** e di **riutilizzo** dell'**informazione del settore pubblico**, attraverso **indicazioni** volte ad implementare le **disposizioni** e le **modalità** disciplinate dalle norme indicate.
 
-Il documento è pubblicato - ad oggi 17 agosto 2024 - [**soltanto come PDF**](https://www.agid.gov.it/sites/agid/files/2024-05/lg-open-data_v.1.0_1.pdf).
+Il documento è pubblicato nella sua versione finale - ad oggi 17 agosto 2024 - [**soltanto come PDF**](https://www.agid.gov.it/sites/agid/files/2024-05/lg-open-data_v.1.0_1.pdf).
 
 💡 Allora ne abbiamo creato [una **versione HTML**](prefazione.qmd), **consultabile** e **condivisibile** da **qualsiasi terminale**, per garantirne una **diffusione** più **ampia** ed **efficace** (vedi [note](ndr.qmd)).
 
