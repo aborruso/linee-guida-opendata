@@ -20,7 +20,9 @@ In considerazione del possibile diverso punto di partenza del processo di apertu
 
 L'implementazione del processo deve avvenire in maniera costante: **le attività non si esauriscono con la mera pubblicazione dei dati, ma devono prevedere momenti continui di aggiornamento, monitoraggio e coinvolgimento degli utenti finali**, fasi non rappresentate nel percorso in oggetto ma ugualmente importanti per graduare il processo di apertura e pubblicazione dei dati sulle effettive esigenze degli utenti.
 
+:::{.column-page-inset-right}
 ![Processo di preparazione dei dati](immagini/image48.png){#fig-preparazione-dati width="90%" fig-alt="Processo di preparazione dei dati." align="center" .lightbox}
+:::
 
 Un altro modello metodologico per la gestione dei dati aperti è rappresentato da **[Open Data Management Cycle (ODMC)](https://www.odmc.org/)**, già utilizzato in alcune Pubbliche Amministrazioni, che include un modello dei processi, un modello informativo e un modello organizzativo. Per tutti gli aspetti che sono allineati alle presenti Linee Guida, il modello indicato può rappresentare un utile riferimento per un approccio comune alla gestione del patrimonio informativo. Nel modello indicato, inoltre, sono presenti indicazioni anche per le fasi non considerate nel processo rappresentato nella @fig-preparazione-dati.
 
