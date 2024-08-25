@@ -91,6 +91,7 @@ format:
     bread-crumbs: false
     link-external-icon: true
     link-external-filter: '^.*\.github\.io\/'
+    canonical-url: true
 
 website:
   back-to-top-navigation: true
