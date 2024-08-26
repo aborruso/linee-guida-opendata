@@ -23,9 +23,9 @@ Per tante ragioni:
 Qui facciamo riferimento alla **versione finale** del documento pubblicato da AgID. Infatti ne esiste [una versione precedente in **bozza**](https://docs.italia.it/AgID/documenti-in-consultazione/lg-opendata-docs/it/bozza/index.html) su Docs Italia, ma non è aggiornata ai contenuti correnti (non contiene ad esempio il frutto del [ricco iter partecipativo di modifica](https://www.dati.gov.it/LG_OpenData)).
 :::
 
-Con un PDF è molto **scomodo** fare anche il **passaparola** e **inviare** ad esempio in chat, in un'e-mail, in una condivisione su un social network, ecc. il **link** a uno dei requisiti delle linee guida. Per queste ci sarebbero da sfogliare 150 pagine di PDF, fare una ricerca di testo, e magari in un terminale mobile scomodo (per un PDF).
+Con un PDF è molto **scomodo** fare anche il **passaparola** e **inviare** ad esempio in chat, in un'e-mail, in una condivisione su un *social network*, ecc. il **link** a uno dei requisiti delle linee guida. Per queste ci sarebbero da sfogliare 150 pagine di PDF, fare una ricerca di testo, e magari in un terminale mobile scomodo (per un PDF).
 
-Mentre con questa versione HTML, si può copiare il link al [requisito 2](capitolo-4.qmd#req-2){.testo-rosso} e scrivere in chat:
+Mentre con questa versione `HTML`, si può copiare il link al [requisito 2](capitolo-4.qmd#req-2){.testo-rosso} e scrivere in chat:
 
 > Guarda che bello, il requisito 2 delle linee guida open data dice che i dati devono essere pubblicati in formato CSV, non quell'orrendo PDF <https://ondata.github.io/linee-guida-opendata/capitolo-4.html#req-2>
 
@@ -73,7 +73,7 @@ Abbiamo apportato pochissime **modifiche** al documento originale, per renderlo 
 
 - abbiamo aggiunto alcuni collegamenti ipertestuali;
 - abbiamo corretto alcuni collegamenti ipertestuali non più funzionanti;
-- abbiamo trasformato la "check list" utile alla verifica di alcuni aspetti giuridici, presente nel paragrafo 5.1.2, da tabella a un elenco puntato gerarchico (ci sembra più leggibile sul web).
+- abbiamo trasformato la "*check list*" utile alla verifica di alcuni aspetti giuridici, presente nel paragrafo 5.1.2, da tabella a un elenco puntato gerarchico (ci sembra più leggibile sul web).
 
 Potremmo aver commesso degli errori, per cui ti chiediamo di [**segnalarceli**](https://github.com/ondata/linee-guida-opendata/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen) per correggerli.
 
@@ -112,7 +112,7 @@ Questa versione delle linee guida è rilasciata con licenza [CC-BY 4.0](https://
 - **Condividere **— riprodurre, distribuire, comunicare al pubblico, esporre in pubblico, rappresentare, eseguire e recitare questo materiale con qualsiasi mezzo e formato per qualsiasi fine, anche commerciale.
 - **Modificare **— remixare, trasformare il materiale e basarti su di esso per le tue opere per qualsiasi fine, anche commerciale.
 
-Devi riconoscere i crediti appropriati citando l'associazione onData e inserendo il link all'homepage di questo progetto:<br>
+Devi riconoscere i crediti appropriati citando l'associazione onData e inserendo il *link* all'homepage di questo progetto:<br>
 <https://ondata.github.io/linee-guida-opendata/>
 
 
