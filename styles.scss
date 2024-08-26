@@ -141,9 +141,10 @@ section#footnotes {
   font-size: 80% !important;
 }
 
-#buone_pratiche .green { background-color: lightgreen; }
-#buone_pratiche .red { background-color: lightcoral; }
-#buone_pratiche .yellow { background-color: lightyellow; }
+#buone_pratiche .green { background-color: #c1ffd7; }
+#buone_pratiche .yellow { background-color: #fff1c5; }
+#buone_pratiche .red { background-color: #e57373; }
+
 
 #buone_pratiche .thumbs-up::before { content: '👍';
 display: block; }
@@ -159,9 +160,9 @@ display: block; }
   font-size: 80% !important;
 }
 
-#matrice_compatibilita .green { background-color: lightgreen; }
-#matrice_compatibilita .red { background-color: lightcoral; }
-#matrice_compatibilita .yellow { background-color: lightyellow; }
+#matrice_compatibilita .green { background-color: #c1ffd7; }
+#matrice_compatibilita .red { background-color: #e57373; }
+#matrice_compatibilita .yellow { background-color: #fff1c5;; }
 
 #matrice_compatibilita .thumbs-up::before { content: '👍';
 display: block; }
@@ -176,7 +177,7 @@ display: block; }
 }
 
 .legenda_licenze table tbody tr:first-child td:first-child {
-  background-color: lightgreen; /* Sfondo verde chiaro */
+  background-color: #c1ffd7; /* Sfondo verde chiaro */
 }
 
 .legenda_licenze table tbody tr:first-child td:first-child::before {
@@ -186,7 +187,7 @@ display: block; }
 }
 
 .legenda_licenze table tbody tr:nth-child(2) td:first-child {
-  background-color: lightcoral; /* Sfondo rosso chiaro */
+  background-color: #e57373; /* Sfondo rosso chiaro */
 }
 
 .legenda_licenze table tbody tr:nth-child(2) td:first-child::before {
@@ -196,7 +197,7 @@ display: block; }
 }
 
 .legenda_licenze table tbody tr:nth-child(3) td:first-child {
-  background-color: lightyellow; /* Sfondo giallo chiaro */
+  background-color: #fff1c5;; /* Sfondo giallo chiaro */
 }
 
 .legenda_licenze table tbody tr:nth-child(3) td:first-child::before {
