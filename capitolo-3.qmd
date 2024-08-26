@@ -47,80 +47,80 @@ Tale sezione è rappresentata come segue:
 
 Ai fini del presente documento, oltre alle definizioni pertinenti di cui all'[art. 2](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36~art2) del Decreto e all'[art. 1](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82!vig=2024-08-16~art1) del [**CAD**,](capitolo-2.qmd#CAD) si applicano le seguenti definizioni:
 
-###
 
-**catalogo dati**
+
+### catalogo dati {.unnumbered}
 
 strumento di gestione dei metadati utilizzato per repertoriare e organizzare i dati all'interno dei sistemi di un'organizzazione
 
-###
 
-**collective database**
+
+### collective database {.unnumbered}
 
 database in forma non modificata come parte di una raccolta di database indipendenti che insieme sono assemblati in una unica collezione. Un'opera che costituisce un "collective database" (Banca Dati Collettiva) non sarà considerata una Banca Dati Derivata \[ODbL license\]
 
-###
 
-**dataset**
+
+### dataset {.unnumbered}
 
 collezione identificabile di dati \[ISO\]
 
 collezione di dati, pubblicati o curati da un'unica fonte, e disponibili per l'accesso o il download in uno o più formati \[DCAT-AP\]
 
-###
 
-**download in blocco**
+
+### download in blocco {.unnumbered}
 
 operazione che consente, in modo semplice ed efficiente, di scaricare, con un'unica richiesta, l'intero set di dati nel sistema dell'utente
 
-###
 
-**DRM clause (clausola DRM)**
+
+### DRM clause (clausola DRM) {.unnumbered}
 
 "*eventuali termini o misure tecnologiche presenti nel Database, in un Database Derivato, o in tutto o in parte sostanziale dei contenuti che alterano o limitano i termini della Licenza*" \[licenza ODbL\], intesa, quindi, come divieto di imposizione salvo possibilità di lasciare copia aperta<br>
 "*misure che, in assenza di apposita autorità, possono non essere eluse ai sensi di leggi che adempiono agli obblighi di cui all'articolo 11 del [Trattato WIPO sul diritto d'autore](https://web.archive.org/web/20220310062458/https://wipolex-res.wipo.int/edocs/lexdocs/treaties/en/wct/trt_wct_001en.pdf) adottato il 20 dicembre 1996, e/o accordi internazionali simili*" \[licenza CC-BY\], intesa quindi come divieto di imposizione senza alternative
 
-###
 
-**portale dati**
+
+### portale dati {.unnumbered}
 
 un sistema basato sul Web che contiene un catalogo dati con le descrizioni dei dataset e fornisce servizi che consentono la ricerca e il riutilizzo dei dataset stessi \[DCAT-AP\]
 
-###
 
-**processo di apertura dei dati**
+
+### processo di apertura dei dati {.unnumbered}
 
 processo volto alla produzione e alla disponibilità di dati basato sul principio dell'"*apertura fin dalla progettazione e per impostazione predefinita*" dell'informazione del settore pubblico, in formati aperti che possono essere utilizzati, riutilizzati e condivisi liberamente da chiunque e per qualsiasi finalità, nei limiti previsti dalla disciplina vigente. L'apertura dei dati, dunque, riguarda la "messa a disposizione" dei dati del settore pubblico per il riutilizzo, operazione che non coincide
 
 necessariamente con la "pubblicazione" dei dati, ma anche con la relativa fruizione conseguente alla "comunicazione" degli stessi a seguito di specifica richiesta di riutilizzo
 
-###
 
-**produced work**
+
+### produced work {.unnumbered}
 
 un'opera (come un'immagine, materiale audiovisivo, testo o suoni) risultante dall'utilizzo della totalità o di una parte sostanziale dei contenuti (tramite una ricerca o altra query) da un Database, inteso come un Database Derivato, o da un Database inteso come parte di una banca dati collettiva (collective database) \[ODbL license\]
 
-###
 
-**raccomandazione**
+
+### raccomandazione {.unnumbered}
 
 possibile scelta suggerita senza necessariamente escluderne altre
 
-###
 
-**requisito**
+
+### requisito {.unnumbered}
 
 criterio da soddisfare per garantire la conformità al documento e da cui non è consentita alcuna deviazione
 
-###
 
-**result from computational use**
+
+### result from computational use {.unnumbered}
 
 risultati o output che l'utente ottiene dall'analisi (attraverso l'uso di dispositivi di calcolo o altro) o da altre interpretazioni dei dati
 
-###
 
-**riutilizzatore**
+
+### riutilizzatore {.unnumbered}
 
 una persona o un'organizzazione che utilizza i dati (aperti) disponibili per i propri scopi
 
