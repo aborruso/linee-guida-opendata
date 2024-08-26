@@ -1,5 +1,5 @@
 :::{.licenze-applicabili #tbl-licenze-applicabili .column-page-inset-right}
-<table id="buone_pratiche" class="table table-responsive-md table-bordered table-sm">
+<table id="buone_pratiche" class="table table-sm table-bordered table-responsive small">
     <tr>
         <th></th>
         <th>CC0</th>
