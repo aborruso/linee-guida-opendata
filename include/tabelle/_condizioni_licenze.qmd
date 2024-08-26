@@ -1,13 +1,107 @@
-:::{.column-page-inset-right}
-| **Cod.** | **Condizioni da osservare / specifiche di applicazione**                                                                                                       | **Licenze impattate** |                  |     |  |     |  |  |
-| --- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **A**    | segnalazione modifica cambiamenti                                                                                                                              | CDLA 1 perm           | CDLA 1 SHAR              |             | CC-BY    |             |          |          |
-| **B**    | testo licenza: con riferimento al dataset originale, riportare il testo della licenza e/o inserire link (tra [ ] per la IODL in quanto precisa "se possibile") | CDLA 1 perm           | CDLA 1 SHAR              | CDLA 2 perm | CC-BY    | [IODL 2.01] | IODL 1.0 | OdBL     |
-| **C**    | attribution: rispetto specifiche condizioni                                                                                                                    | CDLA 1 perm           | CDLA 1 SHAR              |             | CC-BY    | IODL 2.0    | IODL 1.0 | OdBL     |
-| **D**    | output ulteriore realizzato ["Produced work" - es. Mappa da db geografico]; richiede sola attribution                                                          |                       |                          |             |          |             |          | OdBL     |
-| **E**    | risultato da "computational use" senza condizioni                                                                                                              | CDLA 1 perm           | CDLA 1 SHAR / perm 1 e 2 | CDLA 2 perm |          |             |          |          |
-| **F**    | prevede la nozione di "collective database"                                                                                                                    |                       |                          |             |          |             |          | OdBL     |
-| **G**    | limiti DRM                                                                                                                                                     |                       |                          |             | CC-BY    |             | OdBL     |          |
+:::{.column-page-inset-right #tbl-condizioni-licenze}
 
-: condizioni da osservare / specifiche di applicazione {#tbl-condizioni-licenze .table-sm .table-striped .table-bordered .table-responsive tbl-colwidths="[1,50,7,7,7,7,7,7,7]"}
+```{=html}
+<table class="table-striped table-bordered table-responsive small table text-start">
+<colgroup>
+<col style="width: 1%">
+<col style="width: 36%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 9%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Cod.</strong></th>
+<th><strong>Condizioni da osservare / specifiche di applicazione</strong></th>
+<th colspan="7" style="text-align: center;"><strong>Licenze impattate</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>A</strong></td>
+<td>segnalazione modifica cambiamenti</td>
+<td>CDLA 1<br>perm</td>
+<td>CDLA 1<br>SHAR</td>
+<td></td>
+<td>CC-BY</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>B</strong></td>
+<td>testo licenza: con riferimento al dataset originale, riportare il testo della licenza e/o inserire link (tra [ ] per la IODL in quanto precisa "se possibile")</td>
+<td>CDLA 1<br>perm</td>
+<td>CDLA 1<br>SHAR</td>
+<td>CDLA 2 perm</td>
+<td>CC-BY</td>
+<td>[IODL 2.01]</td>
+<td>IODL 1.0</td>
+<td>OdBL</td>
+</tr>
+<tr>
+<td><strong>C</strong></td>
+<td>attribution: rispetto specifiche condizioni</td>
+<td>CDLA 1<br>perm</td>
+<td>CDLA 1<br>SHAR</td>
+<td></td>
+<td>CC-BY</td>
+<td>IODL 2.0</td>
+<td>IODL 1.0</td>
+<td>OdBL</td>
+</tr>
+<tr>
+<td><strong>D</strong></td>
+<td>output ulteriore realizzato ["Produced work" - es. Mappa da db geografico]; richiede sola attribution</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>OdBL</td>
+</tr>
+<tr>
+<td><strong>E</strong></td>
+<td>risultato da "computational use" senza condizioni</td>
+<td>CDLA 1<br>perm</td>
+<td>CDLA 1 SHAR / perm 1 e 2</td>
+<td>CDLA 2 perm</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>F</strong></td>
+<td>prevede la nozione di "collective database"</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>OdBL</td>
+</tr>
+<tr>
+<td><strong>G</strong></td>
+<td>limiti DRM</td>
+<td></td>
+<td></td>
+<td></td>
+<td>CC-BY</td>
+<td></td>
+<td>OdBL</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+```
+
+condizioni da osservare / specifiche di applicazione
+
 :::
