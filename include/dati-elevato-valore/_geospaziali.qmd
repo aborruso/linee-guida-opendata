@@ -1,5 +1,11 @@
+:::{.column-page-inset-right}
+
 | **Disposizioni Regolamento** | **Rif. indicazioni LG** |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| Le serie di dati sono messe a disposizione per il riutilizzo:<br>\- alle condizioni della licenza Creative Commons BY 4.0 o di una licenza aperta equivalente o meno restrittiva;<br>\- in un formato aperto leggibile meccanicamente, pubblicamente<br>documentato e riconosciuto dall’Unione o a livello internazionale;<br>\- tramite interfacce di programmazione delle applicazioni ("API") e download in blocco;<br>\- [nella versione più aggiornata]. | REQUISITO 20<br>REQUISITO 21<br>REQUISITO 2<br>REQUISITO 3<br>REQUISITO 7<br>REQUISITO 27 |
-| I metadati che descrivono le serie di dati rientranti nell’ambito di applicazione delle categorie tematiche di dati INSPIRE contengono almeno gli elementi di metadati di cui al regolamento (CE) n. 1205/2008 della Commissione. | REQUISITO 16 |
-| Per l'attuazione delle serie di dati sulle parcelle di riferimento e sulle parcelle agricole, gli Stati membri tengono conto dell'attuazione in corso della direttiva 2007/2/CE nonché degli obblighi di cui all'articolo 67, paragrafi 3 e 5, del regolamento (UE) 2021/2116. | REQUISITO 14 |
+| :--- | :--- |
+| Le serie di dati sono messe a disposizione per il riutilizzo:<br>\- alle condizioni della licenza Creative Commons BY 4.0 o di una licenza aperta equivalente o meno restrittiva;<br>\- in un formato aperto leggibile meccanicamente, pubblicamente<br>documentato e riconosciuto dall’Unione o a livello internazionale;<br>\- tramite interfacce di programmazione delle applicazioni ("API") e download in blocco;<br>\- [nella versione più aggiornata]. | [REQUISITO 20](capitolo-6.qmd#req-20)<br>[REQUISITO 21](capitolo-6.qmd#req-21)<br>[REQUISITO 2](capitolo-4.qmd#req-2)<br>[REQUISITO 3](capitolo-4.qmd#req-3)<br>[REQUISITO 7](capitolo-4.qmd#req-7)<br>[REQUISITO 27](capitolo-7.qmd#req-27) |
+| I metadati che descrivono le serie di dati rientranti nell’ambito di applicazione delle categorie tematiche di dati INSPIRE contengono almeno gli elementi di metadati di cui al regolamento (CE) n. 1205/2008 della Commissione. | [REQUISITO 16](capitolo-4.qmd#req-16) |
+| Per l'attuazione delle serie di dati sulle parcelle di riferimento e sulle parcelle agricole, gli Stati membri tengono conto dell'attuazione in corso della direttiva 2007/2/CE nonché degli obblighi di cui all'articolo 67, paragrafi 3 e 5, del regolamento (UE) 2021/2116. | [REQUISITO 14](capitolo-4.qmd#req-14) |
+
+: disposizioni per i **dati geospaziali** {#tbl-hvd-geospaziali .table-sm .table-responsive .table-striped .table-bordered tbl-colwidths="[80,20]"}
+
+:::
