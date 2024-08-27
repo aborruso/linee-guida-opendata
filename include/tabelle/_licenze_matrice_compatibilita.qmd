@@ -1,5 +1,5 @@
 :::{.matrice_compatibilita #tbl-matrice_compatibilita .column-page-inset-right}
-<table id="matrice_compatibilita" class="table table-sm table-bordered text-center table-responsive small">
+<table id="matrice_compatibilita" class="table table-sm table-bordered table-responsive small text-center">
     <tr>
         <th></th> <!-- Cella vuota -->
         <th>CC0</th>
