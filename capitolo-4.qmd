@@ -223,7 +223,7 @@ L'art. 4 del Regolamento definisce le disposizioni per il riutilizzo comuni a tu
 
 In aggiunta alle indicazioni comuni di cui sopra, nell'Allegato I del Regolamento sono individuate, per ciascuna categoria tematica, le serie di dati di elevato valore e sono definite le modalità di pubblicazione e riutilizzo, ivi compresi le condizioni applicabili al riutilizzo, i formati dei dati e dei metadati e le modalità tecniche di diffusione.
 
-Nella tabelle che seguenti sono riportate le disposizioni di pubblicazione e riutilizzo per ciascuna categoria tematica indicate nell'Allegato I al Regolamento e le corrispondenti indicazioni definite nelle presenti Linee Guida, rispettando le quali si assicurano gli adempimenti previsti nel Regolamento stesso. Le indicazioni che non trovano corrispondenza nel presente documento sono indicate in parentesi quadre \[*…*\] e in corsivo. Tali indicazioni sono comunque vincolanti essendo il Regolamento direttamente applicabile negli Stati membri. Per quanto non riportato nel presente documento si rimanda al Regolamento.
+Nella tabelle seguenti sono riportate le disposizioni di pubblicazione e riutilizzo per ciascuna categoria tematica indicate nell'Allegato I al Regolamento e le corrispondenti indicazioni definite nelle presenti Linee Guida, rispettando le quali si assicurano gli adempimenti previsti nel Regolamento stesso. Le indicazioni che non trovano corrispondenza nel presente documento sono indicate in parentesi quadre \[*…*\] e in corsivo. Tali indicazioni sono comunque vincolanti essendo il Regolamento direttamente applicabile negli Stati membri. Per quanto non riportato nel presente documento si rimanda al Regolamento.
 
 {{< include include/dati-elevato-valore/_geospaziali.qmd >}}
 
