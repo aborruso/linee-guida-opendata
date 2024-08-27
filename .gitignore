@@ -3,6 +3,7 @@ tmp*
 note.md
 ~$*.docx
 ~$*.ods
+*.~lock*
 debug.docx
 *.Identifier
 
@@ -12,3 +13,4 @@ _freeze/
 /trash/
 
 /.luarc.json
+
