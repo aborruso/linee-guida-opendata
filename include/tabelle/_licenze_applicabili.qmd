@@ -1,4 +1,6 @@
 :::{.licenze-applicabili #tbl-licenze-applicabili .column-page-inset-right}
+
+```{=html}
 <table id="buone_pratiche" class="table table-sm table-bordered table-responsive small">
     <tr>
         <th></th>
@@ -65,6 +67,7 @@
         <td class="red thumbs-down"></td>
     </tr>
 </table>
+```
 
 licenze applicabili all'opera derivata (prima riga) in funzione della licenza originaria (prima colonna).
 

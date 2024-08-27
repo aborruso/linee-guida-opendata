@@ -1,4 +1,6 @@
 :::{.matrice_compatibilita #tbl-matrice_compatibilita .column-page-inset-right}
+
+```{=html}
 <table id="matrice_compatibilita" class="table table-sm table-bordered table-responsive small text-center">
     <tr>
         <th></th> <!-- Cella vuota -->
@@ -81,6 +83,7 @@
         <td class="yellow warning">CDLA1 shar</td>
     </tr>
 </table>
+```
 
 Matrice di compatibilità tra licenze. Nella prima riga la "licenza opera 1", nella prima colonna la "licenza opera 2".
 
