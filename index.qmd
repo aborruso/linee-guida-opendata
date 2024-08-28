@@ -15,4 +15,4 @@ Il documento è pubblicato nella sua versione finale - ad oggi 17 agosto 2024 - 
 
 💡 Allora ne abbiamo creato [una **versione `HTML`**](prefazione.qmd), **consultabile** e **condivisibile** da **qualsiasi terminale**, per garantirne una **diffusione** più **ampia** ed **efficace** (vedi [note](ndr.qmd)).
 
-[👉 Leggile](prefazione.qmd){.btn-action-primary .btn-action .btn .btn-primary .btn-lg} [ℹ️ Note](ndr.qmd){.btn-action-primary .btn-action .btn .btn-secondary .btn-lg}
+[👉 Leggile](prefazione.qmd){.btn-action-primary .btn-action .btn .btn-primary .btn-lg} [📋 Requisiti](allegato-C.qmd#requisiti){.btn-action-primary .btn-action .btn .btn-danger .btn-lg} [ℹ️ Note](ndr.qmd){.btn-action-primary .btn-action .btn .btn-secondary .btn-lg}
