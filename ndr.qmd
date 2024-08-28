@@ -73,9 +73,10 @@ Abbiamo apportato pochissime **modifiche** al documento originale, per renderlo 
 
 - abbiamo aggiunto alcuni collegamenti ipertestuali;
 - abbiamo corretto alcuni collegamenti ipertestuali non più funzionanti;
-- abbiamo trasformato la "*check list*" utile alla verifica di alcuni aspetti giuridici, presente nel paragrafo 5.1.2, da tabella a un elenco puntato gerarchico (ci sembra più leggibile sul web).
+- abbiamo trasformato la "*check list*" utile alla verifica di alcuni aspetti giuridici, presente nel [capitolo 5](capitolo-5.qmd#sec-individuazione-e-selezione), da tabella a elenco puntato gerarchico (ci sembra più leggibile sul web);
+- abbiamo suddiviso la tabella presente nel [capitolo](capitolo-4.qmd#sec-categorie-tematiche) sulle categorie tematiche dei dati di elevato valore, in più tabelle.
 
-Potremmo aver commesso degli errori, per cui ti chiediamo di [**segnalarceli**](https://github.com/ondata/linee-guida-opendata/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen) per correggerli.
+Potremmo aver commesso degli errori, per cui ti chiediamo eventualmente di [**segnalarceli**](https://github.com/ondata/linee-guida-opendata/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen).
 
 ## Il codice sorgente di questa versione {.unnumbered}
 

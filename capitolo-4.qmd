@@ -166,7 +166,7 @@ Al fine di garantire condizioni uniformi di esecuzione della Direttiva in tutti 
 
 Le serie di dati di elevato valore individuate dalla Commissione fanno riferimento alle
 
-### categorie tematiche indicate nell'Allegato I della Direttiva, ovvero:
+### categorie tematiche indicate nell'Allegato I della Direttiva, ovvero: {#sec-categorie-tematiche}
 
 1.  Dati geospaziali
 2.  Dati relativi all'osservazione della terra e all'ambiente
