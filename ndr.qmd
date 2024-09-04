@@ -8,7 +8,7 @@ Questa pagina di note è **a cura dell'associazione onData**, **non è parte del
 
 ## Introduzione {.unnumbered}
 
-Per noi dell'assocazione onData **tutti i documenti pubblici di riferimento** - come queste linee guida - dovrebbero essere **resi disponibili** in lettura anche su [**Docs Italia**](https://docs.italia.it/).
+Per noi dell'associazione onData **tutti i documenti pubblici di riferimento** - come queste linee guida - dovrebbero essere **resi disponibili** in lettura anche su [**Docs Italia**](https://docs.italia.it/).
 
 Per tante ragioni:
 
