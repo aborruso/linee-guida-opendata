@@ -95,6 +95,7 @@ format:
 
 website:
   back-to-top-navigation: true
+  favicon: favicon.png
   announcement:
     icon: envelope-arrow-down
     dismissable: false
