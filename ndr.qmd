@@ -4,7 +4,7 @@ page-navigation: false
 
 # Note di redazione {.unnumbered}
 
-Questa pagina di note è **a cura dell'associazione onData**, **non è parte delle linee guida**.
+Questa pagina di note è **a cura dell'associazione onData**, **non è parte delle linee guida ufficiali dell'Agenzia per l’Italia Digitale (AgID)**.
 
 ## Introduzione {.unnumbered}
 
