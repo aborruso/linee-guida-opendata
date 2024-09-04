@@ -13,6 +13,7 @@ language:
 
 book:
   title: "Linee guida Open Data"
+  favicon: "favicon.png"
   description: "La versione HTML a cura dell'associazione onData"
   sharing: [twitter, facebook,linkedin]
   twitter-card:
@@ -95,7 +96,7 @@ format:
 
 website:
   back-to-top-navigation: true
-  favicon: favicon.png
+  favicon: "favicon.png"
   announcement:
     icon: envelope-arrow-down
     dismissable: false
