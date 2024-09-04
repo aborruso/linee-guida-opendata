@@ -22,23 +22,23 @@
         <th>CC-BY 4.0</th>
         <td class="red thumbs-down"></td>
         <td class="green thumbs-up">[A-B-C]</td>
-        <td class="yellow warning">\*[A-B-C] \*\*</td>
+        <td class="yellow warning">*[A-B-C] **</td>
         <td class="green thumbs-up">[A-B-C]</td>
-        <td class="yellow warning">\*[A-B-C]</td>
+        <td class="yellow warning">*[A-B-C]</td>
     </tr>
     <tr>
         <th>CDLA 2.0 perm</th>
-        <td class="yellow warning">[A]\*\*\*</td>
+        <td class="yellow warning">[A]***</td>
         <td class="green thumbs-up">[B-E]</td>
         <td class="green thumbs-up">[B-E]</td>
-        <td class="green thumbs-up">\*\* [B-E]</td>
+        <td class="green thumbs-up">** [B-E]</td>
         <td class="green thumbs-up">[B-E]</td>
     </tr>
     <tr>
         <th>IODL 2.0</th>
         <td class="red thumbs-down"></td>
         <td class="green thumbs-up">[B-C]</td>
-        <td class="yellow warning">[B-C] \*\*</td>
+        <td class="yellow warning">[B-C] **</td>
         <td class="green thumbs-up">[B-C]</td>
         <td class="green thumbs-up">[B-C]</td>
     </tr>
