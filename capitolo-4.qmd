@@ -1,4 +1,4 @@
-# Prinicipi generali
+# Principi generali
 
 L'[art. 6](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36~art6) del Decreto stabilisce che pubbliche amministrazioni, organismi di diritto pubblico, imprese pubbliche e private, che rientrano tra i soggetti destinatari di cui al **[par. -@sec-soggetti-destinatari]** rendano disponibili per il riutilizzo i propri dati, e relativi metadati, nel rispetto delle regole tecniche definite con le presenti Linee Guida.
 
