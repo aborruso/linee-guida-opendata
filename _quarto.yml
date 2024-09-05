@@ -73,7 +73,7 @@ book:
     right: |
       Costruito con <a href="https://quarto.org/">Quarto</a>.
     center: |
-      [Licenza CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it)
+      [Licenza CC BY 4.0](ndr.qmd#licenza)
 
 format:
   html:
