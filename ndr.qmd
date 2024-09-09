@@ -12,12 +12,12 @@ Per noi dell'associazione onData **tutti i documenti pubblici di riferimento** -
 
 Per tante ragioni:
 
-- consente un processo di pubblicazione e di modifica di tipo **collaborativo**, in cui tutti possono proporre contributi e suggerimenti ai documenti;
-- è un **luogo unico** che offre una visione di insieme sui progetti pubblici in corso;
-- i documenti cambiano e si arricchiscono nel tempo ed è possibile vederne l'**evoluzione**;
-- i documenti di Docs Italia hanno un indice ben strutturato, un motore di ricerca efficace e sono di facile lettura, anche sullo smartphone.
+- permette un **processo** **collaborativo** di **pubblicazione** e **modifica**, in cui chiunque può proporre contributi e suggerimenti;
+- è un **punto unico di riferimento** che offre una visione d'insieme su questi documenti pubblici;
+- i **documenti evolvono nel tempo** e su Docs Italia è possibile seguirne lo sviluppo;
+- i documenti pubblicati su Docs Italia hanno un **indice ben strutturato**, un **motore** di **ricerca** efficace e sono **facilmente** **leggibili**, anche da **_smartphone_**.
 
-**Scegliendo** come unica modalità di pubblicazione il file **PDF**, **tutto questo non è possibile**.
+**Limitarsi** a pubblicare solo file **PDF** **non consente** di sfruttare tutte queste **opportunità**.
 
 ::: {.callout-important}
 Qui facciamo riferimento alla **versione finale** del documento pubblicato da AgID. Infatti ne esiste [una versione precedente in **bozza**](https://docs.italia.it/AgID/documenti-in-consultazione/lg-opendata-docs/it/bozza/index.html) su Docs Italia, ma non è aggiornata ai contenuti correnti (non contiene ad esempio il frutto del [ricco iter partecipativo di modifica](https://www.dati.gov.it/LG_OpenData)).
